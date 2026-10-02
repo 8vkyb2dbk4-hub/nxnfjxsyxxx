@@ -233,7 +233,7 @@ function newsImage(x){
   if(!x.image||!/^https:\/\//i.test(x.image)) return "";
   return `<figure class="news-image"><img src="${esc(x.image)}" alt="${esc(x.title)} · 来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').hidden=true"><figcaption>来源配图 · ${esc(x.source)}</figcaption></figure>`;
 }
-function card(raw,compact=false){
+function card(raw,compact=false,featured=false){
   compact=compact===true;
   const x=withPersonalScore(raw);
   if(!eventAvailable(x)||hidden.has(x.id)||!matchesSearch(x)) return "";
@@ -247,7 +247,8 @@ function card(raw,compact=false){
       <button class="hidebtn" onclick='hideItem(${j})' title="今天不看">×</button>
     </div>
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
-    ${compact?`<details class="story-details"><summary><h4>${esc(shown.title)}</h4><small>${esc(x.source)} · ${esc(x.event_date?(x.event_date+(x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+x.event_end_date:"")):(x.published_at||x.date_label||"日期待确认"))}</small></summary>${newsImage(x)}`:`${newsImage(x)}<h4>${esc(shown.title)}</h4>`}
+    ${compact&&featured?newsImage(x):""}
+    ${compact?`<details class="story-details"><summary><h4>${esc(shown.title)}</h4><small>${esc(x.source)} · ${esc(x.event_date?(x.event_date+(x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+x.event_end_date:"")):(x.published_at||x.date_label||"日期待确认"))}</small></summary>${featured?"":newsImage(x)}`:`${newsImage(x)}<h4>${esc(shown.title)}</h4>`}
     <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.event_kind==="游戏行业"?`<span>游戏行业 · 线下</span><span>参与：${esc(x.registration||"请查看官方通知")}</span>`:""}${["公开课","讲座","上海博物馆活动"].includes(x.event_kind)?`<span>${esc(x.event_start_at?.slice(11,16)||"")}${x.event_end_at?"–"+esc(x.event_end_at.slice(11,16)):""} · ${esc(x.participation_mode)} · ${esc(x.audience)}</span><span>参与：${esc(x.registration)}</span>`:""}${x.schedule_type?`<span>官网${esc(x.schedule_type)}排期</span>`:""}${x.halls?`<span>展馆：${esc(x.halls)}</span>`:""}${x.venue?`<span>${esc(x.venue)}</span>`:""}${x.verified_at?`<span>展期核对 ${esc(x.verified_at)}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
       <div><b>发生了什么</b><p>${esc(shown.summary)}</p></div>
@@ -306,7 +307,7 @@ function renderToday(){
   document.getElementById("updateStamp").textContent="数据日期 "+issue.date;
 
   const topItems=sortPersonal(issue.top3);
-  const topHtml=topItems.map(x=>card(x,true)).join("");
+  const topHtml=topItems.map(x=>card(x,true,true)).join("");
   document.getElementById("top3").innerHTML=topHtml||`<div class="empty">当前条件下没有头版内容。</div>`;
 
   const cats=["全部",...issue.sections.map(s=>s.name)];
@@ -315,7 +316,7 @@ function renderToday(){
   const secs=issue.sections.filter(s=>activeFilter==="全部"||s.name===activeFilter);
   document.getElementById("sections").innerHTML=secs.map(s=>{
     const items=sortPersonal(s.items.map(x=>({...x,category:x.category||s.name})));
-    const content=items.map(x=>card(x,true)).join("");
+    const content=items.map((x,i)=>card(x,true,i===0)).join("");
     return `<section class="section-block">
       <div class="section-head"><span>${s.icon}</span><h3>${esc(s.name)}</h3><span class="meta">${s.items.length} 条</span></div>${basePrefs?.focus_notes?.[s.name]?`<p class="focus-note">${esc(basePrefs.focus_notes[s.name])}</p>`:""}
       <div class="item-list">${content||`<div class="empty">今天这个栏目没有需要你花时间看的内容。</div>`}</div>
@@ -359,7 +360,7 @@ function renderEvents(){
   const museumActivities=arr.filter(x=>x.event_kind==="上海博物馆活动");
   const psa=arr.filter(x=>x.museum_key==="psa");
   const other=arr.filter(x=>!national.includes(x)&&!game.includes(x)&&!museumActivities.includes(x)&&!psa.includes(x));
-  const block=(title,items,empty)=>`<section class="event-group section-block"><div class="section-head"><span>◉</span><h3>${title}</h3><span class="meta">${items.length} 项</span></div><div class="item-list">${items.map(x=>card({...x,category:"论坛 / 展会"},true)).join("")||`<div class="empty">${empty}</div>`}</div></section>`;
+  const block=(title,items,empty)=>`<section class="event-group section-block"><div class="section-head"><span>◉</span><h3>${title}</h3><span class="meta">${items.length} 项</span></div><div class="item-list">${items.map((x,i)=>card({...x,category:"论坛 / 展会"},true,i===0)).join("")||`<div class="empty">${empty}</div>`}</div></section>`;
   document.getElementById("eventCards").innerHTML=block("正在展出 / 举办",other.filter(x=>x.event_date<=today),"暂未收录符合展期条件的展览。")+block("即将举办 · 展览与论坛预告",other.filter(x=>x.event_date>today),"暂未收录新的活动预告。")+block("国家会展中心（上海）· 正在举办",nationalExhibitions.filter(x=>x.event_date<=today),"目前收录的官方排期中，没有正在举办的项目。")+block("国家会展中心（上海）· 展会预告",nationalExhibitions.filter(x=>x.event_date>today),"暂未收录新的官方排期。")+block("国家会展中心（上海）· 活动排期",nationalActivities,"官网活动排期目前未收录尚未结束的活动；过去场次不显示。")+block("上海博物馆 · 活动预约",museumActivities,"官网当前未收录尚可参加的活动；已结束、报名截止或已满的场次不显示。")+block("上海当代艺术博物馆 · 展览与活动",psa,"官网目前未收录符合日期条件的展览或活动。")+block("游戏行业 · 线下活动与预告",game,"暂未收录符合条件的本地游戏活动。")+`<p class="museum-note">“正在展出”按展期判断，不代表此刻开馆；休馆日、票务及临时调整以官方最新通知为准。</p>`;
 
 }
@@ -373,7 +374,7 @@ function renderClasses(){
   const city=document.getElementById("classCity")?.value||"沪杭";
   let arr=(publicClassFeed?.items||[]).filter(classAvailable).filter(x=>city==="沪杭"||x.location===city);
   arr=arr.sort((a,b)=>(a.event_start_at||a.event_date).localeCompare(b.event_start_at||b.event_date));
-  const block=(title,items)=>`<section class="event-group section-block"><div class="section-head"><span>◈</span><h3>${title}</h3><span class="meta">${items.length} 场</span></div><div class="item-list">${items.map(x=>card(x,true)).join("")||'<div class="empty">暂未收录符合条件的公开课或讲座。</div>'}</div></section>`;
+  const block=(title,items)=>`<section class="event-group section-block"><div class="section-head"><span>◈</span><h3>${title}</h3><span class="meta">${items.length} 场</span></div><div class="item-list">${items.map((x,i)=>card(x,true,i===0)).join("")||'<div class="empty">暂未收录符合条件的公开课或讲座。</div>'}</div></section>`;
   document.getElementById("classCards").innerHTML=block("无需预约 / 现场报名",arr.filter(x=>["no_signup","onsite","open"].includes(x.registration_status)))+block("公开课/讲座预告 · 报名名额需向官方核对",arr.filter(x=>x.registration_status==="check"));
   document.getElementById("librarySources").innerHTML=(publicClassFeed?.libraries||[]).filter(x=>city==="沪杭"||x.city===city).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.city)} · ${esc(x.focus)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">官方讲座与活动 ↗</a>${x.wechat_name?`<span>官方公众号：${esc(x.wechat_name)}</span><button onclick='copyMuseumWechat(${esc(JSON.stringify(x.wechat_name))},this)'>复制公众号名称</button>`:""}<a href="${esc(x.wechat_official_url||x.url)}" target="_blank" rel="noopener">${x.wechat_name?"官方公众号 / 报名说明":"官网微信与预约入口"} ↗</a></div>`).join("");
 }
