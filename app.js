@@ -1,7 +1,7 @@
 
 let issue=null, sourceConfig=null, archiveIndex=[], health=null, sourceHealth=null, basePrefs=null, weekly=null, learningCfg=null, signals=null, syncCfg=null;
 let exhibitionFeed=null, publicClassFeed=null;
-let todayNews=null;
+let todayNews=null, categoryNews=null;
 const translationStates=new Map();
 let activeFilter="全部";
 let searchText="";
@@ -49,6 +49,7 @@ async function boot(){
     ]);
     try{exhibitionFeed=await loadJSON("./data/exhibitions.json")}catch(e){exhibitionFeed=null}
     try{publicClassFeed=await loadJSON("./data/public_classes.json")}catch(e){publicClassFeed=null}
+    try{categoryNews=await loadJSON("./data/category_news.json")}catch(e){categoryNews=null}
     try{todayNews=await loadJSON("./data/today.json")}catch(e){todayNews=null}
     try{health=await loadJSON("./data/health.json")}catch(e){health=null}
     try{weekly=await loadJSON("./data/weekly.json")}catch(e){weekly=null}
@@ -264,7 +265,7 @@ function card(raw,compact=false,featured=false){
 let printClosedStories=[];
 window.addEventListener("beforeprint",()=>{printClosedStories=[...document.querySelectorAll(".story-details:not([open])")];printClosedStories.forEach(x=>x.open=true)});
 window.addEventListener("afterprint",()=>{printClosedStories.forEach(x=>x.open=false);printClosedStories=[]});
-function allItems(){return [...new Map([...issue.top3,...issue.sections.flatMap(s=>s.items.map(x=>({...x,category:x.category||s.name}))),...(exhibitionFeed?.items||[]),...(publicClassFeed?.items||[])].map(x=>[x.id,x])).values()];}
+function allItems(){return [...new Map([...issue.top3,...issue.sections.flatMap(s=>s.items.map(x=>({...x,category:x.category||s.name}))),...(categoryNews?.items||[]),...(exhibitionFeed?.items||[]),...(publicClassFeed?.items||[])].map(x=>[x.id,x])).values()];}
 
 function renderMode(){
   document.getElementById("mode5").classList.toggle("active",readingMode==="5min");
@@ -318,7 +319,16 @@ function isWeeklyHighlight(x,start,today){
 let selectedCategory="AI 绘画";
 function renderCategory(){
  document.getElementById("categoryTitle").textContent=selectedCategory;
- const items=sortPersonal(allItems().filter(x=>x.category===selectedCategory));
+ const recent=["AI 绘画","AI 影视"].includes(selectedCategory);
+ const today=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+ const parts=today.split("-").map(Number), cutoff=new Date(Date.UTC(parts[0],parts[1]-4,1));
+ cutoff.setUTCDate(Math.min(parts[2],new Date(Date.UTC(cutoff.getUTCFullYear(),cutoff.getUTCMonth()+1,0)).getUTCDate()));
+ const start=cutoff.toISOString().slice(0,10);
+ let items=allItems().filter(x=>x.category===selectedCategory);
+ if(recent) items=items.filter(x=>/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(x.published_at||"")&&["high","medium"].includes(x.date_confidence)&&x.published_at>=start&&x.published_at<=today).sort((a,b)=>b.published_at.localeCompare(a.published_at)||b.score-a.score);
+ else items=sortPersonal(items);
+ document.getElementById("categorySummary").hidden=!recent;
+ document.getElementById("categorySummary").innerHTML=recent?`<div class="kicker">近 3 个月 · 最新动态</div><h2>${items.length} 条${esc(selectedCategory)}资讯</h2><p>${start} 至 ${today} · 按发布日期从新到旧排列</p>`:"";
  document.getElementById("categoryCards").innerHTML=items.map((x,i)=>card(x,true,i===0)).join("")||'<div class="empty">暂未收录该栏目资讯。</div>';
 }
 

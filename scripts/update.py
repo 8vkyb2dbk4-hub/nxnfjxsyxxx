@@ -160,7 +160,7 @@ def article_meta(url):
                 while stack:
                     cur=stack.pop()
                     if isinstance(cur,dict):
-                        for key in ("datePublished","dateModified","uploadDate"):
+                        for key in ("datePublished","uploadDate"):
                             if cur.get(key):
                                 d=parse_isoish(cur.get(key))
                                 if d:
@@ -198,7 +198,7 @@ def article_meta(url):
         # 4) visible page text near common labels
         body=clean(soup.get_text(" ",strip=True))[:18000]
         if not published:
-            m=re.search(r"(?:发布时间|发布日期|发布于|更新于)[：:\s]*(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})", body)
+            m=re.search(r"(?:发布时间|发布日期|发布于)[：:\s]*(20\d{2})[-/.年](\d{1,2})[-/.月](\d{1,2})", body)
             if m:
                 try:
                     published=datetime.date(int(m.group(1)),int(m.group(2)),int(m.group(3))).isoformat()
@@ -477,7 +477,7 @@ def event_is_valid(x, quality):
     except (ValueError,TypeError):
         return False
 
-def collect():
+def collect(source_filter=None):
     cfg=jload(ROOT/"config/sources.json",{"sources":[]})
     prefs=jload(ROOT/"config/preferences.json",{})
     quality=jload(ROOT/"config/quality.json",{})
@@ -567,8 +567,11 @@ def collect():
         return rows,errors,health
 
     with ThreadPoolExecutor(max_workers=source_workers) as pool:
-        for source_rows,source_errors,source_health in pool.map(collect_source,cfg.get("sources",[])):
+        for source_rows,source_errors,source_health in pool.map(collect_source,[s for s in cfg.get("sources",[]) if source_filter is None or source_filter(s)]):
             rows.extend(source_rows);errors.extend(source_errors);health.extend(source_health)
+
+    import category_news
+    category_news.refresh(ROOT,rows,TODAY,errors)
 
     # 基础过滤
     min_title=quality.get("minimum_content",{}).get("title_chars",8)
