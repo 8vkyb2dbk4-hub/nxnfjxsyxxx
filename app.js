@@ -371,7 +371,7 @@ function renderClasses(){
   const city=document.getElementById("classCity")?.value||"沪杭";
   let arr=(publicClassFeed?.items||[]).filter(classAvailable).filter(x=>city==="沪杭"||x.location===city);
   arr=arr.sort((a,b)=>(a.event_start_at||a.event_date).localeCompare(b.event_start_at||b.event_date));
-  const block=(title,items)=>`<section class="event-group"><h3 class="section-title">${title} · ${items.length} 场</h3><div class="item-list">${items.map(x=>card(x)).join("")||'<div class="empty">暂未收录符合条件的公开课或讲座。</div>'}</div></section>`;
+  const block=(title,items)=>`<section class="event-group section-block"><div class="section-head"><span>◈</span><h3>${title}</h3><span class="meta">${items.length} 场</span></div><div class="item-list">${items.map(x=>card(x,true)).join("")||'<div class="empty">暂未收录符合条件的公开课或讲座。</div>'}</div></section>`;
   document.getElementById("classCards").innerHTML=block("无需预约 / 现场报名",arr.filter(x=>["no_signup","onsite","open"].includes(x.registration_status)))+block("公开课/讲座预告 · 报名名额需向官方核对",arr.filter(x=>x.registration_status==="check"));
   document.getElementById("librarySources").innerHTML=(publicClassFeed?.libraries||[]).filter(x=>city==="沪杭"||x.city===city).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.city)} · ${esc(x.focus)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">官方讲座与活动 ↗</a>${x.wechat_name?`<span>官方公众号：${esc(x.wechat_name)}</span><button onclick='copyMuseumWechat(${esc(JSON.stringify(x.wechat_name))},this)'>复制公众号名称</button>`:""}<a href="${esc(x.wechat_official_url||x.url)}" target="_blank" rel="noopener">${x.wechat_name?"官方公众号 / 报名说明":"官网微信与预约入口"} ↗</a></div>`).join("");
 }
