@@ -18,3 +18,12 @@ main{grid-column:2;grid-row:2/6;min-width:0;border:1px solid #eff3f4;border-top:
 .section-block .card>.news-image{margin:2px 0 12px}.section-block .card>.news-image img{width:100%;max-height:250px;aspect-ratio:16/9;object-fit:cover;border-radius:12px}.top-grid .card>.news-image{margin:8px 0 14px}.top-grid .card>.news-image img{max-height:280px;aspect-ratio:16/9;object-fit:cover}
 #categoryCards{grid-template-columns:1fr;gap:0}#categoryCards .card{background:#fff;border:0;border-bottom:1px solid #eff3f4;border-radius:0;box-shadow:none}#categoryCards .card>.meta{display:none}.tabs button[data-category]:before{content:'◇'}
 .tabs{gap:1px}.tabs button{min-height:40px;padding-top:8px;padding-bottom:8px}#filters[hidden]{display:none}
+
+/* Quiet utility navigation at the bottom of the page. */
+footer{background:#f7f9f9;border-top:1px solid #eff3f4;padding:28px 24px;margin-top:16px;display:flex;flex-wrap:wrap;gap:16px;align-self:end}
+.footer-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;width:100%;margin-bottom:12px}
+.footer-group h3{font-size:13px;font-weight:700;color:#0f1419;margin:0 0 10px}
+.footer-nav button{display:block;border:0;border-radius:4px;background:transparent;padding:6px 0;color:#536471;font-size:12px;line-height:1.5;text-align:left;min-height:30px}
+.footer-nav button:hover,.footer-nav button.active{color:#0f1419;text-decoration:underline;background:transparent;font-weight:700}
+@media(max-width:760px){footer{padding:24px 16px}.footer-nav{gap:14px}.footer-group h3{font-size:12px}}
+@media print{.footer-nav{display:none}}

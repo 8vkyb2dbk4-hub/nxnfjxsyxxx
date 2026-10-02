@@ -684,11 +684,12 @@ function renderAll(){
   renderArchive();renderSources();renderSourceHealth();renderWeekly();renderSignals();renderLearning();renderSettings();renderSync();
 }
 
-document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{
-  document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");
+document.querySelectorAll(".tabs button, .footer-nav button").forEach(b=>b.onclick=()=>{
+  document.querySelectorAll(".tabs button, .footer-nav button").forEach(x=>x.classList.remove("active"));b.classList.add("active");
   document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));
   document.getElementById(b.dataset.view+"View").classList.add("active");
   if(b.dataset.category){selectedCategory=b.dataset.category;renderCategory()}
+  if(b.closest(".footer-nav")) document.querySelector("main").scrollIntoView({block:"start"});
 });
 document.getElementById("refreshBtn").onclick=()=>location.reload();
 document.getElementById("printBtn").onclick=()=>window.print();
