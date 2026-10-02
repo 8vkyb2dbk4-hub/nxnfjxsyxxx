@@ -317,6 +317,8 @@ function isWeeklyHighlight(x,start,today){
 }
 let selectedCategory="AI 绘画";
 function renderCategory(){
+ document.getElementById("videoSourcePanel").hidden=selectedCategory!=="AI 影视";
+ document.getElementById("videoSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.video_provider).sort((a,b)=>b.category_priorities["AI 影视"]-a.category_priorities["AI 影视"]).map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.video_provider)} · P${x.category_priorities["AI 影视"]}</b><span>官方动态 / 教程 ↗</span></a>`).join("");
  document.getElementById("categoryTitle").textContent=selectedCategory;
  document.getElementById("drawingSourcePanel").hidden=selectedCategory!=="AI 绘画";
  document.getElementById("drawingSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.drawing_provider).sort((a,b)=>b.priority-a.priority).map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.drawing_provider)} <span class="source-priority">P${x.priority}</span></b><span>${x.priority===5?"重点优先来源":"模型与创作社区来源"} · 官方入口 ↗</span></a>`).join("");

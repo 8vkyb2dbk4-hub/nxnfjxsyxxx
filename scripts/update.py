@@ -211,10 +211,14 @@ def article_meta(url):
 
 def score_item(title, desc, src, cat, prefs, quality, date_confidence):
     text=(title+" "+desc).lower()
-    s=src.get("priority",3)*9 + source_reliability(src)*2
+    s=src.get("category_priorities",{}).get(cat,src.get("priority",3))*9 + source_reliability(src)*2
     s+=prefs.get("category_weights",{}).get(cat,5)*3
     if src.get("name") in prefs.get("must_watch_sources",[]): s+=16
 
+    if cat=="AI 影视":
+        rule=prefs.get("video_keyword_boost",{})
+        hits=sum(any(alias.lower() in text for alias in aliases) for aliases in rule.get("concepts",{}).values())
+        s+=min(hits*rule.get("per_concept",8),rule.get("max_boost",40))
     focus=prefs.get("focus_products",{}).get(cat,[])
     if any(product_match(text,k) for k in focus):s+=24
     for kw in prefs.get("boost_keywords",[]):
@@ -239,6 +243,8 @@ def list_links(src):
     if src.get("collector")=="x_api":
         from x_updates import fetch
         return fetch(src)
+    if src.get("collector")=="single_article":
+        return [{"title":src["name"],"url":src["url"]}]
     if BeautifulSoup is None: return []
     r=get(src["url"])
     soup=BeautifulSoup(r.text,"html.parser")
@@ -522,7 +528,7 @@ def collect():
                     "action":action(cat,sc,dl),"tier":tier(sc,dl),
                     "source":src.get("name","未知来源"),
                     "source_type":src.get("type",""),
-                    "source_priority":src.get("priority",3),
+                    "source_priority":src.get("category_priorities",{}).get(cat,src.get("priority",3)),
                     "source_reliability":source_reliability(src),
                     "published_at":pub,
                     "date_confidence":meta["date_confidence"],

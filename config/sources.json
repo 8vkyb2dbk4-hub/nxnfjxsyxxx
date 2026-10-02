@@ -62,7 +62,11 @@
       ],
       "url": "https://huggingface.co/blog",
       "priority": 5,
-      "drawing_provider": "Hugging Face"
+      "drawing_provider": "Hugging Face",
+      "video_provider": "Hugging Face",
+      "category_priorities": {
+        "AI 影视": 4
+      }
     },
     {
       "name": "Runway News",
@@ -73,7 +77,11 @@
         "AI 绘画"
       ],
       "url": "https://runwayml.com/news",
-      "priority": 5
+      "priority": 5,
+      "video_provider": "Runway",
+      "category_priorities": {
+        "AI 影视": 5
+      }
     },
     {
       "name": "Runway Dev Changelog",
@@ -96,7 +104,11 @@
         "Agent / 编程"
       ],
       "url": "https://elevenlabs.io/blog",
-      "priority": 5
+      "priority": 5,
+      "video_provider": "ElevenLabs",
+      "category_priorities": {
+        "AI 影视": 5
+      }
     },
     {
       "name": "Stability AI",
@@ -1370,10 +1382,15 @@
       "region": "国际",
       "type": "公司 / 官方",
       "category": [
-        "AI 绘画"
+        "AI 绘画",
+        "AI 影视"
       ],
       "priority": 5,
-      "drawing_provider": "ComfyUI"
+      "drawing_provider": "ComfyUI",
+      "video_provider": "ComfyUI",
+      "category_priorities": {
+        "AI 影视": 5
+      }
     },
     {
       "name": "ModelScope · 绘画动态",
@@ -1403,10 +1420,15 @@
       "region": "国际",
       "type": "公司 / 官方",
       "category": [
-        "AI 绘画"
+        "AI 绘画",
+        "AI 影视"
       ],
       "priority": 5,
-      "drawing_provider": "Adobe"
+      "drawing_provider": "Adobe",
+      "video_provider": "Adobe Firefly",
+      "category_priorities": {
+        "AI 影视": 5
+      }
     },
     {
       "name": "Civitai · 绘画动态",
@@ -1429,6 +1451,144 @@
       ],
       "priority": 4,
       "drawing_provider": "LiblibAI"
+    },
+    {
+      "name": "Runway 教程 · 视频生成",
+      "url": "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 5,
+      "video_provider": "Runway 教程",
+      "category_priorities": {
+        "AI 影视": 5
+      },
+      "collector": "single_article",
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "ByteDance Seed · 视频生成",
+      "url": "https://seed.bytedance.com/en/blog_list/visual",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 5,
+      "video_provider": "ByteDance Seed",
+      "category_priorities": {
+        "AI 影视": 5
+      },
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "Seedance · 视频生成",
+      "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 5,
+      "video_provider": "Seedance",
+      "category_priorities": {
+        "AI 影视": 5
+      },
+      "collector": "single_article",
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "Kling 可灵 AI · 视频生成",
+      "url": "https://klingai.com/",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 5,
+      "video_provider": "Kling 可灵 AI",
+      "category_priorities": {
+        "AI 影视": 5
+      },
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "快手官方动态 · 视频生成",
+      "url": "https://ir.kuaishou.com/news-releases",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 4,
+      "video_provider": "快手官方动态",
+      "category_priorities": {
+        "AI 影视": 4
+      },
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "Pika · 视频生成",
+      "url": "https://pika.art/blog",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 4,
+      "video_provider": "Pika",
+      "category_priorities": {
+        "AI 影视": 4
+      },
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "Adobe Firefly 教程 · 视频生成",
+      "url": "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 5,
+      "video_provider": "Adobe Firefly 教程",
+      "category_priorities": {
+        "AI 影视": 5
+      },
+      "collector": "single_article",
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "HeyGen · 视频生成",
+      "url": "https://www.heygen.com/blog",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 4,
+      "video_provider": "HeyGen",
+      "category_priorities": {
+        "AI 影视": 4
+      },
+      "force_category": "AI 影视"
+    },
+    {
+      "name": "ComfyUI Docs · 视频生成",
+      "url": "https://docs.comfy.org/",
+      "region": "国际",
+      "type": "官方 / 视频生成",
+      "category": [
+        "AI 影视"
+      ],
+      "priority": 5,
+      "video_provider": "ComfyUI Docs",
+      "category_priorities": {
+        "AI 影视": 5
+      },
+      "force_category": "AI 影视"
     }
   ]
 }

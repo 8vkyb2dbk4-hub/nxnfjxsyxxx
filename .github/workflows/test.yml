@@ -23,6 +23,7 @@ jobs:
       - run: python tests/test_art.py
       - run: python tests/test_exhibitions.py
       - run: python tests/test_product_focus.py
+      - run: python tests/test_video_sources.py
       - run: python tests/test_public_classes.py
       - run: python tests/test_x_updates.py
       - run: python tests/test_official_schedules.py

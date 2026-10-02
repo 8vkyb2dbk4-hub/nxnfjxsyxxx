@@ -155,7 +155,16 @@
       "liblib tv",
       "海螺",
       "hailuo",
-      "runway"
+      "runway",
+      "Seedance",
+      "Kling",
+      "可灵",
+      "Pika",
+      "Firefly",
+      "Premiere",
+      "ElevenLabs",
+      "HeyGen",
+      "Runway"
     ],
     "新模型 / 开源": [
       "openai",
@@ -211,5 +220,65 @@
     "CGS",
     "ChinaJoy",
     "UEFN"
-  ]
+  ],
+  "video_keyword_boost": {
+    "per_concept": 8,
+    "max_boost": 40,
+    "concepts": {
+      "模型发布": [
+        "模型发布",
+        "新视频模型",
+        "model release",
+        "new video model"
+      ],
+      "角色一致性": [
+        "角色一致性",
+        "character consistency"
+      ],
+      "参考视频": [
+        "参考视频",
+        "reference video"
+      ],
+      "镜头控制": [
+        "镜头控制",
+        "运镜",
+        "camera control",
+        "camera director"
+      ],
+      "首尾帧": [
+        "首尾帧",
+        "首帧",
+        "尾帧",
+        "first frame",
+        "last frame"
+      ],
+      "音画同步": [
+        "音画同步",
+        "audio-video synchronization",
+        "lip sync",
+        "嘴型"
+      ],
+      "长镜头": [
+        "长镜头",
+        "long take",
+        "one-take"
+      ],
+      "配音": [
+        "配音",
+        "voiceover",
+        "dubbing"
+      ],
+      "音效": [
+        "音效",
+        "sound effects",
+        "sfx"
+      ],
+      "剪辑工作流": [
+        "剪辑工作流",
+        "视频工作流",
+        "editing workflow",
+        "video workflow"
+      ]
+    }
+  }
 }
