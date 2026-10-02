@@ -1,0 +1,9 @@
+{
+  "updated_at": "2026-10-02T11:23:00+08:00",
+  "source_count": 28,
+  "candidate_count": 0,
+  "error_count": 0,
+  "errors": [],
+  "status": "ok",
+  "message": "示例状态；首次真实自动更新后会由脚本覆盖。"
+}

@@ -1,0 +1,15 @@
+{
+  "enabled": false,
+  "provider": "supabase",
+  "supabaseUrl": "https://YOUR_PROJECT.supabase.co",
+  "anonKey": "YOUR_SUPABASE_ANON_KEY",
+  "autoSync": true,
+  "syncIntervalSeconds": 120,
+  "privacy": {
+    "syncSaved": true,
+    "syncRead": true,
+    "syncWatchlist": true,
+    "syncLearning": true,
+    "syncUiPrefs": true
+  }
+}

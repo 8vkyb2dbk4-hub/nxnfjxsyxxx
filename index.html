@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f5f0e7">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="stylesheet" href="./styles.css">
+<title>AI 前沿日报</title>
+</head>
+<body>
+<div class="shell">
+  <header class="mast">
+    <div class="eyebrow">CREATOR'S AI BRIEFING</div>
+    <div class="title-row">
+      <h1>AI 前沿日报</h1>
+      <div class="header-actions"><button id="copyBtn" class="ghost">复制简报</button><button id="printBtn" class="ghost">打印 / PDF</button><button id="refreshBtn" class="ghost">刷新</button></div>
+    </div>
+    <div class="mast-meta">
+      <span id="issueDate">载入中…</span>
+      <span id="edition"></span>
+      <span id="readTime"></span>
+    </div>
+  </header>
+
+  <nav class="tabs">
+    <button data-view="today" class="active">今日</button>
+    <button data-view="events">论坛 / 展会</button>
+    <button data-view="saved">收藏</button>
+    <button data-view="archive">往期</button>
+    <button data-view="weekly">一周回顾</button>
+    <button data-view="signals">趋势雷达</button>
+    <button data-view="sources">信息源</button>
+    <button data-view="sourcehealth">来源健康</button>
+    <button data-view="settings">偏好</button>
+    <button data-view="learning">学习中心</button>
+    <button data-view="sync">同步</button>
+  </nav>
+
+  <div class="modebar">
+      <span>阅读模式</span>
+      <button id="mode5" class="modebtn">5 分钟</button>
+      <button id="mode10" class="modebtn active">10 分钟</button>
+      <button id="personalizeBtn" class="modebtn active">为你排序</button>
+      <a class="ghost linkbtn" href="./data/events.ics">订阅活动日历</a>
+    </div>
+    <div class="quickbar">
+      <input id="searchInput" type="search" placeholder="搜索今天的简报…">
+      <div id="healthPill" class="health-pill">检查更新状态…</div>
+    </div>
+    <main>
+    <section id="todayView" class="view active">
+      <div class="lead">
+        <div>
+          <div class="kicker">今日总览</div>
+          <h2 id="headline"></h2>
+          <p id="note"></p>
+        </div>
+        <div class="brief-rule">
+          <strong>筛选原则</strong>
+          <span>重要 > 新鲜</span>
+          <span>能用 > 热闹</span>
+          <span>官方 > 转述</span>
+        </div>
+      </div>
+
+      <h3 class="section-title">今天最值得看 3 条</h3>
+      <div id="top3" class="top-grid"></div>
+
+      <div class="filter-row" id="filters"></div>
+      <div id="sections"></div>
+    </section>
+
+    <section id="eventsView" class="view">
+      <div class="page-head">
+        <div class="kicker">CALENDAR RADAR</div>
+        <h2>论坛 / 展会 / 高校活动</h2>
+        <p>优先显示上海线下、线上直播、正在报名、即将截止的活动。</p>
+      </div>
+      <div id="eventCards"></div>
+    </section>
+
+    <section id="savedView" class="view">
+      <div class="page-head"><div class="kicker">SAVED</div><h2>我的收藏</h2></div>
+      <div id="savedCards"></div>
+    </section>
+
+    <section id="archiveView" class="view">
+      <div class="page-head"><div class="kicker">ARCHIVE</div><h2>往期简报</h2></div>
+      <div id="archiveList"></div>
+    </section>
+
+    <section id="sourcesView" class="view">
+      <div class="page-head">
+        <div class="kicker">SOURCE MAP</div>
+        <h2>日报会盯哪些地方</h2>
+        <p>这里是第一批信息源。后续可以随时加学校、实验室、论坛、公众号或网站。</p>
+      </div>
+      <div id="sourceList"></div>
+    </section>
+
+
+
+    <section id="signalsView" class="view">
+      <div class="page-head">
+        <div class="kicker">TREND RADAR</div>
+        <h2>趋势雷达</h2>
+        <p>只在一个方向连续多天出现时才判定“升温”；单日热搜不算趋势。</p>
+      </div>
+      <div id="urgentSignals"></div>
+      <div id="trendStatus" class="trend-status"></div>
+      <div id="trendTopics"></div>
+      <div class="watchlist-box">
+        <div>
+          <div class="kicker">MY WATCHLIST</div>
+          <h3>我的观察词</h3>
+          <p>例如：角色一致性、Godot、AI短剧、世界模型、某个学校或某个工具。匹配到的内容会在页面顶部提醒。</p>
+        </div>
+        <div class="watch-input">
+          <input id="watchInput" type="text" placeholder="输入一个观察词">
+          <button id="addWatchBtn" class="ghost">添加</button>
+        </div>
+        <div id="watchTags" class="watch-tags"></div>
+        <div id="watchMatches"></div>
+      </div>
+    </section>
+
+    <section id="weeklyView" class="view">
+      <div class="page-head">
+        <div class="kicker">WEEKLY REVIEW</div>
+        <h2>一周回顾</h2>
+        <p>只回看过去一周真正值得记住的变化，避免每天看完第二天就忘。</p>
+      </div>
+      <div id="weeklyCards"></div>
+    </section>
+
+
+    <section id="sourcehealthView" class="view">
+      <div class="page-head">
+        <div class="kicker">SOURCE HEALTH</div>
+        <h2>来源健康</h2>
+        <p>这里用来发现长期失效、抓取失败或长期没有候选内容的信息源。</p>
+      </div>
+      <div id="sourceHealthSummary" class="quality-summary"></div>
+      <div id="sourceHealthList"></div>
+    </section>
+
+
+    <section id="learningView" class="view">
+      <div class="page-head">
+        <div class="kicker">PERSONAL LEARNING</div>
+        <h2>学习中心</h2>
+        <p>日报会根据你“点开、收藏、有用、没兴趣、隐藏”的行为，在本机逐步调整排序。默认不上传任何行为数据。</p>
+      </div>
+      <div id="learningStats" class="learning-stats"></div>
+      <div id="learningProfile"></div>
+      <div class="learning-actions">
+        <button id="exportProfileBtn" class="ghost">导出我的偏好</button>
+        <label class="ghost file-label">导入偏好<input id="importProfileInput" type="file" accept="application/json"></label>
+        <button id="resetLearningBtn" class="ghost danger-ghost">重置学习</button>
+      </div>
+    </section>
+
+
+    <section id="syncView" class="view">
+      <div class="page-head">
+        <div class="kicker">OFFLINE-FIRST SYNC</div>
+        <h2>跨设备同步</h2>
+        <p>默认仍然本地优先。云端没有配置、网络断开或同步失败，都不会影响你阅读日报。</p>
+      </div>
+      <div id="syncStatus" class="sync-status"></div>
+      <div id="syncAuth" class="sync-auth"></div>
+      <div id="syncDetails"></div>
+    </section>
+
+    <section id="settingsView" class="view">
+      <div class="page-head">
+        <div class="kicker">PERSONAL FILTER</div>
+        <h2>我的筛选偏好</h2>
+        <p>这些设置只保存在你的浏览器里，不会上传。你可以让日报更偏向绘画、影视、游戏或活动。</p>
+      </div>
+      <div class="settings-grid" id="settingsPanel"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <span>AI 前沿日报 · 为忙碌创作者压缩信息噪音</span>
+    <span id="updateStamp"></span>
+  </footer>
+</div>
+<script src="./sync-core.js"></script>
+<script src="./sync.js"></script>
+<script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+{
+  "version": 1,
+  "lookback_days": 14,
+  "minimum_unique_days_for_trend": 3,
+  "minimum_mentions_for_trend": 3,
+  "rising_window_days": 3,
+  "baseline_window_days": 7,
+  "rising_ratio_threshold": 1.8,
+  "hot_topics_limit": 12,
+  "source_velocity_limit": 10,
+  "urgent_deadline_hours": 36,
+  "topic_aliases": {
+    "Agent": [
+      "agent",
+      "智能体",
+      "agents",
+      "agentic"
+    ],
+    "Codex / 编程": [
+      "codex",
+      "coding",
+      "code",
+      "编程",
+      "代码",
+      "developer"
+    ],
+    "AI 视频": [
+      "video",
+      "视频",
+      "film",
+      "影视",
+      "动画",
+      "首尾帧",
+      "镜头"
+    ],
+    "AI 图像": [
+      "image",
+      "图像",
+      "绘画",
+      "美术",
+      "flux",
+      "diffusion",
+      "reference image",
+      "参考图"
+    ],
+    "3D / 游戏": [
+      "3d",
+      "game",
+      "gaming",
+      "godot",
+      "unity",
+      "unreal",
+      "游戏",
+      "建模",
+      "npc"
+    ],
+    "语音 / 音频": [
+      "voice",
+      "audio",
+      "speech",
+      "music",
+      "语音",
+      "配音",
+      "音效",
+      "音乐"
+    ],
+    "开源模型": [
+      "open source",
+      "opensource",
+      "开源",
+      "weights",
+      "权重"
+    ],
+    "多模态": [
+      "multimodal",
+      "多模态",
+      "vision-language",
+      "vlm"
+    ],
+    "世界模型": [
+      "world model",
+      "世界模型"
+    ],
+    "AI for Science": [
+      "ai for science",
+      "科学智能",
+      "科研范式",
+      "science"
+    ]
+  }
+}

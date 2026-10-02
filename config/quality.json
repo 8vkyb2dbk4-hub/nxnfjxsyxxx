@@ -1,0 +1,56 @@
+{
+  "freshness_days": {
+    "default": 21,
+    "AI 绘画": 21,
+    "AI 影视": 21,
+    "游戏与 3D": 30,
+    "Agent / 编程": 21,
+    "新模型 / 开源": 14,
+    "论坛 / 展会": 120
+  },
+  "unknown_date_policy": {
+    "allow_if_source_priority_at_least": 5,
+    "score_penalty": 18,
+    "display_label": "日期待确认"
+  },
+  "duplicate_detection": {
+    "title_similarity_threshold": 0.84,
+    "cross_day_suppression_days": 10,
+    "prefer_primary_source": true
+  },
+  "minimum_content": {
+    "title_chars": 8,
+    "summary_chars": 35
+  },
+  "promotion_downrank_keywords": [
+    "重磅来袭",
+    "震撼发布",
+    "限时福利",
+    "立即领取",
+    "火爆报名",
+    "新品钜惠",
+    "全网首发",
+    "年度盛典",
+    "重磅福利",
+    "免费领取"
+  ],
+  "material_update_keywords": [
+    "更新",
+    "新版",
+    "新增",
+    "正式上线",
+    "open source",
+    "开源",
+    "release",
+    "available now",
+    "general availability",
+    "preview",
+    "beta",
+    "报名截止",
+    "延期"
+  ],
+  "event_validation": {
+    "drop_past_events": true,
+    "max_future_days": 180
+  }
+}

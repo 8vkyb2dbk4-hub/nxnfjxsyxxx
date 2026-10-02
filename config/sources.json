@@ -1,0 +1,315 @@
+{
+  "description": "正式版信息源池：以一手官方信息为主，社区信号为辅。priority 5 为每日优先扫描。",
+  "sources": [
+    {
+      "name": "OpenAI News",
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ],
+      "url": "https://openai.com/news/",
+      "priority": 5
+    },
+    {
+      "name": "Anthropic News",
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ],
+      "url": "https://www.anthropic.com/news",
+      "priority": 5
+    },
+    {
+      "name": "Google DeepMind Blog",
+      "region": "国际",
+      "type": "实验室 / 官方",
+      "category": [
+        "新模型 / 开源",
+        "游戏与 3D",
+        "AI 影视"
+      ],
+      "url": "https://deepmind.google/discover/blog/",
+      "priority": 5
+    },
+    {
+      "name": "Google AI",
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ],
+      "url": "https://blog.google/innovation-and-ai/",
+      "priority": 5
+    },
+    {
+      "name": "Hugging Face Blog",
+      "region": "国际",
+      "type": "开源社区",
+      "category": [
+        "新模型 / 开源",
+        "AI 绘画",
+        "AI 影视"
+      ],
+      "url": "https://huggingface.co/blog",
+      "priority": 5
+    },
+    {
+      "name": "Runway News",
+      "region": "国际",
+      "type": "创作工具",
+      "category": [
+        "AI 影视",
+        "AI 绘画"
+      ],
+      "url": "https://runwayml.com/news",
+      "priority": 5
+    },
+    {
+      "name": "Runway Dev Changelog",
+      "region": "国际",
+      "type": "创作工具",
+      "category": [
+        "AI 影视",
+        "AI 绘画",
+        "Agent / 编程"
+      ],
+      "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+      "priority": 5
+    },
+    {
+      "name": "ElevenLabs Blog",
+      "region": "国际",
+      "type": "声音 / 创作工具",
+      "category": [
+        "AI 影视",
+        "Agent / 编程"
+      ],
+      "url": "https://elevenlabs.io/blog",
+      "priority": 5
+    },
+    {
+      "name": "Stability AI",
+      "region": "国际",
+      "type": "图像模型",
+      "category": [
+        "AI 绘画",
+        "AI 影视"
+      ],
+      "url": "https://stability.ai/news",
+      "priority": 4
+    },
+    {
+      "name": "GitHub Blog",
+      "region": "国际",
+      "type": "开发平台",
+      "category": [
+        "Agent / 编程"
+      ],
+      "url": "https://github.blog/",
+      "priority": 4
+    },
+    {
+      "name": "arXiv cs.AI",
+      "region": "国际",
+      "type": "论文",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "priority": 3
+    },
+    {
+      "name": "arXiv cs.CV",
+      "region": "国际",
+      "type": "论文",
+      "category": [
+        "AI 绘画",
+        "AI 影视",
+        "游戏与 3D"
+      ],
+      "url": "https://arxiv.org/list/cs.CV/recent",
+      "priority": 3
+    },
+    {
+      "name": "复旦大学国家发展与智能治理综合实验室 · 学术活动",
+      "region": "中国 / 上海",
+      "type": "高校",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "url": "https://labndig.fudan.edu.cn/events/",
+      "priority": 5
+    },
+    {
+      "name": "复旦大学 · 通知与学术活动",
+      "region": "中国 / 上海",
+      "type": "高校",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "url": "https://www.fudan.edu.cn/",
+      "priority": 4
+    },
+    {
+      "name": "上海交通大学 · 新闻与论坛",
+      "region": "中国 / 上海",
+      "type": "高校",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "url": "https://news.sjtu.edu.cn/",
+      "priority": 5
+    },
+    {
+      "name": "上海人工智能实验室 · 科研活动",
+      "region": "中国 / 上海",
+      "type": "实验室",
+      "category": [
+        "新模型 / 开源",
+        "论坛 / 展会"
+      ],
+      "url": "https://www.shlab.org.cn/event",
+      "priority": 5
+    },
+    {
+      "name": "清华大学人工智能研究院 AIR",
+      "region": "中国 / 北京",
+      "type": "高校",
+      "category": [
+        "新模型 / 开源",
+        "论坛 / 展会"
+      ],
+      "url": "https://air.tsinghua.edu.cn/",
+      "priority": 4
+    },
+    {
+      "name": "北京大学人工智能研究院",
+      "region": "中国 / 北京",
+      "type": "高校",
+      "category": [
+        "新模型 / 开源",
+        "论坛 / 展会"
+      ],
+      "url": "https://www.ai.pku.edu.cn/",
+      "priority": 4
+    },
+    {
+      "name": "浙江大学人工智能研究所",
+      "region": "中国 / 杭州",
+      "type": "高校",
+      "category": [
+        "新模型 / 开源",
+        "论坛 / 展会"
+      ],
+      "url": "http://www.cs.zju.edu.cn/csen/27047/list.htm",
+      "priority": 4
+    },
+    {
+      "name": "北京智源人工智能研究院",
+      "region": "中国 / 北京",
+      "type": "研究机构",
+      "category": [
+        "新模型 / 开源",
+        "论坛 / 展会"
+      ],
+      "url": "https://www.baai.ac.cn/",
+      "priority": 4
+    },
+    {
+      "name": "中国科学院自动化研究所",
+      "region": "中国 / 北京",
+      "type": "研究机构",
+      "category": [
+        "新模型 / 开源",
+        "论坛 / 展会"
+      ],
+      "url": "http://www.ia.cas.cn/",
+      "priority": 4
+    },
+    {
+      "name": "WAIC 世界人工智能大会",
+      "region": "中国 / 上海",
+      "type": "大会",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "url": "https://www.worldaic.com.cn/",
+      "priority": 5
+    },
+    {
+      "name": "SIGGRAPH",
+      "region": "国际",
+      "type": "图形学大会",
+      "category": [
+        "论坛 / 展会",
+        "AI 绘画",
+        "AI 影视",
+        "游戏与 3D"
+      ],
+      "url": "https://www.siggraph.org/",
+      "priority": 5
+    },
+    {
+      "name": "CVPR",
+      "region": "国际",
+      "type": "学术会议",
+      "category": [
+        "论坛 / 展会",
+        "AI 绘画",
+        "AI 影视"
+      ],
+      "url": "https://cvpr.thecvf.com/",
+      "priority": 4
+    },
+    {
+      "name": "ECCV",
+      "region": "国际",
+      "type": "学术会议",
+      "category": [
+        "论坛 / 展会",
+        "AI 绘画",
+        "AI 影视"
+      ],
+      "url": "https://eccv.ecva.net/",
+      "priority": 4
+    },
+    {
+      "name": "NeurIPS",
+      "region": "国际",
+      "type": "学术会议",
+      "category": [
+        "论坛 / 展会",
+        "新模型 / 开源"
+      ],
+      "url": "https://neurips.cc/",
+      "priority": 4
+    },
+    {
+      "name": "ICLR",
+      "region": "国际",
+      "type": "学术会议",
+      "category": [
+        "论坛 / 展会",
+        "新模型 / 开源"
+      ],
+      "url": "https://iclr.cc/",
+      "priority": 4
+    },
+    {
+      "name": "ICML",
+      "region": "国际",
+      "type": "学术会议",
+      "category": [
+        "论坛 / 展会",
+        "新模型 / 开源"
+      ],
+      "url": "https://icml.cc/",
+      "priority": 4
+    }
+  ]
+}

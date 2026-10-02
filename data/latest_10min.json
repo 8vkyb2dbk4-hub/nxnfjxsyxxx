@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-02",
+  "edition": "No. 001",
+  "reading_minutes": 8,
+  "headline": "Agent、新模型与创作工具继续加速；上海有一场 AI 前沿论坛今晚截止报名",
+  "note": "本期已从演示数据升级为真实公开信息。默认优先：创作者能马上用的能力、重要模型变化，以及值得参加的高校/实验室活动。",
+  "top3": [
+    {
+      "id": "openai-dots-20260929",
+      "category": "Agent / 编程",
+      "title": "OpenAI 发布 Dots：主打“持续工作”的常驻型 Agent",
+      "summary": "OpenAI 近日介绍 Dots，定位为可长期运行、主动处理事务的常驻型 Agent。它代表 Agent 从“你问一次、它答一次”继续向持续执行和长期工作流发展。",
+      "why": "对你最值得观察的是：未来资料搜集、每日资讯筛选、项目整理这类重复工作，会越来越适合交给常驻 Agent，而不是你自己每天刷平台。",
+      "source": "OpenAI",
+      "published_at": "2026-09-29",
+      "url": "https://openai.com/index/introducing-dots/",
+      "importance": 5,
+      "status": "重点"
+    },
+    {
+      "id": "shlab-sjtu-forum-20261007",
+      "category": "论坛 / 展会",
+      "title": "上海 AI 实验室 × 上海交大 10 月 7 日办前沿论坛；今天 24:00 截止报名",
+      "summary": "论坛主题为“人工智能驱动的科学研究范式跃迁”，讨论基础模型能力边界、AI for Science、安全、原创科学突破和交叉人才培养，并设置主旨报告、圆桌与 Workshop。",
+      "why": "这是本期最有时效性的活动提醒。人在上海或愿意线下参加的话，今天就是报名截止日；即使不参加，也值得把主办方后续公开内容加入观察名单。",
+      "source": "上海人工智能实验室",
+      "published_at": "2026-10-02",
+      "url": "https://www.shlab.org.cn/event/detail/106",
+      "importance": 5,
+      "status": "今晚截止",
+      "event_date": "2026-10-07",
+      "deadline": "2026-10-02T24:00:00+08:00",
+      "location": "上海"
+    },
+    {
+      "id": "gemini-4-argon-20260930",
+      "category": "新模型 / 开源",
+      "title": "Google 公布 Gemini 4 Argon，面向编程、知识工作与网络安全",
+      "summary": "Google 近日公布 Gemini 4 Argon，定位为新一代前沿模型，重点覆盖真实世界编程、企业知识工作和网络安全等任务，并表示将逐步推出。",
+      "why": "你不需要追所有模型参数。更值得盯的是：它进入你实际使用的产品后，是否明显提升“做网站、小游戏、自动化工具”的完成度和稳定性。",
+      "source": "Google",
+      "published_at": "2026-09-30",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "importance": 5,
+      "status": "重点"
+    }
+  ],
+  "sections": [
+    {
+      "name": "AI 绘画",
+      "icon": "✦",
+      "items": [
+        {
+          "id": "runway-gptimage25-20260908",
+          "title": "Runway Dev 接入 GPT Image 2.5 系列，支持多参考图与高分辨率输出",
+          "summary": "Runway 的开发接口已加入 GPT Image 2.5 Flare / Sunburst；官方更新页列出最多 16 张参考图、多种宽高比、1K–4K 分辨率等能力。",
+          "why": "对于立绘、角色设定和一致性工作流，值得关注的不是“又多一个模型”，而是多参考图和更高分辨率能否减少你后期修图量。",
+          "source": "Runway Dev",
+          "published_at": "2026-09-08",
+          "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+          "status": "可关注"
+        }
+      ]
+    },
+    {
+      "name": "AI 影视",
+      "icon": "▶",
+      "items": [
+        {
+          "id": "runway-elevenv4-20260930",
+          "title": "Runway Dev 上线 Eleven v4 语音能力",
+          "summary": "Runway 9 月 30 日更新中加入 Eleven v4，可在脚本中使用笑声、耳语、停顿等音频标签生成更有表现力的语音。",
+          "why": "如果以后做 AI 短片，这类“可控情绪语音”比单纯音色克隆更实用，能直接减少配音后二次处理。",
+          "source": "Runway Dev",
+          "published_at": "2026-09-30",
+          "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+          "status": "建议试用"
+        },
+        {
+          "id": "runway-frame-rate-20260917",
+          "title": "Runway 增加视频帧率增强工具，最高支持到 120 fps",
+          "summary": "Runway Dev 的 Enhance Frame Rate 可把视频转换到 24、25、30、48、50、60、120 等目标帧率。",
+          "why": "对 AI 视频而言，它不是最吸睛的新模型，但属于真正能进入后期工作流的实用能力，尤其适合处理运动不够顺滑的片段。",
+          "source": "Runway Dev",
+          "published_at": "2026-09-17",
+          "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+          "status": "实用更新"
+        },
+        {
+          "id": "elevenlabs-mcp-20260914",
+          "title": "ElevenLabs MCP 把语音、音乐、图像和视频生成放进同一个对话工作流",
+          "summary": "ElevenLabs 表示其 MCP 已可在多个助手环境中调用语音、转写、配音、音乐、音效、图像和视频生成，作品统一进入 ElevenCreative 工作区。",
+          "why": "这类变化很贴合你的目标：以后做 AI 影视不一定要不停切网站，而是可能在一个对话里完成旁白、音效、配乐和部分画面生成。",
+          "source": "ElevenLabs",
+          "published_at": "2026-09-14",
+          "url": "https://elevenlabs.io/blog/introducing-voice-music-image-and-video-generation-in-the-elevenlabs-mcp",
+          "status": "建议试用"
+        }
+      ]
+    },
+    {
+      "name": "游戏与 3D",
+      "icon": "◆",
+      "items": [
+        {
+          "id": "deepmind-games-20260821",
+          "title": "Google DeepMind 扩大 AI × 游戏研究，继续推进可在 3D 游戏中行动的通用 Agent",
+          "summary": "DeepMind 回顾并扩展其游戏研究路线，重点讨论 SIMA 类通用 Agent、游戏测试、NPC 与持续学习，并与游戏开发者开展原型合作。",
+          "why": "对你做 Godot 小游戏更值得关注的是长期趋势：Agent 可能先在自动测试、NPC 行为和原型验证上变成实用生产工具。",
+          "source": "Google DeepMind",
+          "published_at": "2026-08-21",
+          "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+          "status": "趋势"
+        }
+      ]
+    },
+    {
+      "name": "Agent / 编程",
+      "icon": "⌘",
+      "items": [
+        {
+          "id": "openai-dots-section",
+          "title": "常驻 Agent 正从“功能演示”转向真实工作流",
+          "summary": "OpenAI 的 Dots 强调持续运行和代办式工作。对普通用户而言，真正的分水岭不是 Agent 会不会聊天，而是能不能稳定地跨多步执行并长期维护任务。",
+          "why": "你的“每日 AI 简报”本身就是典型 Agent 任务：找信息、去重、分类、压缩、提醒截止日期，然后只把最重要的送到你面前。",
+          "source": "OpenAI",
+          "published_at": "2026-09-29",
+          "url": "https://openai.com/index/introducing-dots/",
+          "status": "重点"
+        }
+      ]
+    },
+    {
+      "name": "新模型 / 开源",
+      "icon": "◎",
+      "items": [
+        {
+          "id": "gemini-4-argon-section",
+          "title": "Gemini 4 Argon：先关注真实工具落地，不追参数榜",
+          "summary": "Google 将 Argon 定位在编程、知识工作和网络安全等高强度任务。现阶段更适合放入观察名单，等它真正进入可用产品后再测试。",
+          "why": "日报会把“发布了”与“你现在就能用”分开标注，避免你被每次模型发布牵着走。",
+          "source": "Google",
+          "published_at": "2026-09-30",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+          "status": "观察"
+        }
+      ]
+    },
+    {
+      "name": "论坛 / 展会",
+      "icon": "◉",
+      "items": [
+        {
+          "id": "shlab-sjtu-event",
+          "title": "10 月 7 日｜上海 AI 实验室 × 上海交大：人工智能驱动的科学研究范式跃迁",
+          "summary": "线下前沿交叉学术论坛，聚焦基础模型、科学智能、安全、原创科研突破与交叉人才培养。官方页面写明现场席位有限。",
+          "why": "报名截止：今天 24:00。属于“有兴趣就今天决定”的活动，不需要加入以后再看的收藏夹。",
+          "source": "上海人工智能实验室",
+          "published_at": "2026-10-02",
+          "url": "https://www.shlab.org.cn/event/detail/106",
+          "status": "今晚截止",
+          "event_date": "2026-10-07",
+          "deadline": "2026-10-02T24:00:00+08:00",
+          "location": "上海"
+        },
+        {
+          "id": "sjtu-multiomics-20261024",
+          "title": "10 月 24–25 日｜上海交大：AI 辅助临床多组学数据分析工作坊",
+          "summary": "上海交通大学相关页面显示，计划于 10 月 24–25 日举行 AI 辅助临床多组学数据分析工作坊。",
+          "why": "它和你的创作方向关联不高，所以只放在“活动雷达”，不会挤进头版；这正是日报要做的筛选。",
+          "source": "上海交通大学",
+          "published_at": "2026-10-02",
+          "url": "https://iph.sjtu.edu.cn/research/forum.html",
+          "status": "有空再看",
+          "event_date": "2026-10-24",
+          "location": "上海"
+        }
+      ]
+    }
+  ]
+}

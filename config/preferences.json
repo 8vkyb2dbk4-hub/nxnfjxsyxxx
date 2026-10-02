@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "reading_goal_minutes": 8,
+  "category_weights": {
+    "AI 绘画": 10,
+    "AI 影视": 10,
+    "游戏与 3D": 9,
+    "Agent / 编程": 9,
+    "新模型 / 开源": 7,
+    "论坛 / 展会": 9
+  },
+  "must_watch_sources": [
+    "OpenAI News",
+    "Google DeepMind Blog",
+    "Runway News",
+    "Runway Dev Changelog",
+    "ElevenLabs Blog",
+    "上海人工智能实验室 · 科研活动",
+    "复旦大学国家发展与智能治理综合实验室 · 学术活动",
+    "上海交通大学 · 新闻与论坛"
+  ],
+  "boost_keywords": [
+    "角色一致性",
+    "参考图",
+    "局部编辑",
+    "视频生成",
+    "首尾帧",
+    "镜头控制",
+    "配音",
+    "音效",
+    "3D",
+    "Godot",
+    "Agent",
+    "Codex",
+    "工作流",
+    "报名截止",
+    "上海",
+    "论坛",
+    "展会"
+  ],
+  "downrank_keywords": [
+    "融资",
+    "股价",
+    "营销活动",
+    "泛行业宣传"
+  ],
+  "event_cities": [
+    "上海"
+  ],
+  "max_items_per_section": 5,
+  "top_items": 3
+}

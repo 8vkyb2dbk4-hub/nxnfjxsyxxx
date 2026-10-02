@@ -1,0 +1,35 @@
+name: Daily AI Brief
+on:
+  schedule:
+    - cron: "10 23 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: daily-ai-brief
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python tests/test_quality.py
+      - run: python tests/test_trends.py
+      - run: node tests/test_sync.js
+      - run: node tests/test_sync_integration.js
+      - run: python scripts/update.py
+        env:
+          AI_BRIEF_LLM_ENDPOINT: ${{ secrets.AI_BRIEF_LLM_ENDPOINT }}
+          AI_BRIEF_LLM_API_KEY: ${{ secrets.AI_BRIEF_LLM_API_KEY }}
+          AI_BRIEF_LLM_MODEL: ${{ secrets.AI_BRIEF_LLM_MODEL }}
+      - name: Commit daily brief
+        run: |
+          git config user.name "ai-brief-bot"
+          git config user.email "ai-brief-bot@users.noreply.github.com"
+          git add data/ editions/
+          git diff --cached --quiet || git commit -m "daily AI brief"
+          git push

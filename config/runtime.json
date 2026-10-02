@@ -1,0 +1,26 @@
+{
+  "brief_modes": {
+    "5min": {
+      "top": 3,
+      "per_section": 2,
+      "min_score": 92
+    },
+    "10min": {
+      "top": 3,
+      "per_section": 5,
+      "min_score": 72
+    }
+  },
+  "weekly_review": {
+    "enabled": true,
+    "weekday": 0,
+    "lookback_days": 7
+  },
+  "optional_llm": {
+    "enabled_by_env": true,
+    "endpoint_env": "AI_BRIEF_LLM_ENDPOINT",
+    "api_key_env": "AI_BRIEF_LLM_API_KEY",
+    "model_env": "AI_BRIEF_LLM_MODEL",
+    "notes": "不配置环境变量时自动使用本地规则摘要；配置后可调用兼容 Chat Completions 风格的接口进行润色。"
+  }
+}

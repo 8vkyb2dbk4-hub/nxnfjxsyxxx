@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "local_only_by_default": true,
+  "interaction_weights": {
+    "open_source": 1.5,
+    "save": 3.0,
+    "useful": 4.0,
+    "not_interested": -4.0,
+    "hide": -2.5
+  },
+  "score_limits": {
+    "category": [
+      -20,
+      20
+    ],
+    "source": [
+      -15,
+      15
+    ],
+    "keyword": [
+      -12,
+      12
+    ]
+  },
+  "keyword_learning": {
+    "max_keywords": 80,
+    "min_token_length": 2,
+    "stopwords": [
+      "人工智能",
+      "AI",
+      "发布",
+      "更新",
+      "一个",
+      "这个",
+      "以及",
+      "进行",
+      "相关",
+      "最新",
+      "official",
+      "the",
+      "and",
+      "for",
+      "with",
+      "from",
+      "this",
+      "that",
+      "new"
+    ]
+  }
+}

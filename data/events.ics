@@ -1,0 +1,29 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AI Frontier Daily//CN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:shlab-sjtu-forum-20261007@ai-brief
+DTSTAMP:20261002T032300Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:上海 AI 实验室 × 上海交大 10 月 7 日办前沿论坛；今天 24:00 截止报名
+DESCRIPTION:论坛主题为“人工智能驱动的科学研究范式跃迁”，讨论基础模型能力边界、AI for Science、安全、原创科学突破和交叉人才培养，并设置主旨报告、圆桌与 Workshop。 https://www.shlab.org.cn/event/detail/106
+LOCATION:上海
+END:VEVENT
+BEGIN:VEVENT
+UID:shlab-sjtu-event@ai-brief
+DTSTAMP:20261002T032300Z
+DTSTART;VALUE=DATE:20261007
+SUMMARY:10 月 7 日｜上海 AI 实验室 × 上海交大：人工智能驱动的科学研究范式跃迁
+DESCRIPTION:线下前沿交叉学术论坛，聚焦基础模型、科学智能、安全、原创科研突破与交叉人才培养。官方页面写明现场席位有限。 https://www.shlab.org.cn/event/detail/106
+LOCATION:上海
+END:VEVENT
+BEGIN:VEVENT
+UID:sjtu-multiomics-20261024@ai-brief
+DTSTAMP:20261002T032300Z
+DTSTART;VALUE=DATE:20261024
+SUMMARY:10 月 24–25 日｜上海交大：AI 辅助临床多组学数据分析工作坊
+DESCRIPTION:上海交通大学相关页面显示，计划于 10 月 24–25 日举行 AI 辅助临床多组学数据分析工作坊。 https://iph.sjtu.edu.cn/research/forum.html
+LOCATION:上海
+END:VEVENT
+END:VCALENDAR

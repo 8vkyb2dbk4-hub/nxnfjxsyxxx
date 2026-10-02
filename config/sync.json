@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "provider": "supabase",
+  "supabaseUrl": "https://smehtstpcynqsgqulnfx.supabase.co",
+  "anonKey": "sb_publishable_zWSPxQ2EKeJxgKRbje3czQ_xPga_Suh",
+  "autoSync": true,
+  "syncIntervalSeconds": 120,
+  "privacy": {
+    "syncSaved": true,
+    "syncRead": true,
+    "syncWatchlist": true,
+    "syncLearning": true,
+    "syncUiPrefs": true
+  }
+}
