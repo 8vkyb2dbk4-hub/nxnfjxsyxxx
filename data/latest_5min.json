@@ -1,48 +1,81 @@
 {
   "date": "2026-10-02",
-  "edition": "No. 001-5min",
+  "edition": "AUTO-20261002-5min",
   "reading_minutes": 5,
-  "headline": "Agent、新模型与创作工具继续加速；上海有一场 AI 前沿论坛今晚截止报名",
-  "note": "本期已从演示数据升级为真实公开信息。默认优先：创作者能马上用的能力、重要模型变化，以及值得参加的高校/实验室活动。",
+  "headline": "今天筛出 0 条高优先级 AI 信息",
+  "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
-      "id": "openai-dots-20260929",
-      "category": "Agent / 编程",
-      "title": "OpenAI 发布 Dots：主打“持续工作”的常驻型 Agent",
-      "summary": "OpenAI 近日介绍 Dots，定位为可长期运行、主动处理事务的常驻型 Agent。它代表 Agent 从“你问一次、它答一次”继续向持续执行和长期工作流发展。",
-      "why": "对你最值得观察的是：未来资料搜集、每日资讯筛选、项目整理这类重复工作，会越来越适合交给常驻 Agent，而不是你自己每天刷平台。",
-      "source": "OpenAI",
+      "id": "d8b62a962e88cf",
+      "title": "Research Overview",
+      "url": "https://openai.com/research",
+      "summary": "Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。",
+      "why": "看它能否替你减少资料搜集、整理、搭网站、做小游戏和重复操作。",
+      "action": "建议收藏",
+      "tier": "建议看",
+      "source": "OpenAI News",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
       "published_at": "2026-09-29",
-      "url": "https://openai.com/index/introducing-dots/",
-      "importance": 5,
-      "status": "重点"
+      "date_confidence": "medium",
+      "date_label": "2026-09-29",
+      "category": "Agent / 编程",
+      "status": "建议看",
+      "deadline": null,
+      "event_date": null,
+      "location": "",
+      "score": 114,
+      "material_update": true,
+      "alternatives": []
     },
     {
-      "id": "shlab-sjtu-forum-20261007",
-      "category": "论坛 / 展会",
-      "title": "上海 AI 实验室 × 上海交大 10 月 7 日办前沿论坛；今天 24:00 截止报名",
-      "summary": "论坛主题为“人工智能驱动的科学研究范式跃迁”，讨论基础模型能力边界、AI for Science、安全、原创科学突破和交叉人才培养，并设置主旨报告、圆桌与 Workshop。",
-      "why": "这是本期最有时效性的活动提醒。人在上海或愿意线下参加的话，今天就是报名截止日；即使不参加，也值得把主办方后续公开内容加入观察名单。",
-      "source": "上海人工智能实验室",
-      "published_at": "2026-10-02",
-      "url": "https://www.shlab.org.cn/event/detail/106",
-      "importance": 5,
-      "status": "今晚截止",
-      "event_date": "2026-10-07",
-      "deadline": "2026-10-02T24:00:00+08:00",
-      "location": "上海"
+      "id": "9947c958aa1a72",
+      "title": "Introducing Eleven v4, our most emotive model",
+      "url": "https://elevenlabs.io/blog/eleven-v4",
+      "summary": "Eleven v4 and v4 Turbo: more emotional nuance, faster responses, stronger voice cloning. Live now in ElevenAgents, ElevenCreative and API。",
+      "why": "看它是否能真正进入分镜、镜头生成、动作、配音、音效和剪辑流程，而不只是演示。",
+      "action": "建议收藏",
+      "tier": "建议看",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
+      "source_priority": 5,
+      "source_reliability": 6,
+      "published_at": "2026-09-28",
+      "date_confidence": "high",
+      "date_label": "2026-09-28",
+      "category": "AI 影视",
+      "status": "建议看",
+      "deadline": null,
+      "event_date": null,
+      "location": "",
+      "score": 113,
+      "material_update": false,
+      "alternatives": []
     },
     {
-      "id": "gemini-4-argon-20260930",
-      "category": "新模型 / 开源",
-      "title": "Google 公布 Gemini 4 Argon，面向编程、知识工作与网络安全",
-      "summary": "Google 近日公布 Gemini 4 Argon，定位为新一代前沿模型，重点覆盖真实世界编程、企业知识工作和网络安全等任务，并表示将逐步推出。",
-      "why": "你不需要追所有模型参数。更值得盯的是：它进入你实际使用的产品后，是否明显提升“做网站、小游戏、自动化工具”的完成度和稳定性。",
-      "source": "Google",
+      "id": "8b5f9c73f57db0",
+      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
+      "url": "https://elevenlabs.io/blog/tender-22bn",
+      "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
+      "why": "看它是否能真正进入分镜、镜头生成、动作、配音、音效和剪辑流程，而不只是演示。",
+      "action": "建议收藏",
+      "tier": "建议看",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
+      "source_priority": 5,
+      "source_reliability": 6,
       "published_at": "2026-09-30",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-      "importance": 5,
-      "status": "重点"
+      "date_confidence": "high",
+      "date_label": "2026-09-30",
+      "category": "AI 影视",
+      "status": "建议看",
+      "deadline": null,
+      "event_date": null,
+      "location": "",
+      "score": 111,
+      "material_update": true,
+      "alternatives": []
     }
   ],
   "sections": [
@@ -51,14 +84,52 @@
       "icon": "✦",
       "items": [
         {
-          "id": "runway-gptimage25-20260908",
-          "title": "Runway Dev 接入 GPT Image 2.5 系列，支持多参考图与高分辨率输出",
-          "summary": "Runway 的开发接口已加入 GPT Image 2.5 Flare / Sunburst；官方更新页列出最多 16 张参考图、多种宽高比、1K–4K 分辨率等能力。",
-          "why": "对于立绘、角色设定和一致性工作流，值得关注的不是“又多一个模型”，而是多参考图和更高分辨率能否减少你后期修图量。",
-          "source": "Runway Dev",
-          "published_at": "2026-09-08",
-          "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
-          "status": "可关注"
+          "id": "d067a9902499b7",
+          "title": "How to Use the Jev AI Model: A Step-by-Step Developer Guide sora-2 • 10 days ago • 38",
+          "url": "https://huggingface.co/blog/sora-2/how-to-use-the-jev-ai-model-a-step-by-step-develop",
+          "summary": "That makes Jev useful for tasks such as classifying support tickets, routing requests, scoring risk, deciding whether an action needs review, or selecting the next model in an agent workflow. The Jev AI homepage describes this as。",
+          "why": "看它是否能提升角色一致性、参考图控制、局部编辑、高清输出，或明显减少后期修图。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-09-22",
+          "date_confidence": "high",
+          "date_label": "2026-09-22",
+          "category": "AI 绘画",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "",
+          "score": 103,
+          "material_update": false,
+          "alternatives": []
+        },
+        {
+          "id": "0a2078a69f0e16",
+          "title": "What Is OpenAI Decisions API? A Practical Guide sora-2 • 2 days ago • 12",
+          "url": "https://huggingface.co/blog/sora-2/what-is-openai-decisions-api-a-practical-guide",
+          "summary": "OpenAI introduced the API at DevDay 2026. Public coverage describes it as a specialized version of GPT-6 Luna that is designed for fast, single decisions. The initial use cases include classifying content, routing requests, and ch。",
+          "why": "看它是否能提升角色一致性、参考图控制、局部编辑、高清输出，或明显减少后期修图。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-09-30",
+          "date_confidence": "high",
+          "date_label": "2026-09-30",
+          "category": "AI 绘画",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "",
+          "score": 101,
+          "material_update": true,
+          "alternatives": []
         }
       ]
     },
@@ -67,46 +138,146 @@
       "icon": "▶",
       "items": [
         {
-          "id": "runway-elevenv4-20260930",
-          "title": "Runway Dev 上线 Eleven v4 语音能力",
-          "summary": "Runway 9 月 30 日更新中加入 Eleven v4，可在脚本中使用笑声、耳语、停顿等音频标签生成更有表现力的语音。",
-          "why": "如果以后做 AI 短片，这类“可控情绪语音”比单纯音色克隆更实用，能直接减少配音后二次处理。",
-          "source": "Runway Dev",
-          "published_at": "2026-09-30",
-          "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
-          "status": "建议试用"
+          "id": "074df5b2162dce",
+          "title": "Text to Speech",
+          "url": "https://elevenlabs.io/text-to-speech",
+          "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations。",
+          "why": "看它是否能真正进入分镜、镜头生成、动作、配音、音效和剪辑流程，而不只是演示。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "ElevenLabs Blog",
+          "source_type": "声音 / 创作工具",
+          "source_priority": 5,
+          "source_reliability": 6,
+          "published_at": "2026-10-01",
+          "date_confidence": "medium",
+          "date_label": "2026-10-01",
+          "category": "AI 影视",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "",
+          "score": 103,
+          "material_update": true,
+          "alternatives": [
+            {
+              "source": "Runway Dev Changelog",
+              "url": "https://docs.dev.runwayml.com/api-details/api_changelog"
+            },
+            {
+              "source": "Runway Dev Changelog",
+              "url": "https://docs.dev.runwayml.com/api"
+            }
+          ]
+        },
+        {
+          "id": "efc208f8ad044f",
+          "title": "Speech to Text",
+          "url": "https://elevenlabs.io/speech-to-text",
+          "summary": "Convert speech to text with Scribe. Transcribe in 99 languages, auto-generate captions, edit transcripts, and align audio with video。",
+          "why": "看它是否能真正进入分镜、镜头生成、动作、配音、音效和剪辑流程，而不只是演示。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "ElevenLabs Blog",
+          "source_type": "声音 / 创作工具",
+          "source_priority": 5,
+          "source_reliability": 6,
+          "published_at": "2026-10-01",
+          "date_confidence": "medium",
+          "date_label": "2026-10-01",
+          "category": "AI 影视",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "",
+          "score": 103,
+          "material_update": false,
+          "alternatives": []
         }
       ]
     },
     {
       "name": "游戏与 3D",
       "icon": "◆",
-      "items": [
-        {
-          "id": "deepmind-games-20260821",
-          "title": "Google DeepMind 扩大 AI × 游戏研究，继续推进可在 3D 游戏中行动的通用 Agent",
-          "summary": "DeepMind 回顾并扩展其游戏研究路线，重点讨论 SIMA 类通用 Agent、游戏测试、NPC 与持续学习，并与游戏开发者开展原型合作。",
-          "why": "对你做 Godot 小游戏更值得关注的是长期趋势：Agent 可能先在自动测试、NPC 行为和原型验证上变成实用生产工具。",
-          "source": "Google DeepMind",
-          "published_at": "2026-08-21",
-          "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-          "status": "趋势"
-        }
-      ]
+      "items": []
     },
     {
       "name": "Agent / 编程",
       "icon": "⌘",
       "items": [
         {
-          "id": "openai-dots-section",
-          "title": "常驻 Agent 正从“功能演示”转向真实工作流",
-          "summary": "OpenAI 的 Dots 强调持续运行和代办式工作。对普通用户而言，真正的分水岭不是 Agent 会不会聊天，而是能不能稳定地跨多步执行并长期维护任务。",
-          "why": "你的“每日 AI 简报”本身就是典型 Agent 任务：找信息、去重、分类、压缩、提醒截止日期，然后只把最重要的送到你面前。",
-          "source": "OpenAI",
+          "id": "27a9a72842341d",
+          "title": "Skip to main content",
+          "url": "https://openai.com/news",
+          "summary": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。",
+          "why": "看它能否替你减少资料搜集、整理、搭网站、做小游戏和重复操作。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "OpenAI News",
+          "source_type": "公司 / 官方",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "2026-10-01",
+          "date_confidence": "medium",
+          "date_label": "2026-10-01",
+          "category": "Agent / 编程",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "",
+          "score": 110,
+          "material_update": true,
+          "alternatives": [
+            {
+              "source": "Google DeepMind Blog",
+              "url": "https://deepmind.google/discover/blog"
+            },
+            {
+              "source": "Anthropic News",
+              "url": "https://www.anthropic.com/news"
+            }
+          ]
+        },
+        {
+          "id": "ebff70380f189f",
+          "title": "Research",
+          "url": "https://openai.com/news/research",
+          "summary": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。",
+          "why": "看它能否替你减少资料搜集、整理、搭网站、做小游戏和重复操作。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "OpenAI News",
+          "source_type": "公司 / 官方",
+          "source_priority": 5,
+          "source_reliability": 10,
           "published_at": "2026-09-29",
-          "url": "https://openai.com/index/introducing-dots/",
-          "status": "重点"
+          "date_confidence": "medium",
+          "date_label": "2026-09-29",
+          "category": "Agent / 编程",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "",
+          "score": 110,
+          "material_update": true,
+          "alternatives": [
+            {
+              "source": "OpenAI News",
+              "url": "https://openai.com/research/index"
+            },
+            {
+              "source": "ElevenLabs Blog",
+              "url": "https://elevenlabs.io/blog/category/research"
+            },
+            {
+              "source": "Google DeepMind Blog",
+              "url": "https://deepmind.google/research"
+            },
+            {
+              "source": "Runway News",
+              "url": "https://runwayml.com/research"
+            }
+          ]
         }
       ]
     },
@@ -115,35 +286,59 @@
       "icon": "◎",
       "items": [
         {
-          "id": "gemini-4-argon-section",
-          "title": "Gemini 4 Argon：先关注真实工具落地，不追参数榜",
-          "summary": "Google 将 Argon 定位在编程、知识工作和网络安全等高强度任务。现阶段更适合放入观察名单，等它真正进入可用产品后再测试。",
-          "why": "日报会把“发布了”与“你现在就能用”分开标注，避免你被每次模型发布牵着走。",
-          "source": "Google",
-          "published_at": "2026-09-30",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-          "status": "观察"
+          "id": "af35ad103b934b",
+          "title": "中国老年报 把新潮科技融入生活日常——上海交大老年大学“AI课”双校区同步开讲",
+          "url": "https://news.sjtu.edu.cn/mtjj/20260926/226259.html",
+          "summary": "新学期，国家老年大学上海交通大学分校迎来一件颇具分量的新鲜事——《AI—智享生活》课程在徐汇、闵行两个校区同步开课。唐俊华副教授、张爱新副研究员两位交大计算机系骨干教师“一东一西”联袂教学，把大模型、智能体这些新潮科技名词，转化为乐龄学员“马上就能用到的生活实操”。",
+          "why": "不追参数榜；只看是否真正可用、是否开源、是否进入常用产品或显著改变工作流。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "上海交通大学 · 新闻与论坛",
+          "source_type": "高校",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "",
+          "date_confidence": "unknown",
+          "date_label": "日期待确认",
+          "category": "新模型 / 开源",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "上海",
+          "score": 98,
+          "material_update": false,
+          "alternatives": []
+        },
+        {
+          "id": "17428cedeb36c9",
+          "title": "『书生·端砚』托举原始创新，上海AI实验室推动“革命的工具”走向更广科研生态 | 公开招募",
+          "url": "https://www.shlab.org.cn/event/detail/105",
+          "summary": "上海人工智能实验室,科研动态,科研活动,『书生·端砚』托举原始创新，上海AI实验室推动“革命的工具”走向更广科研生态 | 公开招募。",
+          "why": "不追参数榜；只看是否真正可用、是否开源、是否进入常用产品或显著改变工作流。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "上海人工智能实验室 · 科研活动",
+          "source_type": "实验室",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "",
+          "date_confidence": "unknown",
+          "date_label": "日期待确认",
+          "category": "新模型 / 开源",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "上海",
+          "score": 94,
+          "material_update": true,
+          "alternatives": []
         }
       ]
     },
     {
       "name": "论坛 / 展会",
       "icon": "◉",
-      "items": [
-        {
-          "id": "shlab-sjtu-event",
-          "title": "10 月 7 日｜上海 AI 实验室 × 上海交大：人工智能驱动的科学研究范式跃迁",
-          "summary": "线下前沿交叉学术论坛，聚焦基础模型、科学智能、安全、原创科研突破与交叉人才培养。官方页面写明现场席位有限。",
-          "why": "报名截止：今天 24:00。属于“有兴趣就今天决定”的活动，不需要加入以后再看的收藏夹。",
-          "source": "上海人工智能实验室",
-          "published_at": "2026-10-02",
-          "url": "https://www.shlab.org.cn/event/detail/106",
-          "status": "今晚截止",
-          "event_date": "2026-10-07",
-          "deadline": "2026-10-02T24:00:00+08:00",
-          "location": "上海"
-        }
-      ]
+      "items": []
     }
   ]
 }

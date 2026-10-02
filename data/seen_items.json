@@ -1,3 +1,186 @@
 {
-  "items": []
+  "items": [
+    {
+      "title": "Research Overview",
+      "url": "https://openai.com/research",
+      "last_seen": "2026-10-02",
+      "content_hash": "b02a18483e0c33",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Introducing Eleven v4, our most emotive model",
+      "url": "https://elevenlabs.io/blog/eleven-v4",
+      "last_seen": "2026-10-02",
+      "content_hash": "eb9b8ad0177f11",
+      "source": "ElevenLabs Blog"
+    },
+    {
+      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
+      "url": "https://elevenlabs.io/blog/tender-22bn",
+      "last_seen": "2026-10-02",
+      "content_hash": "4235828ef7a844",
+      "source": "ElevenLabs Blog"
+    },
+    {
+      "title": "How to Use the Jev AI Model: A Step-by-Step Developer Guide sora-2 • 10 days ago • 38",
+      "url": "https://huggingface.co/blog/sora-2/how-to-use-the-jev-ai-model-a-step-by-step-develop",
+      "last_seen": "2026-10-02",
+      "content_hash": "f574640eedbd0a",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "What Is OpenAI Decisions API? A Practical Guide sora-2 • 2 days ago • 12",
+      "url": "https://huggingface.co/blog/sora-2/what-is-openai-decisions-api-a-practical-guide",
+      "last_seen": "2026-10-02",
+      "content_hash": "3249f1372d90d3",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Anatomy of a bug-fixing agent huggingface • 3 days ago • 7",
+      "url": "https://huggingface.co/blog/huggingface/anatomy-of-a-bug-fixing-agent",
+      "last_seen": "2026-10-02",
+      "content_hash": "83b077b55bd505",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents 17 September 29, 2026",
+      "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "last_seen": "2026-10-02",
+      "content_hash": "8495782bf69274",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "交大金课 孔繁强：造型基础—设计素描 2026年07月13日",
+      "url": "https://news.sjtu.edu.cn/ztzl_jdjk/20260713/224600.html",
+      "last_seen": "2026-10-02",
+      "content_hash": "8102356a1d2dde",
+      "source": "上海交通大学 · 新闻与论坛"
+    },
+    {
+      "title": "Text to Speech",
+      "url": "https://elevenlabs.io/text-to-speech",
+      "last_seen": "2026-10-02",
+      "content_hash": "dbeddaeaef96c9",
+      "source": "ElevenLabs Blog"
+    },
+    {
+      "title": "Speech to Text",
+      "url": "https://elevenlabs.io/speech-to-text",
+      "last_seen": "2026-10-02",
+      "content_hash": "51ba83d663a02f",
+      "source": "ElevenLabs Blog"
+    },
+    {
+      "title": "Gemini Build intelligent agents",
+      "url": "https://deepmind.google/models/gemini",
+      "last_seen": "2026-10-02",
+      "content_hash": "e70f8e3768ea3b",
+      "source": "Google DeepMind Blog"
+    },
+    {
+      "title": "Explore models",
+      "url": "https://deepmind.google/models",
+      "last_seen": "2026-10-02",
+      "content_hash": "ba537d333d52b7",
+      "source": "Google DeepMind Blog"
+    },
+    {
+      "title": "Nano Banana Create and edit detailed images",
+      "url": "https://deepmind.google/models/gemini-image",
+      "last_seen": "2026-10-02",
+      "content_hash": "ca949ecc86271f",
+      "source": "Google DeepMind Blog"
+    },
+    {
+      "title": "Skip to main content",
+      "url": "https://openai.com/news",
+      "last_seen": "2026-10-02",
+      "content_hash": "b6259ee376348e",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Research",
+      "url": "https://openai.com/news/research",
+      "last_seen": "2026-10-02",
+      "content_hash": "ae83a4f9768df3",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Global Affairs",
+      "url": "https://openai.com/news/global-affairs",
+      "last_seen": "2026-10-02",
+      "content_hash": "3ee2aa69188b10",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "How Albertsons Companies is reimagining retail from the inside out Company Oct 1, 2026",
+      "url": "https://openai.com/index/albertsons-reimagining-retail",
+      "last_seen": "2026-10-02",
+      "content_hash": "fc59e7b6f18199",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Towards safety cases for frontier AI training Safety Sep 28, 2026",
+      "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "last_seen": "2026-10-02",
+      "content_hash": "fbb20b63f74dae",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "中国老年报 把新潮科技融入生活日常——上海交大老年大学“AI课”双校区同步开讲",
+      "url": "https://news.sjtu.edu.cn/mtjj/20260926/226259.html",
+      "last_seen": "2026-10-02",
+      "content_hash": "0cca10d168c780",
+      "source": "上海交通大学 · 新闻与论坛"
+    },
+    {
+      "title": "『书生·端砚』托举原始创新，上海AI实验室推动“革命的工具”走向更广科研生态 | 公开招募",
+      "url": "https://www.shlab.org.cn/event/detail/105",
+      "last_seen": "2026-10-02",
+      "content_hash": "55762abb0107f4",
+      "source": "上海人工智能实验室 · 科研活动"
+    },
+    {
+      "title": "AAAI 2026特邀报告：从推理到科学发现，探索通专融合的AI之路 | 活动预告",
+      "url": "https://www.shlab.org.cn/event/detail/99",
+      "last_seen": "2026-10-02",
+      "content_hash": "f6cd391b7d5d26",
+      "source": "上海人工智能实验室 · 科研活动"
+    },
+    {
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 5 October 2, 2026",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "last_seen": "2026-10-02",
+      "content_hash": "565d1ec7b3cab4",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Google's AI ranks #1 for predicting flu hospitalizations.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts",
+      "last_seen": "2026-10-02",
+      "content_hash": "b7299c4b19bd65",
+      "source": "Google AI"
+    },
+    {
+      "title": "Announcing the NeurIPS 2026 Affinity Events Sep 25, 2026",
+      "url": "https://blog.neurips.cc/2026/09/25/announcing-the-neurips-2026-affinity-events",
+      "last_seen": "2026-10-02",
+      "content_hash": "d46ce86fcd729c",
+      "source": "NeurIPS"
+    },
+    {
+      "title": "Navigating NeurIPS 2026: A Breakdown of the Multi-Site Registration Process Aug 27, 2026",
+      "url": "https://blog.neurips.cc/2026/08/27/navigating-neurips-2026-a-breakdown-of-the-multi-site-registration-process",
+      "last_seen": "2026-10-02",
+      "content_hash": "71814a6fb09e05",
+      "source": "NeurIPS"
+    },
+    {
+      "title": "What the ICML 2026 Communications Chairs Were Up To Aug 10, 2026",
+      "url": "https://blog.icml.cc/2026/08/10/what-the-icml-2026-communications-chairs-were-up-to",
+      "last_seen": "2026-10-02",
+      "content_hash": "d73cc0ec333391",
+      "source": "ICML"
+    }
+  ]
 }

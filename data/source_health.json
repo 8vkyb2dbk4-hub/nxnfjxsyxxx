@@ -1,4 +1,257 @@
 {
-  "generated_at": "2026-10-02T11:23:00+08:00",
-  "sources": []
+  "generated_at": "2026-10-02T13:45:30+08:00",
+  "sources": [
+    {
+      "source": "OpenAI News",
+      "url": "https://openai.com/news/",
+      "status": "ok",
+      "candidate_count": 18,
+      "elapsed_ms": 5110,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "Anthropic News",
+      "url": "https://www.anthropic.com/news",
+      "status": "ok",
+      "candidate_count": 17,
+      "elapsed_ms": 5760,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "Google DeepMind Blog",
+      "url": "https://deepmind.google/discover/blog/",
+      "status": "ok",
+      "candidate_count": 28,
+      "elapsed_ms": 11467,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "Google AI",
+      "url": "https://blog.google/innovation-and-ai/",
+      "status": "ok",
+      "candidate_count": 13,
+      "elapsed_ms": 4710,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "Hugging Face Blog",
+      "url": "https://huggingface.co/blog",
+      "status": "ok",
+      "candidate_count": 30,
+      "elapsed_ms": 5462,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "Runway News",
+      "url": "https://runwayml.com/news",
+      "status": "ok",
+      "candidate_count": 12,
+      "elapsed_ms": 4290,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "Runway Dev Changelog",
+      "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
+      "status": "ok",
+      "candidate_count": 40,
+      "elapsed_ms": 7947,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "ElevenLabs Blog",
+      "url": "https://elevenlabs.io/blog",
+      "status": "ok",
+      "candidate_count": 40,
+      "elapsed_ms": 10355,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "Stability AI",
+      "url": "https://stability.ai/news",
+      "status": "ok",
+      "candidate_count": 27,
+      "elapsed_ms": 7454,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "GitHub Blog",
+      "url": "https://github.blog/",
+      "status": "ok",
+      "candidate_count": 29,
+      "elapsed_ms": 9093,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "arXiv cs.AI",
+      "url": "https://arxiv.org/list/cs.AI/recent",
+      "status": "ok",
+      "candidate_count": 10,
+      "elapsed_ms": 3325,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "arXiv cs.CV",
+      "url": "https://arxiv.org/list/cs.CV/recent",
+      "status": "ok",
+      "candidate_count": 18,
+      "elapsed_ms": 3931,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "复旦大学国家发展与智能治理综合实验室 · 学术活动",
+      "url": "https://labndig.fudan.edu.cn/events/",
+      "status": "ok",
+      "candidate_count": 30,
+      "elapsed_ms": 18559,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "复旦大学 · 通知与学术活动",
+      "url": "https://www.fudan.edu.cn/",
+      "status": "ok",
+      "candidate_count": 4,
+      "elapsed_ms": 5703,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "上海交通大学 · 新闻与论坛",
+      "url": "https://news.sjtu.edu.cn/",
+      "status": "ok",
+      "candidate_count": 19,
+      "elapsed_ms": 6259,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "上海人工智能实验室 · 科研活动",
+      "url": "https://www.shlab.org.cn/event",
+      "status": "ok",
+      "candidate_count": 5,
+      "elapsed_ms": 3783,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "清华大学人工智能研究院 AIR",
+      "url": "https://air.tsinghua.edu.cn/",
+      "status": "ok",
+      "candidate_count": 15,
+      "elapsed_ms": 8090,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "北京大学人工智能研究院",
+      "url": "https://www.ai.pku.edu.cn/",
+      "status": "ok",
+      "candidate_count": 7,
+      "elapsed_ms": 2309,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "浙江大学人工智能研究所",
+      "url": "http://www.cs.zju.edu.cn/csen/27047/list.htm",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 1046,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "北京智源人工智能研究院",
+      "url": "https://www.baai.ac.cn/",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 1321,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "中国科学院自动化研究所",
+      "url": "http://www.ia.cas.cn/",
+      "status": "ok",
+      "candidate_count": 9,
+      "elapsed_ms": 5315,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "WAIC 世界人工智能大会",
+      "url": "https://www.worldaic.com.cn/",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 1248,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "SIGGRAPH",
+      "url": "https://www.siggraph.org/",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 291,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "CVPR",
+      "url": "https://cvpr.thecvf.com/",
+      "status": "ok",
+      "candidate_count": 4,
+      "elapsed_ms": 634,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "ECCV",
+      "url": "https://eccv.ecva.net/",
+      "status": "ok",
+      "candidate_count": 13,
+      "elapsed_ms": 2466,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "NeurIPS",
+      "url": "https://neurips.cc/",
+      "status": "ok",
+      "candidate_count": 19,
+      "elapsed_ms": 2715,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "ICLR",
+      "url": "https://iclr.cc/",
+      "status": "ok",
+      "candidate_count": 11,
+      "elapsed_ms": 1691,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "ICML",
+      "url": "https://icml.cc/",
+      "status": "ok",
+      "candidate_count": 21,
+      "elapsed_ms": 2875,
+      "error": "",
+      "checked_at": "2026-10-02T13:45:30+08:00"
+    }
+  ]
 }
