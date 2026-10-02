@@ -285,3 +285,5 @@ html{background:#dcd6ca}body{background:repeating-linear-gradient(0deg,#a3967804
 
 .publication-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.publication{display:flex;flex-direction:column;gap:12px;padding:18px;background:#e6dece;border:1px solid #c7bcaa;color:var(--ink);text-decoration:none}.publication b{background:#3c3932;color:#fff9ee;padding:8px;font-family:Georgia,"Songti SC",serif}.publication span{font-size:12px;line-height:1.7;color:var(--muted)}.event-city{display:block;padding:12px;background:#d8ceba;margin:12px 0}.event-city select{font:inherit;padding:8px;background:#f6f1e7;border:1px solid #bdb09a;max-width:100%}@media(max-width:760px){.publication-grid{grid-template-columns:1fr}}
 
+.museum-source a{font-size:13px;color:#963b32;line-height:1.6}.museum-source button{align-self:flex-start;background:#f6f1e7;border:1px solid #bdb09a;padding:9px 12px;min-height:40px;color:var(--ink)}.museum-note{font-size:12px;line-height:1.8;color:var(--muted)}
+

@@ -44,7 +44,7 @@ CATEGORY_KWS = {
     "AI 影视":["video","film","audio","voice","music","speech","dub","视频","影视","动画","语音","配音","音乐","音效","lip","镜头","首尾帧"],
     "游戏与 3D":["game","gaming","3d","unity","unreal","godot","npc","游戏","三维","建模","动作","贴图","关卡"],
     "Agent / 编程":["agent","coding","code","developer","mcp","workflow","automation","智能体","编程","代码","自动化","codex"],
-    "论坛 / 展会":["forum","conference","workshop","event","registration","deadline","论坛","会议","讲座","活动","报名","征稿","大会","工作坊","展会"],
+    "论坛 / 展会":["forum","conference","workshop","event","registration","deadline","论坛","会议","讲座","活动","报名","征稿","大会","工作坊","展会","展览","特展","临展","公共教育"],
     "新模型 / 开源":["model","open source","release","benchmark","research","模型","开源","发布","论文","研究","multimodal","多模态"]
 }
 AI_KWS = ["AI","artificial intelligence","model","agent","LLM","multimodal","人工智能","大模型","模型","智能体","生成","多模态","开源"]
@@ -240,6 +240,9 @@ def list_links(src):
                     rows.append({"title":clean(anchor.get_text(" ",strip=True)),"url":urljoin(src["url"],anchor["href"]),"event_date":match[1].replace("/","-"),"event_end_date":match[2].replace("/","-"),"location":"上海"});break
         return rows
     rows=[]
+    for article_url in src.get("wechat_article_urls",[]):
+        if urlparse(article_url).netloc=="mp.weixin.qq.com":
+            rows.append({"title":src["name"]+" · 公众号公开活动通知","url":article_url})
     trigger = AI_KWS + EVENT_KWS + sum(CATEGORY_KWS.values(),[])
     seen=set()
     for a in soup.find_all("a",href=True):

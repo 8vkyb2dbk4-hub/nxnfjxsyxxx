@@ -317,10 +317,18 @@ function renderArt(){
   document.getElementById("artCards").innerHTML=sortPersonal(items).map(card).join("")||'<div class="empty">暂未收录新的艺术报道，可从下方刊物入口阅读。</div>';
   document.getElementById("artPublications").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.force_category==="艺术").map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.name)}</b><span>${esc(x.type)} · 原创报道 / 刊物内容 ↗</span></a>`).join("");
 }
+async function copyMuseumWechat(name,button){
+  try{await navigator.clipboard.writeText(name);button.textContent="已复制，去微信搜索";}
+  catch(e){button.textContent="微信搜索："+name;}
+}
+function renderMuseumSources(city){
+  document.getElementById("museumSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.museum&&(city==="全部"||city==="沪杭"||x.city===city)).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.city)} · ${esc(x.focus)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">官网展览与活动 ↗</a>${x.wechat_name?`<span>官方公众号：${esc(x.wechat_name)}</span><button onclick='copyMuseumWechat(${esc(JSON.stringify(x.wechat_name))},this)'>复制公众号名称</button>`:""}<a href="${esc(x.wechat_official_url)}" target="_blank" rel="noopener">${x.wechat_name?"官方微信 / 预约说明":"官方预约与小程序入口"} ↗</a></div>`).join("");
+}
 function renderEvents(){
   const sec=issue.sections.find(s=>s.name==="论坛 / 展会");
   let arr=[...issue.top3.filter(x=>x.category==="论坛 / 展会"),...(sec?sec.items:[])];
   const city=document.getElementById("eventCity")?.value||"上海";
+  renderMuseumSources(city);
   arr=arr.filter(x=>city==="全部"||(city==="沪杭"?["上海","杭州"].includes(x.location):x.location==="上海"));
   arr=sortPersonal(arr.filter(x=>eventAvailable({...x,category:"论坛 / 展会"}))).sort((a,b)=>{
     const preferred=basePrefs?.event_cities||["上海","杭州"];
@@ -345,7 +353,7 @@ function renderArchive(){
 function renderSources(){
   document.getElementById("sourceList").innerHTML=sourceConfig.sources.map(x=>`<div class="source">
     <div><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a><br><span class="meta">${esc(x.category.join(" · "))}</span></div>
-    <div>${esc(x.region)}</div><div class="meta">${esc(x.type)} · P${x.priority}</div>
+    <div>${esc(x.region)}${x.wechat_name?`<br><span class="meta">公众号：${esc(x.wechat_name)}</span>`:""}</div><div class="meta">${esc(x.type)} · P${x.priority}</div>
   </div>`).join("");
 }
 function renderSourceHealth(){

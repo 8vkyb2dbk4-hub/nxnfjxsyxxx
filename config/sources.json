@@ -389,7 +389,64 @@
         "艺术"
       ],
       "url": "https://www.shanghaimuseum.cn/",
-      "priority": 5
+      "priority": 5,
+      "museum": true,
+      "city": "上海",
+      "focus": "文物艺术特展、公共讲座、纸艺与文创活动",
+      "wechat_name": "上海博物馆",
+      "wechat_official_url": "https://www.shanghaimuseum.cn/mu/frontend/pg/m/service/visit-west",
+      "wechat_collection": "官网公开公众号文章链接可抓取；微信内历史消息需在微信查看"
+    },
+    {
+      "name": "上海自然博物馆 · 临展与教育活动",
+      "url": "https://www.snhm.org.cn/",
+      "region": "中国 / 上海",
+      "type": "官方博物馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "museum": true,
+      "city": "上海",
+      "focus": "自然科学临展、绿螺讲堂、探索中心与主题工作坊",
+      "wechat_name": "上海自然博物馆",
+      "wechat_official_url": "https://www.snhm.org.cn/cgfw/cgzx.htm",
+      "wechat_collection": "官网公开公众号文章链接可抓取；微信内历史消息需在微信查看"
+    },
+    {
+      "name": "中国航海博物馆 · 展览与讲座",
+      "url": "https://www.shmmc.com.cn/",
+      "region": "中国 / 上海",
+      "type": "官方博物馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "museum": true,
+      "city": "上海",
+      "focus": "航海专题展、文化讲座、模型与亲子教育活动",
+      "wechat_name": "中国航海博物馆",
+      "wechat_official_url": "https://tt.shmmc.com.cn/SHMM_WeChat/visit?shelfCode=SHMM01",
+      "wechat_collection": "官网公开公众号文章链接可抓取；微信内历史消息需在微信查看"
+    },
+    {
+      "name": "浙江省博物馆 · 展览与公共教育",
+      "url": "https://www.zjmuseum.com.cn/cn/",
+      "region": "中国 / 杭州",
+      "type": "官方博物馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "museum": true,
+      "city": "杭州",
+      "focus": "历史文物特展、传统工艺、书画与公共教育活动",
+      "wechat_name": "",
+      "wechat_official_url": "https://zjpc.zjmuseum.com.cn/museum/",
+      "wechat_collection": "官网公开公众号文章链接可抓取；微信内历史消息需在微信查看"
     }
   ]
 }
