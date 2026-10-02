@@ -22,5 +22,10 @@
     "api_key_env": "AI_BRIEF_LLM_API_KEY",
     "model_env": "AI_BRIEF_LLM_MODEL",
     "notes": "不配置环境变量时自动使用本地规则摘要；配置后可调用兼容 Chat Completions 风格的接口进行润色。"
+  },
+  "fetch": {
+    "source_workers": 6,
+    "article_workers": 4,
+    "max_articles_per_source": 40
   }
 }

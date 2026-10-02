@@ -230,7 +230,7 @@ function renderHealth(){
   const el=document.getElementById("healthPill");
   if(!el) return;
   if(!health){el.textContent="未读取到更新状态";el.className="health-pill warn";return}
-  const ok=health.status==="ok";
+  const ok=health.status==="ok" && Number(health.candidate_count)>0;
   el.className="health-pill "+(ok?"ok":"warn");
   el.textContent=ok
     ? `已更新 · ${health.candidate_count||0} 条高质量候选 · ${health.error_count||0} 个源失败`
@@ -596,3 +596,4 @@ boot();
 
 document.getElementById("addWatchBtn").onclick=addWatch;
 document.getElementById("watchInput").addEventListener("keydown",e=>{if(e.key==="Enter") addWatch();});
+

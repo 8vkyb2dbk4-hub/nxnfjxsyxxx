@@ -14,6 +14,7 @@ AI 前沿日报 v6 - 长期稳定版
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, urlunparse, parse_qsl, urlencode
 from difflib import SequenceMatcher
+from concurrent.futures import ThreadPoolExecutor
 import requests, json, re, hashlib, datetime, time, html, os, sys
 
 try:
@@ -423,12 +424,18 @@ def collect():
     prefs=jload(ROOT/"config/preferences.json",{})
     quality=jload(ROOT/"config/quality.json",{})
     rows=[]; errors=[]; health=[]
-    for src in cfg.get("sources",[]):
+    runtime=jload(ROOT/"config/runtime.json",{}).get("fetch",{})
+    max_articles=max(1,min(70,int(runtime.get("max_articles_per_source",40))))
+    article_workers=max(1,min(8,int(runtime.get("article_workers",4))))
+    source_workers=max(1,min(8,int(runtime.get("source_workers",6))))
+    def collect_source(src):
+        rows=[]; errors=[]; health=[]
         started=time.time(); count=0; err=""
         try:
-            bases=list_links(src)
-            for base in bases:
-                meta=article_meta(base["url"])
+            bases=list_links(src)[:max_articles]
+            with ThreadPoolExecutor(max_workers=article_workers) as pool:
+                metas=list(pool.map(lambda base:article_meta(base["url"]),bases))
+            for base,meta in zip(bases,metas):
                 desc,pub,body=meta["desc"],meta["published"],meta["body"]
                 text=base["title"]+" "+desc+" "+body[:4000]
                 cat=classify(text,src.get("category"))
@@ -473,7 +480,11 @@ def collect():
             "error":err,
             "checked_at":NOW.isoformat(timespec="seconds")
         })
-        time.sleep(.1)
+        return rows,errors,health
+
+    with ThreadPoolExecutor(max_workers=source_workers) as pool:
+        for source_rows,source_errors,source_health in pool.map(collect_source,cfg.get("sources",[])):
+            rows.extend(source_rows);errors.extend(source_errors);health.extend(source_health)
 
     # 基础过滤
     min_title=quality.get("minimum_content",{}).get("title_chars",8)
@@ -632,3 +643,4 @@ def main():
 
 if __name__=="__main__":
     main()
+
