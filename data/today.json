@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-02",
+  "items": [
+    {
+      "id": "a885ed61f54a41",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 5 October 2, 2026",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "summary": "A Blog post by ServiceNow-AI on Hugging Face。",
+      "why": "关注企业智能体训练数据的生成；当前摘要未披露生成流程、质量指标或版本变化。",
+      "action": "建议收藏",
+      "tier": "建议看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-02",
+      "date_confidence": "high",
+      "date_label": "2026-10-02",
+      "category": "新模型 / 开源",
+      "status": "建议看",
+      "deadline": null,
+      "event_date": null,
+      "location": "",
+      "score": 92,
+      "material_update": true,
+      "alternatives": [],
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
+      "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "zh": {
+        "title": "AutoSynthData：为企业智能体生成训练数据",
+        "summary": "ServiceNow-AI 在 Hugging Face 发布的博客文章。"
+      }
+    }
+  ]
+}

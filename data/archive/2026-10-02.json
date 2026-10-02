@@ -10,7 +10,7 @@
       "title": "Research Overview",
       "url": "https://openai.com/research",
       "summary": "Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。",
-      "why": "关注内容：Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。（原文未明确列出版本变化。）",
+      "why": "关注前沿模型、推理、多模态与安全部署的研究方向；这是研究概览，未列出本次版本更新。",
       "action": "建议收藏",
       "tier": "建议看",
       "source": "OpenAI News",
@@ -27,14 +27,18 @@
       "location": "",
       "score": 114,
       "material_update": true,
-      "alternatives": []
+      "alternatives": [],
+      "zh": {
+        "title": "研究概览",
+        "summary": "了解 OpenAI 在前沿模型、推理、多模态 AI 和安全部署方面的研究，以及造福人类的通用人工智能目标。"
+      }
     },
     {
       "id": "9947c958aa1a72",
       "title": "Introducing Eleven v4, our most emotive model",
       "url": "https://elevenlabs.io/blog/eleven-v4",
       "summary": "Eleven v4 and v4 Turbo: more emotional nuance, faster responses, stronger voice cloning. Live now in ElevenAgents, ElevenCreative and API。",
-      "why": "更新重点：Live now in ElevenAgents, ElevenCreative and API。",
+      "why": "更新重点：情绪表达、响应速度和声音克隆能力；已在 ElevenAgents、ElevenCreative 及 API 上线。",
       "action": "建议收藏",
       "tier": "建议看",
       "source": "ElevenLabs Blog",
@@ -53,14 +57,18 @@
       "material_update": false,
       "alternatives": [],
       "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/3o2hqbr4pb7-1920x1080.webp",
-      "image_source": "https://elevenlabs.io/blog/eleven-v4"
+      "image_source": "https://elevenlabs.io/blog/eleven-v4",
+      "zh": {
+        "title": "Eleven v4 发布：情感表达更丰富的模型",
+        "summary": "Eleven v4 和 v4 Turbo 提供更细腻的情绪表达、更快的响应和更强的声音克隆能力，已在 ElevenAgents、ElevenCreative 和 API 中上线。"
+      }
     },
     {
       "id": "8b5f9c73f57db0",
       "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
       "url": "https://elevenlabs.io/blog/tender-22bn",
       "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
-      "why": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。（原文未明确列出版本变化。）",
+      "why": "关注估值翻倍及 3 亿美元员工股份收购要约；属于公司与市场动态，没有说明产品能力更新。",
       "action": "建议收藏",
       "tier": "建议看",
       "source": "ElevenLabs Blog",
@@ -79,7 +87,11 @@
       "material_update": true,
       "alternatives": [],
       "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/d0nlnct7j7j-Blog-01.webp",
-      "image_source": "https://elevenlabs.io/blog/tender-22bn"
+      "image_source": "https://elevenlabs.io/blog/tender-22bn",
+      "zh": {
+        "title": "企业对对话智能体的需求推动 ElevenLabs 估值升至 220 亿美元",
+        "summary": "ElevenLabs 完成了 3 亿美元的员工股份收购要约，估值达到 220 亿美元，是二月份 D 轮融资估值的两倍。"
+      }
     }
   ],
   "sections": [
@@ -92,7 +104,7 @@
           "title": "How to Use the Jev AI Model: A Step-by-Step Developer Guide sora-2 • 10 days ago • 38",
           "url": "https://huggingface.co/blog/sora-2/how-to-use-the-jev-ai-model-a-step-by-step-develop",
           "summary": "That makes Jev useful for tasks such as classifying support tickets, routing requests, scoring risk, deciding whether an action needs review, or selecting the next model in an agent workflow. The Jev AI homepage describes this as。",
-          "why": "更新重点：That makes Jev useful for tasks such as classifying support tickets, routing requests, scoring risk, deciding whether an action needs review, or selecting the next model in an agent workflow.",
+          "why": "关注工单分类、请求路由、风险评分、操作审核和模型选择这些具体应用；摘要未给出版本更新。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Hugging Face Blog",
@@ -111,14 +123,18 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://cdn-uploads.huggingface.co/production/uploads/67496d13c09e4610c33950b2/rxQfgF1aDoTN2PgjY8Ujt.webp",
-          "image_source": "https://huggingface.co/blog/sora-2/how-to-use-the-jev-ai-model-a-step-by-step-develop"
+          "image_source": "https://huggingface.co/blog/sora-2/how-to-use-the-jev-ai-model-a-step-by-step-develop",
+          "zh": {
+            "title": "Jev AI 模型使用指南：开发者逐步教程",
+            "summary": "Jev 可用于支持工单分类、请求路由、风险评分、判断操作是否需要审核，以及选择智能体工作流中的下一模型。"
+          }
         },
         {
           "id": "0a2078a69f0e16",
           "title": "What Is OpenAI Decisions API? A Practical Guide sora-2 • 2 days ago • 12",
           "url": "https://huggingface.co/blog/sora-2/what-is-openai-decisions-api-a-practical-guide",
           "summary": "OpenAI introduced the API at DevDay 2026. Public coverage describes it as a specialized version of GPT-6 Luna that is designed for fast, single decisions. The initial use cases include classifying content, routing requests, and ch。",
-          "why": "更新重点：OpenAI introduced the API at DevDay 2026.",
+          "why": "关注快速单次决策、内容分类与请求路由；发布和模型描述来自这篇文章，需以官方原文核实。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Hugging Face Blog",
@@ -137,14 +153,18 @@
           "material_update": true,
           "alternatives": [],
           "image": "https://cdn-uploads.huggingface.co/production/uploads/67496d13c09e4610c33950b2/nkGYe7XTEknRPeeV0OMxy.png",
-          "image_source": "https://huggingface.co/blog/sora-2/what-is-openai-decisions-api-a-practical-guide"
+          "image_source": "https://huggingface.co/blog/sora-2/what-is-openai-decisions-api-a-practical-guide",
+          "zh": {
+            "title": "OpenAI Decisions API 是什么：实用指南",
+            "summary": "文章介绍了 DevDay 2026 发布的 API；公开报道将其描述为面向快速单次决策的 GPT-6 Luna 专门版本，用于内容分类和请求路由等。"
+          }
         },
         {
           "id": "7067e6260be8cf",
           "title": "Anatomy of a bug-fixing agent huggingface • 3 days ago • 7",
           "url": "https://huggingface.co/blog/huggingface/anatomy-of-a-bug-fixing-agent",
           "summary": "A Blog post by Hugging Face on Hugging Face。",
-          "why": "关注内容：A Blog post by Hugging Face on Hugging Face。（原文未明确列出版本变化。）",
+          "why": "主题是漏洞修复智能体的工作机制；当前摘要只有博客来源信息，尚无具体改进或更新细节。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Hugging Face Blog",
@@ -163,14 +183,18 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://cdn-uploads.huggingface.co/production/uploads/657f3d21f4f72f2c4c51d2ca/TLnkcrsz_OletKGvVgr9b.png",
-          "image_source": "https://huggingface.co/blog/huggingface/anatomy-of-a-bug-fixing-agent"
+          "image_source": "https://huggingface.co/blog/huggingface/anatomy-of-a-bug-fixing-agent",
+          "zh": {
+            "title": "漏洞修复智能体的工作剖析",
+            "summary": "Hugging Face 发布的一篇博客文章。"
+          }
         },
         {
           "id": "984223f109f336",
           "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents 17 September 29, 2026",
           "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
           "summary": "A Blog post by Multiverse Computing on Hugging Face。",
-          "why": "关注内容：A Blog post by Multiverse Computing on Hugging Face。（原文未明确列出版本变化。）",
+          "why": "关注 MCP 智能体如何验证信息来源；当前摘要未披露验证方法或更新细节。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Hugging Face Blog",
@@ -189,7 +213,11 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/phhhj_BLOJbvnTFhVaZ5y.png",
-          "image_source": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source"
+          "image_source": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "zh": {
+            "title": "不仅核对事实，还要找对来源：MCP 智能体的来源感知验证",
+            "summary": "Multiverse Computing 在 Hugging Face 发布的博客文章。"
+          }
         },
         {
           "id": "a19ab5bc416db1",
@@ -226,7 +254,7 @@
           "title": "Text to Speech",
           "url": "https://elevenlabs.io/text-to-speech",
           "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations。",
-          "why": "更新重点：Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations。",
+          "why": "关注超过 70 种语言支持和 TTS API 集成；这是能力介绍，摘要未说明具体版本变化。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "ElevenLabs Blog",
@@ -254,14 +282,18 @@
             }
           ],
           "image": "https://elevenlabs.io/cover.png",
-          "image_source": "https://elevenlabs.io/text-to-speech"
+          "image_source": "https://elevenlabs.io/text-to-speech",
+          "zh": {
+            "title": "文本转语音",
+            "summary": "ElevenLabs 的文本转语音可将文字转为逼真的语音，支持超过 70 种语言及 TTS API 集成。"
+          }
         },
         {
           "id": "efc208f8ad044f",
           "title": "Speech to Text",
           "url": "https://elevenlabs.io/speech-to-text",
           "summary": "Convert speech to text with Scribe. Transcribe in 99 languages, auto-generate captions, edit transcripts, and align audio with video。",
-          "why": "关注内容：Convert speech to text with Scribe.（原文未明确列出版本变化。）",
+          "why": "关注 99 种语言转录、自动字幕、文本编辑及音视频对齐能力；摘要未列出版本变化。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "ElevenLabs Blog",
@@ -280,14 +312,18 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/31lhlc8km88-Scribe%20v2.webp",
-          "image_source": "https://elevenlabs.io/speech-to-text"
+          "image_source": "https://elevenlabs.io/speech-to-text",
+          "zh": {
+            "title": "语音转文字",
+            "summary": "Scribe 可将语音转为文字，支持 99 种语言、自动生成字幕、编辑转录文本，以及音视频对齐。"
+          }
         },
         {
           "id": "d1f8258ec212ab",
           "title": "Gemini Build intelligent agents",
           "url": "https://deepmind.google/models/gemini",
           "summary": "Our next era of frontier intelligence。",
-          "why": "关注内容：Our next era of frontier intelligence。（原文未明确列出版本变化。）",
+          "why": "关注 Gemini 智能体方向；当前摘要信息不足，未披露具体能力或本次更新。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Google DeepMind Blog",
@@ -306,14 +342,18 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://lh3.googleusercontent.com/BJIjbCcZWJxE1GFvgIXWdWFXW0ECXBzsBe-JHx95GSuDVFKdli-cocBQRXll_xaipD6bNQ0B_Wz7JI2Ken5TFjrfUuSlv0hgq2qjgirOMK2eirjLXA8=w1200-h630-n-nu-rw",
-          "image_source": "https://deepmind.google/models/gemini"
+          "image_source": "https://deepmind.google/models/gemini",
+          "zh": {
+            "title": "Gemini：构建智能体",
+            "summary": "介绍新一代前沿人工智能。"
+          }
         },
         {
           "id": "2514ba96bbcef8",
           "title": "Explore models",
           "url": "https://deepmind.google/models",
           "summary": "Explore our next generation AI systems including Gemini, Nano Banana, Veo and Lyria。",
-          "why": "关注内容：Explore our next generation AI systems including Gemini, Nano Banana, Veo and Lyria。（原文未明确列出版本变化。）",
+          "why": "关注 Gemini、Nano Banana、Veo、Lyria 模型体系；概览未列出各模型的更新细节。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Google DeepMind Blog",
@@ -332,14 +372,18 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://lh3.googleusercontent.com/TyGVXDYVcI4Q9IYflbsVfkmNXcxVXeYo02vL7lvMHmPkz03eQrlWUZiVTnP2m689-zHl0r3kxu8H1WewGMuZhn4H7wbrIgY8nginTqY8B6Nf_oRe=w1200-h630-n-nu-rw",
-          "image_source": "https://deepmind.google/models"
+          "image_source": "https://deepmind.google/models",
+          "zh": {
+            "title": "探索模型",
+            "summary": "介绍下一代 AI 系统，包括 Gemini、Nano Banana、Veo 和 Lyria。"
+          }
         },
         {
           "id": "ca3cbe8930caf2",
           "title": "Nano Banana Create and edit detailed images",
           "url": "https://deepmind.google/models/gemini-image",
           "summary": "State-of-the-art image generation and editing models, built on Gemini。",
-          "why": "关注内容：State-of-the-art image generation and editing models, built on Gemini。（原文未明确列出版本变化。）",
+          "why": "关注基于 Gemini 的图像生成与编辑能力；当前摘要未说明本次更新或评测结果。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Google DeepMind Blog",
@@ -358,7 +402,11 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://lh3.googleusercontent.com/8-fc-WRTsHJ2HYm-b3KMYbnOyfQQteGHWuInUwJOVqm2cNySVdl4LsMWVN9SPWzBD17Tw3wyXhfTEFwWUaXo0nb5ir1ZiYHqb3wfyUKT5FonzQfm=w1200-h630-n-nu-rw",
-          "image_source": "https://deepmind.google/models/gemini-image"
+          "image_source": "https://deepmind.google/models/gemini-image",
+          "zh": {
+            "title": "Nano Banana：创建和编辑精细图像",
+            "summary": "基于 Gemini 的先进图像生成和编辑模型。"
+          }
         }
       ]
     },
@@ -376,7 +424,7 @@
           "title": "Skip to main content",
           "url": "https://openai.com/news",
           "summary": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。",
-          "why": "关注内容：Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。（原文未明确列出版本变化。）",
+          "why": "该条目是网站导航及通用介绍，未提供具体新闻或更新信息。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "OpenAI News",
@@ -402,14 +450,18 @@
               "source": "Anthropic News",
               "url": "https://www.anthropic.com/news"
             }
-          ]
+          ],
+          "zh": {
+            "title": "跳转到主要内容",
+            "summary": "了解 AI 技术的快速发展及其对人类的益处。"
+          }
         },
         {
           "id": "ebff70380f189f",
           "title": "Research",
           "url": "https://openai.com/news/research",
           "summary": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。",
-          "why": "关注内容：Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。（原文未明确列出版本变化。）",
+          "why": "这是研究栏目概览，摘要未给出具体研究结果或本次更新。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "OpenAI News",
@@ -443,14 +495,18 @@
               "source": "Runway News",
               "url": "https://runwayml.com/research"
             }
-          ]
+          ],
+          "zh": {
+            "title": "研究",
+            "summary": "了解 AI 技术的快速发展及其对人类的益处。"
+          }
         },
         {
           "id": "b68f05630c750b",
           "title": "Global Affairs",
           "url": "https://openai.com/news/global-affairs",
           "summary": "Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。",
-          "why": "关注内容：Stay up to speed on the rapid advancement of AI technology and the benefits it offers to humanity。（原文未明确列出版本变化。）",
+          "why": "这是全球事务栏目概览，摘要未给出具体政策变化或新闻细节。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "OpenAI News",
@@ -467,14 +523,18 @@
           "location": "",
           "score": 110,
           "material_update": true,
-          "alternatives": []
+          "alternatives": [],
+          "zh": {
+            "title": "全球事务",
+            "summary": "了解 AI 技术的快速发展及其对人类的益处。"
+          }
         },
         {
           "id": "a80484c2d5849b",
           "title": "How Albertsons Companies is reimagining retail from the inside out Company Oct 1, 2026",
           "url": "https://openai.com/index/albertsons-reimagining-retail",
           "summary": "Albertsons Cos. is using ChatGPT Enterprise and the OpenAI API to help teams work faster and make grocery shopping easier for millions of customers。",
-          "why": "关注内容：Albertsons Cos.（原文未明确列出版本变化。）",
+          "why": "关注 ChatGPT Enterprise 和 API 在零售团队效率与购物体验中的实际应用；这是企业应用案例。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "OpenAI News",
@@ -491,14 +551,18 @@
           "location": "",
           "score": 110,
           "material_update": false,
-          "alternatives": []
+          "alternatives": [],
+          "zh": {
+            "title": "Albertsons 如何从内部重塑零售业务",
+            "summary": "Albertsons 使用 ChatGPT Enterprise 和 OpenAI API 提高团队工作效率，并让数百万顾客的食品杂货购物更便捷。"
+          }
         },
         {
           "id": "cf468ec39dd67f",
           "title": "Towards safety cases for frontier AI training Safety Sep 28, 2026",
           "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
           "summary": "Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents。",
-          "why": "关注内容：Our early guidelines for safety cases in frontier AI training cover technical safeguards, operational practices, and investigating misalignment incidents。（原文未明确列出版本变化。）",
+          "why": "关注技术防护、运营实践和不对齐事件调查这三方面的安全指南；属于早期指导材料。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "OpenAI News",
@@ -515,7 +579,11 @@
           "location": "",
           "score": 110,
           "material_update": false,
-          "alternatives": []
+          "alternatives": [],
+          "zh": {
+            "title": "构建前沿 AI 训练的安全论证",
+            "summary": "早期指南涉及前沿 AI 训练的技术防护、运营实践及对不对齐事件的调查。"
+          }
         }
       ]
     },
@@ -600,7 +668,7 @@
           "title": "AutoSynthData: Generating Training Data for Enterprise Agents 5 October 2, 2026",
           "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
           "summary": "A Blog post by ServiceNow-AI on Hugging Face。",
-          "why": "关注内容：A Blog post by ServiceNow-AI on Hugging Face。（原文未明确列出版本变化。）",
+          "why": "关注企业智能体训练数据的生成；当前摘要未披露生成流程、质量指标或版本变化。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Hugging Face Blog",
@@ -619,14 +687,18 @@
           "material_update": true,
           "alternatives": [],
           "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
-          "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+          "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+          "zh": {
+            "title": "AutoSynthData：为企业智能体生成训练数据",
+            "summary": "ServiceNow-AI 在 Hugging Face 发布的博客文章。"
+          }
         },
         {
           "id": "2f4e1972348c3f",
           "title": "Google's AI ranks #1 for predicting flu hospitalizations.",
           "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts",
           "summary": "Google’s science AI model was the best at forecasting flu-related hospital admissions, the Centers for Disease Control announced。",
-          "why": "关注内容：Google’s science AI model was the best at forecasting flu-related hospital admissions, the Centers for Disease Control announced。（原文未明确列出版本变化。）",
+          "why": "关注流感住院预测结果及疾控机构公布的评估；摘要未提供评测指标、时间范围或模型更新。",
           "action": "建议收藏",
           "tier": "建议看",
           "source": "Google AI",
@@ -645,7 +717,11 @@
           "material_update": false,
           "alternatives": [],
           "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Flusight_socialhero.max-1440x810.png",
-          "image_source": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts"
+          "image_source": "https://blog.google/innovation-and-ai/models-and-research/google-research/google-science-ai-flu-forecasts",
+          "zh": {
+            "title": "Google AI 在流感住院预测中排名第一",
+            "summary": "美国疾病控制与预防中心宣布，Google 的科学 AI 模型在预测流感相关住院人数方面表现最佳。"
+          }
         }
       ]
     },

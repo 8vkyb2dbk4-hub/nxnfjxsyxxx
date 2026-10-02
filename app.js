@@ -1,5 +1,7 @@
 
 let issue=null, sourceConfig=null, archiveIndex=[], health=null, sourceHealth=null, basePrefs=null, weekly=null, learningCfg=null, signals=null, syncCfg=null;
+let todayNews=null;
+const translationStates=new Map();
 let activeFilter="全部";
 let searchText="";
 let readingMode=localStorage.getItem("ai-brief-mode")||"10min";
@@ -44,6 +46,7 @@ async function boot(){
       loadJSON("./config/preferences.json"),
       loadJSON("./config/learning.json")
     ]);
+    try{todayNews=await loadJSON("./data/today.json")}catch(e){todayNews=null}
     try{health=await loadJSON("./data/health.json")}catch(e){health=null}
     try{weekly=await loadJSON("./data/weekly.json")}catch(e){weekly=null}
     try{sourceHealth=await loadJSON("./data/source_health.json")}catch(e){sourceHealth=null}
@@ -196,14 +199,29 @@ function feedbackBar(x){
     <span>这条对你：</span>
     <button class="${fb==="useful"?"active":""}" onclick='feedback(${j},"useful")'>有用</button>
     <button class="${fb==="not_interested"?"active":""}" onclick='feedback(${j},"not_interested")'>没兴趣</button>
+    ${translationLink(x)}
     ${personalize && Math.abs(x._personalBoost||0)>.5?`<span class="personal-note">为你调整 ${x._personalBoost>0?"+":""}${x._personalBoost.toFixed(1)}</span>`:""}
   </div>`;
 }
 function translationLink(x){
-  const text=[x.title,x.summary,x.why].filter(Boolean).join("\n\n");
-  if(!/[A-Za-z]{3,}|[\u3040-\u30ff]|[\uac00-\ud7af]/.test(text)) return "";
-  const url="https://translate.google.com/?sl=auto&tl=zh-CN&op=translate&text="+encodeURIComponent(text);
-  return `<a class="translate-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="在 Google 翻译中打开标题和摘要，需要联网">翻译为简体中文 ↗</a>`;
+  if(!window.AIBriefTranslate.hasForeign([x.title,x.summary].join(" ")))return "";
+  const state=translationStates.get(x.id)||{};
+  return `<button class="translate-btn" ${state.loading?"disabled":""} aria-pressed="${!!state.show}" onclick='toggleTranslation(${esc(JSON.stringify(x))})'>${state.loading?"翻译中…":state.show?"显示原文":"翻译"}</button>`;
+}
+async function toggleTranslation(item){
+  const state=translationStates.get(item.id)||{};
+  if(state.loading)return;
+  if(state.show){state.show=false;translationStates.set(item.id,state);renderAll();return;}
+  if(state.zh){state.show=true;translationStates.set(item.id,state);renderAll();return;}
+  state.loading=true;state.error="";translationStates.set(item.id,state);renderAll();
+  try{state.zh=await window.AIBriefTranslate.article(item);state.show=true;}
+  catch(e){state.error=e.name==="AbortError"?"翻译超时，请重试。":e.message;}
+  finally{state.loading=false;renderAll();}
+}
+function chineseFocus(x){
+  const value=x.why||"";
+  if((value.match(/[A-Za-z]/g)||[]).length<=2*(value.match(/[\u4e00-\u9fff]/g)||[]).length)return value;
+  return "中文关注重点暂未生成；具体变化请查看原文。";
 }
 function newsImage(x){
   if(!x.image||!/^https:\/\//i.test(x.image)) return "";
@@ -212,24 +230,27 @@ function newsImage(x){
 function card(raw){
   const x=withPersonalScore(raw);
   if(!eventAvailable(x)||hidden.has(x.id)||!matchesSearch(x)) return "";
+  const translation=translationStates.get(x.id)||{};
+  const shown=translation.show&&translation.zh?{...x,...translation.zh}:x;
   const read=readSet.has(x.id);
   const j=esc(JSON.stringify(x));
-  return `<article class="card ${read?"is-read":""}">
+  return `<article class="card ${read?"is-read":""}" data-article-id="${esc(x.id)}">
     <div class="card-tools">
       <button class="save" onclick='saveToggle(${j})' title="收藏">${saved.has(x.id)?"★":"☆"}</button>
       <button class="hidebtn" onclick='hideItem(${j})' title="今天不看">×</button>
     </div>
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
     ${newsImage(x)}
-    <h4>${esc(x.title)}</h4>
+    <h4>${esc(shown.title)}</h4>
     <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
-      <div><b>发生了什么</b><p>${esc(x.summary)}</p></div>
-      <div><b>关注重点</b><p>${esc(x.why)}</p></div>
+      <div><b>发生了什么</b><p>${esc(shown.summary)}</p></div>
+      <div><b>关注重点</b><p>${esc(chineseFocus(x))}</p></div>
     </div>
     ${altSources(x)}
     ${feedbackBar(x)}
-    <div class="card-foot">${actionChip(x)}${translationLink(x)}${sourceLink(x)}</div>
+    ${translation.error?`<p class="translation-error" role="status">${esc(translation.error)}</p>`:""}
+    <div class="card-foot">${actionChip(x)}${sourceLink(x)}</div>
   </article>`;
 }
 function allItems(){return [...issue.top3,...issue.sections.flatMap(s=>s.items.map(x=>({...x,category:x.category||s.name})))];}
@@ -265,8 +286,13 @@ function renderToday(){
   document.getElementById("issueDate").textContent=fmtDate(issue.date);
   document.getElementById("edition").textContent=issue.edition;
   document.getElementById("readTime").textContent=`约 ${issue.reading_minutes} 分钟读完`;
-  document.getElementById("headline").textContent=issue.headline;
-  document.getElementById("note").textContent=personalize?issue.note+" · 已启用本机个性化排序。":issue.note;
+  const parts=new Intl.DateTimeFormat("en",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());
+  const get=t=>parts.find(p=>p.type===t).value,today=`${get("year")}-${get("month")}-${get("day")}`;
+  const candidates=todayNews?.date===today?todayNews.items:allItems();
+  const published=[...new Map(candidates.filter(x=>x.published_at===today&&["high","medium"].includes(x.date_confidence)&&!/^(Community Articles|Research Overview|Research|Explore models|Skip to main content|Global Affairs)$/i.test(x.title.trim())&&eventAvailable(x)).map(x=>[x.id,x])).values()];
+  document.getElementById("headline").textContent=published.length?`今日发布 · ${published.length} 条消息`:"暂未收录今日发布的消息";
+  document.getElementById("note").textContent="按上海日期统计，只计入发布日期已确认的消息。";
+  document.getElementById("todayMessages").innerHTML=published.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener"><span>${esc(x.zh?.title||x.title)}</span><small>${esc(x.source)} · ${esc(x.published_at)}</small></a>`).join("");
   document.getElementById("updateStamp").textContent="数据日期 "+issue.date;
 
   const topItems=sortPersonal(issue.top3);

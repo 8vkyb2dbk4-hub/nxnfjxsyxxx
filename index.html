@@ -11,9 +11,9 @@
 <body>
 <div class="shell">
   <header class="mast">
-    <div class="eyebrow">CREATOR'S AI BRIEFING</div>
+    <div class="eyebrow">AI FRONTIER DAILY · 科技与创作</div>
     <div class="title-row">
-      <h1>AI 前沿日报</h1>
+      <h1>AI 前沿日报 <span class="mast-en">THE DAILY BRIEF</span></h1>
       <div class="header-actions"><button id="copyBtn" class="ghost">复制简报</button><button id="printBtn" class="ghost">打印 / PDF</button><button id="refreshBtn" class="ghost">刷新</button></div>
     </div>
     <div class="mast-meta">
@@ -55,6 +55,7 @@
           <div class="kicker">今日总览</div>
           <h2 id="headline"></h2>
           <p id="note"></p>
+          <div id="todayMessages" class="today-messages"></div>
         </div>
         <div class="brief-rule">
           <strong>筛选原则</strong>
@@ -191,6 +192,7 @@
 </div>
 <script src="./sync-core.js"></script>
 <script src="./sync.js"></script>
+<script src="./translation.js"></script>
 <script src="./app.js"></script>
 </body>
 </html>

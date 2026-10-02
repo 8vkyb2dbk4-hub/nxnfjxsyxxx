@@ -8,7 +8,7 @@
       "title": "Research Overview",
       "url": "https://openai.com/research",
       "summary": "Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。",
-      "why": "关注内容：Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。（原文未明确列出版本变化。）",
+      "why": "关注前沿模型、推理、多模态与安全部署的研究方向；这是研究概览，未列出本次版本更新。",
       "action": "建议收藏",
       "tier": "建议看",
       "source": "OpenAI News",
@@ -25,14 +25,18 @@
       "location": "",
       "score": 114,
       "material_update": true,
-      "alternatives": []
+      "alternatives": [],
+      "zh": {
+        "title": "研究概览",
+        "summary": "了解 OpenAI 在前沿模型、推理、多模态 AI 和安全部署方面的研究，以及造福人类的通用人工智能目标。"
+      }
     },
     {
       "id": "9947c958aa1a72",
       "title": "Introducing Eleven v4, our most emotive model",
       "url": "https://elevenlabs.io/blog/eleven-v4",
       "summary": "Eleven v4 and v4 Turbo: more emotional nuance, faster responses, stronger voice cloning. Live now in ElevenAgents, ElevenCreative and API。",
-      "why": "更新重点：Live now in ElevenAgents, ElevenCreative and API。",
+      "why": "更新重点：情绪表达、响应速度和声音克隆能力；已在 ElevenAgents、ElevenCreative 及 API 上线。",
       "action": "建议收藏",
       "tier": "建议看",
       "source": "ElevenLabs Blog",
@@ -49,14 +53,18 @@
       "location": "",
       "score": 113,
       "material_update": false,
-      "alternatives": []
+      "alternatives": [],
+      "zh": {
+        "title": "Eleven v4 发布：情感表达更丰富的模型",
+        "summary": "Eleven v4 和 v4 Turbo 提供更细腻的情绪表达、更快的响应和更强的声音克隆能力，已在 ElevenAgents、ElevenCreative 和 API 中上线。"
+      }
     },
     {
       "id": "8b5f9c73f57db0",
       "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
       "url": "https://elevenlabs.io/blog/tender-22bn",
       "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
-      "why": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。（原文未明确列出版本变化。）",
+      "why": "关注估值翻倍及 3 亿美元员工股份收购要约；属于公司与市场动态，没有说明产品能力更新。",
       "action": "建议收藏",
       "tier": "建议看",
       "source": "ElevenLabs Blog",
@@ -73,7 +81,11 @@
       "location": "",
       "score": 111,
       "material_update": true,
-      "alternatives": []
+      "alternatives": [],
+      "zh": {
+        "title": "企业对对话智能体的需求推动 ElevenLabs 估值升至 220 亿美元",
+        "summary": "ElevenLabs 完成了 3 亿美元的员工股份收购要约，估值达到 220 亿美元，是二月份 D 轮融资估值的两倍。"
+      }
     }
   ]
 }

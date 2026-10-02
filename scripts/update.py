@@ -607,7 +607,17 @@ def build_weekly():
         "items":top
     },ensure_ascii=False,indent=2),encoding="utf-8")
 
+def published_today(rows):
+    return [dict(x) for x in rows if x.get("published_at")==TODAY.isoformat()
+            and x.get("date_confidence") in ("high","medium") and event_is_valid(x,{})
+            and not re.fullmatch(r"Community Articles|Research Overview|Research|Explore models|Skip to main content|Global Affairs",x.get("title",""),re.I)]
+
 def write_all(issue5,issue10,rows,errors,source_count,health):
+    from translation_pipeline import prepare
+    selected=issue5.get("top3",[])+[x for sec in issue5.get("sections",[]) for x in sec["items"]]+issue10.get("top3",[])+[x for sec in issue10.get("sections",[]) for x in sec["items"]]
+    today_items=published_today(rows)
+    prepare(selected+today_items)
+    (ROOT/"data/today.json").write_text(json.dumps({"date":TODAY.isoformat(),"items":today_items},ensure_ascii=False,indent=2),encoding="utf-8")
     data=ROOT/"data"; editions=ROOT/"editions"; editions.mkdir(exist_ok=True)
     (data/"latest_5min.json").write_text(json.dumps(issue5,ensure_ascii=False,indent=2),encoding="utf-8")
     (data/"latest_10min.json").write_text(json.dumps(issue10,ensure_ascii=False,indent=2),encoding="utf-8")
