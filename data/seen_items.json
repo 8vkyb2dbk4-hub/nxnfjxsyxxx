@@ -181,6 +181,174 @@
       "last_seen": "2026-10-02",
       "content_hash": "d73cc0ec333391",
       "source": "ICML"
+    },
+    {
+      "title": "Meshy 7.1: Attention to the Closest Detail",
+      "url": "https://www.meshy.ai/blog/meshy-7-1-launch",
+      "last_seen": "2026-10-02",
+      "content_hash": "28c27e9474a6ac",
+      "source": "Meshy · 产品更新"
+    },
+    {
+      "title": "一镜成片，随心参考：Seedance 2.5 正式发布 2026.07.31 视觉智能 了解更多",
+      "url": "https://seed.bytedance.com/zh/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5",
+      "last_seen": "2026-10-02",
+      "content_hash": "98c541af225cd0",
+      "source": "字节 Seed · 即梦与豆包模型动态"
+    },
+    {
+      "title": "September 28, 2026 World Labs team World Labs is Joining AMD Accelerating the future of AI research and compute Read More →",
+      "url": "https://www.worldlabs.ai/blog/amd-announcement",
+      "last_seen": "2026-10-02",
+      "content_hash": "0728cd6e074e94",
+      "source": "World Labs · Marble 动态"
+    },
+    {
+      "title": "World of WearableArt’s ‘GLO!’ Is a Celebration of Culture, Nature, and Whimsy",
+      "url": "https://www.thisiscolossal.com/2026/10/world-of-wearableart-2026-glo-fashion-performance",
+      "last_seen": "2026-10-02",
+      "content_hash": "d0c523cb09b427",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "In Chicago, teamLab Expands Our Perceptions Through Boundary-Breaking Installations",
+      "url": "https://www.thisiscolossal.com/2026/10/teamlab-smart-museum-chicago-exhibition-digital-installations",
+      "last_seen": "2026-10-02",
+      "content_hash": "cf4b4f81a2934f",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Eddy Firmin Interrogates History and Colonizing Forces in Provocative Sculptures",
+      "url": "https://www.thisiscolossal.com/2026/09/eddy-firmin-sculptures-installation-colonization-knowledge",
+      "last_seen": "2026-10-02",
+      "content_hash": "d4ec739ac90803",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "A Workforce of Creatures Chugs Along in Kate Renshaw-Lewis’ Hand-Drawn Film ‘Busy Bodies’",
+      "url": "https://www.thisiscolossal.com/2026/09/busy-bodies-kate-renshaw-lewis",
+      "last_seen": "2026-10-02",
+      "content_hash": "cef9da5d8e1d5c",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Fantastical, Elemental Hybrids Persevere in Jon Ching’s Metaphysical Paintings",
+      "url": "https://www.thisiscolossal.com/2026/09/jon-ching-path-of-least-resistance-paintings",
+      "last_seen": "2026-10-02",
+      "content_hash": "87621510003fc7",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "this documentation",
+      "url": "https://api-docs.deepseek.com/news/news251201",
+      "last_seen": "2026-10-02",
+      "content_hash": "f3666d544202bf",
+      "source": "DeepSeek · 模型更新日志"
+    },
+    {
+      "title": "SeedRealtime 音视频全双工大模型发布：走向全模态自然交互 2026.08.05 语音智能 了解更多",
+      "url": "https://seed.bytedance.com/zh/blog/seedrealtime-audio-visual-full-duplex-llm-released-toward-omni-modal-natural-interaction",
+      "last_seen": "2026-10-02",
+      "content_hash": "431f6261b29bbf",
+      "source": "字节 Seed · 即梦与豆包模型动态"
+    },
+    {
+      "title": "Meshy · API 更新日志 · 2026-09-18 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
+      "last_seen": "2026-10-02",
+      "content_hash": "9dd75ea0b53105",
+      "source": "Meshy · API 更新日志"
+    },
+    {
+      "title": "User Guide 3D Printing with Bambu Studio An end-to-end workflow for turning a Tripo AI model into a modular, multi-color 3D print with Bambu Studio. Tripo Team 📅 · 2026/09/28",
+      "url": "https://www.tripo3d.ai/blog/3d-printing-bambu-studio",
+      "last_seen": "2026-10-02",
+      "content_hash": "e6efef50030332",
+      "source": "Tripo · 官方动态"
+    },
+    {
+      "title": "User Guide Tripo P2.0 v.s. GPT-6 Astra：3D Asset Generation vs Scene Building 3D Asset Generation vs. Scene Building: Quality, Speed, Cost and Workflow Tripo Team 📅 · 2026/09/24",
+      "url": "https://www.tripo3d.ai/blog/tripo-p2-vs-gpt-6-astra",
+      "last_seen": "2026-10-02",
+      "content_hash": "5fae765c850f42",
+      "source": "Tripo · 官方动态"
+    },
+    {
+      "title": "Codex CLI 0.160.0",
+      "url": "https://developers.openai.com/codex/changelog/#update-c13cfe198e",
+      "last_seen": "2026-10-02",
+      "content_hash": "d4aa130a856321",
+      "source": "Codex · 官方更新日志"
+    },
+    {
+      "title": "Maintenance release: Godot 4.5.2",
+      "url": "https://godotengine.org/article/maintenance-release-godot-4-5-2",
+      "last_seen": "2026-10-02",
+      "content_hash": "8f90b09b1ec1fe",
+      "source": "Godot · 引擎发布"
+    },
+    {
+      "title": "2026 Wonder Festival",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2955",
+      "last_seen": "2026-10-02",
+      "content_hash": "696dd6153c1ffa",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "ALL IN PRINT CHINA",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2789",
+      "last_seen": "2026-10-02",
+      "content_hash": "848f0be3f752a4",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "International Brew & Beverage Processing Technology and Equipment Exhibition for China 2026",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2790",
+      "last_seen": "2026-10-02",
+      "content_hash": "1feeda25f6374a",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "24th China International Trade Fair for Toys & Preschool Educational Resources/ 2026 China International Art and Collectable Toys Expo（China Toy Expo）",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2791",
+      "last_seen": "2026-10-02",
+      "content_hash": "d3f9ca2d0f11dc",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "2026 China International Licensing Expo（China Licensing Expo）",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2792",
+      "last_seen": "2026-10-02",
+      "content_hash": "f136670b6d7c67",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "Introducing DeepSeek-V3.2-Exp",
+      "url": "https://api-docs.deepseek.com/news/news250929",
+      "last_seen": "2026-10-02",
+      "content_hash": "e377a9666382a7",
+      "source": "DeepSeek · 模型更新日志"
+    },
+    {
+      "title": "DeepSeek-V4.1-Flash: Smarter, Faster, More Efficient",
+      "url": "https://api-docs.deepseek.com/news/news260910",
+      "last_seen": "2026-10-02",
+      "content_hash": "2d952a6a8617b4",
+      "source": "DeepSeek · 模型更新日志"
+    },
+    {
+      "title": "DeepSeek-V4-Pro GA Release",
+      "url": "https://api-docs.deepseek.com/news/news260813",
+      "last_seen": "2026-10-02",
+      "content_hash": "1431fb583dc761",
+      "source": "DeepSeek · 模型更新日志"
+    },
+    {
+      "title": "DeepSeek V4 Preview Release",
+      "url": "https://api-docs.deepseek.com/news/news260424",
+      "last_seen": "2026-10-02",
+      "content_hash": "0419dd8480eab0",
+      "source": "DeepSeek · 模型更新日志"
     }
   ]
 }

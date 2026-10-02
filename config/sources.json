@@ -447,6 +447,325 @@
       "wechat_name": "",
       "wechat_official_url": "https://zjpc.zjmuseum.com.cn/museum/",
       "wechat_collection": "官网公开公众号文章链接可抓取；微信内历史消息需在微信查看"
+    },
+    {
+      "name": "上海宝龙美术馆 · 当前展览",
+      "url": "https://art.powerlongmuseum.com/search.html",
+      "region": "中国 / 上海",
+      "city": "上海",
+      "type": "官方美术馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "exhibition_reference": true,
+      "exhibition_collector": "powerlong"
+    },
+    {
+      "name": "上海外滩美术馆 · 展览档案与预告",
+      "url": "https://www.rockbundartmuseum.org/archive",
+      "region": "中国 / 上海",
+      "city": "上海",
+      "type": "官方美术馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "exhibition_reference": true,
+      "exhibition_collector": ""
+    },
+    {
+      "name": "西岸美术馆 · 西岸官方展览资讯",
+      "url": "https://www.westbund.com/cn/index/EVENTS/show_list.html",
+      "region": "中国 / 上海",
+      "city": "上海",
+      "type": "官方美术馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "exhibition_reference": true,
+      "exhibition_collector": ""
+    },
+    {
+      "name": "龙美术馆 · 当前展览",
+      "url": "https://www.thelongmuseum.org/en/exhibition-current.html",
+      "region": "中国 / 上海",
+      "city": "上海",
+      "type": "官方美术馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "exhibition_reference": true,
+      "exhibition_collector": ""
+    },
+    {
+      "name": "上海当代艺术博物馆 · 当前展览",
+      "url": "https://www.powerstationofart.com/",
+      "region": "中国 / 上海",
+      "city": "上海",
+      "type": "官方美术馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "exhibition_reference": true,
+      "exhibition_collector": ""
+    },
+    {
+      "name": "国家会展中心（上海）· 官方展会排期",
+      "url": "https://www.neccsh.com/cecsh/exhibitioninfo/exhibitioncalendar.jspx",
+      "region": "中国 / 上海",
+      "city": "上海",
+      "type": "官方会展场馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "priority": 5,
+      "exhibition_reference": true,
+      "exhibition_collector": "necc"
+    },
+    {
+      "name": "腾讯混元 3D · 官方开源动态",
+      "url": "https://github.com/Tencent/Hunyuan3D-2",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "中国",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "focus_update_only": true
+    },
+    {
+      "name": "Meshy · 产品更新",
+      "url": "https://www.meshy.ai/blog/category/product",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/blog/(?!category)[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "Meshy · API 更新日志",
+      "url": "https://docs.meshy.ai/en/api/changelog",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "collector": "dated_changelog",
+      "focus_update_only": true
+    },
+    {
+      "name": "Tripo · 官方动态",
+      "url": "https://www.tripo3d.ai/blog",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/blog/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "Lovart · 版本更新",
+      "url": "https://www.lovart.ai/changelog",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "collector": "dated_changelog",
+      "focus_update_only": true
+    },
+    {
+      "name": "Codex · 官方更新日志",
+      "url": "https://developers.openai.com/codex/changelog/",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "collector": "dated_changelog",
+      "focus_update_only": true
+    },
+    {
+      "name": "Unreal Engine · 官方新闻",
+      "url": "https://www.unrealengine.com/news",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/news/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "Unity · 官方动态",
+      "url": "https://unity.com/blog",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/blog/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "Godot · 引擎发布",
+      "url": "https://godotengine.org/blog/release/",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/article/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "World Labs · Marble 动态",
+      "url": "https://www.worldlabs.ai/blog",
+      "category": [
+        "游戏与 3D"
+      ],
+      "force_category": "游戏与 3D",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/blog/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "字节 Seed · 即梦与豆包模型动态",
+      "url": "https://seed.bytedance.com/zh/",
+      "category": [
+        "AI 影视"
+      ],
+      "force_category": "AI 影视",
+      "priority": 5,
+      "region": "中国",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/zh/blog/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "DeepSeek · 模型更新日志",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "category": [
+        "AI 影视"
+      ],
+      "force_category": "AI 影视",
+      "priority": 5,
+      "region": "中国",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/news/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "MiniMax · 海螺模型动态",
+      "url": "https://www.minimax.io/research",
+      "category": [
+        "AI 影视"
+      ],
+      "force_category": "AI 影视",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "article_url_pattern": "/blog/[^/]+",
+      "focus_update_only": true
+    },
+    {
+      "name": "LibTV · 官方视频创作平台",
+      "url": "https://www.liblib.tv/",
+      "category": [
+        "AI 影视"
+      ],
+      "force_category": "AI 影视",
+      "priority": 5,
+      "region": "中国",
+      "type": "公司 / 官方",
+      "focus": "模型版本、新功能、API 与创作工作流更新",
+      "collection_note": "公开动态页面；登录后更新弹窗不作为已核实新闻。",
+      "focus_update_only": true
+    },
+    {
+      "name": "杭州图书馆 · 公开讲座与培训",
+      "url": "https://www.zjhzlib.cn/hdyg/index.htm",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "type": "公共机构 / 官方",
+      "region": "中国",
+      "city": "杭州",
+      "public_class_source": true,
+      "article_url_pattern": "/hdyg[^/]*/\\d+\\.htm"
+    },
+    {
+      "name": "上海图书馆 · 公益讲座",
+      "url": "https://www.library.sh.cn/",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "type": "公共机构 / 官方",
+      "region": "中国",
+      "city": "上海",
+      "public_class_source": true
+    },
+    {
+      "name": "上海教育 · 特级教师公益课堂",
+      "url": "https://edu.sh.gov.cn/xwzx_bsxw/",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "type": "公共机构 / 官方",
+      "region": "中国",
+      "city": "上海",
+      "public_class_source": true
     }
   ]
 }

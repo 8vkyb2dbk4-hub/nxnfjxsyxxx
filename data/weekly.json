@@ -1,8 +1,37 @@
 {
-  "generated_at": "2026-10-02T13:45:30+08:00",
+  "generated_at": "2026-10-02T15:36:44+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
+    {
+      "id": "6a906d3d175226",
+      "title": "Meshy 7.1: Attention to the Closest Detail",
+      "url": "https://www.meshy.ai/blog/meshy-7-1-launch",
+      "image": "https://cdn.meshy.ai/landing-assets/blog/meshy-7.1-launch/meshy-7-1-launch-cover-v2.webp",
+      "image_source": "https://www.meshy.ai/blog/meshy-7-1-launch",
+      "summary": "Meshy 7.1 generates the richest geometric detail of any image-to-3D model. Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark。",
+      "why": "更新重点：Ultra 4K可将几何尺寸缩放到4096 ³ ，通过我们新的细节丰富度基准来衡量。",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Meshy · 产品更新",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-09-10",
+      "date_confidence": "high",
+      "date_label": "2026-09-10",
+      "category": "游戏与 3D",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 157,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "更新重点：Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark."
+    },
     {
       "id": "d8b62a962e88cf",
       "title": "Research Overview",
@@ -18,7 +47,7 @@
       "published_at": "2026-09-29",
       "date_confidence": "medium",
       "date_label": "2026-09-29",
-      "category": "Agent / 编程",
+      "category": "新模型 / 开源",
       "status": "建议看",
       "deadline": null,
       "event_date": null,
@@ -54,37 +83,11 @@
       "score": 113,
       "material_update": false,
       "alternatives": [],
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/3o2hqbr4pb7-1920x1080.webp",
+      "image_source": "https://elevenlabs.io/blog/eleven-v4",
       "zh": {
         "title": "Eleven v4 发布：情感表达更丰富的模型",
         "summary": "Eleven v4 和 v4 Turbo 提供更细腻的情绪表达、更快的响应和更强的声音克隆能力，已在 ElevenAgents、ElevenCreative 和 API 中上线。"
-      }
-    },
-    {
-      "id": "8b5f9c73f57db0",
-      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
-      "url": "https://elevenlabs.io/blog/tender-22bn",
-      "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
-      "why": "关注估值翻倍及 3 亿美元员工股份收购要约；属于公司与市场动态，没有说明产品能力更新。",
-      "action": "建议收藏",
-      "tier": "建议看",
-      "source": "ElevenLabs Blog",
-      "source_type": "声音 / 创作工具",
-      "source_priority": 5,
-      "source_reliability": 6,
-      "published_at": "2026-09-30",
-      "date_confidence": "high",
-      "date_label": "2026-09-30",
-      "category": "AI 影视",
-      "status": "建议看",
-      "deadline": null,
-      "event_date": null,
-      "location": "",
-      "score": 111,
-      "material_update": true,
-      "alternatives": [],
-      "zh": {
-        "title": "企业对对话智能体的需求推动 ElevenLabs 估值升至 220 亿美元",
-        "summary": "ElevenLabs 完成了 3 亿美元的员工股份收购要约，估值达到 220 亿美元，是二月份 D 轮融资估值的两倍。"
       }
     }
   ]

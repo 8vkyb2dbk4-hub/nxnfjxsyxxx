@@ -27,6 +27,7 @@
     <button data-view="today" class="active">今日</button>
     <button data-view="art">艺术</button>
     <button data-view="events">论坛 / 展会</button>
+    <button data-view="classes">公开课</button>
     <button data-view="saved">收藏</button>
     <button data-view="archive">往期</button>
     <button data-view="weekly">一周回顾</button>
@@ -81,13 +82,18 @@
     <section id="eventsView" class="view">
       <div class="page-head">
         <div class="kicker">CALENDAR RADAR</div>
-        <h2>论坛 / 展会 / 高校活动</h2>
-        <p>重点收集上海、杭州线下活动，只展示截至当天仍可参加的活动；已结束、报名截止或日期不明的活动不推荐。</p>
+        <h2>上海展览 · 美术馆 · 论坛展会</h2>
+        <p>展示尚在展期内的上海美术馆、博物馆展览，以及国家会展中心的当前举办内容和预告；过期展览自动隐藏。</p>
       </div>
       <label class="event-city">活动地区 <select id="eventCity" onchange="renderEvents()"><option value="上海">上海论坛 / 展会</option><option value="沪杭">上海与杭州</option><option value="全部">全部地区</option></select></label><div id="eventCards"></div>
-      <h3 class="section-title">博物馆 · 官方展览与公众号</h3><p class="museum-note">展览、讲座、工作坊及预约变更以馆方最新通知为准。官网公开公众号文章可收集；微信内历史消息请在微信查看。</p><div id="museumSources" class="publication-grid"></div>
+      <h3 class="section-title">美术馆 / 博物馆 / 会展中心 · 官方来源</h3><p class="museum-note">展览、讲座、工作坊及预约变更以馆方最新通知为准。官网公开公众号文章可收集；微信内历史消息请在微信查看。</p><div id="museumSources" class="publication-grid"></div>
     </section>
 
+    <section id="classesView" class="view">
+      <div class="page-head"><div class="kicker">OPEN CLASS</div><h2>沪杭公开课 · 公益讲座</h2><p>优先收集上海、杭州的科创、艺术、人文与成长课堂。已结束、报名截止、取消或已满的活动隐藏；需预约的预告单独列出，请核对官方名额。</p></div>
+      <label class="event-city">地区 <select id="classCity" onchange="renderClasses()"><option value="沪杭">上海与杭州</option><option value="上海">上海</option><option value="杭州">杭州</option></select></label>
+      <div id="classCards"></div>
+    </section>
     <section id="savedView" class="view">
       <div class="page-head"><div class="kicker">SAVED</div><h2>我的收藏</h2></div>
       <div id="savedCards"></div>

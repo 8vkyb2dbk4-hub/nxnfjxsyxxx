@@ -2,9 +2,38 @@
   "date": "2026-10-02",
   "edition": "AUTO-20261002-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 0 条高优先级 AI 信息",
+  "headline": "今天筛出 5 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
+    {
+      "id": "6a906d3d175226",
+      "title": "Meshy 7.1: Attention to the Closest Detail",
+      "url": "https://www.meshy.ai/blog/meshy-7-1-launch",
+      "image": "https://cdn.meshy.ai/landing-assets/blog/meshy-7.1-launch/meshy-7-1-launch-cover-v2.webp",
+      "image_source": "https://www.meshy.ai/blog/meshy-7-1-launch",
+      "summary": "Meshy 7.1 generates the richest geometric detail of any image-to-3D model. Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark。",
+      "why": "更新重点：Ultra 4K可将几何尺寸缩放到4096 ³ ，通过我们新的细节丰富度基准来衡量。",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Meshy · 产品更新",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-09-10",
+      "date_confidence": "high",
+      "date_label": "2026-09-10",
+      "category": "游戏与 3D",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 157,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "更新重点：Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark."
+    },
     {
       "id": "d8b62a962e88cf",
       "title": "Research Overview",
@@ -20,7 +49,7 @@
       "published_at": "2026-09-29",
       "date_confidence": "medium",
       "date_label": "2026-09-29",
-      "category": "Agent / 编程",
+      "category": "新模型 / 开源",
       "status": "建议看",
       "deadline": null,
       "event_date": null,
@@ -61,36 +90,6 @@
       "zh": {
         "title": "Eleven v4 发布：情感表达更丰富的模型",
         "summary": "Eleven v4 和 v4 Turbo 提供更细腻的情绪表达、更快的响应和更强的声音克隆能力，已在 ElevenAgents、ElevenCreative 和 API 中上线。"
-      }
-    },
-    {
-      "id": "8b5f9c73f57db0",
-      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
-      "url": "https://elevenlabs.io/blog/tender-22bn",
-      "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
-      "why": "关注估值翻倍及 3 亿美元员工股份收购要约；属于公司与市场动态，没有说明产品能力更新。",
-      "action": "建议收藏",
-      "tier": "建议看",
-      "source": "ElevenLabs Blog",
-      "source_type": "声音 / 创作工具",
-      "source_priority": 5,
-      "source_reliability": 6,
-      "published_at": "2026-09-30",
-      "date_confidence": "high",
-      "date_label": "2026-09-30",
-      "category": "AI 影视",
-      "status": "建议看",
-      "deadline": null,
-      "event_date": null,
-      "location": "",
-      "score": 111,
-      "material_update": true,
-      "alternatives": [],
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/d0nlnct7j7j-Blog-01.webp",
-      "image_source": "https://elevenlabs.io/blog/tender-22bn",
-      "zh": {
-        "title": "企业对对话智能体的需求推动 ElevenLabs 估值升至 220 亿美元",
-        "summary": "ElevenLabs 完成了 3 亿美元的员工股份收购要约，估值达到 220 亿美元，是二月份 D 轮融资估值的两倍。"
       }
     }
   ],
@@ -148,36 +147,6 @@
       "icon": "✦",
       "items": [
         {
-          "id": "d067a9902499b7",
-          "title": "How to Use the Jev AI Model: A Step-by-Step Developer Guide sora-2 • 10 days ago • 38",
-          "url": "https://huggingface.co/blog/sora-2/how-to-use-the-jev-ai-model-a-step-by-step-develop",
-          "summary": "That makes Jev useful for tasks such as classifying support tickets, routing requests, scoring risk, deciding whether an action needs review, or selecting the next model in an agent workflow. The Jev AI homepage describes this as。",
-          "why": "关注工单分类、请求路由、风险评分、操作审核和模型选择这些具体应用；摘要未给出版本更新。",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "Hugging Face Blog",
-          "source_type": "开源社区",
-          "source_priority": 5,
-          "source_reliability": 8,
-          "published_at": "2026-09-22",
-          "date_confidence": "high",
-          "date_label": "2026-09-22",
-          "category": "AI 绘画",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": null,
-          "location": "",
-          "score": 103,
-          "material_update": false,
-          "alternatives": [],
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/67496d13c09e4610c33950b2/rxQfgF1aDoTN2PgjY8Ujt.webp",
-          "image_source": "https://huggingface.co/blog/sora-2/how-to-use-the-jev-ai-model-a-step-by-step-develop",
-          "zh": {
-            "title": "Jev AI 模型使用指南：开发者逐步教程",
-            "summary": "Jev 可用于支持工单分类、请求路由、风险评分、判断操作是否需要审核，以及选择智能体工作流中的下一模型。"
-          }
-        },
-        {
           "id": "0a2078a69f0e16",
           "title": "What Is OpenAI Decisions API? A Practical Guide sora-2 • 2 days ago • 12",
           "url": "https://huggingface.co/blog/sora-2/what-is-openai-decisions-api-a-practical-guide",
@@ -206,88 +175,123 @@
             "title": "OpenAI Decisions API 是什么：实用指南",
             "summary": "文章介绍了 DevDay 2026 发布的 API；公开报道将其描述为面向快速单次决策的 GPT-6 Luna 专门版本，用于内容分类和请求路由等。"
           }
+        },
+        {
+          "id": "7067e6260be8cf",
+          "title": "Anatomy of a bug-fixing agent huggingface • 3 days ago • 7",
+          "url": "https://huggingface.co/blog/huggingface/anatomy-of-a-bug-fixing-agent",
+          "summary": "A Blog post by Hugging Face on Hugging Face。",
+          "why": "主题是漏洞修复智能体的工作机制；当前摘要只有博客来源信息，尚无具体改进或更新细节。",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-09-29",
+          "date_confidence": "high",
+          "date_label": "2026-09-29",
+          "category": "AI 绘画",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "location": "",
+          "score": 99,
+          "material_update": false,
+          "alternatives": [],
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/657f3d21f4f72f2c4c51d2ca/TLnkcrsz_OletKGvVgr9b.png",
+          "image_source": "https://huggingface.co/blog/huggingface/anatomy-of-a-bug-fixing-agent",
+          "zh": {
+            "title": "漏洞修复智能体的工作剖析",
+            "summary": "Hugging Face 发布的一篇博客文章。"
+          }
         }
       ]
     },
     {
       "name": "AI 影视",
       "icon": "▶",
-      "items": [
-        {
-          "id": "074df5b2162dce",
-          "title": "Text to Speech",
-          "url": "https://elevenlabs.io/text-to-speech",
-          "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations。",
-          "why": "关注超过 70 种语言支持和 TTS API 集成；这是能力介绍，摘要未说明具体版本变化。",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "ElevenLabs Blog",
-          "source_type": "声音 / 创作工具",
-          "source_priority": 5,
-          "source_reliability": 6,
-          "published_at": "2026-10-01",
-          "date_confidence": "medium",
-          "date_label": "2026-10-01",
-          "category": "AI 影视",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": null,
-          "location": "",
-          "score": 103,
-          "material_update": true,
-          "alternatives": [
-            {
-              "source": "Runway Dev Changelog",
-              "url": "https://docs.dev.runwayml.com/api-details/api_changelog"
-            },
-            {
-              "source": "Runway Dev Changelog",
-              "url": "https://docs.dev.runwayml.com/api"
-            }
-          ],
-          "image": "https://elevenlabs.io/cover.png",
-          "image_source": "https://elevenlabs.io/text-to-speech",
-          "zh": {
-            "title": "文本转语音",
-            "summary": "ElevenLabs 的文本转语音可将文字转为逼真的语音，支持超过 70 种语言及 TTS API 集成。"
-          }
-        },
-        {
-          "id": "efc208f8ad044f",
-          "title": "Speech to Text",
-          "url": "https://elevenlabs.io/speech-to-text",
-          "summary": "Convert speech to text with Scribe. Transcribe in 99 languages, auto-generate captions, edit transcripts, and align audio with video。",
-          "why": "关注 99 种语言转录、自动字幕、文本编辑及音视频对齐能力；摘要未列出版本变化。",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "ElevenLabs Blog",
-          "source_type": "声音 / 创作工具",
-          "source_priority": 5,
-          "source_reliability": 6,
-          "published_at": "2026-10-01",
-          "date_confidence": "medium",
-          "date_label": "2026-10-01",
-          "category": "AI 影视",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": null,
-          "location": "",
-          "score": 103,
-          "material_update": false,
-          "alternatives": [],
-          "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/31lhlc8km88-Scribe%20v2.webp",
-          "image_source": "https://elevenlabs.io/speech-to-text",
-          "zh": {
-            "title": "语音转文字",
-            "summary": "Scribe 可将语音转为文字，支持 99 种语言、自动生成字幕、编辑转录文本，以及音视频对齐。"
-          }
-        }
-      ]
+      "items": []
     },
     {
       "name": "游戏与 3D",
       "icon": "◆",
-      "items": []
+      "items": [
+        {
+          "id": "7ea4816640407f",
+          "title": "Meshy · API 更新日志 · 2026-09-18 更新",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
+          "image": "https://cdn.meshy.ai/landing-assets/og-images/docs_og.webp",
+          "image_source": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
+          "summary": " Added meshy-7.1 as an ai_model value for Image to 3D , Multi-Image to 3D and Text to 3D : same parameters and credit cost as meshy-7 , higher geometry detail. latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps wor。",
+          "why": "更新重点：latest现在解析为meshy-7.1 ； meshy-7已弃用，但保持不变。",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "Meshy · API 更新日志",
+          "source_type": "公司 / 官方",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "2026-09-18",
+          "date_confidence": "high",
+          "date_label": "2026-09-18",
+          "category": "游戏与 3D",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 157,
+          "material_update": true,
+          "alternatives": [
+            {
+              "source": "Meshy · API 更新日志",
+              "url": "https://docs.meshy.ai/en/api/changelog#update-2b08b20b16"
+            },
+            {
+              "source": "Meshy · API 更新日志",
+              "url": "https://docs.meshy.ai/en/api/changelog#update-bb6e67e5ce"
+            },
+            {
+              "source": "Meshy · API 更新日志",
+              "url": "https://docs.meshy.ai/en/api/changelog#update-77fa73de4e"
+            },
+            {
+              "source": "Meshy · API 更新日志",
+              "url": "https://docs.meshy.ai/en/api/changelog#update-a37f256b52"
+            }
+          ],
+          "resurfaced": true,
+          "why_original": "更新重点：latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps working unchanged."
+        },
+        {
+          "id": "c106e1010fc366",
+          "title": "User Guide 3D Printing with Bambu Studio An end-to-end workflow for turning a Tripo AI model into a modular, multi-color 3D print with Bambu Studio. Tripo Team 📅 · 2026/09/28",
+          "url": "https://www.tripo3d.ai/blog/3d-printing-bambu-studio",
+          "image": "https://cdn-blog.holymolly.ai/media/production/3d-printing-bambu-studio-finished-multicolor-model-dd0fc5962479.webp",
+          "image_source": "https://www.tripo3d.ai/blog/3d-printing-bambu-studio",
+          "summary": "An end-to-end workflow for turning a Tripo AI model into a modular, multi-color 3D print with Bambu Studio。",
+          "why": "关注内容：使用Bambu Studio将Tripo AI模型转换为模块化多色3D打印的端到端工作流程。（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "Tripo · 官方动态",
+          "source_type": "公司 / 官方",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "2026-09-28",
+          "date_confidence": "high",
+          "date_label": "2026-09-28",
+          "category": "游戏与 3D",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 157,
+          "material_update": false,
+          "alternatives": [],
+          "why_original": "关注内容：An end-to-end workflow for turning a Tripo AI model into a modular, multi-color 3D print with Bambu Studio.（原文未明确列出版本变化。）"
+        }
+      ]
     },
     {
       "name": "Agent / 编程",

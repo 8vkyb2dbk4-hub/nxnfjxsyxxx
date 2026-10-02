@@ -1,5 +1,6 @@
 
 let issue=null, sourceConfig=null, archiveIndex=[], health=null, sourceHealth=null, basePrefs=null, weekly=null, learningCfg=null, signals=null, syncCfg=null;
+let exhibitionFeed=null, publicClassFeed=null;
 let todayNews=null;
 const translationStates=new Map();
 let activeFilter="全部";
@@ -46,6 +47,8 @@ async function boot(){
       loadJSON("./config/preferences.json"),
       loadJSON("./config/learning.json")
     ]);
+    try{exhibitionFeed=await loadJSON("./data/exhibitions.json")}catch(e){exhibitionFeed=null}
+    try{publicClassFeed=await loadJSON("./data/public_classes.json")}catch(e){publicClassFeed=null}
     try{todayNews=await loadJSON("./data/today.json")}catch(e){todayNews=null}
     try{health=await loadJSON("./data/health.json")}catch(e){health=null}
     try{weekly=await loadJSON("./data/weekly.json")}catch(e){weekly=null}
@@ -156,6 +159,7 @@ function eventAvailable(x, now=new Date()){
   const get=t=>parts.find(p=>p.type===t).value;
   const today=`${get("year")}-${get("month")}-${get("day")}`;
   if(!/^\d{4}-\d{2}-\d{2}$/.test(x.event_date||"")||(x.event_end_date||x.event_date)<today) return false;
+  if((x.event_end_date||x.event_date)<x.event_date)return false;
   if(x.deadline){
     let raw=x.deadline.replace("T24:00:00","T23:59:59");
     if(!/(Z|[+-]\d{2}:?\d{2})$/.test(raw)) raw+="+08:00";
@@ -242,7 +246,7 @@ function card(raw){
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
     ${newsImage(x)}
     <h4>${esc(shown.title)}</h4>
-    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
+    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.event_kind==="公开课"?`<span>${esc(x.event_start_at?.slice(11,16)||"")}${x.event_end_at?"–"+esc(x.event_end_at.slice(11,16)):""} · ${esc(x.participation_mode)} · ${esc(x.audience)}</span><span>参与：${esc(x.registration)}</span>`:""}${x.venue?`<span>${esc(x.venue)}</span>`:""}${x.verified_at?`<span>展期核对 ${esc(x.verified_at)}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
       <div><b>发生了什么</b><p>${esc(shown.summary)}</p></div>
       <div><b>关注重点</b><p>${esc(chineseFocus(x))}</p></div>
@@ -253,7 +257,7 @@ function card(raw){
     <div class="card-foot">${actionChip(x)}${sourceLink(x)}</div>
   </article>`;
 }
-function allItems(){return [...issue.top3,...issue.sections.flatMap(s=>s.items.map(x=>({...x,category:x.category||s.name})))];}
+function allItems(){return [...new Map([...issue.top3,...issue.sections.flatMap(s=>s.items.map(x=>({...x,category:x.category||s.name}))),...(exhibitionFeed?.items||[]),...(publicClassFeed?.items||[])].map(x=>[x.id,x])).values()];}
 
 function renderMode(){
   document.getElementById("mode5").classList.toggle("active",readingMode==="5min");
@@ -306,7 +310,7 @@ function renderToday(){
     const items=sortPersonal(s.items.map(x=>({...x,category:x.category||s.name})));
     const content=items.map(x=>card(x)).join("");
     return `<section class="section-block">
-      <div class="section-head"><span>${s.icon}</span><h3>${esc(s.name)}</h3><span class="meta">${s.items.length} 条</span></div>
+      <div class="section-head"><span>${s.icon}</span><h3>${esc(s.name)}</h3><span class="meta">${s.items.length} 条</span></div>${basePrefs?.focus_notes?.[s.name]?`<p class="focus-note">${esc(basePrefs.focus_notes[s.name])}</p>`:""}
       <div class="item-list">${content||`<div class="empty">今天这个栏目没有需要你花时间看的内容。</div>`}</div>
     </section>`;
   }).join("");
@@ -322,11 +326,11 @@ async function copyMuseumWechat(name,button){
   catch(e){button.textContent="微信搜索："+name;}
 }
 function renderMuseumSources(city){
-  document.getElementById("museumSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.museum&&(city==="全部"||city==="沪杭"||x.city===city)).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.city)} · ${esc(x.focus)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">官网展览与活动 ↗</a>${x.wechat_name?`<span>官方公众号：${esc(x.wechat_name)}</span><button onclick='copyMuseumWechat(${esc(JSON.stringify(x.wechat_name))},this)'>复制公众号名称</button>`:""}<a href="${esc(x.wechat_official_url)}" target="_blank" rel="noopener">${x.wechat_name?"官方微信 / 预约说明":"官方预约与小程序入口"} ↗</a></div>`).join("");
+  document.getElementById("museumSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>(x.museum||x.exhibition_reference)&&(city==="全部"||city==="沪杭"||x.city===city)).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.city)} · ${esc(x.focus||"展览、展会及官方预告")}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">官网展览与活动 ↗</a>${x.wechat_name?`<span>官方公众号：${esc(x.wechat_name)}</span><button onclick='copyMuseumWechat(${esc(JSON.stringify(x.wechat_name))},this)'>复制公众号名称</button>`:""}<a href="${esc(x.wechat_official_url||x.url)}" target="_blank" rel="noopener">${x.wechat_name?"官方微信 / 预约说明":"官方预约与小程序入口"} ↗</a></div>`).join("");
 }
 function renderEvents(){
   const sec=issue.sections.find(s=>s.name==="论坛 / 展会");
-  let arr=[...issue.top3.filter(x=>x.category==="论坛 / 展会"),...(sec?sec.items:[])];
+  let arr=[...new Map([...(exhibitionFeed?.items||[]),...issue.top3.filter(x=>x.category==="论坛 / 展会"),...(sec?sec.items:[])].map(x=>[x.id,x])).values()];
   const city=document.getElementById("eventCity")?.value||"上海";
   renderMuseumSources(city);
   arr=arr.filter(x=>city==="全部"||(city==="沪杭"?["上海","杭州"].includes(x.location):x.location==="上海"));
@@ -338,7 +342,26 @@ function renderEvents(){
     if(a.deadline) return -1;if(b.deadline) return 1;
     return (a.event_date||"9999").localeCompare(b.event_date||"9999");
   });
-  document.getElementById("eventCards").innerHTML=arr.map(x=>card({...x,category:"论坛 / 展会"})).join("")||`<div class="empty">当前没有值得提醒的活动。</div>`;
+  const parts=new Intl.DateTimeFormat("en",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());
+  const get=t=>parts.find(p=>p.type===t).value,today=`${get("year")}-${get("month")}-${get("day")}`;
+  const national=arr.filter(x=>(x.venue||x.source||"").includes("国家会展中心"));
+  const other=arr.filter(x=>!national.includes(x));
+  const block=(title,items,empty)=>`<section class="event-group"><h3 class="section-title">${title}<small> ${items.length} 项</small></h3><div class="item-list">${items.map(x=>card({...x,category:"论坛 / 展会"})).join("")||`<div class="empty">${empty}</div>`}</div></section>`;
+  document.getElementById("eventCards").innerHTML=block("正在展出 / 举办",other.filter(x=>x.event_date<=today),"暂未收录符合展期条件的展览。")+block("即将举办 · 展览与论坛预告",other.filter(x=>x.event_date>today),"暂未收录新的活动预告。")+block("国家会展中心（上海）· 正在举办",national.filter(x=>x.event_date<=today),"目前收录的官方排期中，没有正在举办的项目。")+block("国家会展中心（上海）· 展会预告",national.filter(x=>x.event_date>today),"暂未收录新的官方排期。")+`<p class="museum-note">“正在展出”按展期判断，不代表此刻开馆；休馆日、票务及临时调整以官方最新通知为准。</p>`;
+
+}
+function classAvailable(x){
+  if(!eventAvailable({...x,category:"论坛 / 展会"}))return false;
+  if(["closed","full","cancelled"].includes(x.registration_status))return false;
+  if(x.event_end_at&&Date.parse(x.event_end_at)<=Date.now())return false;
+  return true;
+}
+function renderClasses(){
+  const city=document.getElementById("classCity")?.value||"沪杭";
+  let arr=(publicClassFeed?.items||[]).filter(classAvailable).filter(x=>city==="沪杭"||x.location===city);
+  arr=arr.sort((a,b)=>(a.event_start_at||a.event_date).localeCompare(b.event_start_at||b.event_date));
+  const block=(title,items)=>`<section class="event-group"><h3 class="section-title">${title} · ${items.length} 场</h3><div class="item-list">${items.map(x=>card(x)).join("")||'<div class="empty">暂未收录符合条件的课程。</div>'}</div></section>`;
+  document.getElementById("classCards").innerHTML=block("无需预约 / 现场报名",arr.filter(x=>["no_signup","onsite","open"].includes(x.registration_status)))+block("课程预告 · 报名名额需向官方核对",arr.filter(x=>x.registration_status==="check"));
 }
 function renderSaved(){
   const arr=sortPersonal(allItems().filter(x=>saved.has(x.id)));
@@ -642,7 +665,7 @@ async function reloadPersonalState(){
 window.addEventListener("ai-brief-synced",()=>reloadPersonalState().catch(()=>{}));
 
 function renderAll(){
-  applyUIPrefs();renderMode();renderHealth();renderToday();renderArt();renderEvents();renderSaved();
+  applyUIPrefs();renderMode();renderHealth();renderToday();renderArt();renderEvents();renderClasses();renderSaved();
   renderArchive();renderSources();renderSourceHealth();renderWeekly();renderSignals();renderLearning();renderSettings();renderSync();
 }
 
@@ -660,13 +683,13 @@ document.getElementById("personalizeBtn").onclick=togglePersonalize;
 document.getElementById("exportProfileBtn").onclick=exportProfile;
 document.getElementById("importProfileInput").addEventListener("change",e=>{if(e.target.files[0]) importProfile(e.target.files[0])});
 document.getElementById("resetLearningBtn").onclick=resetLearning;
-document.getElementById("searchInput").addEventListener("input",e=>{searchText=e.target.value.trim();renderToday();renderArt();renderEvents();renderSaved();});
+document.getElementById("searchInput").addEventListener("input",e=>{searchText=e.target.value.trim();renderToday();renderArt();renderEvents();renderClasses();renderSaved();});
 if("serviceWorker" in navigator){navigator.serviceWorker.register("./sw.js").catch(()=>{})}
 boot();
 
 document.getElementById("addWatchBtn").onclick=addWatch;
 document.getElementById("watchInput").addEventListener("keydown",e=>{if(e.key==="Enter") addWatch();});
 
-setInterval(()=>{if(issue){renderToday();renderEvents();renderSignals();}},60000);
-window.addEventListener("focus",()=>{if(issue){renderToday();renderEvents();renderSignals();}});
+setInterval(()=>{if(issue){renderToday();renderEvents();renderClasses();renderSignals();}},60000);
+window.addEventListener("focus",()=>{if(issue){renderToday();renderEvents();renderClasses();renderSignals();}});
 

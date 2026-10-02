@@ -3,8 +3,8 @@
   "reading_goal_minutes": 8,
   "category_weights": {
     "AI 绘画": 10,
-    "AI 影视": 10,
-    "游戏与 3D": 9,
+    "AI 影视": 12,
+    "游戏与 3D": 12,
     "Agent / 编程": 9,
     "新模型 / 开源": 7,
     "论坛 / 展会": 9,
@@ -18,7 +18,21 @@
     "ElevenLabs Blog",
     "上海人工智能实验室 · 科研活动",
     "复旦大学国家发展与智能治理综合实验室 · 学术活动",
-    "上海交通大学 · 新闻与论坛"
+    "上海交通大学 · 新闻与论坛",
+    "腾讯混元 3D · 官方开源动态",
+    "Meshy · 产品更新",
+    "Meshy · API 更新日志",
+    "Tripo · 官方动态",
+    "Lovart · 版本更新",
+    "Codex · 官方更新日志",
+    "Unreal Engine · 官方新闻",
+    "Unity · 官方动态",
+    "Godot · 引擎发布",
+    "World Labs · Marble 动态",
+    "字节 Seed · 即梦与豆包模型动态",
+    "DeepSeek · 模型更新日志",
+    "MiniMax · 海螺模型动态",
+    "LibTV · 官方视频创作平台"
   ],
   "boost_keywords": [
     "角色一致性",
@@ -38,7 +52,32 @@
     "上海",
     "论坛",
     "展会",
-    "杭州"
+    "杭州",
+    "腾讯混元",
+    "混元3D",
+    "hunyuan3d",
+    "hunyuan 3d",
+    "meshy",
+    "tripo",
+    "lovart",
+    "codex",
+    "nano banana",
+    "虚幻",
+    "unreal engine",
+    "unity",
+    "godot",
+    "marble",
+    "world labs",
+    "即梦",
+    "jimeng",
+    "豆包",
+    "doubao",
+    "seedance",
+    "deepseek",
+    "libtv",
+    "liblib tv",
+    "海螺",
+    "hailuo"
   ],
   "downrank_keywords": [
     "融资",
@@ -52,5 +91,40 @@
   ],
   "max_items_per_section": 5,
   "top_items": 3,
-  "event_focus_note": "线下活动重点收集上海、杭州；参与资格和报名条件以官方通知为准。"
+  "event_focus_note": "线下活动重点收集上海、杭州；参与资格和报名条件以官方通知为准。",
+  "focus_products": {
+    "游戏与 3D": [
+      "腾讯混元",
+      "混元3D",
+      "hunyuan3d",
+      "hunyuan 3d",
+      "meshy",
+      "tripo",
+      "lovart",
+      "codex",
+      "nano banana",
+      "虚幻",
+      "unreal engine",
+      "unity",
+      "godot",
+      "marble",
+      "world labs"
+    ],
+    "AI 影视": [
+      "即梦",
+      "jimeng",
+      "豆包",
+      "doubao",
+      "seedance",
+      "deepseek",
+      "libtv",
+      "liblib tv",
+      "海螺",
+      "hailuo"
+    ]
+  },
+  "focus_notes": {
+    "游戏与 3D": "重点关注混元、Meshy、Tripo、Lovart、Codex、Nano Banana、Unreal、Unity、Godot 与 Marble 的模型、版本和游戏制作功能更新。",
+    "AI 影视": "重点关注即梦、豆包、DeepSeek、LibTV、海螺的视频模型、分镜、镜头、角色一致性与制作工作流更新。"
+  }
 }

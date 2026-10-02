@@ -84,10 +84,19 @@ def canonical_url(url):
 def get(url, timeout=16):
     r=requests.get(url,headers=UA,timeout=timeout)
     r.raise_for_status()
+    if r.encoding is None or r.encoding.lower() in ("iso-8859-1","ascii"):r.encoding=r.apparent_encoding
     return r
+
+def product_match(text,word):
+    word=word.lower();text=text.lower()
+    if word.isascii():return bool(re.search(r"(?<![a-z0-9])"+re.escape(word)+r"(?![a-z0-9])",text))
+    return word in text
 
 def classify(text, hinted=None):
     t=text.lower(); scores={}
+    focus=jload(ROOT/"config/preferences.json",{}).get("focus_products",{})
+    for cat,words in focus.items():
+        if any(product_match(t,k) for k in words):return cat
     for cat,kws in CATEGORY_KWS.items():
         scores[cat]=sum(1 for k in kws if k.lower() in t)
     for cat in hinted or []:
@@ -205,6 +214,8 @@ def score_item(title, desc, src, cat, prefs, quality, date_confidence):
     s+=prefs.get("category_weights",{}).get(cat,5)*3
     if src.get("name") in prefs.get("must_watch_sources",[]): s+=16
 
+    focus=prefs.get("focus_products",{}).get(cat,[])
+    if any(product_match(text,k) for k in focus):s+=24
     for kw in prefs.get("boost_keywords",[]):
         if kw.lower() in text: s+=6
     for kw in prefs.get("downrank_keywords",[]):
@@ -239,11 +250,14 @@ def list_links(src):
                 if match:
                     rows.append({"title":clean(anchor.get_text(" ",strip=True)),"url":urljoin(src["url"],anchor["href"]),"event_date":match[1].replace("/","-"),"event_end_date":match[2].replace("/","-"),"location":"上海"});break
         return rows
+    if src.get("collector")=="dated_changelog":
+        from product_updates import parse_changelog
+        return parse_changelog(soup,src)
     rows=[]
     for article_url in src.get("wechat_article_urls",[]):
         if urlparse(article_url).netloc=="mp.weixin.qq.com":
             rows.append({"title":src["name"]+" · 公众号公开活动通知","url":article_url})
-    trigger = AI_KWS + EVENT_KWS + sum(CATEGORY_KWS.values(),[])
+    trigger = AI_KWS + EVENT_KWS + sum(CATEGORY_KWS.values(),[]) + sum(jload(ROOT/"config/preferences.json",{}).get("focus_products",{}).values(),[])
     seen=set()
     for a in soup.find_all("a",href=True):
         title=clean(a.get_text(" ",strip=True))
@@ -256,7 +270,7 @@ def list_links(src):
         k=url if src.get("force_category")=="艺术" else (norm_title(title),url)
         if k in seen: continue
         seen.add(k)
-        rows.append({"title":title,"url":url})
+        rows.append({"title":title,"url":url,"listing_date":parse_isoish(title)})
     return rows[:70]
 
 def extract_deadline(text):
@@ -371,6 +385,8 @@ def suppress_recent_seen(rows, quality):
     seen=load_seen()
     out=[]
     for x in rows:
+        if x.get("category")=="论坛 / 展会" and event_is_valid(x,quality):
+            out.append(x);continue
         suppress=False
         for s in seen:
             try:
@@ -415,6 +431,7 @@ def update_seen(rows):
 
 def within_freshness(x, quality):
     cat=x.get("category","")
+    if cat=="论坛 / 展会" and x.get("event_end_date") and event_is_valid(x,quality): return True
     days=quality.get("freshness_days",{}).get(cat, quality.get("freshness_days",{}).get("default",21))
     if not x.get("published_at"):
         min_p=quality.get("unknown_date_policy",{}).get("allow_if_source_priority_at_least",5)
@@ -437,13 +454,14 @@ def extract_event_city(text):
 def event_is_valid(x, quality):
     if x.get("category")!="论坛 / 展会": return True
     try:
+        start=datetime.date.fromisoformat(x.get("event_date") or "")
         event=datetime.date.fromisoformat(x.get("event_end_date") or x.get("event_date") or "")
-        if event<TODAY: return False
+        if event<start or event<TODAY: return False
         if x.get("deadline"):
             deadline=datetime.datetime.fromisoformat(str(x["deadline"]).replace("T24:00:00","T23:59:59"))
             if deadline.tzinfo is None: deadline=deadline.replace(tzinfo=TZ)
             if deadline<=datetime.datetime.now(TZ): return False
-        return (event-TODAY).days<=quality.get("event_validation",{}).get("max_future_days",180)
+        return start<=TODAY or (start-TODAY).days<=quality.get("event_validation",{}).get("max_future_days",180)
     except (ValueError,TypeError):
         return False
 
@@ -465,9 +483,18 @@ def collect():
                 metas=list(pool.map(lambda base:article_meta(base["url"]),bases))
             for base,meta in zip(bases,metas):
                 desc,pub,body=meta["desc"],meta["published"],meta["body"]
+                if base.get("published_at"):
+                    desc,pub,body=base["summary"],base["published_at"],base["summary"];meta["date_confidence"]="high"
                 if src.get("collector")=="sniec":
                     prefix=base["title"].rstrip(". …")
                     base["title"]=next((h for h in meta.get("headings",[]) if h.startswith(prefix)),base["title"])
+                if src.get("focus_update_only") and not base.get("published_at"):
+                    if base.get("listing_date") and not pub:pub=base["listing_date"];meta["date_confidence"]="medium"
+                    if not pub:continue
+                    headings=meta.get("headings",[])
+                    if headings and not re.fullmatch(r"Change Log|Changelog|Documentation",headings[0],re.I):base["title"]=headings[0]
+                    if re.fullmatch(r"this documentation|learn more|read more|change log|changelog|documentation",base["title"],re.I):continue
+                    if not re.search(r"update|release|launch|introduc|announc|available|model|engine|version|新增|更新|发布|上线|模型|引擎|升级|\d+\.\d+",base["title"]+" "+desc,re.I):continue
                 text=base["title"]+" "+desc+" "+body[:4000]
                 cat=src.get("force_category") or classify(text,src.get("category"))
                 dl=extract_deadline(text) if cat=="论坛 / 展会" else None
@@ -599,13 +626,15 @@ def write_ics(rows):
         if x.get("category")!="论坛 / 展会" or not event_is_valid(x,{}): continue
         try:
             d=datetime.date.fromisoformat(x["event_date"])
-            if d<TODAY or (d-TODAY).days>180: continue
+            if (d-TODAY).days>180: continue
+            end=datetime.date.fromisoformat(x.get("event_end_date") or x["event_date"])+datetime.timedelta(days=1)
         except: continue
         events.append("\n".join([
             "BEGIN:VEVENT",
             f"UID:{x['id']}@ai-brief",
             f"DTSTAMP:{NOW.astimezone(datetime.timezone.utc).strftime('%Y%m%dT%H%M%SZ')}",
             f"DTSTART;VALUE=DATE:{d.strftime('%Y%m%d')}",
+            f"DTEND;VALUE=DATE:{end.strftime('%Y%m%d')}",
             f"SUMMARY:{x.get('title','').replace(',', '，')}",
             f"DESCRIPTION:{(x.get('summary','')+' '+x.get('url','')).replace(chr(10),' ')}",
             f"LOCATION:{x.get('location','')}",
@@ -655,7 +684,7 @@ def write_all(issue5,issue10,rows,errors,source_count,health):
     idx.insert(0,{"date":TODAY.isoformat(),"edition":issue10["edition"],"title":issue10["headline"],"html":f"./editions/{TODAY.isoformat()}.html"})
     idxp.write_text(json.dumps(idx[:120],ensure_ascii=False,indent=2),encoding="utf-8")
 
-    write_ics(rows); build_weekly()
+    write_ics(rows+jload(ROOT/"data/exhibitions.json",{}).get("items",[])+jload(ROOT/"data/public_classes.json",{}).get("items",[])); build_weekly()
     health_summary={
         "updated_at":NOW.isoformat(timespec="seconds"),
         "source_count":source_count,"candidate_count":len(rows),"error_count":len(errors),
@@ -673,6 +702,10 @@ def write_all(issue5,issue10,rows,errors,source_count,health):
 
 def main():
     rows,errors,prefs,quality,source_count,health=collect()
+    import exhibitions
+    exhibition_rows=exhibitions.refresh(rows)
+    import public_classes
+    public_classes.refresh(rows)
     (ROOT/"data/raw_candidates.json").write_text(json.dumps({
         "generated_at":NOW.isoformat(timespec="seconds"),"count":len(rows),"items":rows[:180],"errors":errors
     },ensure_ascii=False,indent=2),encoding="utf-8")

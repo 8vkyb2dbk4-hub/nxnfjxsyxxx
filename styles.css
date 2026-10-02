@@ -287,3 +287,7 @@ html{background:#dcd6ca}body{background:repeating-linear-gradient(0deg,#a3967804
 
 .museum-source a{font-size:13px;color:#963b32;line-height:1.6}.museum-source button{align-self:flex-start;background:#f6f1e7;border:1px solid #bdb09a;padding:9px 12px;min-height:40px;color:var(--ink)}.museum-note{font-size:12px;line-height:1.8;color:var(--muted)}
 
+#eventCards{display:block}.event-group{margin:22px 0}.event-group .section-title small{font:12px -apple-system,sans-serif;opacity:.85}.event-group .item-list{padding-bottom:0}
+
+.focus-note{background:#e4ddca;padding:12px 16px;color:#514a3d;line-height:1.7}
+

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T13:45:30+08:00",
+  "generated_at": "2026-10-02T15:36:44+08:00",
   "sources": [
     {
       "source": "OpenAI News",
@@ -252,6 +252,132 @@
       "elapsed_ms": 2875,
       "error": "",
       "checked_at": "2026-10-02T13:45:30+08:00"
+    },
+    {
+      "source": "腾讯混元 3D · 官方开源动态",
+      "url": "https://github.com/Tencent/Hunyuan3D-2",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 6403,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Meshy · 产品更新",
+      "url": "https://www.meshy.ai/blog/category/product",
+      "status": "ok",
+      "candidate_count": 3,
+      "elapsed_ms": 6464,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Meshy · API 更新日志",
+      "url": "https://docs.meshy.ai/en/api/changelog",
+      "status": "ok",
+      "candidate_count": 5,
+      "elapsed_ms": 5649,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Tripo · 官方动态",
+      "url": "https://www.tripo3d.ai/blog",
+      "status": "ok",
+      "candidate_count": 3,
+      "elapsed_ms": 2269,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Lovart · 版本更新",
+      "url": "https://www.lovart.ai/changelog",
+      "status": "ok",
+      "candidate_count": 5,
+      "elapsed_ms": 3448,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Codex · 官方更新日志",
+      "url": "https://developers.openai.com/codex/changelog/",
+      "status": "ok",
+      "candidate_count": 5,
+      "elapsed_ms": 8827,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Unreal Engine · 官方新闻",
+      "url": "https://www.unrealengine.com/news",
+      "status": "error",
+      "candidate_count": 0,
+      "elapsed_ms": 507,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unrealengine.com/news",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Unity · 官方动态",
+      "url": "https://unity.com/blog",
+      "status": "ok",
+      "candidate_count": 5,
+      "elapsed_ms": 6817,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "Godot · 引擎发布",
+      "url": "https://godotengine.org/blog/release/",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 5707,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "World Labs · Marble 动态",
+      "url": "https://www.worldlabs.ai/blog",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 2925,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "字节 Seed · 即梦与豆包模型动态",
+      "url": "https://seed.bytedance.com/zh/",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 2421,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "DeepSeek · 模型更新日志",
+      "url": "https://api-docs.deepseek.com/updates/",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 966,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "MiniMax · 海螺模型动态",
+      "url": "https://www.minimax.io/research",
+      "status": "ok",
+      "candidate_count": 4,
+      "elapsed_ms": 3038,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
+    },
+    {
+      "source": "LibTV · 官方视频创作平台",
+      "url": "https://www.liblib.tv/",
+      "status": "ok",
+      "candidate_count": 0,
+      "elapsed_ms": 895,
+      "error": "",
+      "checked_at": "2026-10-02T15:36:44+08:00"
     }
   ]
 }
