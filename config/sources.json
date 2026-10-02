@@ -310,6 +310,17 @@
       ],
       "url": "https://icml.cc/",
       "priority": 4
+    },
+    {
+      "name": "浙江大学大数据研究中心 · 学术报告",
+      "region": "中国 / 杭州",
+      "type": "高校 / 实验室",
+      "category": [
+        "论坛 / 展会",
+        "Agent / 编程"
+      ],
+      "url": "https://bcds.zju.edu.cn/xsjz/list.htm",
+      "priority": 5
     }
   ]
 }

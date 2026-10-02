@@ -265,6 +265,9 @@ function renderEvents(){
   const sec=issue.sections.find(s=>s.name==="论坛 / 展会");
   let arr=[...issue.top3.filter(x=>x.category==="论坛 / 展会"),...(sec?sec.items:[])];
   arr=sortPersonal(arr).sort((a,b)=>{
+    const preferred=basePrefs?.event_cities||["上海","杭州"];
+    const localA=preferred.includes(a.location),localB=preferred.includes(b.location);
+    if(localA!==localB)return localA?-1:1;
     if(a.deadline&&b.deadline) return String(a.deadline).localeCompare(String(b.deadline));
     if(a.deadline) return -1;if(b.deadline) return 1;
     return (a.event_date||"9999").localeCompare(b.event_date||"9999");

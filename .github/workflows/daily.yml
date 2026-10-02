@@ -21,6 +21,7 @@ jobs:
       - run: python tests/test_quality.py
       - run: python tests/test_trends.py
       - run: python tests/test_weekly.py
+      - run: python tests/test_event_city.py
       - run: node tests/test_sync.js
       - run: node tests/test_sync_integration.js
       - run: python scripts/update.py

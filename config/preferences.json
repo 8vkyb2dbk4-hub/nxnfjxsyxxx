@@ -36,7 +36,8 @@
     "报名截止",
     "上海",
     "论坛",
-    "展会"
+    "展会",
+    "杭州"
   ],
   "downrank_keywords": [
     "融资",
@@ -45,8 +46,10 @@
     "泛行业宣传"
   ],
   "event_cities": [
-    "上海"
+    "上海",
+    "杭州"
   ],
   "max_items_per_section": 5,
-  "top_items": 3
+  "top_items": 3,
+  "event_focus_note": "线下活动重点收集上海、杭州；参与资格和报名条件以官方通知为准。"
 }

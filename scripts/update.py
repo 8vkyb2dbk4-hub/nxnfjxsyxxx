@@ -304,7 +304,7 @@ def why(cat):
         "AI 影视":"看它是否能真正进入分镜、镜头生成、动作、配音、音效和剪辑流程，而不只是演示。",
         "游戏与 3D":"看它是否能用于原型、3D资产、动作、NPC、关卡或自动测试。",
         "Agent / 编程":"看它能否替你减少资料搜集、整理、搭网站、做小游戏和重复操作。",
-        "论坛 / 展会":"只优先提醒真正值得参加、可线上观看、上海可线下参加或临近截止的活动。",
+        "论坛 / 展会":"只优先提醒真正值得参加、可线上观看、上海、杭州可线下参加或临近截止的活动。",
         "新模型 / 开源":"不追参数榜；只看是否真正可用、是否开源、是否进入常用产品或显著改变工作流。"
     }.get(cat,"判断它是否会真正改变你的工作方式。")
 
@@ -406,6 +406,14 @@ def within_freshness(x, quality):
     except:
         return False
 
+def extract_event_city(text):
+    # Venue evidence only: an organizer's city is not the event location.
+    matches=re.finditer(r"(?:地点|地址|举办地|会场|location|venue)\s*[:：]?\s*([^。；;\n]{1,100})",text,re.I)
+    for match in matches:
+        for city,alias in [("上海","shanghai"),("杭州","hangzhou"),("北京","beijing"),("深圳","shenzhen"),("广州","guangzhou")]:
+            if city in match.group(1) or alias in match.group(1).lower(): return city
+    return ""
+
 def event_is_valid(x, quality):
     if x.get("category")!="论坛 / 展会": return True
     d=x.get("event_date")
@@ -446,6 +454,10 @@ def collect():
                     try:
                         if datetime.datetime.fromisoformat(dl)>=NOW: sc+=24
                     except: pass
+                if cat=="论坛 / 展会":
+                    city=extract_event_city(text)
+                    if city in prefs.get("event_cities",[]): sc+=24
+                    elif city: sc-=18
                 material=is_material_update(text,quality)
                 item={
                     "id":hid(base["url"]),"title":base["title"],"url":base["url"],
@@ -460,7 +472,7 @@ def collect():
                     "date_label":pub or quality.get("unknown_date_policy",{}).get("display_label","日期待确认"),
                     "category":cat,"status":tier(sc,dl),
                     "deadline":dl,"event_date":ev,
-                    "location":"上海" if "上海" in text else "",
+                    "location":extract_event_city(text) if cat=="论坛 / 展会" else "",
                     "score":sc,
                     "material_update":material
                 }
