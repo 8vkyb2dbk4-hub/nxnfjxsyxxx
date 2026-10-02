@@ -766,6 +766,77 @@
       "region": "中国",
       "city": "上海",
       "public_class_source": true
+    },
+    {
+      "name": "Unity 中国 · 开发者线下活动",
+      "url": "https://developer.unity.cn/",
+      "city": "上海",
+      "region": "中国",
+      "type": "游戏行业 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "game_event_source": true,
+      "focus": "线下开发者交流、游戏美术、3D制作、引擎技术、独立游戏与行业论坛",
+      "article_url_pattern": "/projects/[^/]+"
+    },
+    {
+      "name": "Epic Games · Unreal Fest 官方排期",
+      "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
+      "city": "上海",
+      "region": "中国",
+      "type": "游戏行业 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "game_event_source": true,
+      "focus": "线下开发者交流、游戏美术、3D制作、引擎技术、独立游戏与行业论坛"
+    },
+    {
+      "name": "CGS · 中国游戏研究双城年会",
+      "url": "https://cgs.caacosmos.com/",
+      "city": "杭州",
+      "region": "中国",
+      "type": "游戏行业 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "game_event_source": true,
+      "focus": "线下开发者交流、游戏美术、3D制作、引擎技术、独立游戏与行业论坛"
+    },
+    {
+      "name": "浙江省游戏行业协会 · 会展活动",
+      "url": "https://www.zjgia.org.cn/pic.aspx?classid=183",
+      "city": "杭州",
+      "region": "中国",
+      "type": "游戏行业 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "game_event_source": true,
+      "focus": "线下开发者交流、游戏美术、3D制作、引擎技术、独立游戏与行业论坛"
+    },
+    {
+      "name": "ChinaJoy · 游戏行业展会与论坛",
+      "url": "https://chinajoy.net/",
+      "city": "上海",
+      "region": "中国",
+      "type": "游戏行业 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "priority": 5,
+      "game_event_source": true,
+      "focus": "线下开发者交流、游戏美术、3D制作、引擎技术、独立游戏与行业论坛"
     }
   ]
 }

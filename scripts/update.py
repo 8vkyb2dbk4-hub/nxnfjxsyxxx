@@ -226,6 +226,7 @@ def score_item(title, desc, src, cat, prefs, quality, date_confidence):
 
     s+=min(sum(1 for k in AI_KWS if k.lower() in text)*2,12)
     if cat=="论坛 / 展会":
+        if any(product_match(text,k) for k in prefs.get("game_event_keywords",[])):s+=18
         s+=min(sum(1 for k in EVENT_KWS if k.lower() in text)*3,15)
         for city in prefs.get("event_cities",[]):
             if city.lower() in text: s+=12
@@ -454,6 +455,7 @@ def extract_event_city(text):
 
 def event_is_valid(x, quality):
     if x.get("category")!="论坛 / 展会": return True
+    if x.get("registration_status") in ["closed","full","cancelled"]:return False
     try:
         start=datetime.date.fromisoformat(x.get("event_date") or "")
         event=datetime.date.fromisoformat(x.get("event_end_date") or x.get("event_date") or "")
@@ -528,6 +530,8 @@ def collect():
                     "score":sc,
                     "material_update":material
                 }
+                if src.get("game_event_source"):
+                    item.update(event_kind="游戏行业",participation_mode="线下",registration="报名资格与名额以官方通知为准",registration_status="check",action="查看游戏活动与报名")
                 if src.get("collector")=="sniec":
                     item.update(summary=f"官方场馆日程：{ev} 至 {base.get('event_end_date')}，地点为上海新国际博览中心。参观票务及资格请查看主办方通知。",why="关注展会主题、举办日期与观众报名要求；票务或专业观众资格以官方通知为准。",image="",published_at="",date_confidence="unknown",date_label="场馆官方日程")
                 if summarizer and summarizer.configured() and sc>=90:

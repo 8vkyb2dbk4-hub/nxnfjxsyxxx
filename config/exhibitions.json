@@ -130,6 +130,57 @@
       "verified_at": "2026-10-02",
       "summary": "展示纺织装备、数智创新、绿色节能与自动化转型成果。展期为2026年11月20日至24日。",
       "why": "关注生产自动化装备、机器人与纺织全产业链的新展品；专业观众资格及票务以主办方通知为准。"
+    },
+    {
+      "title": "Unity 中国开发挑战赛 · 上海站：24 小时 Vibe Coding 创作挑战",
+      "event_date": "2026-10-17",
+      "event_end_date": "2026-10-18",
+      "location": "上海",
+      "venue": "上海（具体场地以官方报名页为准）",
+      "url": "https://developer.unity.cn/projects/6aabaa7bedbc2a30cc939461",
+      "source": "Unity 官方开发者社区",
+      "event_kind": "游戏行业",
+      "participation_mode": "线下",
+      "verified_at": "2026-10-02",
+      "summary": "面向游戏创作的线下挑战；需使用 Codely 与团结引擎开发作品，参赛规则与资格以官方报名页面为准。",
+      "why": "关注 AI 辅助游戏开发、引擎实战和导师交流；活动为10月17日至18日，出行前确认报名与具体场地。",
+      "registration": "查看官方文章的报名入口；名额与截止时间需核对",
+      "registration_status": "check",
+      "action": "查看游戏活动与报名"
+    },
+    {
+      "title": "Unreal Fest 2026 · 上海站",
+      "event_date": "2026-10-22",
+      "event_end_date": "2026-10-23",
+      "location": "上海",
+      "venue": "上海（具体场地待官方进一步公布）",
+      "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
+      "source": "Epic Games · Unreal Fest 官方",
+      "event_kind": "游戏行业",
+      "participation_mode": "线下",
+      "verified_at": "2026-10-02",
+      "summary": "虚幻引擎开发者与创作者交流活动。官方公布上海站为10月22日至23日，报名及详细场地仍需关注后续通知。",
+      "why": "关注虚幻引擎技术、美术与游戏制作工作流分享；本条为官方预告，不能据此直接入场。",
+      "registration": "官方尚未公布完整报名详情",
+      "registration_status": "announced",
+      "action": "查看游戏活动与报名"
+    },
+    {
+      "title": "CGS 2026 · 中国游戏研究双城年会（杭州）",
+      "event_date": "2026-10-29",
+      "event_end_date": "2026-10-31",
+      "location": "杭州",
+      "venue": "中国美术学院象山校区",
+      "url": "https://cgs.caacosmos.com/",
+      "source": "CGS 2026 · 主办方",
+      "event_kind": "游戏行业",
+      "participation_mode": "线下",
+      "verified_at": "2026-10-02",
+      "summary": "游戏艺术与技术交流，包含独立游戏论坛和 Epic Games 专场；10月29日至31日在杭州举行。",
+      "why": "关注独立游戏、游戏美术与虚幻引擎作品展示。访客预约通道10月22日起开放，参会需预约码；论文与作品征集已截止，不再推荐投稿。",
+      "registration": "10月22日起在“中国美术学院访客预约”小程序预约，凭预约码入校",
+      "registration_status": "announced",
+      "action": "查看游戏活动与报名"
     }
   ]
 }

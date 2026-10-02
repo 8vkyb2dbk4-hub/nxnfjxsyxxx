@@ -91,7 +91,7 @@
   ],
   "max_items_per_section": 5,
   "top_items": 3,
-  "event_focus_note": "线下活动重点收集上海、杭州；参与资格和报名条件以官方通知为准。",
+  "event_focus_note": "优先上海、杭州线下活动，增加游戏开发、引擎技术、游戏美术、3D制作与游戏行业论坛；已结束、报名截止和无法参加的活动不推荐。",
   "focus_products": {
     "游戏与 3D": [
       "腾讯混元",
@@ -126,5 +126,21 @@
   "focus_notes": {
     "游戏与 3D": "重点关注混元、Meshy、Tripo、Lovart、Codex、Nano Banana、Unreal、Unity、Godot 与 Marble 的模型、版本和游戏制作功能更新。",
     "AI 影视": "重点关注即梦、豆包、DeepSeek、LibTV、海螺的视频模型、分镜、镜头、角色一致性与制作工作流更新。"
-  }
+  },
+  "game_event_keywords": [
+    "游戏",
+    "游戏开发",
+    "独立游戏",
+    "游戏美术",
+    "技术美术",
+    "Game Jam",
+    "Unreal Fest",
+    "Unity",
+    "Godot",
+    "开发者大会",
+    "3D",
+    "CGS",
+    "ChinaJoy",
+    "UEFN"
+  ]
 }

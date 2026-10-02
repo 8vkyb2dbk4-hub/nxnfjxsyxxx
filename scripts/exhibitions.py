@@ -18,6 +18,11 @@ def date_range(text):
 
 def available(item,today=None):
     today=today or datetime.datetime.now(TZ).date()
+    if item.get('registration_status') in ['closed','full','cancelled']:return False
+    if item.get('deadline'):
+        try:
+            if datetime.datetime.fromisoformat(item['deadline'])<=datetime.datetime.now(TZ):return False
+        except (ValueError,TypeError):return False
     try:
         start=datetime.date.fromisoformat(item['event_date']);end=datetime.date.fromisoformat(item.get('event_end_date') or item['event_date'])
         return end>=start and end>=today and (start<=today or (start-today).days<=180)
