@@ -310,7 +310,8 @@ function renderToday(){
   document.getElementById("top3").innerHTML=topHtml||`<div class="empty">当前条件下没有头版内容。</div>`;
 
   const cats=["全部",...issue.sections.map(s=>s.name)];
-  document.getElementById("filters").innerHTML=cats.map(c=>`<button class="${c===activeFilter?"active":""}" onclick="setFilter('${c}')">${c}</button>`).join("");
+  document.getElementById("filters").innerHTML=`<button class="${activeFilter==="全部"?"active":""}" onclick="setFilter('全部')">全部</button>`;
+  document.getElementById("menuFilters").innerHTML=cats.slice(1).map(c=>`<button class="${c===activeFilter?"selected":""}" onclick="selectMenuFilter('${c}')">${esc(c)}</button>`).join("");
   const secs=issue.sections.filter(s=>activeFilter==="全部"||s.name===activeFilter);
   document.getElementById("sections").innerHTML=secs.map(s=>{
     const items=sortPersonal(s.items.map(x=>({...x,category:x.category||s.name})));
@@ -322,6 +323,7 @@ function renderToday(){
   }).join("");
 }
 function setFilter(c){activeFilter=c;renderToday()}
+function selectMenuFilter(c){document.querySelector('.tabs button[data-view="today"]').click();setFilter(c)}
 function renderArt(){
   const items=[...new Map(allItems().filter(x=>x.category==="艺术").map(x=>[x.id,x])).values()];
   document.getElementById("artCards").innerHTML=sortPersonal(items).map(card).join("")||'<div class="empty">暂未收录新的艺术报道，可从下方刊物入口阅读。</div>';
