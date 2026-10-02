@@ -317,11 +317,7 @@ function isWeeklyHighlight(x,start,today){
 }
 let selectedCategory="AI 绘画";
 function renderCategory(){
- document.getElementById("videoSourcePanel").hidden=selectedCategory!=="AI 影视";
- document.getElementById("videoSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.video_provider).sort((a,b)=>b.category_priorities["AI 影视"]-a.category_priorities["AI 影视"]).map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.video_provider)} · P${x.category_priorities["AI 影视"]}</b><span>官方动态 / 教程 ↗</span></a>`).join("");
  document.getElementById("categoryTitle").textContent=selectedCategory;
- document.getElementById("drawingSourcePanel").hidden=selectedCategory!=="AI 绘画";
- document.getElementById("drawingSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.drawing_provider).sort((a,b)=>b.priority-a.priority).map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.drawing_provider)} <span class="source-priority">P${x.priority}</span></b><span>${x.priority===5?"重点优先来源":"模型与创作社区来源"} · 官方入口 ↗</span></a>`).join("");
  const items=sortPersonal(allItems().filter(x=>x.category===selectedCategory));
  document.getElementById("categoryCards").innerHTML=items.map((x,i)=>card(x,true,i===0)).join("")||'<div class="empty">暂未收录该栏目资讯。</div>';
 }
@@ -390,6 +386,8 @@ function renderArchive(){
   }).join("");
 }
 function renderSources(){
+ document.getElementById("videoSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.video_provider).sort((a,b)=>b.category_priorities["AI 影视"]-a.category_priorities["AI 影视"]).map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.video_provider)} · P${x.category_priorities["AI 影视"]}</b><span>官方动态 / 教程 ↗</span></a>`).join("");
+ document.getElementById("drawingSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.drawing_provider).sort((a,b)=>b.priority-a.priority).map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.drawing_provider)} <span class="source-priority">P${x.priority}</span></b><span>${x.priority===5?"重点优先来源":"模型与创作社区来源"} · 官方入口 ↗</span></a>`).join("");
   document.getElementById("expertSources").innerHTML=sourceConfig.sources.filter(x=>x.expert_source&&x.x_handle).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.focus)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">X @${esc(x.x_handle)} ↗</a><a href="${esc(x.fallback_url)}" target="_blank" rel="noopener">官方文章 / 研究 ↗</a></div>`).join("");
   document.getElementById("sourceList").innerHTML=sourceConfig.sources.map(x=>`<div class="source">
     <div><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a><br><span class="meta">${esc(x.category.join(" · "))}</span>${x.x_handle?`<br><span class="meta">@${esc(x.x_handle)} · ${x.expert_source?"重点关注研究与技术分享":"重点关注模型与产品更新"}</span><br><a href="${esc(x.fallback_url)}" target="_blank" rel="noopener">官网备用来源 ↗</a><br><span class="meta">X 自动读取需 API 授权；官网继续每日更新</span>`:""}</div>
