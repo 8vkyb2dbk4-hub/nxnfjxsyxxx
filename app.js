@@ -299,32 +299,29 @@ function renderToday(){
   document.getElementById("readTime").textContent=`约 ${issue.reading_minutes} 分钟读完`;
   const parts=new Intl.DateTimeFormat("en",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(new Date());
   const get=t=>parts.find(p=>p.type===t).value,today=`${get("year")}-${get("month")}-${get("day")}`;
-  const candidates=todayNews?.date===today?todayNews.items:allItems();
-  const published=[...new Map(candidates.filter(x=>x.published_at===today&&["high","medium"].includes(x.date_confidence)&&!/^(Community Articles|Research Overview|Research|Explore models|Skip to main content|Global Affairs)$/i.test(x.title.trim())&&eventAvailable(x)).map(x=>[x.id,x])).values()];
-  document.getElementById("headline").textContent=published.length?`今日发布 · ${published.length} 条消息`:"暂未收录今日发布的消息";
-  document.getElementById("note").textContent="按上海日期统计，只计入发布日期已确认的消息。";
-  document.getElementById("todayMessages").innerHTML=published.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener"><span>${esc(x.zh?.title||x.title)}</span><small>${esc(x.source)} · ${esc(x.published_at)}</small></a>`).join("");
+  const cutoff=new Date(today+"T00:00:00+08:00");cutoff.setDate(cutoff.getDate()-6);
+  const start=new Intl.DateTimeFormat("en-CA",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).format(cutoff);
+  const pool=[...new Map([...(todayNews?.items||[]),...allItems()].map(x=>[x.id,x])).values()];
+  const highlights=sortPersonal(pool.filter(x=>isWeeklyHighlight(x,start,today)));
+  document.getElementById("headline").textContent=`近一周重点资讯 · ${highlights.length} 条`;
+  document.getElementById("note").textContent=`${start} 至 ${today}，按上海日期筛选；只显示发布日期已确认的高优先级资讯。`;
+  document.getElementById("todayMessages").innerHTML="";
   document.getElementById("updateStamp").textContent="数据日期 "+issue.date;
-
-  const topItems=sortPersonal(issue.top3);
-  const topHtml=topItems.map(x=>card(x,true,true)).join("");
-  document.getElementById("top3").innerHTML=topHtml||`<div class="empty">当前条件下没有头版内容。</div>`;
-
-  const cats=["全部",...issue.sections.map(s=>s.name)];
-  document.getElementById("filters").innerHTML=`<button class="${activeFilter==="全部"?"active":""}" onclick="setFilter('全部')">全部</button>`;
-  document.getElementById("menuFilters").innerHTML=cats.slice(1).map(c=>`<button class="${c===activeFilter?"selected":""}" onclick="selectMenuFilter('${c}')">${esc(c)}</button>`).join("");
-  const secs=issue.sections.filter(s=>activeFilter==="全部"||s.name===activeFilter);
-  document.getElementById("sections").innerHTML=secs.map(s=>{
-    const items=sortPersonal(s.items.map(x=>({...x,category:x.category||s.name})));
-    const content=items.map((x,i)=>card(x,true,i===0)).join("");
-    return `<section class="section-block">
-      <div class="section-head"><span>${s.icon}</span><h3>${esc(s.name)}</h3><span class="meta">${s.items.length} 条</span></div>${basePrefs?.focus_notes?.[s.name]?`<p class="focus-note">${esc(basePrefs.focus_notes[s.name])}</p>`:""}
-      <div class="item-list">${content||`<div class="empty">今天这个栏目没有需要你花时间看的内容。</div>`}</div>
-    </section>`;
-  }).join("");
+  document.getElementById("top3").innerHTML=highlights.map((x,i)=>card(x,true,i===0)).join("")||'<div class="empty">近一周暂无符合条件的重点资讯。</div>';
+  document.getElementById("filters").innerHTML="";
+  document.getElementById("sections").innerHTML="";
+  renderCategory();
 }
-function setFilter(c){activeFilter=c;renderToday()}
-function selectMenuFilter(c){document.querySelector('.tabs button[data-view="today"]').click();setFilter(c)}
+function isWeeklyHighlight(x,start,today){
+ return /^\d{4}-\d{2}-\d{2}$/.test(x.published_at||"")&&x.published_at>=start&&x.published_at<=today&&["high","medium"].includes(x.date_confidence)&&x.category!=="论坛 / 展会"&&(Number(x.score)>=90||x.tier==="必看")&&!/^(Community Articles|Research Overview|Research|Explore models|Skip to main content|Global Affairs)$/i.test((x.title||"").trim());
+}
+let selectedCategory="AI 绘画";
+function renderCategory(){
+ document.getElementById("categoryTitle").textContent=selectedCategory;
+ const items=sortPersonal(allItems().filter(x=>x.category===selectedCategory));
+ document.getElementById("categoryCards").innerHTML=items.map((x,i)=>card(x,true,i===0)).join("")||'<div class="empty">暂未收录该栏目资讯。</div>';
+}
+
 function renderArt(){
   const items=[...new Map(allItems().filter(x=>x.category==="艺术").map(x=>[x.id,x])).values()];
   document.getElementById("artCards").innerHTML=sortPersonal(items).map(card).join("")||'<div class="empty">暂未收录新的艺术报道，可从下方刊物入口阅读。</div>';
@@ -689,6 +686,7 @@ document.querySelectorAll(".tabs button").forEach(b=>b.onclick=()=>{
   document.querySelectorAll(".tabs button").forEach(x=>x.classList.remove("active"));b.classList.add("active");
   document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));
   document.getElementById(b.dataset.view+"View").classList.add("active");
+  if(b.dataset.category){selectedCategory=b.dataset.category;renderCategory()}
 });
 document.getElementById("refreshBtn").onclick=()=>location.reload();
 document.getElementById("printBtn").onclick=()=>window.print();

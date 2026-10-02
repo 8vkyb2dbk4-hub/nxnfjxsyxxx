@@ -24,8 +24,8 @@
   </header>
 
   <nav class="tabs" aria-label="日报栏目">
-    <button data-view="today" class="active">今日</button><div id="menuFilters" class="menu-filters" aria-label="今日分类"></div>
-    <button data-view="art">艺术</button>
+    <button data-view="today" class="active">今日</button>
+    <button data-view="art">艺术</button><button data-view="category" data-category="AI 绘画">AI 绘画</button><button data-view="category" data-category="AI 影视">AI 影视</button><button data-view="category" data-category="游戏与 3D">游戏与 3D</button><button data-view="category" data-category="Agent / 编程">Agent / 编程</button><button data-view="category" data-category="新模型 / 开源">新模型 / 开源</button>
     <button data-view="events">论坛 / 展会</button>
     <button data-view="classes">公开课/讲座</button>
     <button data-view="saved">收藏</button>
@@ -67,13 +67,14 @@
         </div>
       </div>
 
-      <h3 class="section-title">今天最值得看 3 条</h3>
+      <h3 class="section-title">近一周最值得看</h3>
       <div id="top3" class="top-grid"></div>
 
-      <div class="filter-row" id="filters"></div>
+      <div class="filter-row" id="filters" hidden></div>
       <div id="sections"></div>
     </section>
 
+    <section id="categoryView" class="view"><div class="page-head"><h2 id="categoryTitle"></h2></div><div id="categoryCards" class="item-list"></div></section>
     <section id="artView" class="view">
       <div class="page-head"><div class="kicker">ART & CRAFT</div><h2>艺术 · 新兴手工 · 艺术报刊</h2><p>关注陶艺、纸艺、纤维编织、刺绣、雕塑及跨媒介创作，阅读艺术刊物的原创报道。</p></div>
       <div id="artCards" class="item-list"></div>
