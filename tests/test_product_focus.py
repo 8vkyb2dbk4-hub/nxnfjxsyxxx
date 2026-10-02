@@ -1,6 +1,6 @@
 from pathlib import Path
 import sys,json
-sys.path.insert(0,str(Path('outputs/ai-frontier-daily/scripts').resolve()))
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 import update,product_updates
 from bs4 import BeautifulSoup
 prefs=update.jload(update.ROOT/'config/preferences.json',{})
