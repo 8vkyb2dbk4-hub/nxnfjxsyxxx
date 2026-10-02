@@ -1,12 +1,88 @@
 {
-  "updated_at": "2026-10-02T15:36:44+08:00",
-  "source_count": 61,
-  "candidate_count": 30,
-  "error_count": 1,
+  "updated_at": "2026-10-03T07:20:56+08:00",
+  "source_count": 118,
+  "candidate_count": 367,
+  "error_count": 23,
   "errors": [
     {
-      "source": "Unreal Engine · 官方新闻",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unrealengine.com/news"
+      "source": "中国航海博物馆 · 展览与讲座",
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    },
+    {
+      "source": "龙美术馆 · 当前展览",
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.thelongmuseum.org', port=443): Max retries exceeded with url: /en/exhibition-current.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.thelongmuseum.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source": "浙江省游戏行业协会 · 会展活动",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.zjgia.org.cn/pic.aspx?classid=183"
+    },
+    {
+      "source": "OpenAI · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Google · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Google DeepMind · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Claude · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Anthropic · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Meta AI · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Midjourney · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Runway · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "DeepSeek · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Qwen · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Demis Hassabis · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Geoffrey Hinton · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Yann LeCun · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Yann LeCun · 官方文章与研究",
+      "error": "ConnectionError: HTTPSConnectionPool(host='yann.lecun.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='yann.lecun.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source": "Yoshua Bengio · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Andrej Karpathy · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "吴恩达 Andrew Ng · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
     }
   ],
   "status": "ok",

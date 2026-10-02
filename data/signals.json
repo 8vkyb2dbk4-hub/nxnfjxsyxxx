@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T15:36:54",
-  "history_days": 1,
+  "generated_at": "2026-10-02T23:23:37",
+  "history_days": 2,
   "enough_history": false,
   "minimum_days_needed": 3,
   "topics": [],
   "source_velocity": [],
   "urgent": [],
-  "message": "正在积累趋势样本：目前 1 天，至少需要 3 天后才开始判断升温/降温。"
+  "message": "正在积累趋势样本：目前 2 天，至少需要 3 天后才开始判断升温/降温。"
 }

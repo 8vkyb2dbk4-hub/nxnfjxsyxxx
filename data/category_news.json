@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "start_date": "2026-07-02",
+  "date": "2026-10-03",
+  "start_date": "2026-07-03",
   "items": [
     {
       "id": "581ab3112c302f",
@@ -54,7 +54,7 @@
     },
     {
       "id": "c50b87ddd085b0",
-      "title": "FLUX 3 Action: a world action model you can fine-tune black-forest-labs • 9 days ago • 13",
+      "title": "FLUX 3 Action: a world action model you can fine-tune black-forest-labs • 9 days ago • 14",
       "url": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/633f263333ba83e00bd8046e/EBATyHfMweKJU6MfdKN1D.png",
       "image_source": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
@@ -209,6 +209,32 @@
       "material_update": false
     },
     {
+      "id": "e78248afcb5867",
+      "title": "Kling-Powered L'Ultimo Uomo Reale",
+      "url": "https://klingai.com/blog/How-Kling-Powered-LUltimoUomoReale",
+      "image": "https://static-32.klingai-cdn-aws.com/kling-blog/file/abe4c7bf6ed50da4a9eec28eab190a1e283c98777b41aba656baa3326ec3ada1.png",
+      "image_source": "https://klingai.com/blog/How-Kling-Powered-LUltimoUomoReale",
+      "summary": "Discover how Kling AI powered the Cannes Lions-winning film L'Ultimo Uomo Reale with nuanced performances, consistent characters, and cinematic storytelling。",
+      "why": "关注内容：Discover how Kling AI powered the Cannes Lions-winning film L'Ultimo Uomo Reale with nuanced performances, consistent characters, and cinematic storytelling.（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Kling 可灵 AI · 视频生成",
+      "source_type": "官方 / 视频生成",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-08-20",
+      "date_confidence": "high",
+      "date_label": "2026-08-20",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 127,
+      "material_update": false
+    },
+    {
       "id": "796988b1dbe210",
       "title": "Published What Is the Maximum Video Length on the HeyGen Creator Plan?",
       "url": "https://www.heygen.com/blog/heygen-creator-plan-maximum-video-length",
@@ -232,6 +258,32 @@
       "event_end_date": null,
       "location": "",
       "score": 116,
+      "material_update": false
+    },
+    {
+      "id": "6b099c1415995d",
+      "title": "MiniMax Music 3.0: Next-Generation Open-Weights, Production-Ready & Versatile Music Model",
+      "url": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+      "image": "https://file.cdn.minimax.io/public/32b0b01d-d945-4c9d-a8e0-8bb9204737c2.png",
+      "image_source": "https://www.minimax.io/blog/minimax-music-3-0-next-generation-open-weights-production-ready-versatile-music-model",
+      "summary": "Today, we are introducing MiniMax Music 3.0, our next-generation music generation model. Given a creative concept and optional lyrics, the model composes, arranges, performs, and produces a complete s。",
+      "why": "更新重点：Today, we are introducing MiniMax Music 3.0, our next-generation music generation model.",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "MiniMax · 海螺模型动态",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-08-13",
+      "date_confidence": "high",
+      "date_label": "2026-08-13",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 119,
       "material_update": false
     },
     {
@@ -311,6 +363,32 @@
       "location": "",
       "score": 139,
       "material_update": true
+    },
+    {
+      "id": "e29bceaab5cd97",
+      "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
+      "url": "https://www.minimax.io/blog/minimax-h3",
+      "image": "https://file.cdn.minimax.io/public/3df321d9-42bd-4be0-ac58-71f22377a11f.png",
+      "image_source": "https://www.minimax.io/blog/minimax-h3",
+      "summary": "Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up。",
+      "why": "更新重点：Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model.",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "MiniMax · 海螺模型动态",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-07-31",
+      "date_confidence": "high",
+      "date_label": "2026-07-31",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 121,
+      "material_update": false
     },
     {
       "id": "8959abc1b36bf5",
@@ -415,12 +493,122 @@
       "location": "",
       "score": 116,
       "material_update": false
+    },
+    {
+      "id": "cd71b838fa2abb",
+      "title": "Inside Portugal's AI World Cup Film",
+      "url": "https://klingai.com/blog/BehindVai-Dar-PortugalHow-Kling-Helped-Bring-Portugals-World-Cup-Film-to-Life",
+      "image": "https://static--80.klingai-cdn-aws.com/kling-blog/file/ceefe21a5572ae83daa0d2f0495a474b6ba92c9dfdd61d9d06b94ec449dc3ec7.png",
+      "image_source": "https://klingai.com/blog/BehindVai-Dar-PortugalHow-Kling-Helped-Bring-Portugals-World-Cup-Film-to-Life",
+      "summary": "Go behind the scenes of Vai Dar Portugal with Hybrid Director & AI Lead João Seiça, and discover how Kling AI helped turn an ambitious creative vision into cinematic reality。",
+      "why": "关注内容：Go behind the scenes of Vai Dar Portugal with Hybrid Director & AI Lead João Seiça, and discover how Kling AI helped turn an ambitious creative vision into cinematic reality.（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Kling 可灵 AI · 视频生成",
+      "source_type": "官方 / 视频生成",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-07-13",
+      "date_confidence": "high",
+      "date_label": "2026-07-13",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 127,
+      "material_update": false
     }
   ],
   "errors": [
     {
-      "source": "OpenAI News",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://openai.com/news/"
+      "source": "中国航海博物馆 · 展览与讲座",
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+    },
+    {
+      "source": "龙美术馆 · 当前展览",
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.thelongmuseum.org', port=443): Max retries exceeded with url: /en/exhibition-current.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.thelongmuseum.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source": "浙江省游戏行业协会 · 会展活动",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.zjgia.org.cn/pic.aspx?classid=183"
+    },
+    {
+      "source": "OpenAI · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Google · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Google DeepMind · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Claude · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Anthropic · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Meta AI · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Midjourney · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Runway · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "DeepSeek · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Qwen · 官方 X",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Demis Hassabis · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Geoffrey Hinton · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Yann LeCun · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Yann LeCun · 官方文章与研究",
+      "error": "ConnectionError: HTTPSConnectionPool(host='yann.lecun.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='yann.lecun.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source": "Yoshua Bengio · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Andrej Karpathy · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "吴恩达 Andrew Ng · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Jim Fan · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Lex Fridman · 专家分享",
+      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
     },
     {
       "source": "快手官方动态 · 视频生成",
