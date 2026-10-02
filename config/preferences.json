@@ -57,7 +57,16 @@
     "Jim Fan · 专家分享",
     "Jim Fan · 官方文章与研究",
     "Lex Fridman · 专家分享",
-    "Lex Fridman · 官方文章与研究"
+    "Lex Fridman · 官方文章与研究",
+    "Google AI",
+    "Hugging Face Blog",
+    "Stability AI",
+    "Midjourney · 官方更新",
+    "Runway · 官方更新",
+    "ComfyUI · 绘画动态",
+    "ModelScope · 绘画动态",
+    "Black Forest Labs · 绘画动态",
+    "Adobe · 绘画动态"
   ],
   "boost_keywords": [
     "角色一致性",
@@ -162,7 +171,25 @@
       "通义千问"
     ],
     "AI 绘画": [
-      "midjourney"
+      "midjourney",
+      "comfyui",
+      "hugging face",
+      "modelscope",
+      "魔搭",
+      "flux",
+      "black forest labs",
+      "runway",
+      "stability",
+      "stable diffusion",
+      "adobe",
+      "firefly",
+      "google",
+      "gemini",
+      "imagen",
+      "openai",
+      "civitai",
+      "liblib",
+      "哩布哩布"
     ]
   },
   "focus_notes": {

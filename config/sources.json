@@ -7,10 +7,12 @@
       "type": "公司 / 官方",
       "category": [
         "新模型 / 开源",
-        "Agent / 编程"
+        "Agent / 编程",
+        "AI 绘画"
       ],
       "url": "https://openai.com/news/",
-      "priority": 5
+      "priority": 5,
+      "drawing_provider": "OpenAI"
     },
     {
       "name": "Anthropic News",
@@ -30,7 +32,8 @@
       "category": [
         "新模型 / 开源",
         "游戏与 3D",
-        "AI 影视"
+        "AI 影视",
+        "AI 绘画"
       ],
       "url": "https://deepmind.google/discover/blog/",
       "priority": 5
@@ -41,10 +44,12 @@
       "type": "公司 / 官方",
       "category": [
         "新模型 / 开源",
-        "Agent / 编程"
+        "Agent / 编程",
+        "AI 绘画"
       ],
       "url": "https://blog.google/innovation-and-ai/",
-      "priority": 5
+      "priority": 5,
+      "drawing_provider": "Google"
     },
     {
       "name": "Hugging Face Blog",
@@ -56,7 +61,8 @@
         "AI 影视"
       ],
       "url": "https://huggingface.co/blog",
-      "priority": 5
+      "priority": 5,
+      "drawing_provider": "Hugging Face"
     },
     {
       "name": "Runway News",
@@ -100,8 +106,9 @@
         "AI 绘画",
         "AI 影视"
       ],
-      "url": "https://stability.ai/news",
-      "priority": 4
+      "url": "https://stability.ai/news-updates",
+      "priority": 5,
+      "drawing_provider": "Stability AI"
     },
     {
       "name": "GitHub Blog",
@@ -897,7 +904,8 @@
       "region": "国际",
       "type": "公司 / 官方 X",
       "category": [
-        "新模型 / 开源"
+        "新模型 / 开源",
+        "AI 绘画"
       ],
       "focus_update_only": true
     },
@@ -911,7 +919,8 @@
       "region": "国际",
       "type": "公司 / 官方 X",
       "category": [
-        "新模型 / 开源"
+        "新模型 / 开源",
+        "AI 绘画"
       ],
       "focus_update_only": true
     },
@@ -925,7 +934,8 @@
       "region": "国际",
       "type": "公司 / 官方 X",
       "category": [
-        "新模型 / 开源"
+        "新模型 / 开源",
+        "AI 绘画"
       ],
       "focus_update_only": true
     },
@@ -1005,7 +1015,8 @@
       "category": [
         "AI 绘画"
       ],
-      "focus_update_only": true
+      "focus_update_only": true,
+      "drawing_provider": "Midjourney"
     },
     {
       "name": "Runway · 官方 X",
@@ -1017,7 +1028,8 @@
       "region": "国际",
       "type": "公司 / 官方 X",
       "category": [
-        "AI 影视"
+        "AI 影视",
+        "AI 绘画"
       ],
       "focus_update_only": true
     },
@@ -1028,9 +1040,11 @@
       "region": "国际",
       "type": "公司 / 官方",
       "category": [
-        "AI 影视"
+        "AI 影视",
+        "AI 绘画"
       ],
-      "focus_update_only": true
+      "focus_update_only": true,
+      "drawing_provider": "Runway"
     },
     {
       "name": "DeepSeek · 官方 X",
@@ -1349,6 +1363,72 @@
         "新模型 / 开源",
         "Agent / 编程"
       ]
+    },
+    {
+      "name": "ComfyUI · 绘画动态",
+      "url": "https://blog.comfy.org/",
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "AI 绘画"
+      ],
+      "priority": 5,
+      "drawing_provider": "ComfyUI"
+    },
+    {
+      "name": "ModelScope · 绘画动态",
+      "url": "https://www.modelscope.cn/",
+      "region": "国内",
+      "type": "模型社区",
+      "category": [
+        "AI 绘画"
+      ],
+      "priority": 5,
+      "drawing_provider": "ModelScope"
+    },
+    {
+      "name": "Black Forest Labs · 绘画动态",
+      "url": "https://bfl.ai/blog",
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "AI 绘画"
+      ],
+      "priority": 5,
+      "drawing_provider": "Black Forest Labs"
+    },
+    {
+      "name": "Adobe · 绘画动态",
+      "url": "https://blog.adobe.com/en/topics/creative-cloud",
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "AI 绘画"
+      ],
+      "priority": 5,
+      "drawing_provider": "Adobe"
+    },
+    {
+      "name": "Civitai · 绘画动态",
+      "url": "https://civitai.com/articles",
+      "region": "国际",
+      "type": "模型社区",
+      "category": [
+        "AI 绘画"
+      ],
+      "priority": 4,
+      "drawing_provider": "Civitai"
+    },
+    {
+      "name": "LiblibAI · 绘画动态",
+      "url": "https://www.liblib.art/",
+      "region": "国内",
+      "type": "模型社区",
+      "category": [
+        "AI 绘画"
+      ],
+      "priority": 4,
+      "drawing_provider": "LiblibAI"
     }
   ]
 }

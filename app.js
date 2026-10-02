@@ -318,6 +318,8 @@ function isWeeklyHighlight(x,start,today){
 let selectedCategory="AI 绘画";
 function renderCategory(){
  document.getElementById("categoryTitle").textContent=selectedCategory;
+ document.getElementById("drawingSourcePanel").hidden=selectedCategory!=="AI 绘画";
+ document.getElementById("drawingSources").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.drawing_provider).sort((a,b)=>b.priority-a.priority).map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.drawing_provider)} <span class="source-priority">P${x.priority}</span></b><span>${x.priority===5?"重点优先来源":"模型与创作社区来源"} · 官方入口 ↗</span></a>`).join("");
  const items=sortPersonal(allItems().filter(x=>x.category===selectedCategory));
  document.getElementById("categoryCards").innerHTML=items.map((x,i)=>card(x,true,i===0)).join("")||'<div class="empty">暂未收录该栏目资讯。</div>';
 }
