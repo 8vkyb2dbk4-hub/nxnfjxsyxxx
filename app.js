@@ -155,6 +155,7 @@ function currentFeedback(id){return localStorage.getItem("ai-brief-feedback-"+id
 
 function eventAvailable(x, now=new Date()){
   if(["closed","full","cancelled"].includes(x.registration_status))return false;
+  if(x.event_end_at&&Date.parse(x.event_end_at)<=now.getTime())return false;
   if(x.category!=="论坛 / 展会") return true;
   const parts=new Intl.DateTimeFormat("en",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);
   const get=t=>parts.find(p=>p.type===t).value;
@@ -247,7 +248,7 @@ function card(raw){
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
     ${newsImage(x)}
     <h4>${esc(shown.title)}</h4>
-    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.event_kind==="游戏行业"?`<span>游戏行业 · 线下</span><span>参与：${esc(x.registration||"请查看官方通知")}</span>`:""}${x.event_kind==="公开课"?`<span>${esc(x.event_start_at?.slice(11,16)||"")}${x.event_end_at?"–"+esc(x.event_end_at.slice(11,16)):""} · ${esc(x.participation_mode)} · ${esc(x.audience)}</span><span>参与：${esc(x.registration)}</span>`:""}${x.venue?`<span>${esc(x.venue)}</span>`:""}${x.verified_at?`<span>展期核对 ${esc(x.verified_at)}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
+    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.event_kind==="游戏行业"?`<span>游戏行业 · 线下</span><span>参与：${esc(x.registration||"请查看官方通知")}</span>`:""}${["公开课","上海博物馆活动"].includes(x.event_kind)?`<span>${esc(x.event_start_at?.slice(11,16)||"")}${x.event_end_at?"–"+esc(x.event_end_at.slice(11,16)):""} · ${esc(x.participation_mode)} · ${esc(x.audience)}</span><span>参与：${esc(x.registration)}</span>`:""}${x.schedule_type?`<span>官网${esc(x.schedule_type)}排期</span>`:""}${x.halls?`<span>展馆：${esc(x.halls)}</span>`:""}${x.venue?`<span>${esc(x.venue)}</span>`:""}${x.verified_at?`<span>展期核对 ${esc(x.verified_at)}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
       <div><b>发生了什么</b><p>${esc(shown.summary)}</p></div>
       <div><b>关注重点</b><p>${esc(chineseFocus(x))}</p></div>
@@ -347,9 +348,13 @@ function renderEvents(){
   const get=t=>parts.find(p=>p.type===t).value,today=`${get("year")}-${get("month")}-${get("day")}`;
   const national=arr.filter(x=>(x.venue||x.source||"").includes("国家会展中心"));
   const game=arr.filter(x=>x.event_kind==="游戏行业");
-  const other=arr.filter(x=>!national.includes(x)&&!game.includes(x));
+  const nationalActivities=national.filter(x=>x.schedule_type==="活动");
+  const nationalExhibitions=national.filter(x=>x.schedule_type!=="活动");
+  const museumActivities=arr.filter(x=>x.event_kind==="上海博物馆活动");
+  const psa=arr.filter(x=>x.museum_key==="psa");
+  const other=arr.filter(x=>!national.includes(x)&&!game.includes(x)&&!museumActivities.includes(x)&&!psa.includes(x));
   const block=(title,items,empty)=>`<section class="event-group"><h3 class="section-title">${title}<small> ${items.length} 项</small></h3><div class="item-list">${items.map(x=>card({...x,category:"论坛 / 展会"})).join("")||`<div class="empty">${empty}</div>`}</div></section>`;
-  document.getElementById("eventCards").innerHTML=block("正在展出 / 举办",other.filter(x=>x.event_date<=today),"暂未收录符合展期条件的展览。")+block("即将举办 · 展览与论坛预告",other.filter(x=>x.event_date>today),"暂未收录新的活动预告。")+block("国家会展中心（上海）· 正在举办",national.filter(x=>x.event_date<=today),"目前收录的官方排期中，没有正在举办的项目。")+block("国家会展中心（上海）· 展会预告",national.filter(x=>x.event_date>today),"暂未收录新的官方排期。")+block("游戏行业 · 线下活动与预告",game,"暂未收录符合条件的本地游戏活动。")+`<p class="museum-note">“正在展出”按展期判断，不代表此刻开馆；休馆日、票务及临时调整以官方最新通知为准。</p>`;
+  document.getElementById("eventCards").innerHTML=block("正在展出 / 举办",other.filter(x=>x.event_date<=today),"暂未收录符合展期条件的展览。")+block("即将举办 · 展览与论坛预告",other.filter(x=>x.event_date>today),"暂未收录新的活动预告。")+block("国家会展中心（上海）· 正在举办",nationalExhibitions.filter(x=>x.event_date<=today),"目前收录的官方排期中，没有正在举办的项目。")+block("国家会展中心（上海）· 展会预告",nationalExhibitions.filter(x=>x.event_date>today),"暂未收录新的官方排期。")+block("国家会展中心（上海）· 活动排期",nationalActivities,"官网活动排期目前未收录尚未结束的活动；过去场次不显示。")+block("上海博物馆 · 活动预约",museumActivities,"官网当前未收录尚可参加的活动；已结束、报名截止或已满的场次不显示。")+block("上海当代艺术博物馆 · 展览与活动",psa,"官网目前未收录符合日期条件的展览或活动。")+block("游戏行业 · 线下活动与预告",game,"暂未收录符合条件的本地游戏活动。")+`<p class="museum-note">“正在展出”按展期判断，不代表此刻开馆；休馆日、票务及临时调整以官方最新通知为准。</p>`;
 
 }
 function classAvailable(x){

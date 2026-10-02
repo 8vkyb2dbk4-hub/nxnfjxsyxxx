@@ -505,8 +505,8 @@
       "exhibition_collector": ""
     },
     {
-      "name": "上海当代艺术博物馆 · 当前展览",
-      "url": "https://www.powerstationofart.com/",
+      "name": "上海当代艺术博物馆 · 官方展览与活动",
+      "url": "https://www.powerstationofart.com/whats-on",
       "region": "中国 / 上海",
       "city": "上海",
       "type": "官方美术馆",
@@ -516,11 +516,13 @@
       ],
       "priority": 5,
       "exhibition_reference": true,
-      "exhibition_collector": ""
+      "exhibition_collector": "psa",
+      "schedule_type": "展览与活动",
+      "museum": true
     },
     {
-      "name": "国家会展中心（上海）· 官方展会排期",
-      "url": "https://www.neccsh.com/cecsh/exhibitioninfo/exhibitioncalendar.jspx",
+      "name": "国家会展中心（上海）· 官方展览排期",
+      "url": "https://www.neccsh.com/cecsh/exhibitioninfo/exhibitionlist.jspx?v=1",
       "region": "中国 / 上海",
       "city": "上海",
       "type": "官方会展场馆",
@@ -530,7 +532,8 @@
       ],
       "priority": 5,
       "exhibition_reference": true,
-      "exhibition_collector": "necc"
+      "exhibition_collector": "necc",
+      "schedule_type": "展览"
     },
     {
       "name": "腾讯混元 3D · 官方开源动态",
@@ -837,6 +840,50 @@
       "priority": 5,
       "game_event_source": true,
       "focus": "线下开发者交流、游戏美术、3D制作、引擎技术、独立游戏与行业论坛"
+    },
+    {
+      "name": "国家会展中心（上海）· 官方活动排期",
+      "url": "https://www.neccsh.com/cecsh/exhibitioninfo/exhibitionlist.jspx?v=1&channelIdStr=204",
+      "schedule_type": "活动",
+      "exhibition_collector": "necc",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "priority": 5,
+      "type": "官方会展场馆",
+      "region": "中国",
+      "city": "上海",
+      "exhibition_reference": true
+    },
+    {
+      "name": "上海博物馆 · 官方活动预约",
+      "url": "https://events.shanghaimuseum.net/sheduplatform/activityOut/out/activityPage",
+      "schedule_type": "活动",
+      "exhibition_collector": "shmuseum_activities",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "priority": 5,
+      "type": "官方博物馆",
+      "region": "中国",
+      "city": "上海",
+      "exhibition_reference": true,
+      "museum": true
+    },
+    {
+      "name": "上海博物馆 · 当前特别展览",
+      "url": "https://www.shanghaimuseum.cn/mu/frontend/pg/display/offline-exhibit",
+      "schedule_type": "展览",
+      "exhibition_collector": "shmuseum_exhibitions",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "priority": 5,
+      "type": "官方博物馆",
+      "region": "中国",
+      "city": "上海",
+      "exhibition_reference": true,
+      "museum": true
     }
   ]
 }
