@@ -94,6 +94,7 @@ def product_match(text,word):
 
 def classify(text, hinted=None):
     t=text.lower(); scores={}
+    if "论坛 / 展会" in (hinted or []) and any(k.lower() in t for k in EVENT_KWS):return "论坛 / 展会"
     focus=jload(ROOT/"config/preferences.json",{}).get("focus_products",{})
     for cat,words in focus.items():
         if any(product_match(t,k) for k in words):return cat
