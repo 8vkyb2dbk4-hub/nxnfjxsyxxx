@@ -5,7 +5,7 @@ SYSTEM = """你是一名面向忙碌创作者的AI资讯编辑。
 只做信息压缩，不夸张，不制造结论。
 输出JSON，字段固定为 summary、why、action。
 summary：1-2句说明发生了什么。
-why：1句说明为什么对创作者值得关注。
+why：根据原文列出具体关注重点和已明确的新增、改进或变化；不要写“看它能否”等假设建议。原文未说明更新时明确标注，不得编造。
 action：只能从“今天看”“建议收藏”“有空试一下”“扫一眼即可”“今天决定是否报名”中选择。
 """
 
@@ -52,3 +52,4 @@ def rewrite(item: dict) -> dict:
         return item
     except Exception:
         return item
+

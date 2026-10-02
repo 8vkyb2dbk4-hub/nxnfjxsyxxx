@@ -147,6 +147,20 @@ function feedback(item,kind){
 }
 function currentFeedback(id){return localStorage.getItem("ai-brief-feedback-"+id)||""}
 
+function eventAvailable(x, now=new Date()){
+  if(x.category!=="论坛 / 展会") return true;
+  const parts=new Intl.DateTimeFormat("en",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);
+  const get=t=>parts.find(p=>p.type===t).value;
+  const today=`${get("year")}-${get("month")}-${get("day")}`;
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(x.event_date||"")||x.event_date<today) return false;
+  if(x.deadline){
+    let raw=x.deadline.replace("T24:00:00","T23:59:59");
+    if(!/(Z|[+-]\d{2}:?\d{2})$/.test(raw)) raw+="+08:00";
+    const end=new Date(raw);
+    if(!Number.isFinite(end.getTime())||end<=now) return false;
+  }
+  return true;
+}
 function countdown(x){
   if(!x.deadline) return "";
   let raw=x.deadline.replace("T24:00:00","T23:59:59");
@@ -185,9 +199,19 @@ function feedbackBar(x){
     ${personalize && Math.abs(x._personalBoost||0)>.5?`<span class="personal-note">为你调整 ${x._personalBoost>0?"+":""}${x._personalBoost.toFixed(1)}</span>`:""}
   </div>`;
 }
+function translationLink(x){
+  const text=[x.title,x.summary,x.why].filter(Boolean).join("\n\n");
+  if(!/[A-Za-z]{3,}|[\u3040-\u30ff]|[\uac00-\ud7af]/.test(text)) return "";
+  const url="https://translate.google.com/?sl=auto&tl=zh-CN&op=translate&text="+encodeURIComponent(text);
+  return `<a class="translate-btn" href="${esc(url)}" target="_blank" rel="noopener noreferrer" title="在 Google 翻译中打开标题和摘要，需要联网">翻译为简体中文 ↗</a>`;
+}
+function newsImage(x){
+  if(!x.image||!/^https:\/\//i.test(x.image)) return "";
+  return `<figure class="news-image"><img src="${esc(x.image)}" alt="${esc(x.title)} · 来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').hidden=true"><figcaption>来源配图 · ${esc(x.source)}</figcaption></figure>`;
+}
 function card(raw){
   const x=withPersonalScore(raw);
-  if(hidden.has(x.id)||!matchesSearch(x)) return "";
+  if(!eventAvailable(x)||hidden.has(x.id)||!matchesSearch(x)) return "";
   const read=readSet.has(x.id);
   const j=esc(JSON.stringify(x));
   return `<article class="card ${read?"is-read":""}">
@@ -196,15 +220,16 @@ function card(raw){
       <button class="hidebtn" onclick='hideItem(${j})' title="今天不看">×</button>
     </div>
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
+    ${newsImage(x)}
     <h4>${esc(x.title)}</h4>
     <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
       <div><b>发生了什么</b><p>${esc(x.summary)}</p></div>
-      <div><b>为什么和你有关</b><p>${esc(x.why)}</p></div>
+      <div><b>关注重点</b><p>${esc(x.why)}</p></div>
     </div>
     ${altSources(x)}
     ${feedbackBar(x)}
-    <div class="card-foot">${actionChip(x)}${sourceLink(x)}</div>
+    <div class="card-foot">${actionChip(x)}${translationLink(x)}${sourceLink(x)}</div>
   </article>`;
 }
 function allItems(){return [...issue.top3,...issue.sections.flatMap(s=>s.items.map(x=>({...x,category:x.category||s.name})))];}
@@ -264,7 +289,7 @@ function setFilter(c){activeFilter=c;renderToday()}
 function renderEvents(){
   const sec=issue.sections.find(s=>s.name==="论坛 / 展会");
   let arr=[...issue.top3.filter(x=>x.category==="论坛 / 展会"),...(sec?sec.items:[])];
-  arr=sortPersonal(arr).sort((a,b)=>{
+  arr=sortPersonal(arr.filter(x=>eventAvailable({...x,category:"论坛 / 展会"}))).sort((a,b)=>{
     const preferred=basePrefs?.event_cities||["上海","杭州"];
     const localA=preferred.includes(a.location),localB=preferred.includes(b.location);
     if(localA!==localB)return localA?-1:1;
@@ -391,7 +416,7 @@ function copyBrief(){
   sortPersonal(issue.top3).forEach((x,i)=>{
     lines.push(`${i+1}. ${x.title}`);
     lines.push(`发生了什么：${x.summary}`);
-    lines.push(`为什么值得看：${x.why}`);
+    lines.push(`关注重点：${x.why}`);
     if(x.action) lines.push(`建议：${x.action}`);
     if(x.url) lines.push(x.url);
     lines.push("");
@@ -441,8 +466,9 @@ function renderSignals(){
   const tagsEl=document.getElementById("watchTags");
   const matchesEl=document.getElementById("watchMatches");
 
-  if(signals?.urgent?.length){
-    urgentEl.innerHTML=`<div class="urgent-box"><div class="kicker">URGENT</div><h3>今天需要处理</h3>${signals.urgent.map(x=>`
+  const urgent=(signals?.urgent||[]).filter(x=>new Date(x.deadline)>new Date() && eventAvailable({...x,event_date:x.event_date||allItems().find(i=>i.id===x.id)?.event_date}));
+  if(urgent.length){
+    urgentEl.innerHTML=`<div class="urgent-box"><div class="kicker">URGENT</div><h3>今天需要处理</h3>${urgent.map(x=>`
       <div class="urgent-row"><div><b>${esc(x.title)}</b><br><span class="meta">${esc(x.source)} · 约 ${x.hours_left} 小时后截止</span></div>
       <a class="source-link" href="${esc(x.url)}" target="_blank">去看 ↗</a></div>`).join("")}</div>`;
   }else{
@@ -599,4 +625,7 @@ boot();
 
 document.getElementById("addWatchBtn").onclick=addWatch;
 document.getElementById("watchInput").addEventListener("keydown",e=>{if(e.key==="Enter") addWatch();});
+
+setInterval(()=>{if(issue){renderToday();renderEvents();renderSignals();}},60000);
+window.addEventListener("focus",()=>{if(issue){renderToday();renderEvents();renderSignals();}});
 

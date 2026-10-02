@@ -119,6 +119,12 @@ def article_meta(url):
     try:
         r=get(url,14)
         soup=BeautifulSoup(r.text,"html.parser")
+        image=""
+        for attrs in ({"property":"og:image"},{"name":"twitter:image"}):
+            tag=soup.find("meta",attrs=attrs)
+            if tag and tag.get("content"):
+                candidate=urljoin(url,tag["content"])
+                if urlparse(candidate).scheme=="https": image=candidate; break
         desc=""
         for attrs in ({"name":"description"},{"property":"og:description"},{"name":"twitter:description"}):
             m=soup.find("meta",attrs=attrs)
@@ -188,7 +194,7 @@ def article_meta(url):
                     confidence="medium"
                 except: pass
 
-        return {"desc":desc[:500],"published":published,"date_confidence":confidence,"body":body}
+        return {"desc":desc[:500],"published":published,"date_confidence":confidence,"body":body,"image":image}
     except Exception:
         return {"desc":"","published":"","date_confidence":"unknown","body":""}
 
@@ -247,8 +253,6 @@ def extract_deadline(text):
             month,day=int(m.group(2)),int(m.group(3))
             hh,mm=int(m.group(4) or 23),int(m.group(5) or 59)
             dt=datetime.datetime(year,month,day,hh,mm,tzinfo=TZ)
-            if (dt-NOW).days < -180:
-                dt=dt.replace(year=year+1)
             return dt.isoformat()
         except: pass
     return None
@@ -267,8 +271,6 @@ def extract_event_date(text):
             continue
         try:
             d=datetime.date(TODAY.year,int(m.group(1)),int(m.group(2)))
-            if (d-TODAY).days < -120:
-                d=datetime.date(TODAY.year+1,d.month,d.day)
             return d.isoformat()
         except: pass
     return None
@@ -298,15 +300,14 @@ def action(cat, score, deadline=None):
     if cat in ("AI 绘画","AI 影视","游戏与 3D","Agent / 编程"): return "有空试一下"
     return "扫一眼即可"
 
-def why(cat):
-    return {
-        "AI 绘画":"看它是否能提升角色一致性、参考图控制、局部编辑、高清输出，或明显减少后期修图。",
-        "AI 影视":"看它是否能真正进入分镜、镜头生成、动作、配音、音效和剪辑流程，而不只是演示。",
-        "游戏与 3D":"看它是否能用于原型、3D资产、动作、NPC、关卡或自动测试。",
-        "Agent / 编程":"看它能否替你减少资料搜集、整理、搭网站、做小游戏和重复操作。",
-        "论坛 / 展会":"只优先提醒真正值得参加、可线上观看、上海、杭州可线下参加或临近截止的活动。",
-        "新模型 / 开源":"不追参数榜；只看是否真正可用、是否开源、是否进入常用产品或显著改变工作流。"
-    }.get(cat,"判断它是否会真正改变你的工作方式。")
+def focus_points(title, desc):
+    sentences=[clean(v) for v in re.split(r"(?<=[。！？.!?])\s+|[\n]",desc or "") if clean(v)]
+    updates=[v for v in sentences if re.search(r"新增|更新|发布|推出|升级|支持|开放|改进|提升|修复|new|introduc|launch|releas|updat|improv|support|now |increase",v,re.I)]
+    if updates:
+        return "更新重点："+" ".join(updates[:2])[:260]
+    if sentences:
+        return "关注内容："+sentences[0][:220]+"（原文未明确列出版本变化。）"
+    return "关注主题："+clean(title)+"；具体能力与更新细节需查看原文。"
 
 def summary(title,desc):
     if desc and len(desc)>=35:
@@ -416,15 +417,15 @@ def extract_event_city(text):
 
 def event_is_valid(x, quality):
     if x.get("category")!="论坛 / 展会": return True
-    d=x.get("event_date")
-    if not d: return True
     try:
-        event=datetime.date.fromisoformat(d)
-        if quality.get("event_validation",{}).get("drop_past_events",True) and event<TODAY:
-            return False
-        maxd=quality.get("event_validation",{}).get("max_future_days",180)
-        return (event-TODAY).days<=maxd
-    except:
+        event=datetime.date.fromisoformat(x.get("event_date") or "")
+        if event<TODAY: return False
+        if x.get("deadline"):
+            deadline=datetime.datetime.fromisoformat(str(x["deadline"]).replace("T24:00:00","T23:59:59"))
+            if deadline.tzinfo is None: deadline=deadline.replace(tzinfo=TZ)
+            if deadline<=datetime.datetime.now(TZ): return False
+        return (event-TODAY).days<=quality.get("event_validation",{}).get("max_future_days",180)
+    except (ValueError,TypeError):
         return False
 
 def collect():
@@ -461,7 +462,8 @@ def collect():
                 material=is_material_update(text,quality)
                 item={
                     "id":hid(base["url"]),"title":base["title"],"url":base["url"],
-                    "summary":summary(base["title"],desc),"why":why(cat),
+                    "image":meta.get("image",""),"image_source":base["url"],
+                    "summary":summary(base["title"],desc),"why":focus_points(base["title"],desc),
                     "action":action(cat,sc,dl),"tier":tier(sc,dl),
                     "source":src.get("name","未知来源"),
                     "source_type":src.get("type",""),
@@ -549,7 +551,7 @@ def issue_to_html(issue):
         return f"""<article><div class="tag">{html.escape(x.get('tier',''))}</div>
         <{h}>{html.escape(x.get('title',''))}</{h}>
         <p><b>发生了什么：</b>{html.escape(x.get('summary',''))}</p>
-        <p><b>为什么和你有关：</b>{html.escape(x.get('why',''))}</p>
+        <p><b>关注重点：</b>{html.escape(x.get('why',''))}</p>
         <p><b>建议动作：</b>{html.escape(x.get('action',''))}</p>
         <p class="meta">{html.escape(x.get('source',''))} · {html.escape(x.get('date_label',''))} · <a href="{html.escape(x.get('url',''))}">原始来源</a></p>{alts}</article>"""
     for i,x in enumerate(issue.get("top3",[]),1):
@@ -570,7 +572,7 @@ def issue_to_html(issue):
 def write_ics(rows):
     events=[]
     for x in rows:
-        if x.get("category")!="论坛 / 展会" or not x.get("event_date"): continue
+        if x.get("category")!="论坛 / 展会" or not event_is_valid(x,{}): continue
         try:
             d=datetime.date.fromisoformat(x["event_date"])
             if d<TODAY or (d-TODAY).days>180: continue
