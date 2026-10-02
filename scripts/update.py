@@ -39,6 +39,7 @@ TODAY = NOW.date()
 UA = {"User-Agent":"Mozilla/5.0 (compatible; Creator-AI-Brief/6.0; personal reader)"}
 
 CATEGORY_KWS = {
+    "艺术":["craft","ceramic","textile","embroidery","weaving","sculpture","paper art","art magazine","手工","艺术刊物","陶艺","刺绣","编织","雕塑","版画","纸艺","纤维艺术"],
     "AI 绘画":["image","illustration","art","diffusion","flux","图像","绘画","美术","设计","视觉","reference image","upscale","角色一致性","参考图","局部编辑"],
     "AI 影视":["video","film","audio","voice","music","speech","dub","视频","影视","动画","语音","配音","音乐","音效","lip","镜头","首尾帧"],
     "游戏与 3D":["game","gaming","3d","unity","unreal","godot","npc","游戏","三维","建模","动作","贴图","关卡"],
@@ -194,7 +195,7 @@ def article_meta(url):
                     confidence="medium"
                 except: pass
 
-        return {"desc":desc[:500],"published":published,"date_confidence":confidence,"body":body,"image":image}
+        return {"desc":desc[:500],"published":published,"date_confidence":confidence,"body":body,"image":image,"headings":[clean(h.get_text(" ",strip=True)) for h in soup.find_all(["h1","h2"])]}
     except Exception:
         return {"desc":"","published":"","date_confidence":"unknown","body":""}
 
@@ -225,16 +226,31 @@ def list_links(src):
     if BeautifulSoup is None: return []
     r=get(src["url"])
     soup=BeautifulSoup(r.text,"html.parser")
+    if src.get("collector")=="sniec":
+        rows=[]
+        for heading in soup.find_all(["h4","h3"]):
+            anchor=heading.find("a",href=True)
+            if not anchor: continue
+            node=heading
+            for _ in range(4):
+                node=node.parent
+                if node is None:break
+                match=re.search(r"(20\d{2}/\d{2}/\d{2})\s*-\s*(20\d{2}/\d{2}/\d{2})",node.get_text(" ",strip=True))
+                if match:
+                    rows.append({"title":clean(anchor.get_text(" ",strip=True)),"url":urljoin(src["url"],anchor["href"]),"event_date":match[1].replace("/","-"),"event_end_date":match[2].replace("/","-"),"location":"上海"});break
+        return rows
     rows=[]
     trigger = AI_KWS + EVENT_KWS + sum(CATEGORY_KWS.values(),[])
     seen=set()
     for a in soup.find_all("a",href=True):
         title=clean(a.get_text(" ",strip=True))
         if not 8<=len(title)<=180: continue
-        if not any(k.lower() in title.lower() for k in trigger): continue
+        if not src.get("force_category") and not any(k.lower() in title.lower() for k in trigger): continue
         url=canonical_url(urljoin(src["url"],a["href"]))
         if urlparse(url).scheme not in ("http","https"): continue
-        k=(norm_title(title),url)
+        if src.get("article_url_pattern") and not re.search(src["article_url_pattern"],url): continue
+        if src.get("force_category")=="艺术" and urlparse(url).netloc!=urlparse(src["url"]).netloc: continue
+        k=url if src.get("force_category")=="艺术" else (norm_title(title),url)
         if k in seen: continue
         seen.add(k)
         rows.append({"title":title,"url":url})
@@ -418,7 +434,7 @@ def extract_event_city(text):
 def event_is_valid(x, quality):
     if x.get("category")!="论坛 / 展会": return True
     try:
-        event=datetime.date.fromisoformat(x.get("event_date") or "")
+        event=datetime.date.fromisoformat(x.get("event_end_date") or x.get("event_date") or "")
         if event<TODAY: return False
         if x.get("deadline"):
             deadline=datetime.datetime.fromisoformat(str(x["deadline"]).replace("T24:00:00","T23:59:59"))
@@ -446,10 +462,13 @@ def collect():
                 metas=list(pool.map(lambda base:article_meta(base["url"]),bases))
             for base,meta in zip(bases,metas):
                 desc,pub,body=meta["desc"],meta["published"],meta["body"]
+                if src.get("collector")=="sniec":
+                    prefix=base["title"].rstrip(". …")
+                    base["title"]=next((h for h in meta.get("headings",[]) if h.startswith(prefix)),base["title"])
                 text=base["title"]+" "+desc+" "+body[:4000]
-                cat=classify(text,src.get("category"))
+                cat=src.get("force_category") or classify(text,src.get("category"))
                 dl=extract_deadline(text) if cat=="论坛 / 展会" else None
-                ev=extract_event_date(text) if cat=="论坛 / 展会" else None
+                ev=base.get("event_date") or (extract_event_date(text) if cat=="论坛 / 展会" else None)
                 sc=score_item(base["title"],desc,src,cat,prefs,quality,meta["date_confidence"])
                 if dl:
                     try:
@@ -473,11 +492,13 @@ def collect():
                     "date_confidence":meta["date_confidence"],
                     "date_label":pub or quality.get("unknown_date_policy",{}).get("display_label","日期待确认"),
                     "category":cat,"status":tier(sc,dl),
-                    "deadline":dl,"event_date":ev,
-                    "location":extract_event_city(text) if cat=="论坛 / 展会" else "",
+                    "deadline":dl,"event_date":ev,"event_end_date":base.get("event_end_date"),
+                    "location":(base.get("location") or extract_event_city(text)) if cat=="论坛 / 展会" else "",
                     "score":sc,
                     "material_update":material
                 }
+                if src.get("collector")=="sniec":
+                    item.update(summary=f"官方场馆日程：{ev} 至 {base.get('event_end_date')}，地点为上海新国际博览中心。参观票务及资格请查看主办方通知。",why="关注展会主题、举办日期与观众报名要求；票务或专业观众资格以官方通知为准。",image="",published_at="",date_confidence="unknown",date_label="场馆官方日程")
                 if summarizer and summarizer.configured() and sc>=90:
                     item=summarizer.rewrite(item)
                 rows.append(item); count+=1
@@ -527,7 +548,7 @@ def build_mode(rows,prefs,mode):
         if x["category"] not in seen or len(top)>=2:
             top.append(x); seen.add(x["category"])
     top_ids={x["id"] for x in top}
-    cats=[("AI 绘画","✦"),("AI 影视","▶"),("游戏与 3D","◆"),("Agent / 编程","⌘"),("新模型 / 开源","◎"),("论坛 / 展会","◉")]
+    cats=[("艺术","◈"),("AI 绘画","✦"),("AI 影视","▶"),("游戏与 3D","◆"),("Agent / 编程","⌘"),("新模型 / 开源","◎"),("论坛 / 展会","◉")]
     sections=[]
     for cat,icon in cats:
         items=[x for x in pool if x["category"]==cat and x["id"] not in top_ids][:m["per_section"]]

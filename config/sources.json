@@ -321,6 +321,75 @@
       ],
       "url": "https://bcds.zju.edu.cn/xsjz/list.htm",
       "priority": 5
+    },
+    {
+      "name": "Colossal · 新兴手工与当代艺术",
+      "region": "国际",
+      "type": "艺术报刊",
+      "category": [
+        "艺术"
+      ],
+      "force_category": "艺术",
+      "url": "https://www.thisiscolossal.com/",
+      "article_url_pattern": "/20\\d{2}/\\d{2}/",
+      "priority": 5
+    },
+    {
+      "name": "Crafts Council · Crafts 手工艺刊物",
+      "region": "国际",
+      "type": "艺术报刊 / 手工艺机构",
+      "category": [
+        "艺术"
+      ],
+      "force_category": "艺术",
+      "url": "https://www.craftscouncil.org.uk/stories",
+      "article_url_pattern": "/stories/[^/]+",
+      "priority": 5
+    },
+    {
+      "name": "American Craft Council · 手工艺报道",
+      "region": "国际",
+      "type": "艺术报刊 / 手工艺机构",
+      "category": [
+        "艺术"
+      ],
+      "force_category": "艺术",
+      "url": "https://craftcouncil.org/stories/",
+      "priority": 4
+    },
+    {
+      "name": "上海新国际博览中心 · 展会日程",
+      "region": "中国 / 上海",
+      "type": "官方展会场馆",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "force_category": "论坛 / 展会",
+      "collector": "sniec",
+      "url": "https://sniec.net/",
+      "priority": 5
+    },
+    {
+      "name": "ART021 · 上海艺术博览会",
+      "region": "中国 / 上海",
+      "type": "官方艺术博览会",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "url": "https://www.art021.org/",
+      "priority": 5
+    },
+    {
+      "name": "上海博物馆 · 展览与公共活动",
+      "region": "中国 / 上海",
+      "type": "官方博物馆",
+      "category": [
+        "论坛 / 展会",
+        "艺术"
+      ],
+      "url": "https://www.shanghaimuseum.cn/",
+      "priority": 5
     }
   ]
 }

@@ -25,6 +25,7 @@
 
   <nav class="tabs" aria-label="日报栏目">
     <button data-view="today" class="active">今日</button>
+    <button data-view="art">艺术</button>
     <button data-view="events">论坛 / 展会</button>
     <button data-view="saved">收藏</button>
     <button data-view="archive">往期</button>
@@ -72,13 +73,18 @@
       <div id="sections"></div>
     </section>
 
+    <section id="artView" class="view">
+      <div class="page-head"><div class="kicker">ART & CRAFT</div><h2>艺术 · 新兴手工 · 艺术报刊</h2><p>关注陶艺、纸艺、纤维编织、刺绣、雕塑及跨媒介创作，阅读艺术刊物的原创报道。</p></div>
+      <div id="artCards" class="item-list"></div>
+      <h3 class="section-title">艺术报刊与手工艺阅读入口</h3><div id="artPublications" class="publication-grid"></div>
+    </section>
     <section id="eventsView" class="view">
       <div class="page-head">
         <div class="kicker">CALENDAR RADAR</div>
         <h2>论坛 / 展会 / 高校活动</h2>
         <p>重点收集上海、杭州线下活动，只展示截至当天仍可参加的活动；已结束、报名截止或日期不明的活动不推荐。</p>
       </div>
-      <div id="eventCards"></div>
+      <label class="event-city">活动地区 <select id="eventCity" onchange="renderEvents()"><option value="上海">上海论坛 / 展会</option><option value="沪杭">上海与杭州</option><option value="全部">全部地区</option></select></label><div id="eventCards"></div>
     </section>
 
     <section id="savedView" class="view">

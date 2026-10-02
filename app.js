@@ -155,7 +155,7 @@ function eventAvailable(x, now=new Date()){
   const parts=new Intl.DateTimeFormat("en",{timeZone:"Asia/Shanghai",year:"numeric",month:"2-digit",day:"2-digit"}).formatToParts(now);
   const get=t=>parts.find(p=>p.type===t).value;
   const today=`${get("year")}-${get("month")}-${get("day")}`;
-  if(!/^\d{4}-\d{2}-\d{2}$/.test(x.event_date||"")||x.event_date<today) return false;
+  if(!/^\d{4}-\d{2}-\d{2}$/.test(x.event_date||"")||(x.event_end_date||x.event_date)<today) return false;
   if(x.deadline){
     let raw=x.deadline.replace("T24:00:00","T23:59:59");
     if(!/(Z|[+-]\d{2}:?\d{2})$/.test(raw)) raw+="+08:00";
@@ -242,7 +242,7 @@ function card(raw){
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
     ${newsImage(x)}
     <h4>${esc(shown.title)}</h4>
-    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
+    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
       <div><b>发生了什么</b><p>${esc(shown.summary)}</p></div>
       <div><b>关注重点</b><p>${esc(chineseFocus(x))}</p></div>
@@ -312,9 +312,16 @@ function renderToday(){
   }).join("");
 }
 function setFilter(c){activeFilter=c;renderToday()}
+function renderArt(){
+  const items=[...new Map(allItems().filter(x=>x.category==="艺术").map(x=>[x.id,x])).values()];
+  document.getElementById("artCards").innerHTML=sortPersonal(items).map(card).join("")||'<div class="empty">暂未收录新的艺术报道，可从下方刊物入口阅读。</div>';
+  document.getElementById("artPublications").innerHTML=(sourceConfig?.sources||[]).filter(x=>x.force_category==="艺术").map(x=>`<a class="publication" href="${esc(x.url)}" target="_blank" rel="noopener"><b>${esc(x.name)}</b><span>${esc(x.type)} · 原创报道 / 刊物内容 ↗</span></a>`).join("");
+}
 function renderEvents(){
   const sec=issue.sections.find(s=>s.name==="论坛 / 展会");
   let arr=[...issue.top3.filter(x=>x.category==="论坛 / 展会"),...(sec?sec.items:[])];
+  const city=document.getElementById("eventCity")?.value||"上海";
+  arr=arr.filter(x=>city==="全部"||(city==="沪杭"?["上海","杭州"].includes(x.location):x.location==="上海"));
   arr=sortPersonal(arr.filter(x=>eventAvailable({...x,category:"论坛 / 展会"}))).sort((a,b)=>{
     const preferred=basePrefs?.event_cities||["上海","杭州"];
     const localA=preferred.includes(a.location),localB=preferred.includes(b.location);
@@ -627,7 +634,7 @@ async function reloadPersonalState(){
 window.addEventListener("ai-brief-synced",()=>reloadPersonalState().catch(()=>{}));
 
 function renderAll(){
-  applyUIPrefs();renderMode();renderHealth();renderToday();renderEvents();renderSaved();
+  applyUIPrefs();renderMode();renderHealth();renderToday();renderArt();renderEvents();renderSaved();
   renderArchive();renderSources();renderSourceHealth();renderWeekly();renderSignals();renderLearning();renderSettings();renderSync();
 }
 
@@ -645,7 +652,7 @@ document.getElementById("personalizeBtn").onclick=togglePersonalize;
 document.getElementById("exportProfileBtn").onclick=exportProfile;
 document.getElementById("importProfileInput").addEventListener("change",e=>{if(e.target.files[0]) importProfile(e.target.files[0])});
 document.getElementById("resetLearningBtn").onclick=resetLearning;
-document.getElementById("searchInput").addEventListener("input",e=>{searchText=e.target.value.trim();renderToday();renderEvents();renderSaved();});
+document.getElementById("searchInput").addEventListener("input",e=>{searchText=e.target.value.trim();renderToday();renderArt();renderEvents();renderSaved();});
 if("serviceWorker" in navigator){navigator.serviceWorker.register("./sw.js").catch(()=>{})}
 boot();
 

@@ -283,3 +283,5 @@ html{background:#dcd6ca}body{background:repeating-linear-gradient(0deg,#a3967804
 @media(max-width:760px){.card,.top-grid .card,.item-list .card{padding:18px 14px;border:1px solid #c7bcaa}.card:last-child{border-right:1px solid #c7bcaa}.section-head{gap:8px}.section-head h3{font-size:19px}.card h4{padding:10px;font-size:22px}.top-grid .card:first-child h4{font-size:25px}}
 @media print{.card,.brief-parts>div{-webkit-print-color-adjust:exact;print-color-adjust:exact;box-shadow:none}}
 
+.publication-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.publication{display:flex;flex-direction:column;gap:12px;padding:18px;background:#e6dece;border:1px solid #c7bcaa;color:var(--ink);text-decoration:none}.publication b{background:#3c3932;color:#fff9ee;padding:8px;font-family:Georgia,"Songti SC",serif}.publication span{font-size:12px;line-height:1.7;color:var(--muted)}.event-city{display:block;padding:12px;background:#d8ceba;margin:12px 0}.event-city select{font:inherit;padding:8px;background:#f6f1e7;border:1px solid #bdb09a;max-width:100%}@media(max-width:760px){.publication-grid{grid-template-columns:1fr}}
+
