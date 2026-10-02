@@ -578,8 +578,9 @@ def write_ics(rows):
 
 def build_weekly():
     entries=[]
-    for p in sorted((ROOT/"data/archive").glob("*.json"),reverse=True)[:7]:
+    for p in sorted((ROOT/"data/archive").glob("20??-??-??.json"),reverse=True)[:7]:
         obj=jload(p,{})
+        if not isinstance(obj,dict): continue
         entries.extend(obj.get("top3",[]))
     # 再次同题聚类
     q=jload(ROOT/"config/quality.json",{})
