@@ -248,7 +248,7 @@ function card(raw){
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
     ${newsImage(x)}
     <h4>${esc(shown.title)}</h4>
-    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.event_kind==="游戏行业"?`<span>游戏行业 · 线下</span><span>参与：${esc(x.registration||"请查看官方通知")}</span>`:""}${["公开课","上海博物馆活动"].includes(x.event_kind)?`<span>${esc(x.event_start_at?.slice(11,16)||"")}${x.event_end_at?"–"+esc(x.event_end_at.slice(11,16)):""} · ${esc(x.participation_mode)} · ${esc(x.audience)}</span><span>参与：${esc(x.registration)}</span>`:""}${x.schedule_type?`<span>官网${esc(x.schedule_type)}排期</span>`:""}${x.halls?`<span>展馆：${esc(x.halls)}</span>`:""}${x.venue?`<span>${esc(x.venue)}</span>`:""}${x.verified_at?`<span>展期核对 ${esc(x.verified_at)}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
+    <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.event_kind==="游戏行业"?`<span>游戏行业 · 线下</span><span>参与：${esc(x.registration||"请查看官方通知")}</span>`:""}${["公开课","讲座","上海博物馆活动"].includes(x.event_kind)?`<span>${esc(x.event_start_at?.slice(11,16)||"")}${x.event_end_at?"–"+esc(x.event_end_at.slice(11,16)):""} · ${esc(x.participation_mode)} · ${esc(x.audience)}</span><span>参与：${esc(x.registration)}</span>`:""}${x.schedule_type?`<span>官网${esc(x.schedule_type)}排期</span>`:""}${x.halls?`<span>展馆：${esc(x.halls)}</span>`:""}${x.venue?`<span>${esc(x.venue)}</span>`:""}${x.verified_at?`<span>展期核对 ${esc(x.verified_at)}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
       <div><b>发生了什么</b><p>${esc(shown.summary)}</p></div>
       <div><b>关注重点</b><p>${esc(chineseFocus(x))}</p></div>
@@ -367,8 +367,9 @@ function renderClasses(){
   const city=document.getElementById("classCity")?.value||"沪杭";
   let arr=(publicClassFeed?.items||[]).filter(classAvailable).filter(x=>city==="沪杭"||x.location===city);
   arr=arr.sort((a,b)=>(a.event_start_at||a.event_date).localeCompare(b.event_start_at||b.event_date));
-  const block=(title,items)=>`<section class="event-group"><h3 class="section-title">${title} · ${items.length} 场</h3><div class="item-list">${items.map(x=>card(x)).join("")||'<div class="empty">暂未收录符合条件的课程。</div>'}</div></section>`;
-  document.getElementById("classCards").innerHTML=block("无需预约 / 现场报名",arr.filter(x=>["no_signup","onsite","open"].includes(x.registration_status)))+block("课程预告 · 报名名额需向官方核对",arr.filter(x=>x.registration_status==="check"));
+  const block=(title,items)=>`<section class="event-group"><h3 class="section-title">${title} · ${items.length} 场</h3><div class="item-list">${items.map(x=>card(x)).join("")||'<div class="empty">暂未收录符合条件的公开课或讲座。</div>'}</div></section>`;
+  document.getElementById("classCards").innerHTML=block("无需预约 / 现场报名",arr.filter(x=>["no_signup","onsite","open"].includes(x.registration_status)))+block("公开课/讲座预告 · 报名名额需向官方核对",arr.filter(x=>x.registration_status==="check"));
+  document.getElementById("librarySources").innerHTML=(publicClassFeed?.libraries||[]).filter(x=>city==="沪杭"||x.city===city).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.city)} · ${esc(x.focus)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">官方讲座与活动 ↗</a>${x.wechat_name?`<span>官方公众号：${esc(x.wechat_name)}</span><button onclick='copyMuseumWechat(${esc(JSON.stringify(x.wechat_name))},this)'>复制公众号名称</button>`:""}<a href="${esc(x.wechat_official_url||x.url)}" target="_blank" rel="noopener">${x.wechat_name?"官方公众号 / 报名说明":"官网微信与预约入口"} ↗</a></div>`).join("");
 }
 function renderSaved(){
   const arr=sortPersonal(allItems().filter(x=>saved.has(x.id)));
@@ -381,8 +382,9 @@ function renderArchive(){
   }).join("");
 }
 function renderSources(){
+  document.getElementById("expertSources").innerHTML=sourceConfig.sources.filter(x=>x.expert_source&&x.x_handle).map(x=>`<div class="publication museum-source"><b>${esc(x.name)}</b><span>${esc(x.focus)}</span><a href="${esc(x.url)}" target="_blank" rel="noopener">X @${esc(x.x_handle)} ↗</a><a href="${esc(x.fallback_url)}" target="_blank" rel="noopener">官方文章 / 研究 ↗</a></div>`).join("");
   document.getElementById("sourceList").innerHTML=sourceConfig.sources.map(x=>`<div class="source">
-    <div><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a><br><span class="meta">${esc(x.category.join(" · "))}</span></div>
+    <div><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)}</a><br><span class="meta">${esc(x.category.join(" · "))}</span>${x.x_handle?`<br><span class="meta">@${esc(x.x_handle)} · ${x.expert_source?"重点关注研究与技术分享":"重点关注模型与产品更新"}</span><br><a href="${esc(x.fallback_url)}" target="_blank" rel="noopener">官网备用来源 ↗</a><br><span class="meta">X 自动读取需 API 授权；官网继续每日更新</span>`:""}</div>
     <div>${esc(x.region)}${x.wechat_name?`<br><span class="meta">公众号：${esc(x.wechat_name)}</span>`:""}</div><div class="meta">${esc(x.type)} · P${x.priority}</div>
   </div>`).join("");
 }
@@ -699,4 +701,3 @@ document.getElementById("watchInput").addEventListener("keydown",e=>{if(e.key===
 
 setInterval(()=>{if(issue){renderToday();renderEvents();renderClasses();renderSignals();}},60000);
 window.addEventListener("focus",()=>{if(issue){renderToday();renderEvents();renderClasses();renderSignals();}});
-

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02T15:33:02.012048+08:00",
+  "updated_at": "2026-10-02T16:39:33.399239+08:00",
   "items": [
     {
       "title": "神笔小匠人：3D国旗打印互动",
@@ -77,6 +77,30 @@
       "date_label": "官方活动时间"
     },
     {
+      "title": "普鲁斯特 City Walk慢读会",
+      "event_date": "2026-10-17",
+      "event_end_date": "2026-10-17",
+      "event_start_at": "2026-10-17T14:00:00+08:00",
+      "location": "上海",
+      "venue": "普陀区图书馆3楼学术报告厅1",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
+      "source": "普陀区人民政府 · 图书馆活动预告",
+      "registration": "报名详情于活动开始前发布，请核对图书馆官方公众号或文化普陀云",
+      "registration_status": "check",
+      "event_kind": "讲座",
+      "participation_mode": "线下",
+      "audience": "以官方报名说明为准",
+      "verified_at": "2026-10-02",
+      "summary": "图书馆官方阅读活动预告，名额与参加要求以最新报名通知为准。",
+      "why": "关注阅读主题、交流内容及正式报名开放时间。",
+      "id": "607079f4c4f225",
+      "category": "论坛 / 展会",
+      "tier": "建议看",
+      "score": 90,
+      "action": "查看课程与报名",
+      "date_label": "官方活动时间"
+    },
+    {
       "title": "领导力课：如何通过正确批评激励他人",
       "event_date": "2026-10-18",
       "event_end_date": "2026-10-18",
@@ -95,6 +119,30 @@
       "summary": "公开讲座或互动课堂；请按官方安排参与，报名活动需先确认名额。",
       "why": "关注课程主题、适合人群与开课时间；报名方式：杭图微信公众号报名。",
       "id": "02e8de4286b9b4",
+      "category": "论坛 / 展会",
+      "tier": "建议看",
+      "score": 90,
+      "action": "查看课程与报名",
+      "date_label": "官方活动时间"
+    },
+    {
+      "title": "“阅享苏河”读书会",
+      "event_date": "2026-10-18",
+      "event_end_date": "2026-10-18",
+      "event_start_at": "2026-10-18T14:00:00+08:00",
+      "location": "上海",
+      "venue": "上海少年儿童图书馆（长风馆）B座一楼报告厅",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
+      "source": "普陀区人民政府 · 图书馆活动预告",
+      "registration": "报名详情于活动开始前发布，请核对图书馆官方公众号或文化普陀云",
+      "registration_status": "check",
+      "event_kind": "讲座",
+      "participation_mode": "线下",
+      "audience": "以官方报名说明为准",
+      "verified_at": "2026-10-02",
+      "summary": "图书馆官方阅读活动预告，名额与参加要求以最新报名通知为准。",
+      "why": "关注阅读主题、交流内容及正式报名开放时间。",
+      "id": "1bb570b8fe55fd",
       "category": "论坛 / 展会",
       "tier": "建议看",
       "score": 90,
@@ -250,6 +298,52 @@
       "score": 90,
       "action": "查看课程与报名",
       "date_label": "官方活动时间"
+    }
+  ],
+  "libraries": [
+    {
+      "name": "上海图书馆",
+      "city": "上海",
+      "url": "https://www.library.sh.cn/",
+      "focus": "上图讲座、人文历史、科学与艺术",
+      "wechat_name": "讲座图书馆",
+      "wechat_official_url": "https://edu.sh.gov.cn/xwzx_bsxw/20260818/aafc765e56bd419eb87a42c7171a6355.html"
+    },
+    {
+      "name": "浦东图书馆",
+      "city": "上海",
+      "url": "https://libdiscover.pudong.gov.cn/",
+      "focus": "阅读推广、公益讲座与文化活动"
+    },
+    {
+      "name": "普陀区图书馆",
+      "city": "上海",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
+      "focus": "美育课堂、慢读会与阅读活动",
+      "wechat_name": "上海市普陀区图书馆",
+      "wechat_official_url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html"
+    },
+    {
+      "name": "杭州图书馆 · 各主题分馆",
+      "city": "杭州",
+      "url": "https://www.zjhzlib.cn/hdyg/index.htm",
+      "focus": "文澜讲堂、生活、音乐、电影及少儿分馆课程",
+      "wechat_official_url": "https://www.zjhzlib.cn/"
+    },
+    {
+      "name": "杭州图书馆 · 少儿分馆",
+      "city": "杭州",
+      "url": "https://www.zjhzlib.cn/hdyghz/8176.htm",
+      "focus": "亲子科普、儿童阅读与成长课堂",
+      "wechat_name": "hzstlib",
+      "wechat_official_url": "https://www.zjhzlib.cn/hdyghz/8176.htm"
+    },
+    {
+      "name": "浙江图书馆",
+      "city": "杭州",
+      "url": "https://www.zjlib.cn/activity",
+      "focus": "文澜讲坛、公益培训与阅读推广",
+      "wechat_official_url": "https://www.zjlib.cn/"
     }
   ],
   "source_errors": []

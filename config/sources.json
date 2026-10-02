@@ -742,7 +742,8 @@
       "region": "中国",
       "city": "杭州",
       "public_class_source": true,
-      "article_url_pattern": "/hdyg[^/]*/\\d+\\.htm"
+      "article_url_pattern": "/hdyg[^/]*/\\d+\\.htm",
+      "library_source": true
     },
     {
       "name": "上海图书馆 · 公益讲座",
@@ -755,7 +756,8 @@
       "type": "公共机构 / 官方",
       "region": "中国",
       "city": "上海",
-      "public_class_source": true
+      "public_class_source": true,
+      "library_source": true
     },
     {
       "name": "上海教育 · 特级教师公益课堂",
@@ -884,6 +886,469 @@
       "city": "上海",
       "exhibition_reference": true,
       "museum": true
+    },
+    {
+      "name": "OpenAI · 官方 X",
+      "url": "https://x.com/OpenAI",
+      "x_handle": "OpenAI",
+      "fallback_url": "https://openai.com/news/",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Google · 官方 X",
+      "url": "https://x.com/Google",
+      "x_handle": "Google",
+      "fallback_url": "https://blog.google/innovation-and-ai/",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Google DeepMind · 官方 X",
+      "url": "https://x.com/GoogleDeepMind",
+      "x_handle": "GoogleDeepMind",
+      "fallback_url": "https://deepmind.google/discover/blog/",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Claude · 官方 X",
+      "url": "https://x.com/claudeai",
+      "x_handle": "claudeai",
+      "fallback_url": "https://www.anthropic.com/news",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "Agent / 编程"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Anthropic · 官方 X",
+      "url": "https://x.com/AnthropicAI",
+      "x_handle": "AnthropicAI",
+      "fallback_url": "https://www.anthropic.com/news",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Meta AI · 官方 X",
+      "url": "https://x.com/AIatMeta",
+      "x_handle": "AIatMeta",
+      "fallback_url": "https://ai.meta.com/blog/",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Meta AI · 官方更新",
+      "url": "https://ai.meta.com/blog/",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Midjourney · 官方 X",
+      "url": "https://x.com/midjourney",
+      "x_handle": "midjourney",
+      "fallback_url": "https://updates.midjourney.com/",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "AI 绘画"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Midjourney · 官方更新",
+      "url": "https://updates.midjourney.com/",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "AI 绘画"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Runway · 官方 X",
+      "url": "https://x.com/runwayml",
+      "x_handle": "runwayml",
+      "fallback_url": "https://runway.com/news",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "AI 影视"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Runway · 官方更新",
+      "url": "https://runway.com/news",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "AI 影视"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "DeepSeek · 官方 X",
+      "url": "https://x.com/deepseek_ai",
+      "x_handle": "deepseek_ai",
+      "fallback_url": "https://api-docs.deepseek.com/updates",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "DeepSeek · 官方更新",
+      "url": "https://api-docs.deepseek.com/updates",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Qwen · 官方 X",
+      "url": "https://x.com/Alibaba_Qwen",
+      "x_handle": "Alibaba_Qwen",
+      "fallback_url": "https://qwenlm.github.io/blog/",
+      "collector": "x_api",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方 X",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "Qwen · 官方更新",
+      "url": "https://qwenlm.github.io/blog/",
+      "priority": 5,
+      "region": "国际",
+      "type": "公司 / 官方",
+      "category": [
+        "新模型 / 开源"
+      ],
+      "focus_update_only": true
+    },
+    {
+      "name": "浦东图书馆 · 官方讲座",
+      "url": "https://libdiscover.pudong.gov.cn/",
+      "region": "国内",
+      "type": "图书馆 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "priority": 5,
+      "force_category": "论坛 / 展会",
+      "library_source": true,
+      "city": "上海",
+      "public_class_source": true
+    },
+    {
+      "name": "普陀区图书馆 · 官方讲座",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
+      "region": "国内",
+      "type": "图书馆 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "priority": 5,
+      "force_category": "论坛 / 展会",
+      "library_source": true,
+      "city": "上海",
+      "public_class_source": true
+    },
+    {
+      "name": "杭州图书馆 · 少儿分馆 · 官方讲座",
+      "url": "https://www.zjhzlib.cn/hdyghz/8176.htm",
+      "region": "国内",
+      "type": "图书馆 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "priority": 5,
+      "force_category": "论坛 / 展会",
+      "library_source": true,
+      "city": "杭州",
+      "public_class_source": true
+    },
+    {
+      "name": "浙江图书馆 · 官方讲座",
+      "url": "https://www.zjlib.cn/activity",
+      "region": "国内",
+      "type": "图书馆 / 官方",
+      "category": [
+        "论坛 / 展会"
+      ],
+      "priority": 5,
+      "force_category": "论坛 / 展会",
+      "library_source": true,
+      "city": "杭州",
+      "public_class_source": true
+    },
+    {
+      "name": "Demis Hassabis · 专家分享",
+      "url": "https://x.com/demishassabis",
+      "x_handle": "demishassabis",
+      "fallback_url": "https://deepmind.google/discover/blog/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "模型研究、科学发现与通用智能",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Geoffrey Hinton · 专家分享",
+      "url": "https://x.com/geoffreyhinton",
+      "x_handle": "geoffreyhinton",
+      "fallback_url": "https://www.cs.toronto.edu/~hinton/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "神经网络、AI 风险与研究观点",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Geoffrey Hinton · 官方文章与研究",
+      "url": "https://www.cs.toronto.edu/~hinton/",
+      "priority": 5,
+      "expert_source": true,
+      "region": "国际",
+      "type": "专家观点 / 官方主页",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Yann LeCun · 专家分享",
+      "url": "https://x.com/ylecun",
+      "x_handle": "ylecun",
+      "fallback_url": "https://yann.lecun.org/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "世界模型、自监督学习；个人官网表示不再在 X 发帖",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Yann LeCun · 官方文章与研究",
+      "url": "https://yann.lecun.org/",
+      "priority": 5,
+      "expert_source": true,
+      "region": "国际",
+      "type": "专家观点 / 官方主页",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Yoshua Bengio · 专家分享",
+      "url": "https://x.com/Yoshua_Bengio",
+      "x_handle": "Yoshua_Bengio",
+      "fallback_url": "https://yoshuabengio.org/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "深度学习、AI 安全与治理",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Yoshua Bengio · 官方文章与研究",
+      "url": "https://yoshuabengio.org/",
+      "priority": 5,
+      "expert_source": true,
+      "region": "国际",
+      "type": "专家观点 / 官方主页",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Andrej Karpathy · 专家分享",
+      "url": "https://x.com/karpathy",
+      "x_handle": "karpathy",
+      "fallback_url": "https://karpathy.bearblog.dev/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "大模型原理、编程与教学",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Andrej Karpathy · 官方文章与研究",
+      "url": "https://karpathy.bearblog.dev/",
+      "priority": 5,
+      "expert_source": true,
+      "region": "国际",
+      "type": "专家观点 / 官方主页",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "吴恩达 Andrew Ng · 专家分享",
+      "url": "https://x.com/AndrewYNg",
+      "x_handle": "AndrewYNg",
+      "fallback_url": "https://www.andrewng.org/writing/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "AI 实践、课程与产业观察",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "吴恩达 Andrew Ng · 官方文章与研究",
+      "url": "https://www.andrewng.org/writing/",
+      "priority": 5,
+      "expert_source": true,
+      "region": "国际",
+      "type": "专家观点 / 官方主页",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Jim Fan · 专家分享",
+      "url": "https://x.com/DrJimFan",
+      "x_handle": "DrJimFan",
+      "fallback_url": "https://jimfan.me/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "机器人、具身智能、Agent 与游戏模拟",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Jim Fan · 官方文章与研究",
+      "url": "https://jimfan.me/",
+      "priority": 5,
+      "expert_source": true,
+      "region": "国际",
+      "type": "专家观点 / 官方主页",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Lex Fridman · 专家分享",
+      "url": "https://x.com/lexfridman",
+      "x_handle": "lexfridman",
+      "fallback_url": "https://lexfridman.com/podcast/",
+      "collector": "x_api",
+      "expert_source": true,
+      "focus": "AI 技术访谈与研究者对谈",
+      "priority": 5,
+      "region": "国际",
+      "type": "专家观点 / 本人账号",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
+    },
+    {
+      "name": "Lex Fridman · 官方文章与研究",
+      "url": "https://lexfridman.com/podcast/",
+      "priority": 5,
+      "expert_source": true,
+      "region": "国际",
+      "type": "专家观点 / 官方主页",
+      "category": [
+        "新模型 / 开源",
+        "Agent / 编程"
+      ]
     }
   ]
 }

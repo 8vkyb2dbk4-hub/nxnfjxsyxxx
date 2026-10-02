@@ -28,12 +28,14 @@ jobs:
       - run: python tests/test_exhibitions.py
       - run: python tests/test_product_focus.py
       - run: python tests/test_public_classes.py
+      - run: python tests/test_x_updates.py
       - run: python tests/test_official_schedules.py
       - run: node tests/test_event_time.js
       - run: node tests/test_sync.js
       - run: node tests/test_sync_integration.js
       - run: python scripts/update.py
         env:
+          AI_BRIEF_X_BEARER_TOKEN: ${{ secrets.AI_BRIEF_X_BEARER_TOKEN }}
           AI_BRIEF_LLM_ENDPOINT: ${{ secrets.AI_BRIEF_LLM_ENDPOINT }}
           AI_BRIEF_LLM_API_KEY: ${{ secrets.AI_BRIEF_LLM_API_KEY }}
           AI_BRIEF_LLM_MODEL: ${{ secrets.AI_BRIEF_LLM_MODEL }}
@@ -45,4 +47,3 @@ jobs:
           git diff --cached --quiet || git commit -m "daily AI brief"
           git pull --rebase
           git push
-

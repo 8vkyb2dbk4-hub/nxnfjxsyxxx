@@ -236,6 +236,9 @@ def score_item(title, desc, src, cat, prefs, quality, date_confidence):
     return s
 
 def list_links(src):
+    if src.get("collector")=="x_api":
+        from x_updates import fetch
+        return fetch(src)
     if BeautifulSoup is None: return []
     r=get(src["url"])
     soup=BeautifulSoup(r.text,"html.parser")
@@ -483,7 +486,7 @@ def collect():
         try:
             bases=list_links(src)[:max_articles]
             with ThreadPoolExecutor(max_workers=article_workers) as pool:
-                metas=list(pool.map(lambda base:article_meta(base["url"]),bases))
+                metas=list(pool.map(lambda base:({"desc":base["summary"],"published":base["published_at"],"body":base["summary"],"date_confidence":"high","image":""} if src.get("collector")=="x_api" else article_meta(base["url"])),bases))
             for base,meta in zip(bases,metas):
                 desc,pub,body=meta["desc"],meta["published"],meta["body"]
                 if base.get("published_at"):
@@ -530,6 +533,11 @@ def collect():
                     "score":sc,
                     "material_update":material
                 }
+                if src.get("library_source"):
+                    from public_classes import lecture_details
+                    details=lecture_details(text,src.get("city"))
+                    if not details:continue
+                    item.update(details)
                 if src.get("game_event_source"):
                     item.update(event_kind="游戏行业",participation_mode="线下",registration="报名资格与名额以官方通知为准",registration_status="check",action="查看游戏活动与报名")
                 if src.get("collector")=="sniec":
@@ -730,4 +738,3 @@ def main():
 
 if __name__=="__main__":
     main()
-

@@ -1,0 +1,48 @@
+{
+  "libraries": [
+    {
+      "name": "上海图书馆",
+      "city": "上海",
+      "url": "https://www.library.sh.cn/",
+      "focus": "上图讲座、人文历史、科学与艺术",
+      "wechat_name": "讲座图书馆",
+      "wechat_official_url": "https://edu.sh.gov.cn/xwzx_bsxw/20260818/aafc765e56bd419eb87a42c7171a6355.html"
+    },
+    {
+      "name": "浦东图书馆",
+      "city": "上海",
+      "url": "https://libdiscover.pudong.gov.cn/",
+      "focus": "阅读推广、公益讲座与文化活动"
+    },
+    {
+      "name": "普陀区图书馆",
+      "city": "上海",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
+      "focus": "美育课堂、慢读会与阅读活动",
+      "wechat_name": "上海市普陀区图书馆",
+      "wechat_official_url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html"
+    },
+    {
+      "name": "杭州图书馆 · 各主题分馆",
+      "city": "杭州",
+      "url": "https://www.zjhzlib.cn/hdyg/index.htm",
+      "focus": "文澜讲堂、生活、音乐、电影及少儿分馆课程",
+      "wechat_official_url": "https://www.zjhzlib.cn/"
+    },
+    {
+      "name": "杭州图书馆 · 少儿分馆",
+      "city": "杭州",
+      "url": "https://www.zjhzlib.cn/hdyghz/8176.htm",
+      "focus": "亲子科普、儿童阅读与成长课堂",
+      "wechat_name": "hzstlib",
+      "wechat_official_url": "https://www.zjhzlib.cn/hdyghz/8176.htm"
+    },
+    {
+      "name": "浙江图书馆",
+      "city": "杭州",
+      "url": "https://www.zjlib.cn/activity",
+      "focus": "文澜讲坛、公益培训与阅读推广",
+      "wechat_official_url": "https://www.zjlib.cn/"
+    }
+  ]
+}

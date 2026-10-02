@@ -27,7 +27,7 @@
     <button data-view="today" class="active">今日</button>
     <button data-view="art">艺术</button>
     <button data-view="events">论坛 / 展会</button>
-    <button data-view="classes">公开课</button>
+    <button data-view="classes">公开课/讲座</button>
     <button data-view="saved">收藏</button>
     <button data-view="archive">往期</button>
     <button data-view="weekly">一周回顾</button>
@@ -90,9 +90,9 @@
     </section>
 
     <section id="classesView" class="view">
-      <div class="page-head"><div class="kicker">OPEN CLASS</div><h2>沪杭公开课 · 公益讲座</h2><p>优先收集上海、杭州的科创、艺术、人文与成长课堂。已结束、报名截止、取消或已满的活动隐藏；需预约的预告单独列出，请核对官方名额。</p></div>
+      <div class="page-head"><div class="kicker">OPEN CLASS</div><h2>沪杭公开课/讲座</h2><p>优先收集上海、杭州的科创、艺术、人文与成长课堂。已结束、报名截止、取消或已满的活动隐藏；需预约的预告单独列出，请核对官方名额。</p></div>
       <label class="event-city">地区 <select id="classCity" onchange="renderClasses()"><option value="沪杭">上海与杭州</option><option value="上海">上海</option><option value="杭州">杭州</option></select></label>
-      <div id="classCards"></div>
+      <div id="classCards"></div><section class="event-group"><h3 class="section-title">图书馆 · 官方讲座来源</h3><p class="museum-note">关注沪杭公共图书馆及主题分馆的官网预告。公众号报名、名额和临时调整请通过下方官方入口核对；未公开或日期不明确的场次不列入活动列表。</p><div id="librarySources" class="publication-grid"></div></section>
     </section>
     <section id="savedView" class="view">
       <div class="page-head"><div class="kicker">SAVED</div><h2>我的收藏</h2></div>
@@ -110,7 +110,7 @@
         <h2>日报会盯哪些地方</h2>
         <p>这里是第一批信息源。后续可以随时加学校、实验室、论坛、公众号或网站。</p>
       </div>
-      <div id="sourceList"></div>
+      <section class="event-group"><h3 class="section-title">AI 研究者 · 重点关注</h3><p class="museum-note">收集研究、技术解读、课程与 AI 访谈；专家观点保留署名及原文，不作为机构发布公告。X 自动读取需授权，官方文章作为备用来源。</p><div id="expertSources" class="publication-grid"></div></section><div id="sourceList"></div>
     </section>
 
 

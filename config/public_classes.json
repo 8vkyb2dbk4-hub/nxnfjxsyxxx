@@ -189,6 +189,42 @@
       "verified_at": "2026-10-02",
       "summary": "公开讲座或互动课堂；请按官方安排参与，报名活动需先确认名额。",
       "why": "关注课程主题、适合人群与开课时间；报名方式：上海教育 / 讲座图书馆等官方公众号报名，具体场次主题与名额需核对。"
+    },
+    {
+      "title": "普鲁斯特 City Walk慢读会",
+      "event_date": "2026-10-17",
+      "event_end_date": "2026-10-17",
+      "event_start_at": "2026-10-17T14:00:00+08:00",
+      "location": "上海",
+      "venue": "普陀区图书馆3楼学术报告厅1",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
+      "source": "普陀区人民政府 · 图书馆活动预告",
+      "registration": "报名详情于活动开始前发布，请核对图书馆官方公众号或文化普陀云",
+      "registration_status": "check",
+      "event_kind": "讲座",
+      "participation_mode": "线下",
+      "audience": "以官方报名说明为准",
+      "verified_at": "2026-10-02",
+      "summary": "图书馆官方阅读活动预告，名额与参加要求以最新报名通知为准。",
+      "why": "关注阅读主题、交流内容及正式报名开放时间。"
+    },
+    {
+      "title": "“阅享苏河”读书会",
+      "event_date": "2026-10-18",
+      "event_end_date": "2026-10-18",
+      "event_start_at": "2026-10-18T14:00:00+08:00",
+      "location": "上海",
+      "venue": "上海少年儿童图书馆（长风馆）B座一楼报告厅",
+      "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
+      "source": "普陀区人民政府 · 图书馆活动预告",
+      "registration": "报名详情于活动开始前发布，请核对图书馆官方公众号或文化普陀云",
+      "registration_status": "check",
+      "event_kind": "讲座",
+      "participation_mode": "线下",
+      "audience": "以官方报名说明为准",
+      "verified_at": "2026-10-02",
+      "summary": "图书馆官方阅读活动预告，名额与参加要求以最新报名通知为准。",
+      "why": "关注阅读主题、交流内容及正式报名开放时间。"
     }
   ]
 }

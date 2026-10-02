@@ -32,7 +32,32 @@
     "字节 Seed · 即梦与豆包模型动态",
     "DeepSeek · 模型更新日志",
     "MiniMax · 海螺模型动态",
-    "LibTV · 官方视频创作平台"
+    "LibTV · 官方视频创作平台",
+    "OpenAI · 官方 X",
+    "Google · 官方 X",
+    "Google DeepMind · 官方 X",
+    "Claude · 官方 X",
+    "Anthropic · 官方 X",
+    "Meta AI · 官方 X",
+    "Midjourney · 官方 X",
+    "Runway · 官方 X",
+    "DeepSeek · 官方 X",
+    "Qwen · 官方 X",
+    "Demis Hassabis · 专家分享",
+    "Geoffrey Hinton · 专家分享",
+    "Geoffrey Hinton · 官方文章与研究",
+    "Yann LeCun · 专家分享",
+    "Yann LeCun · 官方文章与研究",
+    "Yoshua Bengio · 专家分享",
+    "Yoshua Bengio · 官方文章与研究",
+    "Andrej Karpathy · 专家分享",
+    "Andrej Karpathy · 官方文章与研究",
+    "吴恩达 Andrew Ng · 专家分享",
+    "吴恩达 Andrew Ng · 官方文章与研究",
+    "Jim Fan · 专家分享",
+    "Jim Fan · 官方文章与研究",
+    "Lex Fridman · 专家分享",
+    "Lex Fridman · 官方文章与研究"
   ],
   "boost_keywords": [
     "角色一致性",
@@ -120,7 +145,24 @@
       "libtv",
       "liblib tv",
       "海螺",
-      "hailuo"
+      "hailuo",
+      "runway"
+    ],
+    "新模型 / 开源": [
+      "openai",
+      "google",
+      "gemini",
+      "deepmind",
+      "claude",
+      "anthropic",
+      "meta",
+      "llama",
+      "deepseek",
+      "qwen",
+      "通义千问"
+    ],
+    "AI 绘画": [
+      "midjourney"
     ]
   },
   "focus_notes": {
