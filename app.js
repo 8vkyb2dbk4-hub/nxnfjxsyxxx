@@ -233,7 +233,8 @@ function newsImage(x){
   if(!x.image||!/^https:\/\//i.test(x.image)) return "";
   return `<figure class="news-image"><img src="${esc(x.image)}" alt="${esc(x.title)} · 来源配图" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.closest('figure').hidden=true"><figcaption>来源配图 · ${esc(x.source)}</figcaption></figure>`;
 }
-function card(raw){
+function card(raw,compact=false){
+  compact=compact===true;
   const x=withPersonalScore(raw);
   if(!eventAvailable(x)||hidden.has(x.id)||!matchesSearch(x)) return "";
   const translation=translationStates.get(x.id)||{};
@@ -246,8 +247,7 @@ function card(raw){
       <button class="hidebtn" onclick='hideItem(${j})' title="今天不看">×</button>
     </div>
     <div class="meta"><span class="${badgeClass(x.tier||x.status)}">${esc(x.tier||x.status||"")}</span><span>${esc(x.category||"")}</span>${x.resurfaced?'<span class="badge">重要更新</span>':""}${countdown(x)}</div>
-    ${newsImage(x)}
-    <h4>${esc(shown.title)}</h4>
+    ${compact?`<details class="story-details"><summary><h4>${esc(shown.title)}</h4><small>${esc(x.source)} · ${esc(x.published_at||x.date_label||"日期待确认")}</small></summary>${newsImage(x)}`:`${newsImage(x)}<h4>${esc(shown.title)}</h4>`}
     <div class="meta"><span>${esc(x.source)}</span>${dateBadge(x)}${x.event_date?`<span>活动 ${esc(x.event_date)}${x.event_end_date&&x.event_end_date!==x.event_date?" 至 "+esc(x.event_end_date):""}</span>`:""}${x.event_kind==="游戏行业"?`<span>游戏行业 · 线下</span><span>参与：${esc(x.registration||"请查看官方通知")}</span>`:""}${["公开课","讲座","上海博物馆活动"].includes(x.event_kind)?`<span>${esc(x.event_start_at?.slice(11,16)||"")}${x.event_end_at?"–"+esc(x.event_end_at.slice(11,16)):""} · ${esc(x.participation_mode)} · ${esc(x.audience)}</span><span>参与：${esc(x.registration)}</span>`:""}${x.schedule_type?`<span>官网${esc(x.schedule_type)}排期</span>`:""}${x.halls?`<span>展馆：${esc(x.halls)}</span>`:""}${x.venue?`<span>${esc(x.venue)}</span>`:""}${x.verified_at?`<span>展期核对 ${esc(x.verified_at)}</span>`:""}${x.location?`<span>${esc(x.location)}</span>`:""}</div>
     <div class="brief-parts">
       <div><b>发生了什么</b><p>${esc(shown.summary)}</p></div>
@@ -257,8 +257,12 @@ function card(raw){
     ${feedbackBar(x)}
     ${translation.error?`<p class="translation-error" role="status">${esc(translation.error)}</p>`:""}
     <div class="card-foot">${actionChip(x)}${sourceLink(x)}</div>
+    ${compact?"</details>":""}
   </article>`;
 }
+let printClosedStories=[];
+window.addEventListener("beforeprint",()=>{printClosedStories=[...document.querySelectorAll(".story-details:not([open])")];printClosedStories.forEach(x=>x.open=true)});
+window.addEventListener("afterprint",()=>{printClosedStories.forEach(x=>x.open=false);printClosedStories=[]});
 function allItems(){return [...new Map([...issue.top3,...issue.sections.flatMap(s=>s.items.map(x=>({...x,category:x.category||s.name}))),...(exhibitionFeed?.items||[]),...(publicClassFeed?.items||[])].map(x=>[x.id,x])).values()];}
 
 function renderMode(){
@@ -302,7 +306,7 @@ function renderToday(){
   document.getElementById("updateStamp").textContent="数据日期 "+issue.date;
 
   const topItems=sortPersonal(issue.top3);
-  const topHtml=topItems.map(x=>card(x)).join("");
+  const topHtml=topItems.map(x=>card(x,true)).join("");
   document.getElementById("top3").innerHTML=topHtml||`<div class="empty">当前条件下没有头版内容。</div>`;
 
   const cats=["全部",...issue.sections.map(s=>s.name)];
@@ -310,7 +314,7 @@ function renderToday(){
   const secs=issue.sections.filter(s=>activeFilter==="全部"||s.name===activeFilter);
   document.getElementById("sections").innerHTML=secs.map(s=>{
     const items=sortPersonal(s.items.map(x=>({...x,category:x.category||s.name})));
-    const content=items.map(x=>card(x)).join("");
+    const content=items.map(x=>card(x,true)).join("");
     return `<section class="section-block">
       <div class="section-head"><span>${s.icon}</span><h3>${esc(s.name)}</h3><span class="meta">${s.items.length} 条</span></div>${basePrefs?.focus_notes?.[s.name]?`<p class="focus-note">${esc(basePrefs.focus_notes[s.name])}</p>`:""}
       <div class="item-list">${content||`<div class="empty">今天这个栏目没有需要你花时间看的内容。</div>`}</div>
