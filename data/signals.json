@@ -1,10 +1,170 @@
 {
-  "generated_at": "2026-10-02T23:23:37",
-  "history_days": 2,
-  "enough_history": false,
+  "generated_at": "2026-10-04T03:03:00",
+  "history_days": 3,
+  "enough_history": true,
   "minimum_days_needed": 3,
-  "topics": [],
-  "source_velocity": [],
+  "topics": [
+    {
+      "topic": "Agent",
+      "mentions": 31,
+      "unique_days": 3,
+      "sources": 9,
+      "recent_mentions": 31,
+      "baseline_mentions": 31,
+      "velocity_ratio": 69.89,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 113.0
+    },
+    {
+      "topic": "3D / 游戏",
+      "mentions": 27,
+      "unique_days": 3,
+      "sources": 12,
+      "recent_mentions": 27,
+      "baseline_mentions": 27,
+      "velocity_ratio": 61.0,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 136.3
+    },
+    {
+      "topic": "AI 图像",
+      "mentions": 24,
+      "unique_days": 3,
+      "sources": 5,
+      "recent_mentions": 24,
+      "baseline_mentions": 24,
+      "velocity_ratio": 54.33,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 136.4
+    },
+    {
+      "topic": "Codex / 编程",
+      "mentions": 22,
+      "unique_days": 3,
+      "sources": 8,
+      "recent_mentions": 22,
+      "baseline_mentions": 22,
+      "velocity_ratio": 49.89,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 112.4
+    },
+    {
+      "topic": "开源模型",
+      "mentions": 19,
+      "unique_days": 3,
+      "sources": 7,
+      "recent_mentions": 19,
+      "baseline_mentions": 19,
+      "velocity_ratio": 43.22,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 121.8
+    },
+    {
+      "topic": "AI 视频",
+      "mentions": 13,
+      "unique_days": 3,
+      "sources": 6,
+      "recent_mentions": 13,
+      "baseline_mentions": 13,
+      "velocity_ratio": 29.89,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 125.6
+    },
+    {
+      "topic": "语音 / 音频",
+      "mentions": 7,
+      "unique_days": 3,
+      "sources": 4,
+      "recent_mentions": 7,
+      "baseline_mentions": 7,
+      "velocity_ratio": 16.56,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 125.0
+    },
+    {
+      "topic": "AI for Science",
+      "mentions": 6,
+      "unique_days": 3,
+      "sources": 4,
+      "recent_mentions": 6,
+      "baseline_mentions": 6,
+      "velocity_ratio": 14.33,
+      "direction": "升温",
+      "strength": 100,
+      "avg_score": 121.2
+    },
+    {
+      "topic": "多模态",
+      "mentions": 6,
+      "unique_days": 3,
+      "sources": 3,
+      "recent_mentions": 6,
+      "baseline_mentions": 6,
+      "velocity_ratio": 14.33,
+      "direction": "升温",
+      "strength": 97,
+      "avg_score": 113.2
+    }
+  ],
+  "source_velocity": [
+    {
+      "source": "Hugging Face Blog",
+      "mentions": 19,
+      "unique_days": 3
+    },
+    {
+      "source": "Colossal · 新兴手工与当代艺术",
+      "mentions": 15,
+      "unique_days": 3
+    },
+    {
+      "source": "OpenAI News",
+      "mentions": 12,
+      "unique_days": 3
+    },
+    {
+      "source": "上海新国际博览中心 · 展会日程",
+      "mentions": 11,
+      "unique_days": 3
+    },
+    {
+      "source": "Jim Fan · 官方文章与研究",
+      "mentions": 6,
+      "unique_days": 2
+    },
+    {
+      "source": "ElevenLabs Blog",
+      "mentions": 5,
+      "unique_days": 3
+    },
+    {
+      "source": "Google AI",
+      "mentions": 5,
+      "unique_days": 2
+    },
+    {
+      "source": "Runway Dev Changelog",
+      "mentions": 4,
+      "unique_days": 2
+    },
+    {
+      "source": "Meshy · 产品更新",
+      "mentions": 3,
+      "unique_days": 3
+    },
+    {
+      "source": "Meshy · API 更新日志",
+      "mentions": 3,
+      "unique_days": 3
+    }
+  ],
   "urgent": [],
-  "message": "正在积累趋势样本：目前 2 天，至少需要 3 天后才开始判断升温/降温。"
+  "message": "趋势判断基于多日重复信号，不把单日热词当趋势。"
 }

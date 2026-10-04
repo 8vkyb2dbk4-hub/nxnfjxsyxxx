@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T07:20:56+08:00",
+  "generated_at": "2026-10-04T11:00:15+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -29,6 +29,10 @@
       "score": 157,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "Meshy · 产品更新",
+          "url": "https://www.meshy.ai/blog/meshy-7-1-launch"
+        },
         {
           "source": "Meshy · 产品更新",
           "url": "https://www.meshy.ai/blog/meshy-7-1-launch"
@@ -66,8 +70,36 @@
       "why_original": "关注内容：Org profile for Black Forest Labs on Hugging Face, the AI community building the future.（原文未明确列出版本变化。）"
     },
     {
+      "id": "89764eae00994c",
+      "title": "The Agent Said It Was Done. The Database Disagreed. 2 October 3, 2026",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
+      "image_source": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "summary": "A Blog post by Microsoft on Hugging Face。",
+      "why": "关注内容：微软在Hugging Face上的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-03",
+      "date_confidence": "high",
+      "date_label": "2026-10-03",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 141,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by Microsoft on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
       "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 24 October 2, 2026",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 32 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
       "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -90,7 +122,12 @@
       "location": "",
       "score": 141,
       "material_update": true,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
+        }
+      ],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by ServiceNow-AI on Hugging Face（原文未明确列出版本变化。）"
     },
