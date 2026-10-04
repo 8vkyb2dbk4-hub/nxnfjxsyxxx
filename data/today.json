@@ -1,4 +1,33 @@
 {
-  "date": "2026-10-04",
-  "items": []
+  "date": "2026-10-05",
+  "items": [
+    {
+      "id": "2357d5638879f8",
+      "title": "Community",
+      "url": "https://claude.com/community",
+      "image": "https://assets.claude.com/b46529adbd87da89ebb1e8191178d53278f93d1b.jpg?w=1200&h=630&fit=crop",
+      "image_source": "https://claude.com/community",
+      "summary": "Get involved in the Claude Community to share solutions, help each other, and push the boundaries of what's possible with AI。",
+      "why": "关注内容：加入Claude社区，分享解决方案，互相帮助，突破人工智能的极限。（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Anthropic News",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-10-05",
+      "date_confidence": "medium",
+      "date_label": "2026-10-05",
+      "category": "新模型 / 开源",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 118,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：Get involved in the Claude Community to share solutions, help each other, and push the boundaries of what's possible with AI.（原文未明确列出版本变化。）"
+    }
+  ]
 }

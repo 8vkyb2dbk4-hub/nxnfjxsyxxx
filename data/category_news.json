@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-04",
-  "start_date": "2026-07-04",
+  "date": "2026-10-05",
+  "start_date": "2026-07-05",
   "items": [
     {
       "id": "581ab3112c302f",
@@ -54,7 +54,7 @@
     },
     {
       "id": "c50b87ddd085b0",
-      "title": "FLUX 3 Action: a world action model you can fine-tune black-forest-labs • 10 days ago • 14",
+      "title": "FLUX 3 Action: a world action model you can fine-tune black-forest-labs • 11 days ago • 14",
       "url": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/633f263333ba83e00bd8046e/EBATyHfMweKJU6MfdKN1D.png",
       "image_source": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
@@ -389,6 +389,32 @@
       "location": "",
       "score": 121,
       "material_update": false
+    },
+    {
+      "id": "08f1ee5db3c56a",
+      "title": "Video 3.0",
+      "url": "https://klingai.com/quickstart/klingai-video-3-model-user-guide",
+      "image": "https://static--27.klingai-cdn-aws.com/kling-blog/file/9eab180a65824b750cdd6d040432f81a81bb9c5302ac08fb45f3be0871e867bf.png",
+      "image_source": "https://klingai.com/quickstart/klingai-video-3-model-user-guide",
+      "summary": "Understand your Kling VIDEO 3.0 credit cost options. Learn how credits are consumed for 4K mode, Omni audio, and multi-shot videos。",
+      "why": "关注内容：Understand your Kling VIDEO 3.0 credit cost options.（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Kling 可灵 AI · 视频生成",
+      "source_type": "官方 / 视频生成",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-07-28",
+      "date_confidence": "high",
+      "date_label": "2026-07-28",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 125,
+      "material_update": true
     },
     {
       "id": "8959abc1b36bf5",
