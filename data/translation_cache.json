@@ -73,5 +73,19 @@
   "3f1d1b46542e77558850144cd938456ab706f47718b87c8e5cda4b6e73f8d2ce": "国际机器学习会议（ ICML ） ， 2021年；具体能力与更新细节需查看原文。",
   "298c2f40e1987bf2d7f19a8884d8d2003474989f19a26a1c14b20755678a6e19": "2021.9 iGibson 2.0在CoRL 2021上被接受： [论文] [Arxiv版本]",
   "d297334e4c466741e0ca6009215b204f5c3f6a806165a7eda222904718446b19": "ReviewBench是代码审查代理的基准，基于代表性的GitHub拉取请求、多源接地真相和校准评估。",
-  "a11629a6220c8012c7acd6bf2ebc58240281780c8789875f3145bd1b000db6ed": "Claude Frontier Academy按照Anthropic自己的标准培训Frontier Deployed Engineers —承诺在2027年底前培训10,000 $。"
+  "a11629a6220c8012c7acd6bf2ebc58240281780c8789875f3145bd1b000db6ed": "Claude Frontier Academy按照Anthropic自己的标准培训Frontier Deployed Engineers —承诺在2027年底前培训10,000 $。",
+  "2f960912ba40d5b0fc2eb35397293dcfc0bfef1f119defe86efe7217ce94410d": "科技创新研究所关于拥抱脸的博客文章",
+  "eb6a6566bfa599a70351620724c9c624d54be5dde265cd53a00c1ed6bd87dbea": "这使得API在分类、请求路由、工具调用门以及AI代理循环中的下一步都很有趣。",
+  "e55558abbf5fc567ad68df5bdba14cf26bec6e3f2996f1973180b6de3677ca70": "谷歌研究人员使用人工智能和盲扫超声来准确检测胎龄。",
+  "180981b0f0a04deba53049e95aa6b019f7baae439d7466ebf81cf9889a66b83a": "在充满趣味的拟人化雕塑中，伦敦艺术家Hannah Lim从历史陶瓷中汲取灵感。",
+  "816d84e31985564b2f5ac15ccc5a9f30a0cc7033cec8f1ae0652bbb51851acbb": "“Found Dreams”突出了Elizaveta Porodina标志性的飘逸风格和饱和色彩的甲虫、蝴蝶和螳螂。",
+  "c4b2ddbe73cf9f6bce9551a227719f16675e4dbcd2cfb3be1f6e82446934c01e": "这位来自弗里曼特尔的艺术家通过生动的野生动物壁画阐明了保护的持续重要性。",
+  "305e312cb5500ad5bb8e7d1f90c2779c74347cbc7f6e6c024bfd1e64450e549b": "外滩美术馆是位于上海市中心的当代美术馆。",
+  "0045c1c78b9c2e9af11bca6c8aa443067038ed194639cbc741716651d8b432e6": "OpenAI从内部前沿模型发布关于数学中开放问题的新结果，并在GitHub上分享精益证明形式化和研究细节。",
+  "8c091123bdd713e69f9b1bfdbd84d3c354f048b4f1bdee1cecdf95353de971f9": "Atlassian和OpenAI正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。",
+  "9af46398b3671d835fa526fb6743c0d6c11aceebe68390eefd4e494620b8995a": "看看这些发现背后的有针对性的人工智能任务流程，他们发现的漏洞，以及如何在自己的应用程序上运行相同的开源代理。",
+  "df3dcb0c09d9c8ebae8ddaf208d5fc67940aba3355f07b89fa372d299e5d3741": "写入正在加速，这种增长可能会给所有存储库所依赖的系统增加压力。",
+  "bbe14ee38bb4cb2c52ab0646b858df6ee844ee1fff36cbd11f2f2d4a5b9e8d28": "探索有关生成人工智能（ AI ）模型（如GAN和变压器）、提高RAG性能的技术以及生成AI在项目中的实际应用的深入文章和教程。",
+  "3cc108ffe3b54bcb876e84e1f8a2677f8708947563addad4e9a3f14b2a839d63": "英伟达， https://jimfan.me -被21,764引用-基础模型-通用代理-强化学习-机器人技术-大规模人工智能系统",
+  "4cb8a9ec67f9398377902d9f1bd53f05ca4b015bf4babe8d3d9ea1f4036147e4": "EmbeddingGemma 2是一种新的740M开放权重多模态模型，可将文本、图像、视频和音频映射到统一的矢量空间中，以实现隐私优先的设备上检索。"
 }
