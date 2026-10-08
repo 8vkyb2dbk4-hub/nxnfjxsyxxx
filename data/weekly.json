@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T07:21:51+08:00",
+  "generated_at": "2026-10-09T07:24:54+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -79,7 +79,7 @@
     },
     {
       "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 44 October 2, 2026",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 46 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
       "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -160,6 +160,10 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/omlx"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/omlx"
         }
       ],
       "resurfaced": true,
@@ -192,64 +196,6 @@
       "material_update": false,
       "alternatives": [],
       "why_original": "关注内容：A Blog post by Microsoft on Hugging Face（原文未明确列出版本变化。）"
-    },
-    {
-      "id": "d8b62a962e88cf",
-      "title": "Research Overview",
-      "url": "https://openai.com/research",
-      "summary": "Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。",
-      "why": "关注前沿模型、推理、多模态与安全部署的研究方向；这是研究概览，未列出本次版本更新。",
-      "action": "建议收藏",
-      "tier": "建议看",
-      "source": "OpenAI News",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-09-29",
-      "date_confidence": "medium",
-      "date_label": "2026-09-29",
-      "category": "新模型 / 开源",
-      "status": "建议看",
-      "deadline": null,
-      "event_date": null,
-      "location": "",
-      "score": 114,
-      "material_update": true,
-      "alternatives": [],
-      "zh": {
-        "title": "研究概览",
-        "summary": "了解 OpenAI 在前沿模型、推理、多模态 AI 和安全部署方面的研究，以及造福人类的通用人工智能目标。"
-      }
-    },
-    {
-      "id": "9947c958aa1a72",
-      "title": "Introducing Eleven v4, our most emotive model",
-      "url": "https://elevenlabs.io/blog/eleven-v4",
-      "summary": "Eleven v4 and v4 Turbo: more emotional nuance, faster responses, stronger voice cloning. Live now in ElevenAgents, ElevenCreative and API。",
-      "why": "更新重点：情绪表达、响应速度和声音克隆能力；已在 ElevenAgents、ElevenCreative 及 API 上线。",
-      "action": "建议收藏",
-      "tier": "建议看",
-      "source": "ElevenLabs Blog",
-      "source_type": "声音 / 创作工具",
-      "source_priority": 5,
-      "source_reliability": 6,
-      "published_at": "2026-09-28",
-      "date_confidence": "high",
-      "date_label": "2026-09-28",
-      "category": "AI 影视",
-      "status": "建议看",
-      "deadline": null,
-      "event_date": null,
-      "location": "",
-      "score": 113,
-      "material_update": false,
-      "alternatives": [],
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/3o2hqbr4pb7-1920x1080.webp",
-      "image_source": "https://elevenlabs.io/blog/eleven-v4",
-      "zh": {
-        "title": "Eleven v4 发布：情感表达更丰富的模型",
-        "summary": "Eleven v4 和 v4 Turbo 提供更细腻的情绪表达、更快的响应和更强的声音克隆能力，已在 ElevenAgents、ElevenCreative 和 API 中上线。"
-      }
     }
   ]
 }
