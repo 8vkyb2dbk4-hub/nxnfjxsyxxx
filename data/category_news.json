@@ -1,7 +1,33 @@
 {
-  "date": "2026-10-09",
-  "start_date": "2026-07-09",
+  "date": "2026-10-10",
+  "start_date": "2026-07-10",
   "items": [
+    {
+      "id": "f21e443211aee7",
+      "title": "ViDiHand: The Surprising Effectiveness of Video Diffusion Models for Hand Motion Reconstruction Xingang-Pan • 4 days ago • 4",
+      "url": "https://huggingface.co/blog/Xingang-Pan/vidihand",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/646758d6a9b4610868a138ff/uMQOtZjtc7lBL77zRf73Z.png",
+      "image_source": "https://huggingface.co/blog/Xingang-Pan/vidihand",
+      "summary": "A Blog post by Xingang Pan on Hugging Face。",
+      "why": "关注内容：A Blog post by Xingang Pan on Hugging Face（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-06",
+      "date_confidence": "high",
+      "date_label": "2026-10-06",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 133,
+      "material_update": false
+    },
     {
       "id": "0e63a0e33e4a45",
       "title": "Live Human Feedback in the Training Loop: Aligning Diffusion Models with Real People Rapidata • 6 days ago • 10",
@@ -80,7 +106,7 @@
     },
     {
       "id": "c50b87ddd085b0",
-      "title": "FLUX 3 Action: a world action model you can fine-tune black-forest-labs • 14 days ago • 16",
+      "title": "FLUX 3 Action: a world action model you can fine-tune black-forest-labs • 16 days ago • 17",
       "url": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/633f263333ba83e00bd8046e/EBATyHfMweKJU6MfdKN1D.png",
       "image_source": "https://huggingface.co/blog/black-forest-labs/flux-3-action",
@@ -664,7 +690,7 @@
     },
     {
       "source": "快手官方动态 · 视频生成",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='ir.kuaishou.com', port=443): Read timed out. (read timeout=16)"
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://ir.kuaishou.com/news-events/company-news/"
     }
   ]
 }

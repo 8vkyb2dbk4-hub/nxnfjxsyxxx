@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09T07:24:54+08:00",
+  "generated_at": "2026-10-10T07:23:52+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -48,34 +48,6 @@
       ],
       "resurfaced": true,
       "why_original": "更新重点：Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark."
-    },
-    {
-      "id": "fc15828a6a0b53",
-      "title": "Hugging Face",
-      "url": "https://huggingface.co/black-forest-labs",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/black-forest-labs.png",
-      "image_source": "https://huggingface.co/black-forest-labs",
-      "summary": "Org profile for Black Forest Labs on Hugging Face, the AI community building the future。",
-      "why": "关注内容：黑森林实验室拥抱脸上的组织简介，这是构建未来的人工智能社区。（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Black Forest Labs · 绘画动态",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-09-23",
-      "date_confidence": "medium",
-      "date_label": "2026-09-23",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 143,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：Org profile for Black Forest Labs on Hugging Face, the AI community building the future.（原文未明确列出版本变化。）"
     },
     {
       "id": "a885ed61f54a41",

@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-09",
-  "edition": "AUTO-20261009-5min",
+  "date": "2026-10-10",
+  "edition": "AUTO-20261010-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 48 条高优先级 AI 信息",
+  "headline": "今天筛出 46 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
@@ -97,36 +97,7 @@
     {
       "name": "艺术",
       "icon": "◈",
-      "items": [
-        {
-          "id": "68a9a8957e1c48",
-          "title": "Woo Jin Joo Conjures Mythic Tales from Uncanny Sculptures of Fiber and Found Objects",
-          "url": "https://www.thisiscolossal.com/2026/10/woo-jin-joo-mixed-media-sculptures",
-          "image": "https://www.thisiscolossal.com/wp-content/uploads/2026/10/joo-8.jpg",
-          "image_source": "https://www.thisiscolossal.com/2026/10/woo-jin-joo-mixed-media-sculptures",
-          "summary": "Stumbling upon a battered end table or lost mitten is an opportunity for magic in artist Woo Jin Joo’s mind。",
-          "why": "关注内容：在艺术家Woo Jin Joo的脑海中，偶然发现一张破旧的桌子或丢失的手套是一个施展魔法的机会。（原文未明确列出版本变化。）",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "Colossal · 新兴手工与当代艺术",
-          "source_type": "艺术报刊",
-          "source_priority": 5,
-          "source_reliability": 6,
-          "published_at": "2026-10-08",
-          "date_confidence": "high",
-          "date_label": "2026-10-08",
-          "category": "艺术",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 93,
-          "material_update": false,
-          "alternatives": [],
-          "why_original": "关注内容：Stumbling upon a battered end table or lost mitten is an opportunity for magic in artist Woo Jin Joo’s mind.（原文未明确列出版本变化。）"
-        }
-      ]
+      "items": []
     },
     {
       "name": "AI 绘画",
@@ -134,7 +105,7 @@
       "items": [
         {
           "id": "0825a4897dea2e",
-          "title": "Multimodal open d1 decision models for the edge 27 October 7, 2026",
+          "title": "Multimodal open d1 decision models for the edge 28 October 7, 2026",
           "url": "https://huggingface.co/blog/LiquidAI/open-d1",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/hLsllw4zhC04cVGiV69v0.png",
           "image_source": "https://huggingface.co/blog/LiquidAI/open-d1",
@@ -163,7 +134,7 @@
         },
         {
           "id": "4220491b91710f",
-          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • about 7 hours ago • 16",
+          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 1 day ago • 25",
           "url": "https://huggingface.co/blog/lightonai/lightonocr-3",
           "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lightonai/lightonocr-3.png",
           "image_source": "https://huggingface.co/blog/lightonai/lightonocr-3",
@@ -187,6 +158,7 @@
           "score": 135,
           "material_update": true,
           "alternatives": [],
+          "resurfaced": true,
           "why_original": "关注内容：A Blog post by LightOn AI on Hugging Face（原文未明确列出版本变化。）"
         }
       ]
@@ -341,16 +313,16 @@
       "icon": "⌘",
       "items": [
         {
-          "id": "6b19d10af9fbd9",
-          "title": "The dangerous myth behind AI agent hacks",
-          "url": "https://www.ft.com/content/7afaf77b-b027-4a0f-8d53-5e88e7d6f5e4",
+          "id": "ffdb3dfd143430",
+          "title": "Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux",
+          "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
           "image": "",
-          "image_source": "https://www.ft.com/content/7afaf77b-b027-4a0f-8d53-5e88e7d6f5e4",
-          "summary": "官方来源出现与“The dangerous myth behind AI agent hacks”相关的新条目，完整内容需进入原始来源确认。",
-          "why": "关注主题：The dangerous myth behind AI agent hacks；具体能力与更新细节需查看原文。",
+          "image_source": "https://www.youtube.com/watch?v=NYFGCESmikA",
+          "summary": "官方来源出现与“Future of Programming, AI, Agentic Engineering”相关的新条目，完整内容需进入原始来源确认。",
+          "why": "关注内容：编程、人工智能、代理工程、Vibe编码和Linux的未来；具体能力与更新细节需查看原文。",
           "action": "建议收藏",
           "tier": "建议看",
-          "source": "Yoshua Bengio · 官方文章与研究",
+          "source": "Lex Fridman · 官方文章与研究",
           "source_type": "专家观点 / 官方主页",
           "source_priority": 5,
           "source_reliability": 10,
@@ -365,19 +337,25 @@
           "location": "",
           "score": 100,
           "material_update": false,
-          "alternatives": []
+          "alternatives": [
+            {
+              "source": "Lex Fridman · 官方文章与研究",
+              "url": "https://www.youtube.com/watch?v=NYFGCESmikA"
+            }
+          ],
+          "why_original": "关注主题：Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux；具体能力与更新细节需查看原文。"
         },
         {
-          "id": "5d90ef1f5a3510",
-          "title": "AI Is at a Turning Point",
-          "url": "https://time.com/article/2026/09/09/ai-is-at-a-turning-point",
+          "id": "33151566bab351",
+          "title": "The Viral AI Agent that Broke the Internet - Peter Steinberger",
+          "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
           "image": "",
-          "image_source": "https://time.com/article/2026/09/09/ai-is-at-a-turning-point",
-          "summary": "官方来源出现与“AI Is at a Turning Point”相关的新条目，完整内容需进入原始来源确认。",
-          "why": "关注主题：AI Is at a Turning Point；具体能力与更新细节需查看原文。",
+          "image_source": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
+          "summary": "官方来源出现与“The Viral AI Agent that Broke the Internet - P”相关的新条目，完整内容需进入原始来源确认。",
+          "why": "关注内容：破坏互联网的病毒式人工智能代理- Peter Steinberger ；具体能力与更新细节需查看原文。",
           "action": "建议收藏",
           "tier": "建议看",
-          "source": "Yoshua Bengio · 官方文章与研究",
+          "source": "Lex Fridman · 官方文章与研究",
           "source_type": "专家观点 / 官方主页",
           "source_priority": 5,
           "source_reliability": 10,
@@ -390,14 +368,15 @@
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 92,
+          "score": 100,
           "material_update": false,
           "alternatives": [
             {
-              "source": "Yoshua Bengio · 官方文章与研究",
-              "url": "https://time.com/article/2026/09/09/ai-is-at-a-turning-point"
+              "source": "Lex Fridman · 官方文章与研究",
+              "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o"
             }
-          ]
+          ],
+          "why_original": "关注主题：The Viral AI Agent that Broke the Internet - Peter Steinberger；具体能力与更新细节需查看原文。"
         }
       ]
     },
@@ -406,60 +385,62 @@
       "icon": "◎",
       "items": [
         {
-          "id": "cc15d3cfdb32cc",
-          "title": "Google Cloud introduces the Gemini agent.",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work",
-          "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/CloudGeminiAgent_hero.max-1440x810.png",
-          "image_source": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work",
-          "summary": "Google Cloud’s new Gemini agent automates workflows by connecting to your business systems. See how it streamlines enterprise tasks in one prompt。",
-          "why": "更新重点：Google Cloud的新Gemini代理通过连接到您的业务系统来自动化工作流程。",
+          "id": "4bb428a07b2a9a",
+          "title": "Introducing Claude Haiku 5.5 Announcements Oct 7, 2026 Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.",
+          "url": "https://www.anthropic.com/claude-haiku-5-5",
+          "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
+          "image_source": "https://www.anthropic.com/claude-haiku-5-5",
+          "summary": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use。",
+          "why": "关注内容：Claude Haiku 5.5是我们速度最快、能力最强的小型机型。（原文未明确列出版本变化。）",
           "action": "今天看",
           "tier": "必看",
-          "source": "Google AI",
+          "source": "Anthropic News",
           "source_type": "公司 / 官方",
           "source_priority": 5,
           "source_reliability": 10,
-          "published_at": "2026-10-08",
-          "date_confidence": "high",
-          "date_label": "2026-10-08",
+          "published_at": "2026-10-07",
+          "date_confidence": "medium",
+          "date_label": "2026-10-07",
           "category": "新模型 / 开源",
           "status": "必看",
           "deadline": null,
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 134,
-          "material_update": false,
+          "score": 122,
+          "material_update": true,
           "alternatives": [],
-          "why_original": "更新重点：Google Cloud’s new Gemini agent automates workflows by connecting to your business systems."
+          "resurfaced": true,
+          "why_original": "关注内容：Claude Haiku 5.5 is our fastest, most capable small model.（原文未明确列出版本变化。）"
         },
         {
-          "id": "077dea1e8a7adb",
-          "title": "Disrupting AI-enabled “false front” operations Safety Oct 8, 2026",
-          "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-          "image": "https://images.ctfassets.net/kftzwdyauwt9/59gWIyg4DMtitwWO9AW6Af/9c66b1544d2b8d55f98703da82eeb5cf/false-front-operations-social.png?w=1600&h=900&fit=fill",
-          "image_source": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-          "summary": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging。",
-          "why": "关注内容：OpenAI破坏了两项支持人工智能的影响力行动，这两项行动利用虚假新闻记者和智囊团传播地缘政治信息。（原文未明确列出版本变化。）",
+          "id": "6c76d2d3b0ecad",
+          "title": "Google Antigravity Our agentic development platform",
+          "url": "https://antigravity.google/",
+          "image": "https://antigravity.google/assets/image/sitecards/sitecard-default.png",
+          "image_source": "https://antigravity.google/",
+          "summary": "Experience liftoff with the next-gen agent platform。",
+          "why": "关注内容：通过新一代代理平台体验升级（原文未明确列出版本变化。）",
           "action": "今天看",
           "tier": "必看",
-          "source": "OpenAI News",
-          "source_type": "公司 / 官方",
+          "source": "Google DeepMind Blog",
+          "source_type": "实验室 / 官方",
           "source_priority": 5,
           "source_reliability": 10,
-          "published_at": "2026-10-05",
-          "date_confidence": "medium",
-          "date_label": "2026-10-05",
+          "published_at": "",
+          "date_confidence": "unknown",
+          "date_label": "日期待确认",
           "category": "新模型 / 开源",
           "status": "必看",
           "deadline": null,
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 128,
-          "material_update": false,
+          "score": 116,
+          "material_update": true,
           "alternatives": [],
-          "why_original": "关注内容：OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.（原文未明确列出版本变化。）"
+          "resurfaced": true,
+          "why_original": "关注内容：Experience liftoff with the next-gen agent platform（原文未明确列出版本变化。）"
         }
       ]
     },
