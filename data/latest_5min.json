@@ -1,27 +1,27 @@
 {
-  "date": "2026-10-10",
-  "edition": "AUTO-20261010-5min",
+  "date": "2026-10-11",
+  "edition": "AUTO-20261011-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 46 条高优先级 AI 信息",
+  "headline": "今天筛出 45 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
-      "id": "6a906d3d175226",
-      "title": "Meshy 7.1: Attention to the Closest Detail",
-      "url": "https://www.meshy.ai/blog/meshy-7-1-launch",
-      "image": "https://cdn.meshy.ai/landing-assets/blog/meshy-7.1-launch/meshy-7-1-launch-cover-v2.webp",
-      "image_source": "https://www.meshy.ai/blog/meshy-7-1-launch",
-      "summary": "Meshy 7.1 generates the richest geometric detail of any image-to-3D model. Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark。",
-      "why": "更新重点：Ultra 4K可将几何尺寸缩放到4096 ³ ，通过我们新的细节丰富度基准来衡量。",
+      "id": "7ea4816640407f",
+      "title": "Meshy · API 更新日志 · 2026-09-18 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
+      "image": "https://cdn.meshy.ai/landing-assets/og-images/docs_og.webp",
+      "image_source": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
+      "summary": " Added meshy-7.1 as an ai_model value for Image to 3D , Multi-Image to 3D and Text to 3D : same parameters and credit cost as meshy-7 , higher geometry detail. latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps wor。",
+      "why": "更新重点：latest现在解析为meshy-7.1 ； meshy-7已弃用，但保持不变。",
       "action": "今天看",
       "tier": "必看",
-      "source": "Meshy · 产品更新",
+      "source": "Meshy · API 更新日志",
       "source_type": "公司 / 官方",
       "source_priority": 5,
       "source_reliability": 10,
-      "published_at": "2026-09-10",
+      "published_at": "2026-09-18",
       "date_confidence": "high",
-      "date_label": "2026-09-10",
+      "date_label": "2026-09-18",
       "category": "游戏与 3D",
       "status": "必看",
       "deadline": null,
@@ -30,13 +30,30 @@
       "location": "",
       "score": 157,
       "material_update": true,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-2b08b20b16"
+        },
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-63e438abe2"
+        },
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-bb6e67e5ce"
+        },
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-77fa73de4e"
+        }
+      ],
       "resurfaced": true,
-      "why_original": "更新重点：Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark."
+      "why_original": "更新重点：latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps working unchanged."
     },
     {
       "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 46 October 2, 2026",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 47 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
       "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -105,7 +122,7 @@
       "items": [
         {
           "id": "0825a4897dea2e",
-          "title": "Multimodal open d1 decision models for the edge 28 October 7, 2026",
+          "title": "Multimodal open d1 decision models for the edge 32 October 7, 2026",
           "url": "https://huggingface.co/blog/LiquidAI/open-d1",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/hLsllw4zhC04cVGiV69v0.png",
           "image_source": "https://huggingface.co/blog/LiquidAI/open-d1",
@@ -134,7 +151,7 @@
         },
         {
           "id": "4220491b91710f",
-          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 1 day ago • 25",
+          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 2 days ago • 26",
           "url": "https://huggingface.co/blog/lightonai/lightonocr-3",
           "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lightonai/lightonocr-3.png",
           "image_source": "https://huggingface.co/blog/lightonai/lightonocr-3",
@@ -202,8 +219,8 @@
           "url": "https://elevenlabs.io/text-to-speech",
           "image": "https://elevenlabs.io/cover.png",
           "image_source": "https://elevenlabs.io/text-to-speech",
-          "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 90+ languages and TTS API integrations。",
-          "why": "更新重点：超逼真的文本转语音支持90多种语言和TTS API集成。",
+          "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations。",
+          "why": "更新重点：超逼真的文本转语音支持70多种语言和TTS API集成。",
           "action": "今天看",
           "tier": "必看",
           "source": "ElevenLabs Blog",
@@ -223,7 +240,7 @@
           "material_update": true,
           "alternatives": [],
           "resurfaced": true,
-          "why_original": "更新重点：Ultra-realistic text-to-speech supports 90+ languages and TTS API integrations."
+          "why_original": "更新重点：Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations."
         }
       ]
     },
@@ -232,50 +249,32 @@
       "icon": "◆",
       "items": [
         {
-          "id": "7ea4816640407f",
-          "title": "Meshy · API 更新日志 · 2026-09-18 更新",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
-          "image": "https://cdn.meshy.ai/landing-assets/og-images/docs_og.webp",
-          "image_source": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
-          "summary": " Added meshy-7.1 as an ai_model value for Image to 3D , Multi-Image to 3D and Text to 3D : same parameters and credit cost as meshy-7 , higher geometry detail. latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps wor。",
-          "why": "更新重点：latest现在解析为meshy-7.1 ； meshy-7已弃用，但保持不变。",
+          "id": "d94fb0982d021f",
+          "title": "What's New on Tripo | September",
+          "url": "https://www.tripo3d.ai/blog/tripo-september-update",
+          "image": "https://cdn-blog.holymolly.ai/media/production/tripo-september-update-september-update-v2.webp",
+          "image_source": "https://www.tripo3d.ai/blog/tripo-september-update",
+          "summary": "P2.0 Official is now live, with Smart UV, cleaner textures, and updated rigging and animation tools。",
+          "why": "更新重点：P2.0 Official现已上线，配备智能紫外线、更干净的纹理以及更新的索具和动画工具。",
           "action": "今天看",
           "tier": "必看",
-          "source": "Meshy · API 更新日志",
+          "source": "Tripo · 官方动态",
           "source_type": "公司 / 官方",
           "source_priority": 5,
           "source_reliability": 10,
-          "published_at": "2026-09-18",
+          "published_at": "2026-10-10",
           "date_confidence": "high",
-          "date_label": "2026-09-18",
+          "date_label": "2026-10-10",
           "category": "游戏与 3D",
           "status": "必看",
           "deadline": null,
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 157,
-          "material_update": true,
-          "alternatives": [
-            {
-              "source": "Meshy · API 更新日志",
-              "url": "https://docs.meshy.ai/en/api/changelog#update-2b08b20b16"
-            },
-            {
-              "source": "Meshy · API 更新日志",
-              "url": "https://docs.meshy.ai/en/api/changelog#update-63e438abe2"
-            },
-            {
-              "source": "Meshy · API 更新日志",
-              "url": "https://docs.meshy.ai/en/api/changelog#update-bb6e67e5ce"
-            },
-            {
-              "source": "Meshy · API 更新日志",
-              "url": "https://docs.meshy.ai/en/api/changelog#update-77fa73de4e"
-            }
-          ],
-          "resurfaced": true,
-          "why_original": "更新重点：latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps working unchanged."
+          "score": 147,
+          "material_update": false,
+          "alternatives": [],
+          "why_original": "更新重点：P2.0 Official is now live, with Smart UV, cleaner textures, and updated rigging and animation tools."
         },
         {
           "id": "2b404537fe9246",
@@ -313,16 +312,16 @@
       "icon": "⌘",
       "items": [
         {
-          "id": "ffdb3dfd143430",
-          "title": "Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux",
-          "url": "https://www.youtube.com/watch?v=NYFGCESmikA",
-          "image": "",
-          "image_source": "https://www.youtube.com/watch?v=NYFGCESmikA",
-          "summary": "官方来源出现与“Future of Programming, AI, Agentic Engineering”相关的新条目，完整内容需进入原始来源确认。",
-          "why": "关注内容：编程、人工智能、代理工程、Vibe编码和Linux的未来；具体能力与更新细节需查看原文。",
+          "id": "3fc08e9c670d99",
+          "title": "Benchmark",
+          "url": "https://github.com/vimalabs/vimabench",
+          "image": "https://opengraph.githubassets.com/c63999282c0f11c19992842dea40a5082f41b326fb3cac82887055a4ebe9478e/vimalabs/VIMABench",
+          "image_source": "https://github.com/vimalabs/vimabench",
+          "summary": "Official Task Suite Implementation of ICML'23 Paper \"VIMA: General Robot Manipulation with Multimodal Prompts\" - vimalabs/VIMABench。",
+          "why": "关注内容：ICML '23的官方任务套件实施论文“VIMA ：使用多模式提示进行通用机器人操作” - vimalabs/VIMABench（原文未明确列出版本变化。）",
           "action": "建议收藏",
           "tier": "建议看",
-          "source": "Lex Fridman · 官方文章与研究",
+          "source": "Jim Fan · 官方文章与研究",
           "source_type": "专家观点 / 官方主页",
           "source_priority": 5,
           "source_reliability": 10,
@@ -335,48 +334,11 @@
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 100,
-          "material_update": false,
-          "alternatives": [
-            {
-              "source": "Lex Fridman · 官方文章与研究",
-              "url": "https://www.youtube.com/watch?v=NYFGCESmikA"
-            }
-          ],
-          "why_original": "关注主题：Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux；具体能力与更新细节需查看原文。"
-        },
-        {
-          "id": "33151566bab351",
-          "title": "The Viral AI Agent that Broke the Internet - Peter Steinberger",
-          "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
-          "image": "",
-          "image_source": "https://www.youtube.com/watch?v=YFjfBk8HI5o",
-          "summary": "官方来源出现与“The Viral AI Agent that Broke the Internet - P”相关的新条目，完整内容需进入原始来源确认。",
-          "why": "关注内容：破坏互联网的病毒式人工智能代理- Peter Steinberger ；具体能力与更新细节需查看原文。",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "Lex Fridman · 官方文章与研究",
-          "source_type": "专家观点 / 官方主页",
-          "source_priority": 5,
-          "source_reliability": 10,
-          "published_at": "",
-          "date_confidence": "unknown",
-          "date_label": "日期待确认",
-          "category": "Agent / 编程",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 100,
-          "material_update": false,
-          "alternatives": [
-            {
-              "source": "Lex Fridman · 官方文章与研究",
-              "url": "https://www.youtube.com/watch?v=YFjfBk8HI5o"
-            }
-          ],
-          "why_original": "关注主题：The Viral AI Agent that Broke the Internet - Peter Steinberger；具体能力与更新细节需查看原文。"
+          "score": 92,
+          "material_update": true,
+          "alternatives": [],
+          "resurfaced": true,
+          "why_original": "关注内容：Official Task Suite Implementation of ICML'23 Paper \"VIMA: General Robot Manipulation with Multimodal Prompts\" - vimalabs/VIMABench（原文未明确列出版本变化。）"
         }
       ]
     },
@@ -385,8 +347,37 @@
       "icon": "◎",
       "items": [
         {
+          "id": "083907b0503ee7",
+          "title": "OpenAI Decisions API vs. Jev: A Practical Guide to Decision Models a2aprotocol • 9 days ago • 6",
+          "url": "https://huggingface.co/blog/a2aprotocol/openai-decisions-api-vs-jev-a-practical-guide",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/6433e03e546e16f17a10c91e/M-HEs73AODnflOrK2Nd1k.png",
+          "image_source": "https://huggingface.co/blog/a2aprotocol/openai-decisions-api-vs-jev-a-practical-guide",
+          "summary": "A Blog post by zhangcheng on Hugging Face。",
+          "why": "关注内容：Zhangcheng在Hugging Face上的博客文章（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-10-02",
+          "date_confidence": "high",
+          "date_label": "2026-10-02",
+          "category": "新模型 / 开源",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 126,
+          "material_update": true,
+          "alternatives": [],
+          "resurfaced": true,
+          "why_original": "关注内容：A Blog post by zhangcheng on Hugging Face（原文未明确列出版本变化。）"
+        },
+        {
           "id": "4bb428a07b2a9a",
-          "title": "Introducing Claude Haiku 5.5 Announcements Oct 7, 2026 Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.",
+          "title": "Announcements Oct 7, 2026 Introducing Claude Haiku 5.5 Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.",
           "url": "https://www.anthropic.com/claude-haiku-5-5",
           "image": "https://www-cdn.anthropic.com/images/4zrzovbb/website/89e9b0fbfe0181f6ca565d913686ce8e49b5e9c2-1200x630.jpg",
           "image_source": "https://www.anthropic.com/claude-haiku-5-5",
@@ -412,35 +403,6 @@
           "alternatives": [],
           "resurfaced": true,
           "why_original": "关注内容：Claude Haiku 5.5 is our fastest, most capable small model.（原文未明确列出版本变化。）"
-        },
-        {
-          "id": "6c76d2d3b0ecad",
-          "title": "Google Antigravity Our agentic development platform",
-          "url": "https://antigravity.google/",
-          "image": "https://antigravity.google/assets/image/sitecards/sitecard-default.png",
-          "image_source": "https://antigravity.google/",
-          "summary": "Experience liftoff with the next-gen agent platform。",
-          "why": "关注内容：通过新一代代理平台体验升级（原文未明确列出版本变化。）",
-          "action": "今天看",
-          "tier": "必看",
-          "source": "Google DeepMind Blog",
-          "source_type": "实验室 / 官方",
-          "source_priority": 5,
-          "source_reliability": 10,
-          "published_at": "",
-          "date_confidence": "unknown",
-          "date_label": "日期待确认",
-          "category": "新模型 / 开源",
-          "status": "必看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 116,
-          "material_update": true,
-          "alternatives": [],
-          "resurfaced": true,
-          "why_original": "关注内容：Experience liftoff with the next-gen agent platform（原文未明确列出版本变化。）"
         }
       ]
     },

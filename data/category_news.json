@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-10",
-  "start_date": "2026-07-10",
+  "date": "2026-10-11",
+  "start_date": "2026-07-11",
   "items": [
     {
       "id": "f21e443211aee7",
-      "title": "ViDiHand: The Surprising Effectiveness of Video Diffusion Models for Hand Motion Reconstruction Xingang-Pan • 4 days ago • 4",
+      "title": "ViDiHand: The Surprising Effectiveness of Video Diffusion Models for Hand Motion Reconstruction Xingang-Pan • 5 days ago • 4",
       "url": "https://huggingface.co/blog/Xingang-Pan/vidihand",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/646758d6a9b4610868a138ff/uMQOtZjtc7lBL77zRf73Z.png",
       "image_source": "https://huggingface.co/blog/Xingang-Pan/vidihand",
@@ -290,7 +290,7 @@
       "id": "796988b1dbe210",
       "title": "Published What Is the Maximum Video Length on the HeyGen Creator Plan?",
       "url": "https://www.heygen.com/blog/heygen-creator-plan-maximum-video-length",
-      "image": "https://cdn.sanity.io/images/pdhqcmb1/production/065bf028efd54dba659a2d9e9cbf1212d2dab954-1200x623.png?fit=max&fm=png",
+      "image": "https://cdn.sanity.io/images/pdhqcmb1/production/3b68644dbb501165f415968964b63c4a79ce6696-1600x900.png?fit=max&fm=png",
       "image_source": "https://www.heygen.com/blog/heygen-creator-plan-maximum-video-length",
       "summary": "HeyGen’s Creator plan supports videos up to 30 minutes. Learn how this limit differs from audio uploads, MCP generation, and other workflows。",
       "why": "更新重点：HeyGen’s Creator plan supports videos up to 30 minutes.",
@@ -524,7 +524,7 @@
       "id": "e162bc4b53d414",
       "title": "Published 11 Best Akool Alternatives & Competitors Picked For 2026",
       "url": "https://www.heygen.com/blog/akool-alternatives",
-      "image": "https://cdn.sanity.io/images/pdhqcmb1/production/0d1aacbde5c3f0577def2a62516ecb76fff1938e-1200x630.png?fit=max&fm=png",
+      "image": "https://cdn.sanity.io/images/pdhqcmb1/production/f7827086f407e668227fe3023b086d371d768a56-1600x900.png?fit=max&fm=png",
       "image_source": "https://www.heygen.com/blog/akool-alternatives",
       "summary": "I tested 11 Akool alternatives head-to-head. HeyGen beat Akool on avatar realism and 175+ language video, with no credit meter. Full comparison and pricing inside。",
       "why": "关注内容：I tested 11 Akool alternatives head-to-head.（原文未明确列出版本变化。）",
