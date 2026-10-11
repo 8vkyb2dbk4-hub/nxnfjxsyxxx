@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-11T07:22:50+08:00",
+  "generated_at": "2026-10-12T07:23:52+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -28,7 +28,12 @@
       "location": "",
       "score": 157,
       "material_update": true,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
+        }
+      ],
       "resurfaced": true,
       "why_original": "更新重点：latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps working unchanged."
     },
@@ -126,7 +131,7 @@
     },
     {
       "id": "fb8ad85c459c0c",
-      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 88 September 22, 2026",
+      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 91 September 22, 2026",
       "url": "https://huggingface.co/blog/omlx",
       "image": "https://huggingface.co/blog/assets/omlx/omlx-hf.jpg",
       "image_source": "https://huggingface.co/blog/omlx",

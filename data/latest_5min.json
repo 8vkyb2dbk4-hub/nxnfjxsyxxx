@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-11",
-  "edition": "AUTO-20261011-5min",
+  "date": "2026-10-12",
+  "edition": "AUTO-20261012-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 45 条高优先级 AI 信息",
+  "headline": "今天筛出 43 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
@@ -37,7 +37,7 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-63e438abe2"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
         },
         {
           "source": "Meshy · API 更新日志",
@@ -82,7 +82,7 @@
     },
     {
       "id": "fb8ad85c459c0c",
-      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 88 September 22, 2026",
+      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 91 September 22, 2026",
       "url": "https://huggingface.co/blog/omlx",
       "image": "https://huggingface.co/blog/assets/omlx/omlx-hf.jpg",
       "image_source": "https://huggingface.co/blog/omlx",
@@ -151,7 +151,7 @@
         },
         {
           "id": "4220491b91710f",
-          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 2 days ago • 26",
+          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 3 days ago • 29",
           "url": "https://huggingface.co/blog/lightonai/lightonocr-3",
           "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lightonai/lightonocr-3.png",
           "image_source": "https://huggingface.co/blog/lightonai/lightonocr-3",
@@ -219,8 +219,8 @@
           "url": "https://elevenlabs.io/text-to-speech",
           "image": "https://elevenlabs.io/cover.png",
           "image_source": "https://elevenlabs.io/text-to-speech",
-          "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations。",
-          "why": "更新重点：超逼真的文本转语音支持70多种语言和TTS API集成。",
+          "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 90+ languages and TTS API integrations。",
+          "why": "更新重点：超逼真的文本转语音支持90多种语言和TTS API集成。",
           "action": "今天看",
           "tier": "必看",
           "source": "ElevenLabs Blog",
@@ -240,7 +240,7 @@
           "material_update": true,
           "alternatives": [],
           "resurfaced": true,
-          "why_original": "更新重点：Ultra-realistic text-to-speech supports 70+ languages and TTS API integrations."
+          "why_original": "更新重点：Ultra-realistic text-to-speech supports 90+ languages and TTS API integrations."
         }
       ]
     },
@@ -248,34 +248,6 @@
       "name": "游戏与 3D",
       "icon": "◆",
       "items": [
-        {
-          "id": "d94fb0982d021f",
-          "title": "What's New on Tripo | September",
-          "url": "https://www.tripo3d.ai/blog/tripo-september-update",
-          "image": "https://cdn-blog.holymolly.ai/media/production/tripo-september-update-september-update-v2.webp",
-          "image_source": "https://www.tripo3d.ai/blog/tripo-september-update",
-          "summary": "P2.0 Official is now live, with Smart UV, cleaner textures, and updated rigging and animation tools。",
-          "why": "更新重点：P2.0 Official现已上线，配备智能紫外线、更干净的纹理以及更新的索具和动画工具。",
-          "action": "今天看",
-          "tier": "必看",
-          "source": "Tripo · 官方动态",
-          "source_type": "公司 / 官方",
-          "source_priority": 5,
-          "source_reliability": 10,
-          "published_at": "2026-10-10",
-          "date_confidence": "high",
-          "date_label": "2026-10-10",
-          "category": "游戏与 3D",
-          "status": "必看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 147,
-          "material_update": false,
-          "alternatives": [],
-          "why_original": "更新重点：P2.0 Official is now live, with Smart UV, cleaner textures, and updated rigging and animation tools."
-        },
         {
           "id": "2b404537fe9246",
           "title": "Release Notes",
@@ -304,6 +276,35 @@
           "alternatives": [],
           "resurfaced": true,
           "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
+        },
+        {
+          "id": "d8b62a962e88cf",
+          "title": "Research Overview",
+          "url": "https://openai.com/research",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/522d2eaf-74eb-4df8-3753ba79c044/1ba374444a315b804b84ec9af986c3d7/stangel-2022-1640.jpg?w=1600&h=900&fit=fill",
+          "image_source": "https://openai.com/research",
+          "summary": "Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。",
+          "why": "关注内容：在我们致力于造福人类的人工智能通用智能时，探索OpenAI对前沿模型、推理、多模态人工智能和安全部署的研究。（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "OpenAI News",
+          "source_type": "公司 / 官方",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "2026-09-29",
+          "date_confidence": "medium",
+          "date_label": "2026-09-29",
+          "category": "游戏与 3D",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 123,
+          "material_update": true,
+          "alternatives": [],
+          "resurfaced": true,
+          "why_original": "关注内容：Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity.（原文未明确列出版本变化。）"
         }
       ]
     },
@@ -348,7 +349,7 @@
       "items": [
         {
           "id": "083907b0503ee7",
-          "title": "OpenAI Decisions API vs. Jev: A Practical Guide to Decision Models a2aprotocol • 9 days ago • 6",
+          "title": "OpenAI Decisions API vs. Jev: A Practical Guide to Decision Models a2aprotocol • 10 days ago • 6",
           "url": "https://huggingface.co/blog/a2aprotocol/openai-decisions-api-vs-jev-a-practical-guide",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/6433e03e546e16f17a10c91e/M-HEs73AODnflOrK2Nd1k.png",
           "image_source": "https://huggingface.co/blog/a2aprotocol/openai-decisions-api-vs-jev-a-practical-guide",
