@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-12T07:23:52+08:00",
+  "generated_at": "2026-10-13T07:26:11+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
     {
-      "id": "7ea4816640407f",
-      "title": "Meshy · API 更新日志 · 2026-09-18 更新",
-      "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
+      "id": "ea6cc8851992bb",
+      "title": "Meshy · API 更新日志 · 2026-10-10 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e",
       "image": "https://cdn.meshy.ai/landing-assets/og-images/docs_og.webp",
-      "image_source": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
-      "summary": " Added meshy-7.1 as an ai_model value for Image to 3D , Multi-Image to 3D and Text to 3D : same parameters and credit cost as meshy-7 , higher geometry detail. latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps wor。",
-      "why": "更新重点：latest现在解析为meshy-7.1 ； meshy-7已弃用，但保持不变。",
+      "image_source": "https://docs.meshy.ai/en/api/changelog#update-436029465e",
+      "summary": " meshy-5 has been retired. Requests that send ai_model: \"meshy-5\" to Text to 3D , Image to 3D , Multi-Image to 3D or Retexture now return 400 with the message ai_model meshy-5 has been retired; use meshy-6-lite . Switch to meshy-6。",
+      "why": "更新重点：将ai_model: \"meshy-5\"发送到Text to 3D、Image to 3D、Multi-Image to 3D或Retexture的请求现在返回400 ，消息ai_model meshy-5已停用；使用meshy-6-lite。.webp现在与.jpg一起被记录为支持的图像输入格式",
       "action": "今天看",
       "tier": "必看",
       "source": "Meshy · API 更新日志",
       "source_type": "公司 / 官方",
       "source_priority": 5,
       "source_reliability": 10,
-      "published_at": "2026-09-18",
+      "published_at": "2026-10-10",
       "date_confidence": "high",
-      "date_label": "2026-09-18",
+      "date_label": "2026-10-10",
       "category": "游戏与 3D",
       "status": "必看",
       "deadline": null,
@@ -32,10 +32,14 @@
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
+        },
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
         }
       ],
       "resurfaced": true,
-      "why_original": "更新重点：latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps working unchanged."
+      "why_original": "更新重点：Requests that send ai_model: \"meshy-5\" to Text to 3D , Image to 3D , Multi-Image to 3D or Retexture now return 400 with the message ai_model meshy-5 has been retired; use meshy-6-lite . .webp is now documented as a supported image input format, alongside .jpg "
     },
     {
       "id": "6a906d3d175226",
@@ -74,10 +78,6 @@
         {
           "source": "Meshy · 产品更新",
           "url": "https://www.meshy.ai/blog/meshy-7-1-launch"
-        },
-        {
-          "source": "Meshy · 产品更新",
-          "url": "https://www.meshy.ai/blog/meshy-7-1-launch"
         }
       ],
       "resurfaced": true,
@@ -85,7 +85,7 @@
     },
     {
       "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 47 October 2, 2026",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 48 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
       "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -131,7 +131,7 @@
     },
     {
       "id": "fb8ad85c459c0c",
-      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 91 September 22, 2026",
+      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 93 September 22, 2026",
       "url": "https://huggingface.co/blog/omlx",
       "image": "https://huggingface.co/blog/assets/omlx/omlx-hf.jpg",
       "image_source": "https://huggingface.co/blog/omlx",

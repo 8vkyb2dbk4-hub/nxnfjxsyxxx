@@ -1,27 +1,27 @@
 {
-  "date": "2026-10-12",
-  "edition": "AUTO-20261012-5min",
+  "date": "2026-10-13",
+  "edition": "AUTO-20261013-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 43 条高优先级 AI 信息",
+  "headline": "今天筛出 53 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
-      "id": "7ea4816640407f",
-      "title": "Meshy · API 更新日志 · 2026-09-18 更新",
-      "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
+      "id": "ea6cc8851992bb",
+      "title": "Meshy · API 更新日志 · 2026-10-10 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e",
       "image": "https://cdn.meshy.ai/landing-assets/og-images/docs_og.webp",
-      "image_source": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd",
-      "summary": " Added meshy-7.1 as an ai_model value for Image to 3D , Multi-Image to 3D and Text to 3D : same parameters and credit cost as meshy-7 , higher geometry detail. latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps wor。",
-      "why": "更新重点：latest现在解析为meshy-7.1 ； meshy-7已弃用，但保持不变。",
+      "image_source": "https://docs.meshy.ai/en/api/changelog#update-436029465e",
+      "summary": " meshy-5 has been retired. Requests that send ai_model: \"meshy-5\" to Text to 3D , Image to 3D , Multi-Image to 3D or Retexture now return 400 with the message ai_model meshy-5 has been retired; use meshy-6-lite . Switch to meshy-6。",
+      "why": "更新重点：将ai_model: \"meshy-5\"发送到Text to 3D、Image to 3D、Multi-Image to 3D或Retexture的请求现在返回400 ，消息ai_model meshy-5已停用；使用meshy-6-lite。.webp现在与.jpg一起被记录为支持的图像输入格式",
       "action": "今天看",
       "tier": "必看",
       "source": "Meshy · API 更新日志",
       "source_type": "公司 / 官方",
       "source_priority": 5,
       "source_reliability": 10,
-      "published_at": "2026-09-18",
+      "published_at": "2026-10-10",
       "date_confidence": "high",
-      "date_label": "2026-09-18",
+      "date_label": "2026-10-10",
       "category": "游戏与 3D",
       "status": "必看",
       "deadline": null,
@@ -33,27 +33,27 @@
       "alternatives": [
         {
           "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
+        },
+        {
+          "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-2b08b20b16"
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-4cb6c01314"
         },
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-bb6e67e5ce"
-        },
-        {
-          "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-77fa73de4e"
         }
       ],
       "resurfaced": true,
-      "why_original": "更新重点：latest now resolves to meshy-7.1 ; meshy-7 is deprecated but keeps working unchanged."
+      "why_original": "更新重点：Requests that send ai_model: \"meshy-5\" to Text to 3D , Image to 3D , Multi-Image to 3D or Retexture now return 400 with the message ai_model meshy-5 has been retired; use meshy-6-lite . .webp is now documented as a supported image input format, alongside .jpg "
     },
     {
       "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 47 October 2, 2026",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 48 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
       "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -82,7 +82,7 @@
     },
     {
       "id": "fb8ad85c459c0c",
-      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 91 September 22, 2026",
+      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 93 September 22, 2026",
       "url": "https://huggingface.co/blog/omlx",
       "image": "https://huggingface.co/blog/assets/omlx/omlx-hf.jpg",
       "image_source": "https://huggingface.co/blog/omlx",
@@ -121,8 +121,36 @@
       "icon": "✦",
       "items": [
         {
+          "id": "984223f109f336",
+          "title": "Getting the Source Right, Not Just the Fact: Source-Aware Verification for MCP Agents 22 September 29, 2026",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/phhhj_BLOJbvnTFhVaZ5y.png",
+          "image_source": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+          "summary": "A Blog post by Multiverse Computing on Hugging Face。",
+          "why": "关注内容：Multiverse Computing在拥抱脸上的博客文章（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-09-29",
+          "date_confidence": "high",
+          "date_label": "2026-09-29",
+          "category": "AI 绘画",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 139,
+          "material_update": false,
+          "alternatives": [],
+          "why_original": "关注内容：A Blog post by Multiverse Computing on Hugging Face（原文未明确列出版本变化。）"
+        },
+        {
           "id": "0825a4897dea2e",
-          "title": "Multimodal open d1 decision models for the edge 32 October 7, 2026",
+          "title": "Multimodal open d1 decision models for the edge 35 October 7, 2026",
           "url": "https://huggingface.co/blog/LiquidAI/open-d1",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/hLsllw4zhC04cVGiV69v0.png",
           "image_source": "https://huggingface.co/blog/LiquidAI/open-d1",
@@ -148,35 +176,6 @@
           "alternatives": [],
           "resurfaced": true,
           "why_original": "关注内容：A Blog post by Liquid AI on Hugging Face（原文未明确列出版本变化。）"
-        },
-        {
-          "id": "4220491b91710f",
-          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 3 days ago • 29",
-          "url": "https://huggingface.co/blog/lightonai/lightonocr-3",
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lightonai/lightonocr-3.png",
-          "image_source": "https://huggingface.co/blog/lightonai/lightonocr-3",
-          "summary": "A Blog post by LightOn AI on Hugging Face。",
-          "why": "关注内容：LightOn AI在Hugging Face上的博客文章（原文未明确列出版本变化。）",
-          "action": "今天看",
-          "tier": "必看",
-          "source": "Hugging Face Blog",
-          "source_type": "开源社区",
-          "source_priority": 5,
-          "source_reliability": 8,
-          "published_at": "2026-10-08",
-          "date_confidence": "high",
-          "date_label": "2026-10-08",
-          "category": "AI 绘画",
-          "status": "必看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 135,
-          "material_update": true,
-          "alternatives": [],
-          "resurfaced": true,
-          "why_original": "关注内容：A Blog post by LightOn AI on Hugging Face（原文未明确列出版本变化。）"
         }
       ]
     },
@@ -249,62 +248,59 @@
       "icon": "◆",
       "items": [
         {
-          "id": "2b404537fe9246",
-          "title": "Release Notes",
-          "url": "https://openai.com/products/release-notes",
-          "image": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
-          "image_source": "https://openai.com/products/release-notes",
-          "summary": "OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products。",
-          "why": "更新重点：适用于ChatGPT、API平台和Codex的OpenAI发行说明。探索OpenAI产品的最新功能、更新和改进。",
+          "id": "c106e1010fc366",
+          "title": "3D Printing with Bambu Studio",
+          "url": "https://www.tripo3d.ai/blog/3d-printing-bambu-studio",
+          "image": "https://cdn-blog.holymolly.ai/media/production/3d-printing-bambu-studio-finished-multicolor-model-dd0fc5962479.webp",
+          "image_source": "https://www.tripo3d.ai/blog/3d-printing-bambu-studio",
+          "summary": "An end-to-end workflow for turning a Tripo AI model into a modular, multi-color 3D print with Bambu Studio。",
+          "why": "关注内容：使用Bambu Studio将Tripo AI模型转换为模块化多色3D打印的端到端工作流程。（原文未明确列出版本变化。）",
           "action": "今天看",
           "tier": "必看",
-          "source": "OpenAI News",
+          "source": "Tripo · 官方动态",
           "source_type": "公司 / 官方",
           "source_priority": 5,
           "source_reliability": 10,
-          "published_at": "",
-          "date_confidence": "unknown",
-          "date_label": "日期待确认",
+          "published_at": "2026-09-28",
+          "date_confidence": "high",
+          "date_label": "2026-09-28",
           "category": "游戏与 3D",
           "status": "必看",
           "deadline": null,
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 137,
-          "material_update": true,
+          "score": 157,
+          "material_update": false,
           "alternatives": [],
-          "resurfaced": true,
-          "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
+          "why_original": "关注内容：An end-to-end workflow for turning a Tripo AI model into a modular, multi-color 3D print with Bambu Studio.（原文未明确列出版本变化。）"
         },
         {
-          "id": "d8b62a962e88cf",
-          "title": "Research Overview",
-          "url": "https://openai.com/research",
-          "image": "https://images.ctfassets.net/kftzwdyauwt9/522d2eaf-74eb-4df8-3753ba79c044/1ba374444a315b804b84ec9af986c3d7/stangel-2022-1640.jpg?w=1600&h=900&fit=fill",
-          "image_source": "https://openai.com/research",
-          "summary": "Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。",
-          "why": "关注内容：在我们致力于造福人类的人工智能通用智能时，探索OpenAI对前沿模型、推理、多模态人工智能和安全部署的研究。（原文未明确列出版本变化。）",
+          "id": "898ef2ea209a48",
+          "title": "Tripo P2.0 v.s. GPT-6 Astra：3D Asset Generation vs Scene Building",
+          "url": "https://www.tripo3d.ai/blog/tripo-p2-vs-gpt-6-astra",
+          "image": "https://cdn-blog.holymolly.ai/media/production/tripo-p2-vs-gpt-6-astra-tripo-p2-astra-3d-asset-generation-comparison.webp",
+          "image_source": "https://www.tripo3d.ai/blog/tripo-p2-vs-gpt-6-astra",
+          "summary": "3D Asset Generation vs. Scene Building: Quality, Speed, Cost and Workflow。",
+          "why": "关注内容：3D Asset Generation vs.（原文未明确列出版本变化。）",
           "action": "今天看",
           "tier": "必看",
-          "source": "OpenAI News",
+          "source": "Tripo · 官方动态",
           "source_type": "公司 / 官方",
           "source_priority": 5,
           "source_reliability": 10,
-          "published_at": "2026-09-29",
-          "date_confidence": "medium",
-          "date_label": "2026-09-29",
+          "published_at": "2026-09-24",
+          "date_confidence": "high",
+          "date_label": "2026-09-24",
           "category": "游戏与 3D",
           "status": "必看",
           "deadline": null,
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 123,
-          "material_update": true,
-          "alternatives": [],
-          "resurfaced": true,
-          "why_original": "关注内容：Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity.（原文未明确列出版本变化。）"
+          "score": 153,
+          "material_update": false,
+          "alternatives": []
         }
       ]
     },
@@ -349,7 +345,7 @@
       "items": [
         {
           "id": "083907b0503ee7",
-          "title": "OpenAI Decisions API vs. Jev: A Practical Guide to Decision Models a2aprotocol • 10 days ago • 6",
+          "title": "OpenAI Decisions API vs. Jev: A Practical Guide to Decision Models a2aprotocol • 11 days ago • 6",
           "url": "https://huggingface.co/blog/a2aprotocol/openai-decisions-api-vs-jev-a-practical-guide",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/6433e03e546e16f17a10c91e/M-HEs73AODnflOrK2Nd1k.png",
           "image_source": "https://huggingface.co/blog/a2aprotocol/openai-decisions-api-vs-jev-a-practical-guide",
@@ -488,12 +484,7 @@
           "participation_mode": "线下",
           "registration": "报名资格与名额以官方通知为准",
           "registration_status": "check",
-          "alternatives": [
-            {
-              "source": "Epic Games · Unreal Fest 官方排期",
-              "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN"
-            }
-          ]
+          "alternatives": []
         }
       ]
     }
