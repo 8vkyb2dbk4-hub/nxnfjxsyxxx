@@ -3,7 +3,7 @@
     {
       "title": "Research Overview",
       "url": "https://openai.com/research",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-10-14",
       "content_hash": "b02a18483e0c33",
       "source": "OpenAI News"
     },
@@ -17,7 +17,7 @@
     {
       "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
       "url": "https://elevenlabs.io/blog/tender-22bn",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "4235828ef7a844",
       "source": "ElevenLabs Blog"
     },
@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "8c4e37fdf96462",
       "source": "ElevenLabs Blog"
     },
@@ -87,7 +87,7 @@
     {
       "title": "Nano Banana Create and edit detailed images",
       "url": "https://deepmind.google/models/gemini-image",
-      "last_seen": "2026-10-02",
+      "last_seen": "2026-10-14",
       "content_hash": "ca949ecc86271f",
       "source": "Google DeepMind Blog"
     },
@@ -150,7 +150,7 @@
     {
       "title": "AutoSynthData: Generating Training Data for Enterprise Agents 48 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "a6fffb3c3148fe",
       "source": "Hugging Face Blog"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-10-10 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "f9c4d267350103",
       "source": "Meshy · API 更新日志"
     },
@@ -311,14 +311,14 @@
     {
       "title": "24th China International Trade Fair for Toys & Preschool Educational Resources/ 2026 China International Art and Collectable Toys Expo（China Toy Expo）",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2791",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "d3f9ca2d0f11dc",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "2026 China International Licensing Expo（China Licensing Expo）",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2792",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "f136670b6d7c67",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -353,7 +353,7 @@
     {
       "title": "Hugging Face",
       "url": "https://huggingface.co/black-forest-labs",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "961739105af876",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -367,15 +367,15 @@
     {
       "title": "Gaia Alari’s Lilting Animations are Drawn Frame by Frame",
       "url": "https://www.thisiscolossal.com/2026/10/gaia-alari-animation",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "09f55156d45924",
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "October 2026 Opportunities: Open Calls, Residencies, and Grants for Artists",
+      "title": "See more",
       "url": "https://www.thisiscolossal.com/2026/09/october-2026-opportunities-for-artists",
-      "last_seen": "2026-10-03",
-      "content_hash": "44d0bb356c7e06",
+      "last_seen": "2026-10-14",
+      "content_hash": "29124116fee8ce",
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
@@ -430,77 +430,77 @@
     {
       "title": "DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters",
       "url": "https://www.youtube.com/watch?v=_1f-o0nqpEI",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "8646a50739854c",
       "source": "Lex Fridman · 官方文章与研究"
     },
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
     {
       "title": "ElevenLabs Agents",
       "url": "https://docs.dev.runwayml.com/characters/elevenlabs",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "62c604bed40689",
       "source": "Runway Dev Changelog"
     },
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
     {
       "title": "Fortnite, Unreal Engine, and the Future of Gaming",
       "url": "https://www.youtube.com/watch?v=477qF6QNSvc",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "596d23b62e58f9",
       "source": "Lex Fridman · 官方文章与研究"
     },
     {
       "title": "Connect Dev MCP",
       "url": "https://docs.dev.runwayml.com/guides/mcp",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "610bb77e2819f9",
       "source": "Runway Dev Changelog"
     },
     {
       "title": "Professor Yoshua Bengio’s speech at the UN Security Council",
       "url": "https://yoshuabengio.org/en/blog/professor-yoshua-bengios-speech-un-security-council",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "8d1c93870c0fe6",
       "source": "Yoshua Bengio · 官方文章与研究"
     },
     {
       "title": "Department of Computer Science",
       "url": "https://web.cs.toronto.edu/",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "1ac0ccfc20c79f",
       "source": "Geoffrey Hinton · 官方文章与研究"
     },
     {
       "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
       "url": "https://vimalabs.github.io/",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "d1198366711678",
       "source": "Jim Fan · 官方文章与研究"
     },
     {
       "title": "Training and Deploying Visual Agents at Scale",
       "url": "https://searchworks.stanford.edu/view/13967796",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "720eef6bcae227",
       "source": "Jim Fan · 官方文章与研究"
     },
     {
       "title": "2021 commencement address at IIT Mumbai",
       "url": "https://www.cs.toronto.edu/~hinton/HintonMumbai.pdf",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "38e8a9f53c40c6",
       "source": "Geoffrey Hinton · 官方文章与研究"
     },
@@ -528,21 +528,21 @@
     {
       "title": "Google is supporting water resilience in Chile.",
       "url": "https://blog.google/company-news/outreach-and-initiatives/sustainability/water-resilience-chile",
-      "last_seen": "2026-10-03",
+      "last_seen": "2026-10-14",
       "content_hash": "7b713c77bdd85f",
       "source": "Google AI"
     },
     {
       "title": "CGS 2026 China Annual Dual-City Conference on Game Studies",
       "url": "https://cgs.caacosmos.com/",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "bd4db7f13907b9",
       "source": "CGS · 中国游戏研究双城年会"
     },
     {
       "title": "Unreal Fest",
       "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "37fddbc4040429",
       "source": "Epic Games · Unreal Fest 官方排期"
     },
@@ -974,10 +974,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Multimodal open d1 decision models for the edge 35 October 7, 2026",
+      "title": "Multimodal open d1 decision models for the edge LiquidAI • 6 days ago • 38",
       "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-      "last_seen": "2026-10-13",
-      "content_hash": "baee04b7b56988",
+      "last_seen": "2026-10-14",
+      "content_hash": "83bf98219ded4c",
       "source": "Hugging Face Blog"
     },
     {
@@ -1044,10 +1044,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 4 days ago • 29",
+      "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 5 days ago • 33",
       "url": "https://huggingface.co/blog/lightonai/lightonocr-3",
-      "last_seen": "2026-10-13",
-      "content_hash": "6e18926cce6d99",
+      "last_seen": "2026-10-14",
+      "content_hash": "f2411e96dd45b9",
       "source": "Hugging Face Blog"
     },
     {
@@ -1242,7 +1242,7 @@
     {
       "title": "2026 China International Baby Articles Fair（China Kids Fair）",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2793",
-      "last_seen": "2026-10-13",
+      "last_seen": "2026-10-14",
       "content_hash": "5d44020dd1cbe0",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -1254,10 +1254,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Sparseup-fr: A French replication of Linkup's sparse embedding model alphaedge-ai • about 8 hours ago • 9",
+      "title": "Sparseup-fr: A French replication of Linkup's sparse embedding model alphaedge-ai • 1 day ago • 10",
       "url": "https://huggingface.co/blog/alphaedge-ai/french-sparseup",
-      "last_seen": "2026-10-13",
-      "content_hash": "deb9b5d6f1154e",
+      "last_seen": "2026-10-14",
+      "content_hash": "1ae3453f91aba9",
       "source": "Hugging Face Blog"
     },
     {
@@ -1273,6 +1273,69 @@
       "last_seen": "2026-10-13",
       "content_hash": "340d29865b2223",
       "source": "GitHub Blog"
+    },
+    {
+      "title": "Fine-Tune ASR for Your Domain with NVIDIA Speech Agent Skills nvidia • about 7 hours ago • 8",
+      "url": "https://huggingface.co/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills",
+      "last_seen": "2026-10-14",
+      "content_hash": "18cae49fe1d570",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "221 Camera Obscuras Fill Pneuhaus’ Immersive, Inflatable, Image-Capturing Installation",
+      "url": "https://www.thisiscolossal.com/2026/10/pneuhaus-compound-camera-3-inflatable-installation",
+      "last_seen": "2026-10-14",
+      "content_hash": "949b5595dcbdd7",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "‘Arcana Borealis’ Summons the Power of Spirituality and Artist Communities",
+      "url": "https://www.thisiscolossal.com/2026/10/arcana-borealis-modern-art-spirituality-esotercism-women-artists",
+      "last_seen": "2026-10-14",
+      "content_hash": "70350dcd0cb5c1",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Meet the Lap Easel, a Portable Companion for Taking Creativity Anywhere",
+      "url": "https://www.thisiscolossal.com/2026/10/bill-groot-lap-easel",
+      "last_seen": "2026-10-14",
+      "content_hash": "0ab2296ca09cf1",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B 35 October 13, 2026",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "last_seen": "2026-10-14",
+      "content_hash": "745b22713e19d6",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Gemini 4 is now available in the Gemini app",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability",
+      "last_seen": "2026-10-14",
+      "content_hash": "43670ae7ff776c",
+      "source": "Google AI"
+    },
+    {
+      "title": "Gemini 4 Argon is now available for developers.",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon",
+      "last_seen": "2026-10-14",
+      "content_hash": "bbd63b09f0bf1e",
+      "source": "Google AI"
+    },
+    {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "last_seen": "2026-10-14",
+      "content_hash": "cd3dbc834acc5d",
+      "source": "Google AI"
+    },
+    {
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "url": "https://blog.google/innovation-and-ai/technology/safety-security/gemini-4-model-safety-security",
+      "last_seen": "2026-10-14",
+      "content_hash": "e891e2239f5839",
+      "source": "Google AI"
     }
   ]
 }

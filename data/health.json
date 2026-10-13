@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-10-13T07:26:11+08:00",
+  "updated_at": "2026-10-14T07:32:43+08:00",
   "source_count": 118,
-  "candidate_count": 305,
-  "error_count": 23,
+  "candidate_count": 316,
+  "error_count": 24,
   "errors": [
     {
       "source": "中国航海博物馆 · 展览与讲座",
@@ -57,6 +57,10 @@
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
     },
     {
+      "source": "浙江图书馆 · 官方讲座",
+      "error": "ConnectionError: HTTPSConnectionPool(host='www.zjlib.cn', port=443): Max retries exceeded with url: /activity (Caused by NameResolutionError(\"HTTPSConnection(host='www.zjlib.cn', port=443): Failed to resolve 'www.zjlib.cn' ([Errno -2] Name or service not known)\"))"
+    },
+    {
       "source": "Demis Hassabis · 专家分享",
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
     },
@@ -78,10 +82,6 @@
     },
     {
       "source": "Andrej Karpathy · 专家分享",
-      "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
-    },
-    {
-      "source": "吴恩达 Andrew Ng · 专家分享",
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
     }
   ],

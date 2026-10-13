@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T07:26:11+08:00",
+  "generated_at": "2026-10-14T07:32:43+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -29,6 +29,10 @@
       "score": 157,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
+        },
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
@@ -74,14 +78,65 @@
         {
           "source": "Meshy · 产品更新",
           "url": "https://www.meshy.ai/blog/meshy-7-1-launch"
-        },
-        {
-          "source": "Meshy · 产品更新",
-          "url": "https://www.meshy.ai/blog/meshy-7-1-launch"
         }
       ],
       "resurfaced": true,
       "why_original": "更新重点：Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark."
+    },
+    {
+      "id": "fc15828a6a0b53",
+      "title": "Hugging Face",
+      "url": "https://huggingface.co/black-forest-labs",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/black-forest-labs.png",
+      "image_source": "https://huggingface.co/black-forest-labs",
+      "summary": "Org profile for Black Forest Labs on Hugging Face, the AI community building the future。",
+      "why": "关注内容：黑森林实验室拥抱脸上的组织简介，这是构建未来的人工智能社区。（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Black Forest Labs · 绘画动态",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-09-23",
+      "date_confidence": "medium",
+      "date_label": "2026-09-23",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 143,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：Org profile for Black Forest Labs on Hugging Face, the AI community building the future.（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "cd6b49d597c2e9",
+      "title": "Fine-Tune ASR for Your Domain with NVIDIA Speech Agent Skills nvidia • about 7 hours ago • 8",
+      "url": "https://huggingface.co/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills.png",
+      "image_source": "https://huggingface.co/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills",
+      "summary": "A Blog post by NVIDIA on Hugging Face。",
+      "why": "关注内容：A Blog post by NVIDIA on Hugging Face（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-13",
+      "date_confidence": "high",
+      "date_label": "2026-10-13",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 141,
+      "material_update": false,
+      "alternatives": []
     },
     {
       "id": "a885ed61f54a41",
