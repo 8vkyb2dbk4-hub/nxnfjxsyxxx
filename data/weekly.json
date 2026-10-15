@@ -1,25 +1,25 @@
 {
-  "generated_at": "2026-10-15T07:32:37+08:00",
+  "generated_at": "2026-10-16T07:31:21+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
     {
-      "id": "ea6cc8851992bb",
-      "title": "Meshy · API 更新日志 · 2026-10-10 更新",
-      "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e",
+      "id": "b6bd6152f2d437",
+      "title": "Meshy · API 更新日志 · 2026-10-15 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746",
       "image": "https://cdn.meshy.ai/landing-assets/og-images/docs_og.webp",
-      "image_source": "https://docs.meshy.ai/en/api/changelog#update-436029465e",
-      "summary": " meshy-5 has been retired. Requests that send ai_model: \"meshy-5\" to Text to 3D , Image to 3D , Multi-Image to 3D or Retexture now return 400 with the message ai_model meshy-5 has been retired; use meshy-6-lite . Switch to meshy-6。",
-      "why": "更新重点：将ai_model: \"meshy-5\"发送到Text to 3D、Image to 3D、Multi-Image to 3D或Retexture的请求现在返回400 ，消息ai_model meshy-5已停用；使用meshy-6-lite。.webp现在与.jpg一起被记录为支持的图像输入格式",
+      "image_source": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746",
+      "summary": " Added ai_model: \"meshy-t2.5\" to the Image to 3D and Text to 3D APIs: the newest Smart Topology model, with sharper detail for game assets. Use it with model_type: \"smart-topology\" ; output is triangle-only, and target_polycount a。",
+      "why": "更新重点：在图像到3D和文本到3D API中添加了ai_model: \"meshy-t2.5\" ：最新的智能拓扑模型，具有更清晰的游戏资源细节。当model_type: \"smart-topology\"没有设置ai_model时，现在是默认值；设置ai_model: \"meshy-t2\"继续使用",
       "action": "今天看",
       "tier": "必看",
       "source": "Meshy · API 更新日志",
       "source_type": "公司 / 官方",
       "source_priority": 5,
       "source_reliability": 10,
-      "published_at": "2026-10-10",
+      "published_at": "2026-10-15",
       "date_confidence": "high",
-      "date_label": "2026-10-10",
+      "date_label": "2026-10-15",
       "category": "游戏与 3D",
       "status": "必看",
       "deadline": null,
@@ -39,7 +39,7 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
         },
         {
           "source": "Meshy · API 更新日志",
@@ -47,7 +47,7 @@
         }
       ],
       "resurfaced": true,
-      "why_original": "更新重点：Requests that send ai_model: \"meshy-5\" to Text to 3D , Image to 3D , Multi-Image to 3D or Retexture now return 400 with the message ai_model meshy-5 has been retired; use meshy-6-lite . .webp is now documented as a supported image input format, alongside .jpg "
+      "why_original": "更新重点：Added ai_model: \"meshy-t2.5\" to the Image to 3D and Text to 3D APIs: the newest Smart Topology model, with sharper detail for game assets. It is now the default when model_type: \"smart-topology\" is set without ai_model ; set ai_model: \"meshy-t2\" to keep using "
     },
     {
       "id": "6a906d3d175226",
@@ -74,12 +74,7 @@
       "location": "",
       "score": 157,
       "material_update": true,
-      "alternatives": [
-        {
-          "source": "Meshy · 产品更新",
-          "url": "https://www.meshy.ai/blog/meshy-7-1-launch"
-        }
-      ],
+      "alternatives": [],
       "resurfaced": true,
       "why_original": "更新重点：Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark."
     },
@@ -112,36 +107,8 @@
       "why_original": "关注内容：Org profile for Black Forest Labs on Hugging Face, the AI community building the future.（原文未明确列出版本变化。）"
     },
     {
-      "id": "89764eae00994c",
-      "title": "The Agent Said It Was Done. The Database Disagreed. 79 October 3, 2026",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
-      "image_source": "https://huggingface.co/blog/microsoft/thinkingbox",
-      "summary": "A Blog post by Microsoft on Hugging Face。",
-      "why": "关注内容：微软在Hugging Face上的博客文章（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-10-03",
-      "date_confidence": "high",
-      "date_label": "2026-10-03",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 141,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：A Blog post by Microsoft on Hugging Face（原文未明确列出版本变化。）"
-    },
-    {
       "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 48 October 2, 2026",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 52 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
       "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -184,6 +151,63 @@
       ],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by ServiceNow-AI on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "8b5f9c73f57db0",
+      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
+      "url": "https://elevenlabs.io/blog/tender-22bn",
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/d0nlnct7j7j-Blog-01.webp",
+      "image_source": "https://elevenlabs.io/blog/tender-22bn",
+      "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
+      "why": "关注内容：我们最近完成了一项3亿美元的员工收购要约， ElevenLabs的估值为220亿美元，是我们2月份D轮收购估值的两倍。（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
+      "source_priority": 5,
+      "source_reliability": 6,
+      "published_at": "2026-09-30",
+      "date_confidence": "high",
+      "date_label": "2026-09-30",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 141,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February.（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "89764eae00994c",
+      "title": "The Agent Said It Was Done. The Database Disagreed. 79 October 3, 2026",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/NStwJm1AafDELVsU4KGwS.png",
+      "image_source": "https://huggingface.co/blog/microsoft/thinkingbox",
+      "summary": "A Blog post by Microsoft on Hugging Face。",
+      "why": "关注内容：微软在Hugging Face上的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-03",
+      "date_confidence": "high",
+      "date_label": "2026-10-03",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 141,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by Microsoft on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "cd6b49d597c2e9",
@@ -238,10 +262,6 @@
       "score": 141,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/omlx"
-        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/omlx"

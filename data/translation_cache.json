@@ -137,5 +137,13 @@
   "9826cada03e7639e3c457238f527407414e08ac03172042262f11b3a03e73f7a": "阿卜杜勒拉赫曼·阿卜杜拉（ Abdelrahman Abdallah ）在拥抱脸上的博",
   "dd110e0c67f4f6497c254d18c55aeb10efaa8ad33067c33cd3fe2b652050190a": "FINAL_Bench在拥抱脸上的博客帖子",
   "d40e7f7b1ec3ea9ba1647447a82cb623e957d91886258414fce1089b4f7b06dc": "跟踪跑道开发人员的更改和更新。查看AI视频生成端点的版本历史记录、新功能、重大更改和改进。",
-  "c75375f8c645c49a7f5112e30bb1634b8531d2e3f4992189834737dfa7ec5ca4": "我们的工程团队如何使用.agents/skills和/goal模式在无人值守的情况下过夜运行Gemini 4 Argon ，在长时间会话中将内存会话准备开销降低40% ，并在Google的开源中将冷导入速度提高21%"
+  "c75375f8c645c49a7f5112e30bb1634b8531d2e3f4992189834737dfa7ec5ca4": "我们的工程团队如何使用.agents/skills和/goal模式在无人值守的情况下过夜运行Gemini 4 Argon ，在长时间会话中将内存会话准备开销降低40% ，并在Google的开源中将冷导入速度提高21%",
+  "21308c4dad70335570bccbf7dc63f23789fe412a6bc6455f11525db88ee35e21": "在图像到3D和文本到3D API中添加了ai_model: \"meshy-t2.5\" ：最新的智能拓扑模型，具有更清晰的游戏资源细节。当model_type: \"smart-topology\"没有设置ai_model时，现在是默认值；设置ai_model: \"meshy-t2\"继续使用",
+  "c651d520c101497174c9dc96beeaecbf3e60e626d82a611dcec8f5e39c38601c": "瓦尔·亚历山大（ Val Alexander ）在《拥抱的脸》（ H",
+  "68252d92a40651effdf87360a0651444d1d757fccb311923959492e1b228cff8": "在《科学》杂志上发表的一篇论文中， Google展示了Magic State Cultivation在Google Quantum AI硬件上的工作原理。",
+  "ccfb34652c12fcba8335e0f7b2fda3fc5e96c4bc2436be98f750af9a2bd408ad": "《时代》杂志将Google SynthID评为2026年最佳发明，以表彰其突破性的人工智能水印和验证方法。",
+  "80d7e761b361a604800e1234aa5be43fd5673ec1a242f57a0470fd050176e366": "“今年的获奖照片展示了野生动物摄影的非凡力量，帮助我们以不同的方式看待自然，”",
+  "1cb45a48e31db1ae12183e0bd4188086a5660cfb375dc9834ffdac89b7a6ac88": "瑞士人工智能倡议组织关于拥抱脸部的博客文章",
+  "f4c28a4c6d9d9639692d229189437ec87176ee260161082f8a5a7b645c2f889c": "ElevenAgents、ElevenCreative和API现已上线。",
+  "9845b66658ffdd9e817fb8d4e6b5c7ebf1bcd31a1edceb1773a40170438535b0": "谷歌的通用购物车现在可以跟踪价格下跌，并在搜索中整理来自多个零售商的商品。"
 }
