@@ -218,12 +218,36 @@ function translationLink(x){
 async function toggleTranslation(item){
   const state=translationStates.get(item.id)||{};
   if(state.loading)return;
-  if(state.show){state.show=false;translationStates.set(item.id,state);renderAll();return;}
-  if(state.zh){state.show=true;translationStates.set(item.id,state);renderAll();return;}
-  state.loading=true;state.error="";translationStates.set(item.id,state);renderAll();
+  if(state.show){state.show=false;translationStates.set(item.id,state);updateArticleTranslation(item);return;}
+  if(state.zh){state.show=true;translationStates.set(item.id,state);updateArticleTranslation(item);return;}
+  state.loading=true;state.error="";translationStates.set(item.id,state);updateArticleTranslation(item);
   try{state.zh=await window.AIBriefTranslate.article(item);state.show=true;}
   catch(e){state.error=e.name==="AbortError"?"翻译超时，请重试。":e.message;}
-  finally{state.loading=false;renderAll();}
+  finally{state.loading=false;updateArticleTranslation(item);}
+}
+function updateArticleTranslation(item){
+  const state=translationStates.get(item.id)||{};
+  const shown=state.show&&state.zh?{...item,...state.zh}:item;
+  // Keep the article and its details nodes intact, including nested disclosures.
+  document.querySelectorAll(".card[data-article-id]").forEach(article=>{
+    if(article.dataset.articleId!==String(item.id))return;
+    const title=article.querySelector("h4"),summary=article.querySelector(".brief-parts > div:first-child p");
+    if(title)title.textContent=shown.title;
+    if(summary)summary.textContent=shown.summary;
+    article.querySelectorAll(".translate-btn").forEach(button=>{
+      button.disabled=!!state.loading;
+      button.textContent=state.loading?"翻译中…":state.show?"显示原文":"翻译";
+      button.setAttribute("aria-pressed",String(!!state.show));
+    });
+    let error=article.querySelector(".translation-error");
+    if(state.error){
+      if(!error){
+        error=document.createElement("p");error.className="translation-error";error.setAttribute("role","status");
+        const footer=article.querySelector(".card-foot");footer.parentNode.insertBefore(error,footer);
+      }
+      error.textContent=state.error;
+    }else if(error)error.remove();
+  });
 }
 function chineseFocus(x){
   const value=x.why||"";
