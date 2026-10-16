@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T07:31:21+08:00",
+  "generated_at": "2026-10-17T07:30:54+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -31,7 +31,7 @@
       "alternatives": [
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
         },
         {
           "source": "Meshy · API 更新日志",
@@ -43,40 +43,11 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
         }
       ],
       "resurfaced": true,
       "why_original": "更新重点：Added ai_model: \"meshy-t2.5\" to the Image to 3D and Text to 3D APIs: the newest Smart Topology model, with sharper detail for game assets. It is now the default when model_type: \"smart-topology\" is set without ai_model ; set ai_model: \"meshy-t2\" to keep using "
-    },
-    {
-      "id": "6a906d3d175226",
-      "title": "Meshy 7.1: Attention to the Closest Detail",
-      "url": "https://www.meshy.ai/blog/meshy-7-1-launch",
-      "image": "https://cdn.meshy.ai/landing-assets/blog/meshy-7.1-launch/meshy-7-1-launch-cover-v2.webp",
-      "image_source": "https://www.meshy.ai/blog/meshy-7-1-launch",
-      "summary": "Meshy 7.1 generates the richest geometric detail of any image-to-3D model. Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark。",
-      "why": "更新重点：Ultra 4K可将几何尺寸缩放到4096 ³ ，通过我们新的细节丰富度基准来衡量。",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Meshy · 产品更新",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-09-10",
-      "date_confidence": "high",
-      "date_label": "2026-09-10",
-      "category": "游戏与 3D",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 157,
-      "material_update": true,
-      "alternatives": [],
-      "resurfaced": true,
-      "why_original": "更新重点：Ultra 4K scales geometry to 4096³, measured by our new Detail Richness benchmark."
     },
     {
       "id": "fc15828a6a0b53",
@@ -108,7 +79,7 @@
     },
     {
       "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 52 October 2, 2026",
+      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 53 October 2, 2026",
       "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
       "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
@@ -177,7 +148,12 @@
       "location": "",
       "score": 141,
       "material_update": true,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
+        }
+      ],
       "resurfaced": true,
       "why_original": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February.（原文未明确列出版本变化。）"
     },
@@ -262,10 +238,6 @@
       "score": 141,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/omlx"
-        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/omlx"
