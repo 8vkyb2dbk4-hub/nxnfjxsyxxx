@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T07:30:54+08:00",
+  "generated_at": "2026-10-18T07:29:06+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -35,7 +35,7 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
         },
         {
           "source": "Meshy · API 更新日志",
@@ -152,6 +152,10 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/tender-22bn"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
         }
       ],
       "resurfaced": true,
@@ -238,10 +242,6 @@
       "score": 141,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/omlx"
-        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/omlx"
