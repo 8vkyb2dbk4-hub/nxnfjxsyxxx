@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-18",
-  "edition": "AUTO-20261018-5min",
+  "date": "2026-10-19",
+  "edition": "AUTO-20261019-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 53 条高优先级 AI 信息",
+  "headline": "今天筛出 52 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
@@ -37,15 +37,15 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-79400f4abd"
-        },
-        {
-          "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-4cb6c01314"
         },
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-bb6e67e5ce"
+        },
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-1fe86962be"
         }
       ],
       "resurfaced": true,
@@ -121,8 +121,37 @@
       "icon": "✦",
       "items": [
         {
+          "id": "0825a4897dea2e",
+          "title": "Multimodal open d1 decision models for the edge LiquidAI • 11 days ago • 40",
+          "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/hLsllw4zhC04cVGiV69v0.png",
+          "image_source": "https://huggingface.co/blog/LiquidAI/open-d1",
+          "summary": "A Blog post by Liquid AI on Hugging Face。",
+          "why": "关注内容：Liquid AI在Hugging Face上的博客文章（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-10-07",
+          "date_confidence": "high",
+          "date_label": "2026-10-07",
+          "category": "AI 绘画",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 137,
+          "material_update": true,
+          "alternatives": [],
+          "resurfaced": true,
+          "why_original": "关注内容：A Blog post by Liquid AI on Hugging Face（原文未明确列出版本变化。）"
+        },
+        {
           "id": "bf7221d0a50e19",
-          "title": "One Decision Model Instead of a Ranking Team: Short-Video and News Recommendation with autotrust/JEV-27B-VL autotrust • 5 days ago • 22",
+          "title": "One Decision Model Instead of a Ranking Team: Short-Video and News Recommendation with autotrust/JEV-27B-VL autotrust • 6 days ago • 22",
           "url": "https://huggingface.co/blog/autotrust/one-decision-model-instead-of-a-ranking-team-short",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/64618bc5cf638aa8f856137c/ExsHQAZSZlnas4ZjcGsgl.jpeg",
           "image_source": "https://huggingface.co/blog/autotrust/one-decision-model-instead-of-a-ranking-team-short",
@@ -148,35 +177,6 @@
           "alternatives": [],
           "resurfaced": true,
           "why_original": "关注内容：A Blog post by AutoTrust AI Lab on Hugging Face（原文未明确列出版本变化。）"
-        },
-        {
-          "id": "4220491b91710f",
-          "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 9 days ago • 39",
-          "url": "https://huggingface.co/blog/lightonai/lightonocr-3",
-          "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/lightonai/lightonocr-3.png",
-          "image_source": "https://huggingface.co/blog/lightonai/lightonocr-3",
-          "summary": "A Blog post by LightOn AI on Hugging Face。",
-          "why": "关注内容：LightOn AI在Hugging Face上的博客文章（原文未明确列出版本变化。）",
-          "action": "今天看",
-          "tier": "必看",
-          "source": "Hugging Face Blog",
-          "source_type": "开源社区",
-          "source_priority": 5,
-          "source_reliability": 8,
-          "published_at": "2026-10-08",
-          "date_confidence": "high",
-          "date_label": "2026-10-08",
-          "category": "AI 绘画",
-          "status": "必看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 135,
-          "material_update": true,
-          "alternatives": [],
-          "resurfaced": true,
-          "why_original": "关注内容：A Blog post by LightOn AI on Hugging Face（原文未明确列出版本变化。）"
         }
       ]
     },
@@ -249,34 +249,6 @@
       "icon": "◆",
       "items": [
         {
-          "id": "c2c76cda01823c",
-          "title": "Meshy Edit: Edit Your 3D Model with Words",
-          "url": "https://www.meshy.ai/blog/meshy-edit",
-          "image": "https://cdn.meshy.ai/landing-assets/blog/meshy-edit/meshy-edit-cover.webp",
-          "image_source": "https://www.meshy.ai/blog/meshy-edit",
-          "summary": "Meshy Edit changes only the part you select and keeps the rest of your 3D model unchanged. Add, remove or replace parts with text or reference images。",
-          "why": "关注内容：网格编辑仅更改您选择的部件，并保持3D模型的其余部分不变。（原文未明确列出版本变化。）",
-          "action": "今天看",
-          "tier": "必看",
-          "source": "Meshy · 产品更新",
-          "source_type": "公司 / 官方",
-          "source_priority": 5,
-          "source_reliability": 10,
-          "published_at": "2026-10-16",
-          "date_confidence": "high",
-          "date_label": "2026-10-16",
-          "category": "游戏与 3D",
-          "status": "必看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 155,
-          "material_update": false,
-          "alternatives": [],
-          "why_original": "关注内容：Meshy Edit changes only the part you select and keeps the rest of your 3D model unchanged.（原文未明确列出版本变化。）"
-        },
-        {
           "id": "2b404537fe9246",
           "title": "Release Notes",
           "url": "https://openai.com/products/release-notes",
@@ -304,6 +276,35 @@
           "alternatives": [],
           "resurfaced": true,
           "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
+        },
+        {
+          "id": "d8b62a962e88cf",
+          "title": "Research Overview",
+          "url": "https://openai.com/research",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/522d2eaf-74eb-4df8-3753ba79c044/1ba374444a315b804b84ec9af986c3d7/stangel-2022-1640.jpg?w=1600&h=900&fit=fill",
+          "image_source": "https://openai.com/research",
+          "summary": "Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity。",
+          "why": "关注内容：在我们致力于造福人类的人工智能通用智能时，探索OpenAI对前沿模型、推理、多模态人工智能和安全部署的研究。（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "OpenAI News",
+          "source_type": "公司 / 官方",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "2026-09-29",
+          "date_confidence": "medium",
+          "date_label": "2026-09-29",
+          "category": "游戏与 3D",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 123,
+          "material_update": true,
+          "alternatives": [],
+          "resurfaced": true,
+          "why_original": "关注内容：Explore OpenAI research on frontier models, reasoning, multimodal AI, and safe deployment as we work toward artificial general intelligence that benefits humanity.（原文未明确列出版本变化。）"
         }
       ]
     },
@@ -348,7 +349,7 @@
       "items": [
         {
           "id": "9d251ac6836a60",
-          "title": "meta muse-spark open-source Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta +4 52 October 15, 2026",
+          "title": "meta muse-spark open-source Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta +4 55 October 15, 2026",
           "url": "https://huggingface.co/blog/meta-muse-spark-open",
           "image": "https://huggingface.co/blog/assets/meta-muse-spark-open/thumbnail.png",
           "image_source": "https://huggingface.co/blog/meta-muse-spark-open",

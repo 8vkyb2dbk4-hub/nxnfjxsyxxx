@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-18",
-  "start_date": "2026-07-18",
+  "date": "2026-10-19",
+  "start_date": "2026-07-19",
   "items": [
     {
       "id": "3733c75a28bf26",
-      "title": "diffusers flux quantization Welcome FLUX.3 Image Klein in Diffusers 36 October 15, 2026",
+      "title": "diffusers flux quantization Welcome FLUX.3 Image Klein in Diffusers 38 October 15, 2026",
       "url": "https://huggingface.co/blog/flux-3",
       "image": "https://huggingface.co/blog/assets/flux3/thumbnail.png",
       "image_source": "https://huggingface.co/blog/flux-3",

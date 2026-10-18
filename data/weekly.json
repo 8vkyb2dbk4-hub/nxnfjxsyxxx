@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18T07:29:06+08:00",
+  "generated_at": "2026-10-19T07:30:34+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -39,7 +39,7 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
         },
         {
           "source": "Meshy · API 更新日志",
@@ -156,6 +156,10 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/tender-22bn"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
         }
       ],
       "resurfaced": true,
@@ -241,12 +245,7 @@
       "location": "",
       "score": 141,
       "material_update": true,
-      "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/omlx"
-        }
-      ],
+      "alternatives": [],
       "resurfaced": true,
       "why_original": "关注内容：We’re on a journey to advance and democratize artificial intelligence through open source and open science.（原文未明确列出版本变化。）"
     }
