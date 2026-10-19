@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T07:30:34+08:00",
+  "generated_at": "2026-10-20T07:36:41+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -43,7 +43,7 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-436029465e"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
         }
       ],
       "resurfaced": true,
@@ -160,6 +160,10 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/tender-22bn"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
         }
       ],
       "resurfaced": true,
@@ -219,35 +223,6 @@
       "score": 141,
       "material_update": false,
       "alternatives": []
-    },
-    {
-      "id": "fb8ad85c459c0c",
-      "title": "mlx open-source community Jun Kim, oMLX creator and maintainer, joins Hugging Face to support the MLX community +1 93 September 22, 2026",
-      "url": "https://huggingface.co/blog/omlx",
-      "image": "https://huggingface.co/blog/assets/omlx/omlx-hf.jpg",
-      "image_source": "https://huggingface.co/blog/omlx",
-      "summary": "We’re on a journey to advance and democratize artificial intelligence through open source and open science。",
-      "why": "关注内容：我们正在通过开源和开放科学推进人工智能的发展和民主化。（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-09-22",
-      "date_confidence": "high",
-      "date_label": "2026-09-22",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 141,
-      "material_update": true,
-      "alternatives": [],
-      "resurfaced": true,
-      "why_original": "关注内容：We’re on a journey to advance and democratize artificial intelligence through open source and open science.（原文未明确列出版本变化。）"
     }
   ]
 }
