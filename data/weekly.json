@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T07:36:41+08:00",
+  "generated_at": "2026-10-21T07:33:20+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -50,32 +50,50 @@
       "why_original": "更新重点：Added ai_model: \"meshy-t2.5\" to the Image to 3D and Text to 3D APIs: the newest Smart Topology model, with sharper detail for game assets. It is now the default when model_type: \"smart-topology\" is set without ai_model ; set ai_model: \"meshy-t2\" to keep using "
     },
     {
-      "id": "fc15828a6a0b53",
-      "title": "Hugging Face",
-      "url": "https://huggingface.co/black-forest-labs",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/black-forest-labs.png",
-      "image_source": "https://huggingface.co/black-forest-labs",
-      "summary": "Org profile for Black Forest Labs on Hugging Face, the AI community building the future。",
-      "why": "关注内容：黑森林实验室拥抱脸上的组织简介，这是构建未来的人工智能社区。（原文未明确列出版本变化。）",
+      "id": "8b5f9c73f57db0",
+      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
+      "url": "https://elevenlabs.io/blog/tender-22bn",
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/d0nlnct7j7j-Blog-01.webp",
+      "image_source": "https://elevenlabs.io/blog/tender-22bn",
+      "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
+      "why": "关注内容：我们最近完成了一项3亿美元的员工收购要约， ElevenLabs的估值为220亿美元，是我们2月份D轮收购估值的两倍。（原文未明确列出版本变化。）",
       "action": "今天看",
       "tier": "必看",
-      "source": "Black Forest Labs · 绘画动态",
-      "source_type": "公司 / 官方",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
       "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-09-23",
-      "date_confidence": "medium",
-      "date_label": "2026-09-23",
-      "category": "AI 绘画",
+      "source_reliability": 6,
+      "published_at": "2026-09-30",
+      "date_confidence": "high",
+      "date_label": "2026-09-30",
+      "category": "AI 影视",
       "status": "必看",
       "deadline": null,
       "event_date": null,
       "event_end_date": null,
       "location": "",
-      "score": 143,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：Org profile for Black Forest Labs on Hugging Face, the AI community building the future.（原文未明确列出版本变化。）"
+      "score": 141,
+      "material_update": true,
+      "alternatives": [
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/tender-22bn"
+        }
+      ],
+      "resurfaced": true,
+      "why_original": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February.（原文未明确列出版本变化。）"
     },
     {
       "id": "a885ed61f54a41",
@@ -124,52 +142,6 @@
       "why_original": "关注内容：A Blog post by ServiceNow-AI on Hugging Face（原文未明确列出版本变化。）"
     },
     {
-      "id": "8b5f9c73f57db0",
-      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
-      "url": "https://elevenlabs.io/blog/tender-22bn",
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/d0nlnct7j7j-Blog-01.webp",
-      "image_source": "https://elevenlabs.io/blog/tender-22bn",
-      "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
-      "why": "关注内容：我们最近完成了一项3亿美元的员工收购要约， ElevenLabs的估值为220亿美元，是我们2月份D轮收购估值的两倍。（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "ElevenLabs Blog",
-      "source_type": "声音 / 创作工具",
-      "source_priority": 5,
-      "source_reliability": 6,
-      "published_at": "2026-09-30",
-      "date_confidence": "high",
-      "date_label": "2026-09-30",
-      "category": "AI 影视",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 141,
-      "material_update": true,
-      "alternatives": [
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
-        },
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
-        },
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
-        },
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
-        }
-      ],
-      "resurfaced": true,
-      "why_original": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February.（原文未明确列出版本变化。）"
-    },
-    {
       "id": "89764eae00994c",
       "title": "The Agent Said It Was Done. The Database Disagreed. 79 October 3, 2026",
       "url": "https://huggingface.co/blog/microsoft/thinkingbox",
@@ -198,31 +170,33 @@
       "why_original": "关注内容：A Blog post by Microsoft on Hugging Face（原文未明确列出版本变化。）"
     },
     {
-      "id": "cd6b49d597c2e9",
-      "title": "Fine-Tune ASR for Your Domain with NVIDIA Speech Agent Skills nvidia • about 7 hours ago • 8",
-      "url": "https://huggingface.co/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills.png",
-      "image_source": "https://huggingface.co/blog/nvidia/fine-tune-asr-with-nvidia-nemotron-speech-skills",
-      "summary": "A Blog post by NVIDIA on Hugging Face。",
-      "why": "关注内容：A Blog post by NVIDIA on Hugging Face（原文未明确列出版本变化。）",
+      "id": "2b404537fe9246",
+      "title": "Release Notes",
+      "url": "https://openai.com/products/release-notes",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
+      "image_source": "https://openai.com/products/release-notes",
+      "summary": "OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products。",
+      "why": "更新重点：适用于ChatGPT、API平台和Codex的OpenAI发行说明。探索OpenAI产品的最新功能、更新和改进。",
       "action": "今天看",
       "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
+      "source": "OpenAI News",
+      "source_type": "公司 / 官方",
       "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-10-13",
-      "date_confidence": "high",
-      "date_label": "2026-10-13",
-      "category": "AI 绘画",
+      "source_reliability": 10,
+      "published_at": "",
+      "date_confidence": "unknown",
+      "date_label": "日期待确认",
+      "category": "游戏与 3D",
       "status": "必看",
       "deadline": null,
       "event_date": null,
       "event_end_date": null,
       "location": "",
-      "score": 141,
-      "material_update": false,
-      "alternatives": []
+      "score": 137,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
     }
   ]
 }

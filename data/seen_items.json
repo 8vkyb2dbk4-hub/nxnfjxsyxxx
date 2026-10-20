@@ -3,7 +3,7 @@
     {
       "title": "Research Overview",
       "url": "https://openai.com/research",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "b02a18483e0c33",
       "source": "OpenAI News"
     },
@@ -17,7 +17,7 @@
     {
       "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
       "url": "https://elevenlabs.io/blog/tender-22bn",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "4235828ef7a844",
       "source": "ElevenLabs Blog"
     },
@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "eb0cf1e8fbf201",
       "source": "ElevenLabs Blog"
     },
@@ -94,21 +94,21 @@
     {
       "title": "Skip to main content",
       "url": "https://openai.com/news",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "b6259ee376348e",
       "source": "OpenAI News"
     },
     {
       "title": "Research",
       "url": "https://openai.com/news/research",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "ae83a4f9768df3",
       "source": "OpenAI News"
     },
     {
       "title": "Global Affairs",
       "url": "https://openai.com/news/global-affairs",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "3ee2aa69188b10",
       "source": "OpenAI News"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-10-15 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "e3d1e71fb8de3a",
       "source": "Meshy · API 更新日志"
     },
@@ -437,7 +437,7 @@
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -535,14 +535,14 @@
     {
       "title": "CGS 2026 China Annual Dual-City Conference on Game Studies",
       "url": "https://cgs.caacosmos.com/",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "bd4db7f13907b9",
       "source": "CGS · 中国游戏研究双城年会"
     },
     {
       "title": "Unreal Fest",
       "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "37fddbc4040429",
       "source": "Epic Games · Unreal Fest 官方排期"
     },
@@ -612,14 +612,14 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
@@ -633,7 +633,7 @@
     {
       "title": "Benchmark",
       "url": "https://github.com/vimalabs/vimabench",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "cd8f4eb57a9615",
       "source": "Jim Fan · 官方文章与研究"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-21",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -913,7 +913,7 @@
     {
       "title": "Building Git infrastructure for agent-scale development",
       "url": "https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-21",
       "content_hash": "8e5f04de1b7df9",
       "source": "GitHub Blog"
     },
@@ -1002,10 +1002,10 @@
       "source": "Google AI"
     },
     {
-      "title": "Announcements Oct 7, 2026 Introducing Claude Haiku 5.5 Our fastest, cheapest, and most capable small model yet. It’s designed for high-volume, cost-sensitive work.",
+      "title": "Introducing Claude Haiku 5.5 Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use.",
       "url": "https://www.anthropic.com/claude-haiku-5-5",
-      "last_seen": "2026-10-20",
-      "content_hash": "9efe893bade7fa",
+      "last_seen": "2026-10-21",
+      "content_hash": "1bb93923b43bdb",
       "source": "Anthropic News"
     },
     {
@@ -1044,10 +1044,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 11 days ago • 39",
+      "title": "LightOnOCR-3: High-Performance OCR and Layout Extraction in One Model lightonai • 12 days ago • 39",
       "url": "https://huggingface.co/blog/lightonai/lightonocr-3",
-      "last_seen": "2026-10-20",
-      "content_hash": "80bad9dee6f9ef",
+      "last_seen": "2026-10-21",
+      "content_hash": "c550c387bd4010",
       "source": "Hugging Face Blog"
     },
     {
@@ -1095,14 +1095,14 @@
     {
       "title": "Symmetry Meets the Sacred in Shuling Guo’s Dreamy, Diffused Paintings",
       "url": "https://www.thisiscolossal.com/2026/10/shuling-guo-oil-paintings-spirituality-memory-temple",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-21",
       "content_hash": "02e81d2b2557d5",
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
       "title": "Jonathan Knight’s Meditative Series ‘Exhale’ Invites Us to Slow Down and Practice Noticing",
       "url": "https://www.thisiscolossal.com/2026/10/jonathan-knight-exhale-seascape-photographs",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-21",
       "content_hash": "0b0beb7beae0ea",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -1366,10 +1366,10 @@
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Backpropagation on an Inference-Only NPU: Pretraining VKORE-46M-NPU From Scratch FINAL-Bench • 6 days ago • 13",
+      "title": "Backpropagation on an Inference-Only NPU: Pretraining VKORE-46M-NPU From Scratch FINAL-Bench • 7 days ago • 13",
       "url": "https://huggingface.co/blog/FINAL-Bench/backpropagation-on-an-inference-only-npu-pretraini",
-      "last_seen": "2026-10-20",
-      "content_hash": "e06b10f56cddd4",
+      "last_seen": "2026-10-21",
+      "content_hash": "161adebfbc05c5",
       "source": "Hugging Face Blog"
     },
     {
@@ -1436,10 +1436,10 @@
       "source": "Google AI"
     },
     {
-      "title": "meta muse-spark open-source Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta +4 62 October 15, 2026",
+      "title": "meta muse-spark open-source Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta +4 65 October 15, 2026",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "last_seen": "2026-10-20",
-      "content_hash": "14191fdb2bdfeb",
+      "last_seen": "2026-10-21",
+      "content_hash": "763dae9f4a5f40",
       "source": "Hugging Face Blog"
     },
     {
@@ -1457,10 +1457,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "One Decision Model Instead of a Ranking Team: Short-Video and News Recommendation with autotrust/JEV-27B-VL autotrust • 7 days ago • 22",
+      "title": "One Decision Model Instead of a Ranking Team: Short-Video and News Recommendation with autotrust/JEV-27B-VL autotrust • 8 days ago • 22",
       "url": "https://huggingface.co/blog/autotrust/one-decision-model-instead-of-a-ranking-team-short",
-      "last_seen": "2026-10-20",
-      "content_hash": "a2d5239759ceaa",
+      "last_seen": "2026-10-21",
+      "content_hash": "8491f9512c9b39",
       "source": "Hugging Face Blog"
     },
     {
@@ -1480,7 +1480,7 @@
     {
       "title": "The next developer interface is ambient intelligence",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "7fc3eab7e80e7d",
       "source": "GitHub Blog"
     },
@@ -1494,7 +1494,7 @@
     {
       "title": "Policy Model",
       "url": "https://runwayml.com/product/robotics/policy-model",
-      "last_seen": "2026-10-19",
+      "last_seen": "2026-10-21",
       "content_hash": "d4e619edaf5c35",
       "source": "Runway News"
     },
@@ -1534,10 +1534,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • about 9 hours ago • 11",
+      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • 1 day ago • 18",
       "url": "https://huggingface.co/blog/lightonai/slideon-mslideon",
-      "last_seen": "2026-10-20",
-      "content_hash": "db54f8c0a2a205",
+      "last_seen": "2026-10-21",
+      "content_hash": "8e9dfede2ea84b",
       "source": "Hugging Face Blog"
     },
     {
@@ -1557,7 +1557,7 @@
     {
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
-      "last_seen": "2026-10-20",
+      "last_seen": "2026-10-21",
       "content_hash": "f7269f576fb112",
       "source": "GitHub Blog"
     },
@@ -1581,6 +1581,83 @@
       "last_seen": "2026-10-20",
       "content_hash": "347a4add24559e",
       "source": "Google AI"
+    },
+    {
+      "title": "Álvaro Urbano Honors the Lost Specimens of Mexico City’s Iconic Casa Cueva",
+      "url": "https://www.thisiscolossal.com/2026/10/alvaro-urbano-metal-sculptures-casa-cueva-helen",
+      "last_seen": "2026-10-21",
+      "content_hash": "fc49bb49d7f596",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "‘The Department of Objects’ Brings the Charm of Sleep-Away Camp to Chicago",
+      "url": "https://www.thisiscolossal.com/2026/10/the-department-of-objects-joy-machine",
+      "last_seen": "2026-10-21",
+      "content_hash": "45fb50b56338ab",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Revisit Claes Oldenburg’s Seminal ‘Six Themes’ 50 Years After Its Debut",
+      "url": "https://www.thisiscolossal.com/2026/10/claes-oldenburg-six-themes-sculpture-art-history",
+      "last_seen": "2026-10-21",
+      "content_hash": "21bff20c9a8501",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline nvidia • 5 days ago • 47",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "last_seen": "2026-10-21",
+      "content_hash": "206f2cca085f4c",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "OpenAI acquires Orchestra Bio Company Oct 20, 2026",
+      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "last_seen": "2026-10-21",
+      "content_hash": "d0cb8472e5e27b",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "2026年10月20日 集成电路学院杨卓青团队与合作者在仿生超分子低温传感领域研究取得显著进展",
+      "url": "https://news.sjtu.edu.cn/jdzh/20261020/226768.html",
+      "last_seen": "2026-10-21",
+      "content_hash": "4131b076b2ec3a",
+      "source": "上海交通大学 · 新闻与论坛"
+    },
+    {
+      "title": "New Gemini tools for small business owners",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners",
+      "last_seen": "2026-10-21",
+      "content_hash": "50881d3f74cc42",
+      "source": "Google AI"
+    },
+    {
+      "title": "tpu google gcp Hugging Face ❤️ TorchTPU: TPUs, Natively +1 10 October 20, 2026",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "last_seen": "2026-10-21",
+      "content_hash": "18ba2598884dc3",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "2026 China International Toys and Educational Expo（China Kids Fun Expo）",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2957",
+      "last_seen": "2026-10-21",
+      "content_hash": "c04680f9481685",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "Shanghai International Personal Care Expo",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2794",
+      "last_seen": "2026-10-21",
+      "content_hash": "3e4cedef262854",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "Interclean Shanghai",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2795",
+      "last_seen": "2026-10-21",
+      "content_hash": "0598ae7425167d",
+      "source": "上海新国际博览中心 · 展会日程"
     }
   ]
 }

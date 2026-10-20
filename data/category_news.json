@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-20",
-  "start_date": "2026-07-20",
+  "date": "2026-10-21",
+  "start_date": "2026-07-21",
   "items": [
     {
       "id": "a0e5aa69e403dc",
-      "title": "Estimating physics from images: what real measurements reveal projectsim • 4 days ago • 8",
+      "title": "Estimating physics from images: what real measurements reveal projectsim • 5 days ago • 8",
       "url": "https://huggingface.co/blog/projectsim/estimating-physics-from-images-what-real-measureme",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/projectsim/estimating-physics-from-images-what-real-measureme.png",
       "image_source": "https://huggingface.co/blog/projectsim/estimating-physics-from-images-what-real-measureme",
@@ -30,7 +30,7 @@
     },
     {
       "id": "3733c75a28bf26",
-      "title": "diffusers flux quantization Welcome FLUX.3 Image Klein in Diffusers 43 October 15, 2026",
+      "title": "diffusers flux quantization Welcome FLUX.3 Image Klein in Diffusers 44 October 15, 2026",
       "url": "https://huggingface.co/blog/flux-3",
       "image": "https://huggingface.co/blog/assets/flux3/thumbnail.png",
       "image_source": "https://huggingface.co/blog/flux-3",
@@ -394,7 +394,7 @@
       "id": "0feded49734e9d",
       "title": "Product Updates Published August 11th, 2026 Introducing HeyGen for Real Estate",
       "url": "https://www.heygen.com/blog/introducing-heygen-for-real-estate",
-      "image": "https://cdn.sanity.io/images/pdhqcmb1/production/c710691091bd8e2c2d3afbdae247dbaf0a46eab0-3840x2160.png?fit=max&fm=png",
+      "image": "https://cdn.sanity.io/images/pdhqcmb1/production/326a39e469288c19f944cf4e8c6b17cc0e954f8c-1600x900.png?fit=max&fm=png",
       "image_source": "https://www.heygen.com/blog/introducing-heygen-for-real-estate",
       "summary": "Meet HeyGen for Real Estate, the AI video platform built for agents with market updates, home tours, listing videos, and white-glove support。",
       "why": "更新重点：Meet HeyGen for Real Estate, the AI video platform built for agents with market updates, home tours, listing videos, and white-glove support.",
