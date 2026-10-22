@@ -3,7 +3,7 @@
     {
       "title": "Research Overview",
       "url": "https://openai.com/research",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "b02a18483e0c33",
       "source": "OpenAI News"
     },
@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "54e4bbb96408e9",
       "source": "ElevenLabs Blog"
     },
@@ -94,21 +94,21 @@
     {
       "title": "Skip to main content",
       "url": "https://openai.com/news",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "b6259ee376348e",
       "source": "OpenAI News"
     },
     {
       "title": "Research",
       "url": "https://openai.com/news/research",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "ae83a4f9768df3",
       "source": "OpenAI News"
     },
     {
       "title": "Global Affairs",
       "url": "https://openai.com/news/global-affairs",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "3ee2aa69188b10",
       "source": "OpenAI News"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-10-15 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "e3d1e71fb8de3a",
       "source": "Meshy · API 更新日志"
     },
@@ -437,7 +437,7 @@
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -542,7 +542,7 @@
     {
       "title": "Unreal Fest",
       "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "37fddbc4040429",
       "source": "Epic Games · Unreal Fest 官方排期"
     },
@@ -612,14 +612,14 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
@@ -633,7 +633,7 @@
     {
       "title": "Benchmark",
       "url": "https://github.com/vimalabs/vimabench",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "cd8f4eb57a9615",
       "source": "Jim Fan · 官方文章与研究"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -948,8 +948,8 @@
     {
       "title": "Google Developers blog",
       "url": "https://developers.googleblog.com/",
-      "last_seen": "2026-10-22",
-      "content_hash": "72e576c86b77b2",
+      "last_seen": "2026-10-23",
+      "content_hash": "f2e56cf06f7448",
       "source": "Google AI"
     },
     {
@@ -1109,7 +1109,7 @@
     {
       "title": "Timea Tihanyi’s Ceramics are Born of Collaboration",
       "url": "https://craftcouncil.org/articles/timea-tihanyis-ceramics-are-born-of-collaboration",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-23",
       "content_hash": "21b03cfd51041e",
       "source": "American Craft Council · 手工艺报道"
     },
@@ -1158,7 +1158,7 @@
     {
       "title": "Gemini app",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app",
-      "last_seen": "2026-10-10",
+      "last_seen": "2026-10-23",
       "content_hash": "fe4fbc04a47a6a",
       "source": "Google AI"
     },
@@ -1436,10 +1436,10 @@
       "source": "Google AI"
     },
     {
-      "title": "meta muse-spark open-source Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta +4 66 October 15, 2026",
+      "title": "meta muse-spark open-source Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta +4 68 October 15, 2026",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "last_seen": "2026-10-22",
-      "content_hash": "384ade2bbf5117",
+      "last_seen": "2026-10-23",
+      "content_hash": "371a48a2bf8a62",
       "source": "Hugging Face Blog"
     },
     {
@@ -1480,7 +1480,7 @@
     {
       "title": "The next developer interface is ambient intelligence",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "7fc3eab7e80e7d",
       "source": "GitHub Blog"
     },
@@ -1494,7 +1494,7 @@
     {
       "title": "Policy Model",
       "url": "https://runwayml.com/product/robotics/policy-model",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "d4e619edaf5c35",
       "source": "Runway News"
     },
@@ -1534,10 +1534,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • 2 days ago • 21",
+      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • 3 days ago • 21",
       "url": "https://huggingface.co/blog/lightonai/slideon-mslideon",
-      "last_seen": "2026-10-22",
-      "content_hash": "d4506a53c6323d",
+      "last_seen": "2026-10-23",
+      "content_hash": "7e890fce5df1c4",
       "source": "Hugging Face Blog"
     },
     {
@@ -1557,7 +1557,7 @@
     {
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "f7269f576fb112",
       "source": "GitHub Blog"
     },
@@ -1592,7 +1592,7 @@
     {
       "title": "‘The Department of Objects’ Brings the Charm of Sleep-Away Camp to Chicago",
       "url": "https://www.thisiscolossal.com/2026/10/the-department-of-objects-joy-machine",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "45fb50b56338ab",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -1604,10 +1604,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline nvidia • 6 days ago • 48",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline nvidia • 7 days ago • 48",
       "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "last_seen": "2026-10-22",
-      "content_hash": "9943043524a970",
+      "last_seen": "2026-10-23",
+      "content_hash": "24f11c8c1ee900",
       "source": "Hugging Face Blog"
     },
     {
@@ -1632,30 +1632,30 @@
       "source": "Google AI"
     },
     {
-      "title": "tpu google gcp Hugging Face ❤️ TorchTPU: TPUs, Natively +1 22 October 20, 2026",
+      "title": "tpu google gcp Hugging Face ❤️ TorchTPU: TPUs, Natively +1 30 October 20, 2026",
       "url": "https://huggingface.co/blog/hf-torchtpu",
-      "last_seen": "2026-10-22",
-      "content_hash": "270fb799319045",
+      "last_seen": "2026-10-23",
+      "content_hash": "813b62f703b8ab",
       "source": "Hugging Face Blog"
     },
     {
       "title": "2026 China International Toys and Educational Expo（China Kids Fun Expo）",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2957",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "c04680f9481685",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "Shanghai International Personal Care Expo",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2794",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "3e4cedef262854",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "Interclean Shanghai",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2795",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "0598ae7425167d",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -1711,7 +1711,7 @@
     {
       "title": "The bridge to agent-scale Git infrastructure",
       "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-10-23",
       "content_hash": "d2c9d29f5ad1f2",
       "source": "GitHub Blog"
     },
@@ -1721,6 +1721,76 @@
       "last_seen": "2026-10-22",
       "content_hash": "a693ecefeeaf66",
       "source": "OpenAI News"
+    },
+    {
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox October 22, 2026",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "last_seen": "2026-10-23",
+      "content_hash": "e862df3e314486",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Wangari Mathenge’s Vibrant Paintings Tap into Kenya’s Paradigm Shift in the 1960s",
+      "url": "https://www.thisiscolossal.com/2026/10/wangari-mathenge-remembering-paintings-kenya-1960s",
+      "last_seen": "2026-10-23",
+      "content_hash": "602a5badca142c",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Ibrahim Said Nods to Ancient Islamic and Egyptian Pottery Traditions in ‘Shaping Time’",
+      "url": "https://www.thisiscolossal.com/2026/10/ibrahim-said-shaping-time-ceramic-sculptures",
+      "last_seen": "2026-10-23",
+      "content_hash": "6192c924e1a275",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "In Oregon’s Wine Country, Local Trees Become Barrels for Wine and Spirits",
+      "url": "https://craftcouncil.org/articles/in-oregons-wine-country-local-trees-become-barrels-for-wine-and-spirits",
+      "last_seen": "2026-10-23",
+      "content_hash": "ed3dd27287a5c8",
+      "source": "American Craft Council · 手工艺报道"
+    },
+    {
+      "title": "In financial services, the AI question is moving from the model to where it runs Farsight-AI • about 6 hours ago • 7",
+      "url": "https://huggingface.co/blog/Farsight-AI/hf-and-farsight",
+      "last_seen": "2026-10-23",
+      "content_hash": "1e0e2dee231249",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model ibm-research • 2 days ago • 25",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "last_seen": "2026-10-23",
+      "content_hash": "7a86ec99fbd1ad",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "The Most Intuitive Way to Understand Score Function Centering: Understand Trainer-Generator Mismatch in Async RL from the Score Function NormalUhr • 7 days ago • 10",
+      "url": "https://huggingface.co/blog/NormalUhr/sfc",
+      "last_seen": "2026-10-23",
+      "content_hash": "d4168f06d3c8c9",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Vibe your way to $50k: the 2026 Epic AI MegaJam is coming",
+      "url": "https://www.unrealengine.com/news/2026-epic-ai-megajam",
+      "last_seen": "2026-10-23",
+      "content_hash": "2cc4bf5278b91f",
+      "source": "Unreal Engine · 官方新闻"
+    },
+    {
+      "title": "Custom skills, agents, and MCP servers in usage metrics API",
+      "url": "https://github.blog/changelog/2026-10-22-custom-skills-agents-and-mcp-servers-in-usage-metrics-api",
+      "last_seen": "2026-10-23",
+      "content_hash": "7fbe91f6214a0a",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Aquatech China",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-10&exhibition_id=2796",
+      "last_seen": "2026-10-23",
+      "content_hash": "775e9115346676",
+      "source": "上海新国际博览中心 · 展会日程"
     }
   ]
 }

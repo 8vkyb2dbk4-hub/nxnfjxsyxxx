@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T07:36:10+08:00",
+  "generated_at": "2026-10-23T07:35:02+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -48,6 +48,34 @@
       ],
       "resurfaced": true,
       "why_original": "更新重点：Added ai_model: \"meshy-t2.5\" to the Image to 3D and Text to 3D APIs: the newest Smart Topology model, with sharper detail for game assets. It is now the default when model_type: \"smart-topology\" is set without ai_model ; set ai_model: \"meshy-t2\" to keep using "
+    },
+    {
+      "id": "95eb6975ad2450",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox October 22, 2026",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/64b8491203124195cd795cad/oS8I8qx7iBS8EcNIXR3q9.png",
+      "image_source": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "summary": "A Blog post by Microsoft on Hugging Face。",
+      "why": "关注内容：微软在Hugging Face上的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-22",
+      "date_confidence": "high",
+      "date_label": "2026-10-22",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 141,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by Microsoft on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "b0632526cd32e3",
@@ -187,10 +215,6 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
         }
       ],
       "resurfaced": true,
@@ -221,7 +245,12 @@
       "location": "",
       "score": 137,
       "material_update": true,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "source": "OpenAI News",
+          "url": "https://openai.com/products/release-notes"
+        }
+      ],
       "resurfaced": true,
       "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
     }
