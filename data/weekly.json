@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T07:35:02+08:00",
+  "generated_at": "2026-10-24T07:34:07+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -169,10 +169,6 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/tender-22bn"
-        },
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
         }
       ],
       "resurfaced": true,
@@ -211,14 +207,38 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
         }
       ],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by ServiceNow-AI on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "da34cea5e2efb3",
+      "title": "Introducing A5: Proactive Personal Agent in Your Life-Long Context KYLN24 • about 11 hours ago • 13",
+      "url": "https://huggingface.co/blog/KYLN24/introducing-a5",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/638ef0b0c67af472d31674a6/EkDc1AlvCn3ygjOXJ4Ycy.png",
+      "image_source": "https://huggingface.co/blog/KYLN24/introducing-a5",
+      "summary": "A Blog post by Honglin Guo on Hugging Face。",
+      "why": "关注内容：郭宏林关于拥抱脸的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-23",
+      "date_confidence": "high",
+      "date_label": "2026-10-23",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 139,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by Honglin Guo on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "2b404537fe9246",
@@ -246,6 +266,10 @@
       "score": 137,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "OpenAI News",
+          "url": "https://openai.com/products/release-notes"
+        },
         {
           "source": "OpenAI News",
           "url": "https://openai.com/products/release-notes"
