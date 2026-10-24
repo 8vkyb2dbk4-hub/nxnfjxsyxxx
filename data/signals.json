@@ -1,65 +1,65 @@
 {
-  "generated_at": "2026-10-23T23:36:57",
+  "generated_at": "2026-10-24T23:33:16",
   "history_days": 15,
   "enough_history": true,
   "minimum_days_needed": 3,
   "topics": [
     {
       "topic": "Agent",
-      "mentions": 158,
+      "mentions": 157,
       "unique_days": 15,
-      "sources": 15,
-      "recent_mentions": 31,
-      "baseline_mentions": 72,
-      "velocity_ratio": 1.01,
+      "sources": 14,
+      "recent_mentions": 28,
+      "baseline_mentions": 70,
+      "velocity_ratio": 0.89,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 111.1
+      "avg_score": 110.8
     },
     {
       "topic": "3D / 游戏",
-      "mentions": 139,
+      "mentions": 138,
       "unique_days": 15,
       "sources": 19,
       "recent_mentions": 27,
-      "baseline_mentions": 62,
-      "velocity_ratio": 1.03,
+      "baseline_mentions": 63,
+      "velocity_ratio": 1.0,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 126.4
+      "avg_score": 125.8
     },
     {
       "topic": "AI 图像",
-      "mentions": 122,
+      "mentions": 120,
       "unique_days": 15,
       "sources": 10,
       "recent_mentions": 23,
-      "baseline_mentions": 52,
-      "velocity_ratio": 1.06,
+      "baseline_mentions": 51,
+      "velocity_ratio": 1.09,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 136.1
+      "avg_score": 135.6
     },
     {
       "topic": "Codex / 编程",
-      "mentions": 108,
+      "mentions": 109,
       "unique_days": 15,
-      "sources": 12,
-      "recent_mentions": 22,
-      "baseline_mentions": 49,
-      "velocity_ratio": 1.08,
+      "sources": 11,
+      "recent_mentions": 23,
+      "baseline_mentions": 51,
+      "velocity_ratio": 1.09,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 102.7
+      "avg_score": 102.9
     },
     {
       "topic": "AI 视频",
-      "mentions": 100,
+      "mentions": 99,
       "unique_days": 15,
       "sources": 10,
-      "recent_mentions": 16,
+      "recent_mentions": 17,
       "baseline_mentions": 45,
-      "velocity_ratio": 0.74,
+      "velocity_ratio": 0.81,
       "direction": "持续",
       "strength": 100,
       "avg_score": 126.9
@@ -69,16 +69,16 @@
       "mentions": 83,
       "unique_days": 15,
       "sources": 6,
-      "recent_mentions": 16,
-      "baseline_mentions": 36,
-      "velocity_ratio": 1.06,
+      "recent_mentions": 17,
+      "baseline_mentions": 37,
+      "velocity_ratio": 1.13,
       "direction": "持续",
       "strength": 100,
       "avg_score": 122.7
     },
     {
       "topic": "多模态",
-      "mentions": 67,
+      "mentions": 65,
       "unique_days": 15,
       "sources": 6,
       "recent_mentions": 11,
@@ -86,40 +86,40 @@
       "velocity_ratio": 0.87,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 118.1
+      "avg_score": 117.6
     },
     {
       "topic": "语音 / 音频",
-      "mentions": 38,
+      "mentions": 40,
       "unique_days": 15,
       "sources": 9,
-      "recent_mentions": 7,
-      "baseline_mentions": 16,
-      "velocity_ratio": 1.03,
+      "recent_mentions": 10,
+      "baseline_mentions": 19,
+      "velocity_ratio": 1.45,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 118.1
+      "avg_score": 117.0
     },
     {
       "topic": "AI for Science",
-      "mentions": 26,
+      "mentions": 27,
       "unique_days": 14,
       "sources": 6,
       "recent_mentions": 7,
-      "baseline_mentions": 13,
-      "velocity_ratio": 1.51,
+      "baseline_mentions": 14,
+      "velocity_ratio": 1.31,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 123.5
+      "avg_score": 122.8
     },
     {
       "topic": "世界模型",
       "mentions": 20,
       "unique_days": 14,
       "sources": 1,
-      "recent_mentions": 6,
-      "baseline_mentions": 13,
-      "velocity_ratio": 1.13,
+      "recent_mentions": 5,
+      "baseline_mentions": 12,
+      "velocity_ratio": 0.96,
       "direction": "持续",
       "strength": 100,
       "avg_score": 118.4
@@ -128,42 +128,42 @@
   "source_velocity": [
     {
       "source": "Hugging Face Blog",
-      "mentions": 110,
+      "mentions": 111,
       "unique_days": 15
     },
     {
       "source": "OpenAI News",
-      "mentions": 63,
+      "mentions": 62,
       "unique_days": 15
     },
     {
       "source": "Colossal · 新兴手工与当代艺术",
-      "mentions": 54,
+      "mentions": 53,
       "unique_days": 15
     },
     {
       "source": "上海新国际博览中心 · 展会日程",
-      "mentions": 47,
+      "mentions": 48,
       "unique_days": 15
     },
     {
       "source": "GitHub Blog",
-      "mentions": 38,
-      "unique_days": 11
+      "mentions": 39,
+      "unique_days": 12
     },
     {
       "source": "ElevenLabs Blog",
-      "mentions": 28,
+      "mentions": 27,
       "unique_days": 15
     },
     {
       "source": "Jim Fan · 官方文章与研究",
-      "mentions": 25,
+      "mentions": 27,
       "unique_days": 15
     },
     {
       "source": "Google AI",
-      "mentions": 24,
+      "mentions": 23,
       "unique_days": 14
     },
     {
@@ -173,7 +173,7 @@
     },
     {
       "source": "Runway Dev Changelog",
-      "mentions": 18,
+      "mentions": 20,
       "unique_days": 15
     }
   ],

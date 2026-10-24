@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T07:34:07+08:00",
+  "generated_at": "2026-10-25T07:30:05+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -165,10 +165,6 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/tender-22bn"
-        },
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
         }
       ],
       "resurfaced": true,
@@ -200,10 +196,6 @@
       "score": 141,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
-        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
