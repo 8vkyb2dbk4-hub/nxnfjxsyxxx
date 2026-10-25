@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T07:30:05+08:00",
+  "generated_at": "2026-10-26T07:30:28+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -161,10 +161,6 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/tender-22bn"
-        },
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
         }
       ],
       "resurfaced": true,
@@ -195,12 +191,7 @@
       "location": "",
       "score": 141,
       "material_update": true,
-      "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata"
-        }
-      ],
+      "alternatives": [],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by ServiceNow-AI on Hugging Face（原文未明确列出版本变化。）"
     },
