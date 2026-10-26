@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T07:30:28+08:00",
+  "generated_at": "2026-10-27T07:34:37+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -157,43 +157,9 @@
       "location": "",
       "score": 141,
       "material_update": true,
-      "alternatives": [
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/tender-22bn"
-        }
-      ],
-      "resurfaced": true,
-      "why_original": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February.（原文未明确列出版本变化。）"
-    },
-    {
-      "id": "a885ed61f54a41",
-      "title": "AutoSynthData: Generating Training Data for Enterprise Agents 53 October 2, 2026",
-      "url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/68642da9885da181fde1ad70/8kSzlHLOdu5hchCtPnK8D.png",
-      "image_source": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
-      "summary": "A Blog post by ServiceNow-AI on Hugging Face。",
-      "why": "关注内容：ServiceNow-AI关于拥抱脸的博客文章（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-10-02",
-      "date_confidence": "high",
-      "date_label": "2026-10-02",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 141,
-      "material_update": true,
       "alternatives": [],
       "resurfaced": true,
-      "why_original": "关注内容：A Blog post by ServiceNow-AI on Hugging Face（原文未明确列出版本变化。）"
+      "why_original": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February.（原文未明确列出版本变化。）"
     },
     {
       "id": "da34cea5e2efb3",
@@ -260,6 +226,34 @@
       ],
       "resurfaced": true,
       "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
+    },
+    {
+      "id": "ef8599fb2f2df3",
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • about 18 hours ago • 8",
+      "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/iweet51Jlh9ascaVzs_a2.png",
+      "image_source": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
+      "summary": "A Blog post by FINAL_Bench on Hugging Face。",
+      "why": "关注内容：FINAL_Bench在拥抱脸上的博客帖子（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-26",
+      "date_confidence": "high",
+      "date_label": "2026-10-26",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": true,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
     }
   ]
 }
