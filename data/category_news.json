@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-27",
-  "start_date": "2026-07-27",
+  "date": "2026-10-28",
+  "start_date": "2026-07-28",
   "items": [
     {
       "id": "a0e5aa69e403dc",
@@ -532,7 +532,7 @@
     },
     {
       "source": "浙江省游戏行业协会 · 会展活动",
-      "error": "HTTPError: 404 Client Error: Not Found for url: https://www.zjgia.org.cn/pic.aspx?classid=183"
+      "error": "SSLError: HTTPSConnectionPool(host='www.zjgia.org.cn', port=443): Max retries exceeded with url: /pic.aspx?classid=183 (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1010)')))"
     },
     {
       "source": "OpenAI · 官方 X",

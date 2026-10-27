@@ -3,7 +3,7 @@
     {
       "title": "Research Overview",
       "url": "https://openai.com/research",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "b02a18483e0c33",
       "source": "OpenAI News"
     },
@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "54e4bbb96408e9",
       "source": "ElevenLabs Blog"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-10-15 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "e3d1e71fb8de3a",
       "source": "Meshy · API 更新日志"
     },
@@ -437,7 +437,7 @@
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -542,7 +542,7 @@
     {
       "title": "Unreal Fest",
       "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "37fddbc4040429",
       "source": "Epic Games · Unreal Fest 官方排期"
     },
@@ -612,14 +612,14 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
@@ -633,7 +633,7 @@
     {
       "title": "Benchmark",
       "url": "https://github.com/vimalabs/vimabench",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "cd8f4eb57a9615",
       "source": "Jim Fan · 官方文章与研究"
     },
@@ -717,7 +717,7 @@
     {
       "title": "Responsible AI Development Policy",
       "url": "https://bfl.ai/legal/responsible-ai-development-policy",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-10-28",
       "content_hash": "52cd0412af3806",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -808,21 +808,21 @@
     {
       "title": "International Conference on Machine Learning (ICML), 2021",
       "url": "https://linxifan.github.io/secant-site",
-      "last_seen": "2026-10-17",
+      "last_seen": "2026-10-28",
       "content_hash": "b997f73f26e205",
       "source": "Jim Fan · 官方文章与研究"
     },
     {
       "title": "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2021",
       "url": "https://svl.stanford.edu/igibson",
-      "last_seen": "2026-10-17",
+      "last_seen": "2026-10-28",
       "content_hash": "00612f50d61c26",
       "source": "Jim Fan · 官方文章与研究"
     },
     {
       "title": "Conference on Robot Learning (CoRL), 2018",
       "url": "https://surreal.stanford.edu/",
-      "last_seen": "2026-10-17",
+      "last_seen": "2026-10-28",
       "content_hash": "9a221936c0d683",
       "source": "Jim Fan · 官方文章与研究"
     },
@@ -1207,7 +1207,7 @@
     {
       "title": "Community Articles",
       "url": "https://huggingface.co/blog/community",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-28",
       "content_hash": "2950663c78a611",
       "source": "Hugging Face Blog"
     },
@@ -1431,7 +1431,7 @@
     {
       "title": "An intelligent new shopping cart",
       "url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch",
-      "last_seen": "2026-10-16",
+      "last_seen": "2026-10-28",
       "content_hash": "3b8babb986e169",
       "source": "Google AI"
     },
@@ -1473,21 +1473,21 @@
     {
       "title": "Models ↗",
       "url": "https://dev.runwayml.com/models",
-      "last_seen": "2026-10-17",
+      "last_seen": "2026-10-28",
       "content_hash": "870f2e4705afb0",
       "source": "Runway News"
     },
     {
       "title": "The next developer interface is ambient intelligence",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-10-28",
       "content_hash": "7fc3eab7e80e7d",
       "source": "GitHub Blog"
     },
     {
       "title": "We’re sharing 3 tips to study smarter with Gemini Notebook.",
       "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook",
-      "last_seen": "2026-10-17",
+      "last_seen": "2026-10-28",
       "content_hash": "d822bbee6ed347",
       "source": "Google AI"
     },
@@ -1534,10 +1534,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • 7 days ago • 24",
+      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • 8 days ago • 27",
       "url": "https://huggingface.co/blog/lightonai/slideon-mslideon",
-      "last_seen": "2026-10-27",
-      "content_hash": "87d830d90c27d8",
+      "last_seen": "2026-10-28",
+      "content_hash": "1d2e99777da8a0",
       "source": "Hugging Face Blog"
     },
     {
@@ -1592,7 +1592,7 @@
     {
       "title": "‘The Department of Objects’ Brings the Charm of Sleep-Away Camp to Chicago",
       "url": "https://www.thisiscolossal.com/2026/10/the-department-of-objects-joy-machine",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "45fb50b56338ab",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -1632,10 +1632,10 @@
       "source": "Google AI"
     },
     {
-      "title": "tpu google gcp Hugging Face ❤️ TorchTPU: TPUs, Natively +1 37 October 20, 2026",
+      "title": "tpu google gcp Hugging Face ❤️ TorchTPU: TPUs, Natively +1 47 October 20, 2026",
       "url": "https://huggingface.co/blog/hf-torchtpu",
-      "last_seen": "2026-10-26",
-      "content_hash": "b464776d4e1101",
+      "last_seen": "2026-10-28",
+      "content_hash": "be098d61bcc1b4",
       "source": "Hugging Face Blog"
     },
     {
@@ -1814,10 +1814,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 5 days ago • 18",
+      "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 6 days ago • 19",
       "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-      "last_seen": "2026-10-27",
-      "content_hash": "77cde1715de38a",
+      "last_seen": "2026-10-28",
+      "content_hash": "0d3c13f2ee899f",
       "source": "Hugging Face Blog"
     },
     {
@@ -1837,7 +1837,7 @@
     {
       "title": "Securing our frontier model training environment Security Oct 23, 2026",
       "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "971b707773f0e4",
       "source": "OpenAI News"
     },
@@ -1863,10 +1863,10 @@
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium. 10 October 21, 2026",
+      "title": "Profiling TorchNeuron (Part 1): System-level profiling on AWS Trainium. 11 October 21, 2026",
       "url": "https://huggingface.co/blog/amazon/profiling-torchneuron-part-1",
-      "last_seen": "2026-10-27",
-      "content_hash": "cd677e1141cfbe",
+      "last_seen": "2026-10-28",
+      "content_hash": "5e5aed93a2ab9a",
       "source": "Hugging Face Blog"
     },
     {
@@ -1891,10 +1891,10 @@
       "source": "Runway News"
     },
     {
-      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • about 18 hours ago • 8",
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 1 day ago • 12",
       "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
-      "last_seen": "2026-10-27",
-      "content_hash": "f3d9e786e38be2",
+      "last_seen": "2026-10-28",
+      "content_hash": "879c7ece4f84de",
       "source": "Hugging Face Blog"
     },
     {
@@ -1921,7 +1921,7 @@
     {
       "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases Security Oct 26, 2026",
       "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "97992abef7b06b",
       "source": "OpenAI News"
     },
@@ -1935,7 +1935,7 @@
     {
       "title": "ChatGPT’s expanding world of work Research Oct 26, 2026",
       "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
-      "last_seen": "2026-10-27",
+      "last_seen": "2026-10-28",
       "content_hash": "5ad500e9406006",
       "source": "OpenAI News"
     },
@@ -1945,6 +1945,83 @@
       "last_seen": "2026-10-27",
       "content_hash": "9b9b72e44ffdf1",
       "source": "Google AI"
+    },
+    {
+      "title": "Build specialized multimodal models with LFM3 29 October 27, 2026",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "last_seen": "2026-10-28",
+      "content_hash": "3f9317eee80e0e",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Timeless Totemic Figures by Izumi Kato Coexist in an Otherworldly Aquatic Realm",
+      "url": "https://www.thisiscolossal.com/2026/10/izumi-kato-paintings-sculptures",
+      "last_seen": "2026-10-28",
+      "content_hash": "8b6bd6f146944c",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Playfully Vibrant Abstract Murals by Zebu Enliven Urban Walls",
+      "url": "https://www.thisiscolossal.com/2026/10/zebu-vibrant-abstract-murals",
+      "last_seen": "2026-10-28",
+      "content_hash": "322cb0ffd9398a",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Tom Hegen’s ‘The Mineral Age’ Documents the Indelible Effects of the Green Transition",
+      "url": "https://www.thisiscolossal.com/2026/10/tom-hegen-the-mineral-age-photo-book",
+      "last_seen": "2026-10-28",
+      "content_hash": "68a7298c28239a",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Ghanaian Fantasy Coffins Ferry People to the Afterlife in Style",
+      "url": "https://craftcouncil.org/articles/ghanaian-fantasy-coffins-ferry-people-to-the-afterlife-in-style",
+      "last_seen": "2026-10-28",
+      "content_hash": "237f6e1d85c61c",
+      "source": "American Craft Council · 手工艺报道"
+    },
+    {
+      "title": "bekko-static-embedding-v1: State-of-the-Art Retrieval for Multilingual Static Embeddings hotchpotch • 7 days ago • 16",
+      "url": "https://huggingface.co/blog/hotchpotch/bekko-static-embedding",
+      "last_seen": "2026-10-28",
+      "content_hash": "c72d51d2241540",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT Company Oct 27, 2026",
+      "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "last_seen": "2026-10-28",
+      "content_hash": "46d35358fd7f6f",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Factorynetwork Business Conference",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2801",
+      "last_seen": "2026-10-28",
+      "content_hash": "411477182c3d05",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "CeMAT ASIA",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2798",
+      "last_seen": "2026-10-28",
+      "content_hash": "cd27f00ae2836a",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "ComVac ASIA",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2799",
+      "last_seen": "2026-10-28",
+      "content_hash": "167297cdbfe623",
+      "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "E-PACK TECH ASIA",
+      "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2800",
+      "last_seen": "2026-10-28",
+      "content_hash": "f74275977afad0",
+      "source": "上海新国际博览中心 · 展会日程"
     }
   ]
 }

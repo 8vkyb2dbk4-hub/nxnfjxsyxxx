@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T07:34:37+08:00",
+  "generated_at": "2026-10-28T07:37:14+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -133,35 +133,6 @@
       "why_original": "关注内容：A Blog post by Hugging Face on Hugging Face（原文未明确列出版本变化。）"
     },
     {
-      "id": "8b5f9c73f57db0",
-      "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
-      "url": "https://elevenlabs.io/blog/tender-22bn",
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/d0nlnct7j7j-Blog-01.webp",
-      "image_source": "https://elevenlabs.io/blog/tender-22bn",
-      "summary": "We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February。",
-      "why": "关注内容：我们最近完成了一项3亿美元的员工收购要约， ElevenLabs的估值为220亿美元，是我们2月份D轮收购估值的两倍。（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "ElevenLabs Blog",
-      "source_type": "声音 / 创作工具",
-      "source_priority": 5,
-      "source_reliability": 6,
-      "published_at": "2026-09-30",
-      "date_confidence": "high",
-      "date_label": "2026-09-30",
-      "category": "AI 影视",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 141,
-      "material_update": true,
-      "alternatives": [],
-      "resurfaced": true,
-      "why_original": "关注内容：We recently closed a $300 million employee tender offer that values ElevenLabs at $22 billion, double our valuation at our Series D in February.（原文未明确列出版本变化。）"
-    },
-    {
       "id": "da34cea5e2efb3",
       "title": "Introducing A5: Proactive Personal Agent in Your Life-Long Context KYLN24 • about 11 hours ago • 13",
       "url": "https://huggingface.co/blog/KYLN24/introducing-a5",
@@ -188,6 +159,34 @@
       "material_update": false,
       "alternatives": [],
       "why_original": "关注内容：A Blog post by Honglin Guo on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "db98bf59a6c7e4",
+      "title": "Build specialized multimodal models with LFM3 29 October 27, 2026",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+      "image_source": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "summary": "A Blog post by Liquid AI on Hugging Face。",
+      "why": "关注内容：Liquid AI在Hugging Face上的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-27",
+      "date_confidence": "high",
+      "date_label": "2026-10-27",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 137,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by Liquid AI on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "2b404537fe9246",
@@ -218,10 +217,6 @@
         {
           "source": "OpenAI News",
           "url": "https://openai.com/products/release-notes"
-        },
-        {
-          "source": "OpenAI News",
-          "url": "https://openai.com/products/release-notes"
         }
       ],
       "resurfaced": true,
@@ -229,7 +224,7 @@
     },
     {
       "id": "ef8599fb2f2df3",
-      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • about 18 hours ago • 8",
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 1 day ago • 12",
       "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/iweet51Jlh9ascaVzs_a2.png",
       "image_source": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
@@ -252,7 +247,13 @@
       "location": "",
       "score": 135,
       "material_update": true,
-      "alternatives": [],
+      "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an"
+        }
+      ],
+      "resurfaced": true,
       "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
     }
   ]
