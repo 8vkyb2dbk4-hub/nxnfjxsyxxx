@@ -1,8 +1,36 @@
 {
-  "generated_at": "2026-10-28T07:37:14+08:00",
+  "generated_at": "2026-10-29T07:41:03+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
+    {
+      "id": "75e2017ed4c5a2",
+      "title": "OpenAI and ServiceNow expand partnership across enterprise workflows Company Oct 28, 2026",
+      "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/Gp8jNpLlW9YG0p7vG3UfM/c73fa4b5caa4ad978b022dc0123b801b/openai-servicenow-partnership-expansion-social.png?w=1600&h=900&fit=fill",
+      "image_source": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "summary": "OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex。",
+      "why": "更新重点：OpenAI和ServiceNow扩大了合作伙伴关系，将OpenAI模型和代理引入ServiceNow和ServiceNow工作流程，并将其引入ChatGPT和Codex。",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "OpenAI News",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "2026-10-27",
+      "date_confidence": "medium",
+      "date_label": "2026-10-27",
+      "category": "游戏与 3D",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 165,
+      "material_update": true,
+      "alternatives": [],
+      "why_original": "更新重点：OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
+    },
     {
       "id": "b6bd6152f2d437",
       "title": "Meshy · API 更新日志 · 2026-10-15 更新",
@@ -76,61 +104,6 @@
       "material_update": false,
       "alternatives": [],
       "why_original": "关注内容：A Blog post by Microsoft on Hugging Face（原文未明确列出版本变化。）"
-    },
-    {
-      "id": "b0632526cd32e3",
-      "title": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models nvidia • about 13 hours ago • 28",
-      "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/697fa5ae089a7f9330c5078f/ts2ZQ_szDimxNKk58saCn.png",
-      "image_source": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
-      "summary": "A Blog post by NVIDIA on Hugging Face。",
-      "why": "关注内容：A Blog post by NVIDIA on Hugging Face（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-10-21",
-      "date_confidence": "high",
-      "date_label": "2026-10-21",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 141,
-      "material_update": false,
-      "alternatives": []
-    },
-    {
-      "id": "35a827a367d101",
-      "title": "A curriculum for post-training agents huggingface • 1 day ago • 7",
-      "url": "https://huggingface.co/blog/huggingface/train-agents",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/6141a88b3a0ec78603c9e784/fXIcM6s5NEn_Xun8M_nNj.png",
-      "image_source": "https://huggingface.co/blog/huggingface/train-agents",
-      "summary": "A Blog post by Hugging Face on Hugging Face。",
-      "why": "关注内容：Hugging Face on Hugging Face的博客文章（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-10-20",
-      "date_confidence": "high",
-      "date_label": "2026-10-20",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 141,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：A Blog post by Hugging Face on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "da34cea5e2efb3",
@@ -224,7 +197,7 @@
     },
     {
       "id": "ef8599fb2f2df3",
-      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 1 day ago • 12",
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 3 days ago • 12",
       "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/iweet51Jlh9ascaVzs_a2.png",
       "image_source": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
@@ -251,10 +224,56 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an"
         }
       ],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "074df5b2162dce",
+      "title": "Text to Speech",
+      "url": "https://elevenlabs.io/text-to-speech",
+      "image": "https://elevenlabs.io/cover.png",
+      "image_source": "https://elevenlabs.io/text-to-speech",
+      "summary": "Try free text to speech online with ElevenLabs. Transform your text into lifelike audio with ultra-realistic AI voices using our TTS tool。",
+      "why": "关注内容：使用ElevenLabs在线尝试免费文本转语音。（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
+      "source_priority": 5,
+      "source_reliability": 6,
+      "published_at": "2026-10-28",
+      "date_confidence": "medium",
+      "date_label": "2026-10-28",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": true,
+      "alternatives": [
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/text-to-speech"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/text-to-speech"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/text-to-speech"
+        }
+      ],
+      "resurfaced": true,
+      "why_original": "关注内容：Try free text to speech online with ElevenLabs.（原文未明确列出版本变化。）"
     }
   ]
 }
