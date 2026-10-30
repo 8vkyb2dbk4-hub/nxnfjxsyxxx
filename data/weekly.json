@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T07:41:34+08:00",
+  "generated_at": "2026-10-31T07:40:11+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -17,9 +17,9 @@
       "source_type": "公司 / 官方",
       "source_priority": 5,
       "source_reliability": 10,
-      "published_at": "2026-10-27",
+      "published_at": "2026-10-30",
       "date_confidence": "medium",
-      "date_label": "2026-10-27",
+      "date_label": "2026-10-30",
       "category": "游戏与 3D",
       "status": "必看",
       "deadline": null,
@@ -29,6 +29,10 @@
       "score": 165,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+        },
         {
           "source": "OpenAI News",
           "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
@@ -74,42 +78,10 @@
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
-        },
-        {
-          "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
         }
       ],
       "resurfaced": true,
       "why_original": "更新重点：Added ai_model: \"meshy-t2.5\" to the Image to 3D and Text to 3D APIs: the newest Smart Topology model, with sharper detail for game assets. It is now the default when model_type: \"smart-topology\" is set without ai_model ; set ai_model: \"meshy-t2\" to keep using "
-    },
-    {
-      "id": "da34cea5e2efb3",
-      "title": "Introducing A5: Proactive Personal Agent in Your Life-Long Context KYLN24 • about 11 hours ago • 13",
-      "url": "https://huggingface.co/blog/KYLN24/introducing-a5",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/638ef0b0c67af472d31674a6/EkDc1AlvCn3ygjOXJ4Ycy.png",
-      "image_source": "https://huggingface.co/blog/KYLN24/introducing-a5",
-      "summary": "A Blog post by Honglin Guo on Hugging Face。",
-      "why": "关注内容：郭宏林关于拥抱脸的博客文章（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-10-23",
-      "date_confidence": "high",
-      "date_label": "2026-10-23",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 139,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：A Blog post by Honglin Guo on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "d28967fce9c692",
@@ -164,12 +136,7 @@
       "location": "",
       "score": 137,
       "material_update": true,
-      "alternatives": [
-        {
-          "source": "OpenAI News",
-          "url": "https://openai.com/products/release-notes"
-        }
-      ],
+      "alternatives": [],
       "resurfaced": true,
       "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
     },
@@ -203,7 +170,7 @@
     },
     {
       "id": "ef8599fb2f2df3",
-      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 3 days ago • 12",
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 5 days ago • 9",
       "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/iweet51Jlh9ascaVzs_a2.png",
       "image_source": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
@@ -234,10 +201,41 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an"
         }
       ],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "432b1e0994e427",
+      "title": "A Low-Cost Decision Model on CPU: Optimizing DiffusionGemma with vLLM - Part I LeagueLabs • 1 day ago • 5",
+      "url": "https://huggingface.co/blog/LeagueLabs/optimizing-diffgemma-decision-model-vllm-cpu-i",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6a3d55dcab483460b0779771/wQC7I506YcH0NkY3_eZa7.png",
+      "image_source": "https://huggingface.co/blog/LeagueLabs/optimizing-diffgemma-decision-model-vllm-cpu-i",
+      "summary": "A Blog post by League on Hugging Face。",
+      "why": "关注内容：A Blog post by League on Hugging Face（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-10-29",
+      "date_confidence": "high",
+      "date_label": "2026-10-29",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": false,
+      "alternatives": []
     },
     {
       "id": "074df5b2162dce",
