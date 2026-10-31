@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31T07:40:11+08:00",
+  "generated_at": "2026-11-01T07:38:38+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -29,6 +29,10 @@
       "score": 165,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "OpenAI News",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+        },
         {
           "source": "OpenAI News",
           "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
@@ -67,10 +71,6 @@
       "score": 157,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
-        },
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
@@ -170,7 +170,7 @@
     },
     {
       "id": "ef8599fb2f2df3",
-      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 5 days ago • 9",
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 6 days ago • 9",
       "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/iweet51Jlh9ascaVzs_a2.png",
       "image_source": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
@@ -194,6 +194,10 @@
       "score": 135,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an"
+        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an"
@@ -263,10 +267,6 @@
       "score": 135,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/text-to-speech"
-        },
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/text-to-speech"

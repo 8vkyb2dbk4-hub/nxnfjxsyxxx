@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "start_date": "2026-07-31",
+  "date": "2026-11-01",
+  "start_date": "2026-08-01",
   "items": [
     {
       "id": "a59b63a30499fa",
@@ -493,32 +493,6 @@
       "location": "",
       "score": 139,
       "material_update": true
-    },
-    {
-      "id": "e29bceaab5cd97",
-      "title": "MiniMax H3: An Open Model Breaking the Boundaries Between Tasks and Modalities",
-      "url": "https://www.minimax.io/blog/minimax-h3",
-      "image": "https://file.cdn.minimax.io/public/3df321d9-42bd-4be0-ac58-71f22377a11f.png?x-oss-process=image/format,webp",
-      "image_source": "https://www.minimax.io/blog/minimax-h3",
-      "summary": "Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model. H3 can jointly understand multimodal contexts spanning text, images, video, and audio. It generates video with native stereo audio at up。",
-      "why": "更新重点：Today, we're officially launching MiniMax H3, a general-purpose omni-modal generation model.",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "MiniMax · 海螺模型动态",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-07-31",
-      "date_confidence": "high",
-      "date_label": "2026-07-31",
-      "category": "AI 影视",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 121,
-      "material_update": false
     }
   ],
   "errors": [
