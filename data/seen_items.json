@@ -59,8 +59,8 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-11-01",
-      "content_hash": "eb0cf1e8fbf201",
+      "last_seen": "2026-11-02",
+      "content_hash": "54e4bbb96408e9",
       "source": "ElevenLabs Blog"
     },
     {
@@ -94,21 +94,21 @@
     {
       "title": "Skip to main content",
       "url": "https://openai.com/news",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "b6259ee376348e",
       "source": "OpenAI News"
     },
     {
       "title": "Research",
       "url": "https://openai.com/news/research",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "ae83a4f9768df3",
       "source": "OpenAI News"
     },
     {
       "title": "Global Affairs",
       "url": "https://openai.com/news/global-affairs",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "3ee2aa69188b10",
       "source": "OpenAI News"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-10-30 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-66133bfbab",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "bb60aafc88ca9e",
       "source": "Meshy · API 更新日志"
     },
@@ -437,7 +437,7 @@
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -542,7 +542,7 @@
     {
       "title": "Unreal Fest",
       "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "37fddbc4040429",
       "source": "Epic Games · Unreal Fest 官方排期"
     },
@@ -612,14 +612,14 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -948,7 +948,7 @@
     {
       "title": "Google Developers blog",
       "url": "https://developers.googleblog.com/",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "8b59a3ce9a00e1",
       "source": "Google AI"
     },
@@ -1228,7 +1228,7 @@
     {
       "title": "Crafts Council Membership Stories How (and why) to open a repair cafe",
       "url": "https://www.craftscouncil.org.uk/stories/how-and-why-to-open-a-repair-cafe",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "5dd0c687c3bae9",
       "source": "Crafts Council · Crafts 手工艺刊物"
     },
@@ -1480,7 +1480,7 @@
     {
       "title": "The next developer interface is ambient intelligence",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "7fc3eab7e80e7d",
       "source": "GitHub Blog"
     },
@@ -1494,7 +1494,7 @@
     {
       "title": "Policy Model",
       "url": "https://runwayml.com/product/robotics/policy-model",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "d4e619edaf5c35",
       "source": "Runway News"
     },
@@ -1534,10 +1534,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • 10 days ago • 28",
+      "title": "SlideOn & mSlideOn: Sparsified Late-Interaction and Dense Retrievers lightonai • 13 days ago • 29",
       "url": "https://huggingface.co/blog/lightonai/slideon-mslideon",
-      "last_seen": "2026-10-30",
-      "content_hash": "6fd4eac1de314c",
+      "last_seen": "2026-11-02",
+      "content_hash": "7bfef0b875442e",
       "source": "Hugging Face Blog"
     },
     {
@@ -1557,7 +1557,7 @@
     {
       "title": "How to continue a GitHub Copilot app session in VS Code",
       "url": "https://github.blog/ai-and-ml/github-copilot/how-to-continue-a-github-copilot-app-session-in-vs-code",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "f7269f576fb112",
       "source": "GitHub Blog"
     },
@@ -1634,7 +1634,7 @@
     {
       "title": "tpu google gcp Hugging Face ❤️ TorchTPU: TPUs, Natively +1 52 October 20, 2026",
       "url": "https://huggingface.co/blog/hf-torchtpu",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "116dc7d2ba240c",
       "source": "Hugging Face Blog"
     },
@@ -1660,17 +1660,17 @@
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
-      "title": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models nvidia • about 13 hours ago • 28",
+      "title": "NVIDIA Nemotron 3.5 Embed, Rerank, and Parse: Advancing Agents with World-Class Retrieval Models nvidia • 12 days ago • 65",
       "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
-      "last_seen": "2026-10-22",
-      "content_hash": "1b2efaabe586f9",
+      "last_seen": "2026-11-02",
+      "content_hash": "78e3f07c87fe78",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "A curriculum for post-training agents huggingface • 1 day ago • 7",
+      "title": "A curriculum for post-training agents huggingface • 12 days ago • 91",
       "url": "https://huggingface.co/blog/huggingface/train-agents",
-      "last_seen": "2026-10-22",
-      "content_hash": "7e0f8d9db21948",
+      "last_seen": "2026-11-02",
+      "content_hash": "ea3dd0954b3e6c",
       "source": "Hugging Face Blog"
     },
     {
@@ -1690,15 +1690,15 @@
     {
       "title": "Merel Karhof’s Knits are Written on the Wind",
       "url": "https://craftcouncil.org/articles/merel-karhofs-knits-are-written-on-the-wind",
-      "last_seen": "2026-10-22",
+      "last_seen": "2026-11-02",
       "content_hash": "face2522ab6cfe",
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories nvidia • about 13 hours ago • 10",
+      "title": "Announcing SimReady Central: An Open Library of Simulation-Ready 3D Assets for Robotics and AI Factories nvidia • 12 days ago • 56",
       "url": "https://huggingface.co/blog/nvidia/simready-central-assets-robotics-ai-factories",
-      "last_seen": "2026-10-22",
-      "content_hash": "405389d66688ac",
+      "last_seen": "2026-11-02",
+      "content_hash": "d146585239e448",
       "source": "Hugging Face Blog"
     },
     {
@@ -1711,7 +1711,7 @@
     {
       "title": "The bridge to agent-scale Git infrastructure",
       "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "d2c9d29f5ad1f2",
       "source": "GitHub Blog"
     },
@@ -1814,10 +1814,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 10 days ago • 23",
+      "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 11 days ago • 23",
       "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-      "last_seen": "2026-11-01",
-      "content_hash": "9f092038a5daac",
+      "last_seen": "2026-11-02",
+      "content_hash": "adf791a8b02e61",
       "source": "Hugging Face Blog"
     },
     {
@@ -1891,10 +1891,10 @@
       "source": "Runway News"
     },
     {
-      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 6 days ago • 9",
+      "title": "Pretraining a 325M Language Model from Zero on an Inference-Only NPU FINAL-Bench • 7 days ago • 10",
       "url": "https://huggingface.co/blog/FINAL-Bench/pretraining-a-325m-language-model-from-zero-on-an",
-      "last_seen": "2026-11-01",
-      "content_hash": "f10ede84564b9f",
+      "last_seen": "2026-11-02",
+      "content_hash": "4cf28ab32943cc",
       "source": "Hugging Face Blog"
     },
     {
@@ -1998,35 +1998,35 @@
     {
       "title": "Factorynetwork Business Conference",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2801",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "411477182c3d05",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "CeMAT ASIA",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2798",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "cd27f00ae2836a",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "ComVac ASIA",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2799",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "167297cdbfe623",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "E-PACK TECH ASIA",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2800",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "f74275977afad0",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "OpenAI and ServiceNow expand partnership across enterprise workflows Company Oct 28, 2026",
       "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "36370a07765e0e",
       "source": "OpenAI News"
     },
@@ -2054,7 +2054,7 @@
     {
       "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
       "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "60b1c8dcf8f52b",
       "source": "GitHub Blog"
     },
@@ -2110,7 +2110,7 @@
     {
       "title": "‘The Encyclopedia of Movie Cats’ Is an Exhaustive Index of Every Feline to Prowl on Screen",
       "url": "https://www.thisiscolossal.com/2026/10/the-encyclopedia-of-movie-cats-a24",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "dc308c86aecb76",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2208,7 +2208,7 @@
     {
       "title": "Fair use benefits everyone Company Oct 30, 2026",
       "url": "https://openai.com/index/fair-use-benefits-everyone",
-      "last_seen": "2026-11-01",
+      "last_seen": "2026-11-02",
       "content_hash": "d2b9942a7c5cba",
       "source": "OpenAI News"
     },
@@ -2225,6 +2225,27 @@
       "last_seen": "2026-11-01",
       "content_hash": "666c91448352ec",
       "source": "Yoshua Bengio · 官方文章与研究"
+    },
+    {
+      "title": "ViKernel: Why the Kill Switch Must Live Inside the Model FINAL-Bench • about 15 hours ago • 7",
+      "url": "https://huggingface.co/blog/FINAL-Bench/vikernel-why-the-kill-switch-must-live-inside-the",
+      "last_seen": "2026-11-02",
+      "content_hash": "503d2f97a980ab",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Open Source",
+      "url": "https://github.blog/open-source",
+      "last_seen": "2026-11-02",
+      "content_hash": "ff278b00ae5210",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "last_seen": "2026-11-02",
+      "content_hash": "8599ee07dfa598",
+      "source": "Anthropic News"
     }
   ]
 }
