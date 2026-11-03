@@ -1,180 +1,180 @@
 {
-  "generated_at": "2026-11-01T23:41:33",
-  "history_days": 15,
+  "generated_at": "2026-11-03T03:57:39",
+  "history_days": 14,
   "enough_history": true,
   "minimum_days_needed": 3,
   "topics": [
     {
       "topic": "Agent",
-      "mentions": 144,
-      "unique_days": 15,
+      "mentions": 134,
+      "unique_days": 14,
       "sources": 14,
       "recent_mentions": 32,
-      "baseline_mentions": 66,
-      "velocity_ratio": 1.25,
+      "baseline_mentions": 70,
+      "velocity_ratio": 1.12,
       "direction": "持续",
       "strength": 100,
       "avg_score": 108.3
     },
     {
       "topic": "3D / 游戏",
-      "mentions": 126,
-      "unique_days": 15,
-      "sources": 14,
-      "recent_mentions": 25,
-      "baseline_mentions": 55,
-      "velocity_ratio": 1.11,
+      "mentions": 115,
+      "unique_days": 14,
+      "sources": 13,
+      "recent_mentions": 24,
+      "baseline_mentions": 54,
+      "velocity_ratio": 1.07,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 126.0
+      "avg_score": 126.6
     },
     {
       "topic": "Codex / 编程",
-      "mentions": 116,
-      "unique_days": 15,
-      "sources": 12,
+      "mentions": 110,
+      "unique_days": 14,
+      "sources": 13,
       "recent_mentions": 25,
-      "baseline_mentions": 58,
-      "velocity_ratio": 1.01,
+      "baseline_mentions": 60,
+      "velocity_ratio": 0.95,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 105.0
+      "avg_score": 105.4
     },
     {
       "topic": "AI 图像",
-      "mentions": 114,
-      "unique_days": 15,
+      "mentions": 108,
+      "unique_days": 14,
       "sources": 8,
       "recent_mentions": 24,
-      "baseline_mentions": 56,
-      "velocity_ratio": 1.0,
+      "baseline_mentions": 57,
+      "velocity_ratio": 0.97,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 134.9
+      "avg_score": 134.4
     },
     {
       "topic": "AI 视频",
-      "mentions": 95,
-      "unique_days": 15,
+      "mentions": 86,
+      "unique_days": 14,
       "sources": 9,
       "recent_mentions": 18,
       "baseline_mentions": 43,
       "velocity_ratio": 0.96,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 123.0
+      "avg_score": 121.8
     },
     {
       "topic": "开源模型",
-      "mentions": 85,
-      "unique_days": 15,
+      "mentions": 82,
+      "unique_days": 14,
       "sources": 9,
-      "recent_mentions": 18,
-      "baseline_mentions": 42,
-      "velocity_ratio": 1.0,
+      "recent_mentions": 19,
+      "baseline_mentions": 43,
+      "velocity_ratio": 1.05,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 122.7
+      "avg_score": 122.0
     },
     {
       "topic": "多模态",
-      "mentions": 44,
-      "unique_days": 15,
+      "mentions": 36,
+      "unique_days": 14,
       "sources": 4,
       "recent_mentions": 3,
-      "baseline_mentions": 13,
-      "velocity_ratio": 0.43,
+      "baseline_mentions": 11,
+      "velocity_ratio": 0.53,
       "direction": "降温",
       "strength": 100,
-      "avg_score": 116.7
+      "avg_score": 116.4
     },
     {
       "topic": "语音 / 音频",
-      "mentions": 37,
-      "unique_days": 15,
+      "mentions": 35,
+      "unique_days": 14,
       "sources": 6,
       "recent_mentions": 7,
-      "baseline_mentions": 16,
-      "velocity_ratio": 1.03,
+      "baseline_mentions": 17,
+      "velocity_ratio": 0.94,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 111.0
+      "avg_score": 109.7
     },
     {
       "topic": "世界模型",
-      "mentions": 25,
-      "unique_days": 14,
+      "mentions": 24,
+      "unique_days": 13,
       "sources": 1,
-      "recent_mentions": 4,
+      "recent_mentions": 6,
       "baseline_mentions": 11,
-      "velocity_ratio": 0.78,
+      "velocity_ratio": 1.54,
       "direction": "持续",
       "strength": 100,
       "avg_score": 118.1
     },
     {
       "topic": "AI for Science",
-      "mentions": 24,
-      "unique_days": 15,
+      "mentions": 23,
+      "unique_days": 14,
       "sources": 5,
       "recent_mentions": 3,
-      "baseline_mentions": 9,
-      "velocity_ratio": 0.7,
+      "baseline_mentions": 8,
+      "velocity_ratio": 0.82,
       "direction": "持续",
       "strength": 100,
-      "avg_score": 122.5
+      "avg_score": 122.1
     }
   ],
   "source_velocity": [
     {
       "source": "Hugging Face Blog",
-      "mentions": 107,
-      "unique_days": 15
-    },
-    {
-      "source": "OpenAI News",
-      "mentions": 85,
-      "unique_days": 15
-    },
-    {
-      "source": "上海新国际博览中心 · 展会日程",
-      "mentions": 56,
-      "unique_days": 15
-    },
-    {
-      "source": "Colossal · 新兴手工与当代艺术",
-      "mentions": 50,
-      "unique_days": 15
-    },
-    {
-      "source": "GitHub Blog",
-      "mentions": 45,
-      "unique_days": 13
-    },
-    {
-      "source": "Runway News",
-      "mentions": 29,
+      "mentions": 98,
       "unique_days": 14
     },
     {
+      "source": "OpenAI News",
+      "mentions": 79,
+      "unique_days": 14
+    },
+    {
+      "source": "上海新国际博览中心 · 展会日程",
+      "mentions": 53,
+      "unique_days": 14
+    },
+    {
+      "source": "Colossal · 新兴手工与当代艺术",
+      "mentions": 44,
+      "unique_days": 14
+    },
+    {
+      "source": "GitHub Blog",
+      "mentions": 44,
+      "unique_days": 12
+    },
+    {
+      "source": "Runway News",
+      "mentions": 28,
+      "unique_days": 13
+    },
+    {
       "source": "Google AI",
-      "mentions": 23,
-      "unique_days": 15
+      "mentions": 21,
+      "unique_days": 14
     },
     {
       "source": "Jim Fan · 官方文章与研究",
-      "mentions": 21,
-      "unique_days": 11
-    },
-    {
-      "source": "ElevenLabs Blog",
       "mentions": 19,
-      "unique_days": 15
+      "unique_days": 9
     },
     {
       "source": "Runway Dev Changelog",
-      "mentions": 18,
-      "unique_days": 15
+      "mentions": 17,
+      "unique_days": 14
+    },
+    {
+      "source": "ElevenLabs Blog",
+      "mentions": 16,
+      "unique_days": 14
     }
   ],
   "urgent": [],
