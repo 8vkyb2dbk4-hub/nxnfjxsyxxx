@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "start_date": "2026-08-03",
+  "date": "2026-11-04",
+  "start_date": "2026-08-04",
   "items": [
     {
       "id": "a59b63a30499fa",
@@ -503,14 +503,6 @@
     {
       "source": "龙美术馆 · 当前展览",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.thelongmuseum.org', port=443): Max retries exceeded with url: /en/exhibition-current.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.thelongmuseum.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
-    },
-    {
-      "source": "Godot · 引擎发布",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='godotengine.org', port=443): Read timed out. (read timeout=16)"
-    },
-    {
-      "source": "Unity 中国 · 开发者线下活动",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='developer.unity.cn', port=443): Read timed out. (read timeout=16)"
     },
     {
       "source": "浙江省游戏行业协会 · 会展活动",

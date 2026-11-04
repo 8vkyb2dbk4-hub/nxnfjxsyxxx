@@ -1,32 +1,4 @@
 {
-  "date": "2026-11-03",
-  "items": [
-    {
-      "id": "f3d4f29143d019",
-      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat 2077AIDataFoundation • about 4 hours ago • 12",
-      "url": "https://huggingface.co/blog/2077AIDataFoundation/cyberarena",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/6aced2a6f5e3b6157ee23b20/xSFmZ2yuP586r4Xha3am5.jpeg",
-      "image_source": "https://huggingface.co/blog/2077AIDataFoundation/cyberarena",
-      "summary": "A Blog post by 2077AI on Hugging Face。",
-      "why": "关注内容：A Blog post by 2077AI on Hugging Face（原文未明确列出版本变化。）",
-      "action": "建议收藏",
-      "tier": "建议看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-03",
-      "date_confidence": "high",
-      "date_label": "2026-11-03",
-      "category": "新模型 / 开源",
-      "status": "建议看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 108,
-      "material_update": false,
-      "alternatives": []
-    }
-  ]
+  "date": "2026-11-04",
+  "items": []
 }
