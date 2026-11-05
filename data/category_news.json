@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "start_date": "2026-08-04",
+  "date": "2026-11-05",
+  "start_date": "2026-08-05",
   "items": [
     {
       "id": "a59b63a30499fa",
@@ -467,32 +467,6 @@
       "location": "",
       "score": 100,
       "material_update": false
-    },
-    {
-      "id": "27d326b4074fbe",
-      "title": "Models Research FLUX 3 Video, Part 1: Generation August 4, 2026",
-      "url": "https://bfl.ai/blog/flux-3-video",
-      "image": "https://cdn.sanity.io/images/2gpum2i6/production/281b2003f8a62e07391c6085a69ed91eb574d08c-1900x1264.png",
-      "image_source": "https://bfl.ai/blog/flux-3-video",
-      "summary": "Starting today, an initial version of FLUX 3 Video for generation from text and images is generally available via the BFL API and select partners. The model generates clips up to 20 seconds long in HD resolution, with Full HD outp。",
-      "why": "关注内容：Starting today, an initial version of FLUX 3 Video for generation from text and images is generally available via the BFL API and select partners.（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Black Forest Labs · 绘画动态",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-08-04",
-      "date_confidence": "high",
-      "date_label": "2026-08-04",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 139,
-      "material_update": true
     }
   ],
   "errors": [

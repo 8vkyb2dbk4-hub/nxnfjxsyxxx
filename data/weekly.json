@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T10:59:21+08:00",
+  "generated_at": "2026-11-05T11:27:38+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -40,32 +40,28 @@
         {
           "source": "OpenAI News",
           "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
-        },
-        {
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
         }
       ],
       "resurfaced": true,
       "why_original": "更新重点：OpenAI and ServiceNow expand their partnership to bring OpenAI models and agents into ServiceNow and ServiceNow workflows into ChatGPT and Codex."
     },
     {
-      "id": "0bb1ef5ed88c6a",
-      "title": "Meshy · API 更新日志 · 2026-11-02 更新",
-      "url": "https://docs.meshy.ai/en/api/changelog#update-89be38e466",
+      "id": "48a67cb186431b",
+      "title": "Meshy · API 更新日志 · 2026-11-03 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d",
       "image": "https://cdn.meshy.ai/landing-assets/og-images/docs_og.webp",
-      "image_source": "https://docs.meshy.ai/en/api/changelog#update-89be38e466",
-      "summary": " Added ai_model: \"meshy-n1\" to the Retexture API. Meshy N1 makes a 2K base color texture from one to four reference images. With more than one image, the first is the front view, and the order of the others doesn't matter, as with。",
-      "why": "关注内容：向Retexture API添加了ai_model: \"meshy-n1\"。（原文未明确列出版本变化。）",
+      "image_source": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d",
+      "summary": " Added texture_model to Image to 3D and Multi-Image to 3D , so you pick the texture model in the same task as the mesh. Image to 3D takes Meshy 7 ( meshy-7 ), Meshy N1 ( meshy-n1 ), and Meshy 6 Lite ( meshy-6-lite ) with any ai_mo。",
+      "why": "关注内容：将texture_model添加到Image to 3D和Multi-Image to 3D ，因此您可以在与网格相同的任务中选择纹理模型。（原文未明确列出版本变化。）",
       "action": "今天看",
       "tier": "必看",
       "source": "Meshy · API 更新日志",
       "source_type": "公司 / 官方",
       "source_priority": 5,
       "source_reliability": 10,
-      "published_at": "2026-11-02",
+      "published_at": "2026-11-03",
       "date_confidence": "high",
-      "date_label": "2026-11-02",
+      "date_label": "2026-11-03",
       "category": "游戏与 3D",
       "status": "必看",
       "deadline": null,
@@ -78,10 +74,14 @@
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-89be38e466"
+        },
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-89be38e466"
         }
       ],
       "resurfaced": true,
-      "why_original": "关注内容：Added ai_model: \"meshy-n1\" to the Retexture API.（原文未明确列出版本变化。）"
+      "why_original": "关注内容：Added texture_model to Image to 3D and Multi-Image to 3D , so you pick the texture model in the same task as the mesh.（原文未明确列出版本变化。）"
     },
     {
       "id": "003d54f4d36636",

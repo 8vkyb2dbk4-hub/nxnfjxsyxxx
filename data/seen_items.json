@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "54e4bbb96408e9",
       "source": "ElevenLabs Blog"
     },
@@ -87,7 +87,7 @@
     {
       "title": "Nano Banana Create and edit detailed images",
       "url": "https://deepmind.google/models/gemini-image",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-05",
       "content_hash": "ca949ecc86271f",
       "source": "Google DeepMind Blog"
     },
@@ -253,10 +253,10 @@
       "source": "字节 Seed · 即梦与豆包模型动态"
     },
     {
-      "title": "Meshy · API 更新日志 · 2026-11-02 更新",
-      "url": "https://docs.meshy.ai/en/api/changelog#update-89be38e466",
-      "last_seen": "2026-11-04",
-      "content_hash": "e97795d1f9b192",
+      "title": "Meshy · API 更新日志 · 2026-11-03 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d",
+      "last_seen": "2026-11-05",
+      "content_hash": "3c28ae59fab971",
       "source": "Meshy · API 更新日志"
     },
     {
@@ -430,43 +430,43 @@
     {
       "title": "DeepSeek, China, OpenAI, NVIDIA, xAI, TSMC, Stargate, and AI Megaclusters",
       "url": "https://www.youtube.com/watch?v=_1f-o0nqpEI",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-05",
       "content_hash": "8646a50739854c",
       "source": "Lex Fridman · 官方文章与研究"
     },
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
     {
       "title": "ElevenLabs Agents",
       "url": "https://docs.dev.runwayml.com/characters/elevenlabs",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-05",
       "content_hash": "62c604bed40689",
       "source": "Runway Dev Changelog"
     },
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
     {
       "title": "Fortnite, Unreal Engine, and the Future of Gaming",
       "url": "https://www.youtube.com/watch?v=477qF6QNSvc",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-05",
       "content_hash": "596d23b62e58f9",
       "source": "Lex Fridman · 官方文章与研究"
     },
     {
-      "title": "Connect Dev MCP",
+      "title": "Connect the MCP only",
       "url": "https://docs.dev.runwayml.com/guides/mcp",
-      "last_seen": "2026-10-25",
-      "content_hash": "610bb77e2819f9",
+      "last_seen": "2026-11-05",
+      "content_hash": "7571d63a7913e6",
       "source": "Runway Dev Changelog"
     },
     {
@@ -486,21 +486,21 @@
     {
       "title": "VIMA: General Robot Manipulation with Multimodal Prompts",
       "url": "https://vimalabs.github.io/",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-05",
       "content_hash": "d1198366711678",
       "source": "Jim Fan · 官方文章与研究"
     },
     {
       "title": "Training and Deploying Visual Agents at Scale",
       "url": "https://searchworks.stanford.edu/view/13967796",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-05",
       "content_hash": "720eef6bcae227",
       "source": "Jim Fan · 官方文章与研究"
     },
     {
       "title": "2021 commencement address at IIT Mumbai",
       "url": "https://www.cs.toronto.edu/~hinton/HintonMumbai.pdf",
-      "last_seen": "2026-10-25",
+      "last_seen": "2026-11-05",
       "content_hash": "38e8a9f53c40c6",
       "source": "Geoffrey Hinton · 官方文章与研究"
     },
@@ -612,14 +612,14 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
@@ -717,7 +717,7 @@
     {
       "title": "Responsible AI Development Policy",
       "url": "https://bfl.ai/legal/responsible-ai-development-policy",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-05",
       "content_hash": "52cd0412af3806",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -948,7 +948,7 @@
     {
       "title": "Google Developers blog",
       "url": "https://developers.googleblog.com/",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "8b59a3ce9a00e1",
       "source": "Google AI"
     },
@@ -1480,7 +1480,7 @@
     {
       "title": "The next developer interface is ambient intelligence",
       "url": "https://github.blog/news-insights/company-news/the-next-developer-interface-is-ambient-intelligence",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "7fc3eab7e80e7d",
       "source": "GitHub Blog"
     },
@@ -1814,10 +1814,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 13 days ago • 28",
+      "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 14 days ago • 28",
       "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-      "last_seen": "2026-11-04",
-      "content_hash": "6eb2075278f78b",
+      "last_seen": "2026-11-05",
+      "content_hash": "faa7f92a860db5",
       "source": "Hugging Face Blog"
     },
     {
@@ -1856,10 +1856,10 @@
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
-      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required 23 October 21, 2026",
+      "title": "NVIDIA Kumo Relational Outperforms Supervised Machine Learning on Relational Data, No Training Required nvidia • 14 days ago • 41",
       "url": "https://huggingface.co/blog/nvidia/kumo-relational",
-      "last_seen": "2026-10-25",
-      "content_hash": "a79f49393b5822",
+      "last_seen": "2026-11-05",
+      "content_hash": "4b0f4282e3d9bc",
       "source": "Hugging Face Blog"
     },
     {
@@ -2110,7 +2110,7 @@
     {
       "title": "‘The Encyclopedia of Movie Cats’ Is an Exhaustive Index of Every Feline to Prowl on Screen",
       "url": "https://www.thisiscolossal.com/2026/10/the-encyclopedia-of-movie-cats-a24",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "dc308c86aecb76",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2129,10 +2129,10 @@
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Granite Switch 4.1.1 — Update models like you update software 33 October 29, 2026",
+      "title": "Granite Switch 4.1.1 — Update models like you update software 34 October 29, 2026",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "last_seen": "2026-11-04",
-      "content_hash": "4db4eb2d794065",
+      "last_seen": "2026-11-05",
+      "content_hash": "bd9c4c74848db8",
       "source": "Hugging Face Blog"
     },
     {
@@ -2299,21 +2299,21 @@
     {
       "title": "The 30th China International Small Motor / Magnetic Materials / Robotics Technology Seminar and Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2804",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "55daed07942aa6",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "China Electronics Fair",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2805",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "e3c30effc291c4",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "Analytica China",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2806",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "33abbfb76333c1",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -2346,10 +2346,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 2 days ago • 5",
+      "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 3 days ago • 5",
       "url": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
-      "last_seen": "2026-11-04",
-      "content_hash": "c57e60ea3b3a71",
+      "last_seen": "2026-11-05",
+      "content_hash": "b3ca4de19524c8",
       "source": "Hugging Face Blog"
     },
     {
@@ -2369,7 +2369,7 @@
     {
       "title": "Dependabot version updates support Agent Package Manager",
       "url": "https://github.blog/changelog/2026-11-03-dependabot-version-updates-support-agent-package-manager",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-05",
       "content_hash": "de74cdc637a775",
       "source": "GitHub Blog"
     },
@@ -2407,6 +2407,83 @@
       "last_seen": "2026-11-04",
       "content_hash": "257c3bf664b3f4",
       "source": "上海新国际博览中心 · 展会日程"
+    },
+    {
+      "title": "Aminah Brenda Lynn Robinson’s Whimsical Books and Dolls Celebrate Black Community",
+      "url": "https://www.thisiscolossal.com/2026/11/aminah-brenda-lynn-robinsons-beaded-books-dolls-textiles",
+      "last_seen": "2026-11-05",
+      "content_hash": "ad63c5f72a8669",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Great Art Explained Traces the Incredible Story of Henri Matisse’s ‘The Red Studio’",
+      "url": "https://www.thisiscolossal.com/2026/11/great-art-explained-henri-matisse-the-red-studio-video",
+      "last_seen": "2026-11-05",
+      "content_hash": "f5365f72af2763",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Visible Brushstrokes Push on a Subtle Grid in Stelios Pupet’s Contemplative Scenes",
+      "url": "https://www.thisiscolossal.com/2026/11/stelios-pupet-murals-grid-paintings",
+      "last_seen": "2026-11-05",
+      "content_hash": "728505552eb61f",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "In Reviving a Landmark Exhibition, Organizers Showcase California’s Unique Craft Legacy",
+      "url": "https://craftcouncil.org/articles/in-reviving-a-landmark-exhibition-organizers-showcase-californias-unique-craft-sensibilities",
+      "last_seen": "2026-11-05",
+      "content_hash": "971530ad7b7dd5",
+      "source": "American Craft Council · 手工艺报道"
+    },
+    {
+      "title": "OpenAI to acquire Pierre Computer Company, Inc. Company Nov 4, 2026",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "last_seen": "2026-11-05",
+      "content_hash": "affbbc31b0b245",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Introducing Images 2.6 Product Nov 4, 2026",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "last_seen": "2026-11-05",
+      "content_hash": "dc7a4586f3f178",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Early progress on accelerating drug development with Claude",
+      "url": "https://www.anthropic.com/research/early-progress-drug-development",
+      "last_seen": "2026-11-05",
+      "content_hash": "6370b8490d46c0",
+      "source": "Anthropic News"
+    },
+    {
+      "title": "Try Gemini",
+      "url": "https://gemini.google.com/",
+      "last_seen": "2026-11-05",
+      "content_hash": "bda8038d2e7fa9",
+      "source": "Google DeepMind Blog"
+    },
+    {
+      "title": "Google Labs Try our AI experiments",
+      "url": "https://labs.google/",
+      "last_seen": "2026-11-05",
+      "content_hash": "065a7d30bd0917",
+      "source": "Google DeepMind Blog"
+    },
+    {
+      "title": "“锦绣天府 安逸四川”2026知名高校四川人才活动季在上海交通大学举行 2026年11月05日",
+      "url": "https://news.sjtu.edu.cn/jdyw/20261105/227276.html",
+      "last_seen": "2026-11-05",
+      "content_hash": "cebb8d1984592d",
+      "source": "上海交通大学 · 新闻与论坛"
+    },
+    {
+      "title": "人文学院行政党支部开展新进教师座谈会暨党员结对主题党日活动 2026年11月05日",
+      "url": "https://news.sjtu.edu.cn/zhxw/20261105/227274.html",
+      "last_seen": "2026-11-05",
+      "content_hash": "da86023a0056b4",
+      "source": "上海交通大学 · 新闻与论坛"
     }
   ]
 }
