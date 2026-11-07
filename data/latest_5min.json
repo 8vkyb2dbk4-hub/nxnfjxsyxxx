@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-06",
-  "edition": "AUTO-20261106-5min",
+  "date": "2026-11-07",
+  "edition": "AUTO-20261107-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 41 条高优先级 AI 信息",
+  "headline": "今天筛出 40 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
@@ -65,9 +65,9 @@
       "source_type": "公司 / 官方",
       "source_priority": 5,
       "source_reliability": 10,
-      "published_at": "2026-11-04",
+      "published_at": "2026-11-06",
       "date_confidence": "medium",
-      "date_label": "2026-11-04",
+      "date_label": "2026-11-06",
       "category": "新模型 / 开源",
       "status": "必看",
       "deadline": null,
@@ -77,6 +77,7 @@
       "score": 138,
       "material_update": true,
       "alternatives": [],
+      "resurfaced": true,
       "why_original": "更新重点：Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
     },
     {
@@ -120,36 +121,8 @@
       "icon": "✦",
       "items": [
         {
-          "id": "13017feda77928",
-          "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 15 days ago • 28",
-          "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/681174fc4119e4ecc91f7f0c/XANlxAAdvzv1pVoIurSzD.png",
-          "image_source": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-          "summary": "A Blog post by NVIDIA on Hugging Face。",
-          "why": "关注内容：A Blog post by NVIDIA on Hugging Face（原文未明确列出版本变化。）",
-          "action": "今天看",
-          "tier": "必看",
-          "source": "Hugging Face Blog",
-          "source_type": "开源社区",
-          "source_priority": 5,
-          "source_reliability": 8,
-          "published_at": "2026-10-21",
-          "date_confidence": "high",
-          "date_label": "2026-10-21",
-          "category": "AI 绘画",
-          "status": "必看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 133,
-          "material_update": true,
-          "alternatives": [],
-          "resurfaced": true
-        },
-        {
           "id": "43aac9cabec56c",
-          "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 4 days ago • 5",
+          "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 5 days ago • 5",
           "url": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/651b46a0149c25b950f1a698/9pv0l3uk4uOOmd474KgAi.png",
           "image_source": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
@@ -175,6 +148,34 @@
           "alternatives": [],
           "resurfaced": true,
           "why_original": "关注内容：A Blog post by Dragonscale Industries Inc.（原文未明确列出版本变化。）"
+        },
+        {
+          "id": "13017feda77928",
+          "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 16 days ago • 28",
+          "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/681174fc4119e4ecc91f7f0c/XANlxAAdvzv1pVoIurSzD.png",
+          "image_source": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
+          "summary": "A Blog post by NVIDIA on Hugging Face。",
+          "why": "关注内容：A Blog post by NVIDIA on Hugging Face（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-10-21",
+          "date_confidence": "high",
+          "date_label": "2026-10-21",
+          "category": "AI 绘画",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 133,
+          "material_update": true,
+          "alternatives": [],
+          "resurfaced": true
         }
       ]
     },
@@ -309,64 +310,7 @@
     {
       "name": "Agent / 编程",
       "icon": "⌘",
-      "items": [
-        {
-          "id": "9b1329b9ef32c0",
-          "title": "IJCAI award for research excellence",
-          "url": "http://ijcai.org/awards",
-          "image": "",
-          "image_source": "http://ijcai.org/awards",
-          "summary": "Vice-Chancellor and President of Loughborough University, UK。",
-          "why": "关注内容：英国拉夫堡大学副校长兼校长（原文未明确列出版本变化。）",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "Geoffrey Hinton · 官方文章与研究",
-          "source_type": "专家观点 / 官方主页",
-          "source_priority": 5,
-          "source_reliability": 10,
-          "published_at": "",
-          "date_confidence": "unknown",
-          "date_label": "日期待确认",
-          "category": "Agent / 编程",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 92,
-          "material_update": false,
-          "alternatives": [],
-          "why_original": "关注内容：Vice-Chancellor and President of Loughborough University, UK（原文未明确列出版本变化。）"
-        },
-        {
-          "id": "30fdf9ec936820",
-          "title": "Computers & Chemical Engineering Journal, 2017 AIChE Annual Meeting, 2014",
-          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0098135417301382",
-          "image": "",
-          "image_source": "https://www.sciencedirect.com/science/article/abs/pii/S0098135417301382",
-          "summary": "官方来源出现与“Computers & Chemical Engineering Journal, 2017”相关的新条目，完整内容需进入原始来源确认。",
-          "why": "关注内容：《计算机与化学工程》杂志， 2017年AIChE年会， 2014年；具体能力与更新细节需查看原文。",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "Jim Fan · 官方文章与研究",
-          "source_type": "专家观点 / 官方主页",
-          "source_priority": 5,
-          "source_reliability": 10,
-          "published_at": "",
-          "date_confidence": "unknown",
-          "date_label": "日期待确认",
-          "category": "Agent / 编程",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 92,
-          "material_update": false,
-          "alternatives": [],
-          "why_original": "关注主题：Computers & Chemical Engineering Journal, 2017 AIChE Annual Meeting, 2014；具体能力与更新细节需查看原文。"
-        }
-      ]
+      "items": []
     },
     {
       "name": "新模型 / 开源",
@@ -435,35 +379,7 @@
     {
       "name": "论坛 / 展会",
       "icon": "◉",
-      "items": [
-        {
-          "id": "ca3491d229c258",
-          "title": "交大金课 【交大金课】席涛：图形创意设计 2026年11月06日",
-          "url": "https://news.sjtu.edu.cn/ztzl_jdjk/20261106/227299.html",
-          "image": "",
-          "image_source": "https://news.sjtu.edu.cn/ztzl_jdjk/20261106/227299.html",
-          "summary": "席涛，上海交通大学媒体与传播学院长聘教授、博士生导师，信息设计研究所所长，兼任中国高等教育学会设计教育分会常务理事、中国工业设计协会教育分会副理事长以及上海市人工智能学会智能设计与传播专委会委员。主持课程荣获国家级一流本科课程、上海市精品课程、上海市重点课程、上海市优秀教学成果一等奖、上海交大教书育人二等奖、上海交通大学教学成果一等奖等。荣获中国工业设计资深专家、中国工业设计十佳教育工作者、中国十佳设计师等学术荣誉称号。",
-          "why": "关注内容：席涛，上海交通大学媒体与传播学院长聘教授、博士生导师，信息设计研究所所长，兼任中国高等教育学会设计教育分会常务理事、中国工业设计协会教育分会副理事长以及上海市人工智能学会智能设计与传播专委会委员。主持课程荣获国家级一流本科课程、上海市精品课程、上海市重点课程、上海市优秀教学成果一等奖、上海交大教书育人二等奖、上海交通大学教学成果一等奖等。荣获中国工业设计资深专家、中国工业设计十佳教育工作者、中国十佳设计师等学术荣誉称号。（原文未明确列出版本变化。）",
-          "action": "建议收藏",
-          "tier": "建议看",
-          "source": "上海交通大学 · 新闻与论坛",
-          "source_type": "高校",
-          "source_priority": 5,
-          "source_reliability": 10,
-          "published_at": "",
-          "date_confidence": "unknown",
-          "date_label": "日期待确认",
-          "category": "论坛 / 展会",
-          "status": "建议看",
-          "deadline": null,
-          "event_date": "2026-11-06",
-          "event_end_date": null,
-          "location": "",
-          "score": 110,
-          "material_update": false,
-          "alternatives": []
-        }
-      ]
+      "items": []
     }
   ]
 }

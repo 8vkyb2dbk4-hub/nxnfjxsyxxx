@@ -1,33 +1,4 @@
 {
-  "date": "2026-11-06",
-  "items": [
-    {
-      "id": "569001c3dcbcdb",
-      "title": "SuperCLUE November 2026: Category Leaders and the Full 19-Model Score Ranking FINAL-Bench • about 1 hour ago • 7",
-      "url": "https://huggingface.co/blog/FINAL-Bench/superclue-november-2026-category-leaders-open-mode",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/Sr2wOevij1CgYjZgDQ27X.png",
-      "image_source": "https://huggingface.co/blog/FINAL-Bench/superclue-november-2026-category-leaders-open-mode",
-      "summary": "A Blog post by FINAL_Bench on Hugging Face。",
-      "why": "关注内容：FINAL_Bench在拥抱脸上的博客帖子（原文未明确列出版本变化。）",
-      "action": "建议收藏",
-      "tier": "建议看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 4,
-      "source_reliability": 8,
-      "published_at": "2026-11-06",
-      "date_confidence": "high",
-      "date_label": "2026-11-06",
-      "category": "AI 影视",
-      "status": "建议看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 106,
-      "material_update": true,
-      "alternatives": [],
-      "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
-    }
-  ]
+  "date": "2026-11-07",
+  "items": []
 }

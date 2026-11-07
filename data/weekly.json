@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T11:23:27+08:00",
+  "generated_at": "2026-11-07T10:44:57+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -29,10 +29,6 @@
       "score": 165,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
-        },
         {
           "source": "OpenAI News",
           "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
@@ -67,6 +63,10 @@
       "score": 157,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "Meshy · API 更新日志",
+          "url": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d"
+        },
         {
           "source": "Meshy · API 更新日志",
           "url": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d"
