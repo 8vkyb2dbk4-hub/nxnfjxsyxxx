@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-07",
-  "edition": "AUTO-20261107-5min",
+  "date": "2026-11-08",
+  "edition": "AUTO-20261108-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 40 条高优先级 AI 信息",
+  "headline": "今天筛出 41 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
@@ -121,8 +121,36 @@
       "icon": "✦",
       "items": [
         {
+          "id": "db98bf59a6c7e4",
+          "title": "Build specialized multimodal models with LFM3 97 October 27, 2026",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "image": "https://cdn-uploads.huggingface.co/production/uploads/644249b08443bce4c9890a0f/wEKXxH6qGa7vmHjn5KA-W.png",
+          "image_source": "https://huggingface.co/blog/LiquidAI/lfm3",
+          "summary": "A Blog post by Liquid AI on Hugging Face。",
+          "why": "关注内容：Liquid AI在Hugging Face上的博客文章（原文未明确列出版本变化。）",
+          "action": "今天看",
+          "tier": "必看",
+          "source": "Hugging Face Blog",
+          "source_type": "开源社区",
+          "source_priority": 5,
+          "source_reliability": 8,
+          "published_at": "2026-10-27",
+          "date_confidence": "high",
+          "date_label": "2026-10-27",
+          "category": "AI 绘画",
+          "status": "必看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 137,
+          "material_update": false,
+          "alternatives": [],
+          "why_original": "关注内容：A Blog post by Liquid AI on Hugging Face（原文未明确列出版本变化。）"
+        },
+        {
           "id": "43aac9cabec56c",
-          "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 5 days ago • 5",
+          "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 6 days ago • 5",
           "url": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/651b46a0149c25b950f1a698/9pv0l3uk4uOOmd474KgAi.png",
           "image_source": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
@@ -148,34 +176,6 @@
           "alternatives": [],
           "resurfaced": true,
           "why_original": "关注内容：A Blog post by Dragonscale Industries Inc.（原文未明确列出版本变化。）"
-        },
-        {
-          "id": "13017feda77928",
-          "title": "Train in Simulation, Deploy on a Real Robot: Microduck with Isaac Lab 3.0 nvidia • 16 days ago • 28",
-          "url": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-          "image": "https://cdn-uploads.huggingface.co/production/uploads/681174fc4119e4ecc91f7f0c/XANlxAAdvzv1pVoIurSzD.png",
-          "image_source": "https://huggingface.co/blog/nvidia/microduck-isaac-lab-sim-to-real",
-          "summary": "A Blog post by NVIDIA on Hugging Face。",
-          "why": "关注内容：A Blog post by NVIDIA on Hugging Face（原文未明确列出版本变化。）",
-          "action": "今天看",
-          "tier": "必看",
-          "source": "Hugging Face Blog",
-          "source_type": "开源社区",
-          "source_priority": 5,
-          "source_reliability": 8,
-          "published_at": "2026-10-21",
-          "date_confidence": "high",
-          "date_label": "2026-10-21",
-          "category": "AI 绘画",
-          "status": "必看",
-          "deadline": null,
-          "event_date": null,
-          "event_end_date": null,
-          "location": "",
-          "score": 133,
-          "material_update": true,
-          "alternatives": [],
-          "resurfaced": true
         }
       ]
     },
@@ -310,7 +310,36 @@
     {
       "name": "Agent / 编程",
       "icon": "⌘",
-      "items": []
+      "items": [
+        {
+          "id": "3fc08e9c670d99",
+          "title": "Benchmark",
+          "url": "https://github.com/vimalabs/vimabench",
+          "image": "https://opengraph.githubassets.com/03f34b5cccc989f015f4a88078c0d8e5b569b4e7b0a38540c6fc8f2b78b4c4a7/vimalabs/VIMABench",
+          "image_source": "https://github.com/vimalabs/vimabench",
+          "summary": "Official Task Suite Implementation of ICML'23 Paper \"VIMA: General Robot Manipulation with Multimodal Prompts\" - vimalabs/VIMABench。",
+          "why": "关注内容：ICML '23的官方任务套件实施论文“VIMA ：使用多模式提示进行通用机器人操作” - vimalabs/VIMABench（原文未明确列出版本变化。）",
+          "action": "建议收藏",
+          "tier": "建议看",
+          "source": "Jim Fan · 官方文章与研究",
+          "source_type": "专家观点 / 官方主页",
+          "source_priority": 5,
+          "source_reliability": 10,
+          "published_at": "",
+          "date_confidence": "unknown",
+          "date_label": "日期待确认",
+          "category": "Agent / 编程",
+          "status": "建议看",
+          "deadline": null,
+          "event_date": null,
+          "event_end_date": null,
+          "location": "",
+          "score": 92,
+          "material_update": false,
+          "alternatives": [],
+          "why_original": "关注内容：Official Task Suite Implementation of ICML'23 Paper \"VIMA: General Robot Manipulation with Multimodal Prompts\" - vimalabs/VIMABench（原文未明确列出版本变化。）"
+        }
+      ]
     },
     {
       "name": "新模型 / 开源",
