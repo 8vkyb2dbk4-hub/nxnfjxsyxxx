@@ -59,8 +59,8 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-11-08",
-      "content_hash": "eb0cf1e8fbf201",
+      "last_seen": "2026-11-09",
+      "content_hash": "54e4bbb96408e9",
       "source": "ElevenLabs Blog"
     },
     {
@@ -101,7 +101,7 @@
     {
       "title": "Research",
       "url": "https://openai.com/news/research",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "ae83a4f9768df3",
       "source": "OpenAI News"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-11-03 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "3c28ae59fab971",
       "source": "Meshy · API 更新日志"
     },
@@ -437,7 +437,7 @@
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -612,14 +612,14 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
@@ -717,7 +717,7 @@
     {
       "title": "Responsible AI Development Policy",
       "url": "https://bfl.ai/legal/responsible-ai-development-policy",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "52cd0412af3806",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -871,7 +871,7 @@
     {
       "title": "上海外滩美术馆 R ock b und A rt M useum",
       "url": "https://www.rockbundartmuseum.org/",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-11-09",
       "content_hash": "be809d12084770",
       "source": "上海外滩美术馆 · 展览档案与预告"
     },
@@ -948,7 +948,7 @@
     {
       "title": "Google Developers blog",
       "url": "https://developers.googleblog.com/",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "8b59a3ce9a00e1",
       "source": "Google AI"
     },
@@ -1228,14 +1228,14 @@
     {
       "title": "Crafts Council Membership Stories How (and why) to open a repair cafe",
       "url": "https://www.craftscouncil.org.uk/stories/how-and-why-to-open-a-repair-cafe",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "5dd0c687c3bae9",
       "source": "Crafts Council · Crafts 手工艺刊物"
     },
     {
       "title": "FLUX 3 Image",
       "url": "https://bfl.ai/models/flux-3-image",
-      "last_seen": "2026-10-12",
+      "last_seen": "2026-11-09",
       "content_hash": "71dfff440d8a19",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -1494,14 +1494,14 @@
     {
       "title": "Policy Model",
       "url": "https://runwayml.com/product/robotics/policy-model",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-09",
       "content_hash": "d4e619edaf5c35",
       "source": "Runway News"
     },
     {
       "title": "Meshy Edit: Edit Your 3D Model with Words",
       "url": "https://www.meshy.ai/blog/meshy-edit",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-11-09",
       "content_hash": "c3868a2239b436",
       "source": "Meshy · 产品更新"
     },
@@ -2054,7 +2054,7 @@
     {
       "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
       "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
-      "last_seen": "2026-11-04",
+      "last_seen": "2026-11-09",
       "content_hash": "60b1c8dcf8f52b",
       "source": "GitHub Blog"
     },
@@ -2131,7 +2131,7 @@
     {
       "title": "Granite Switch 4.1.1 — Update models like you update software 36 October 29, 2026",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "0e0fa669eab756",
       "source": "Hugging Face Blog"
     },
@@ -2299,21 +2299,21 @@
     {
       "title": "The 30th China International Small Motor / Magnetic Materials / Robotics Technology Seminar and Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2804",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "55daed07942aa6",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "China Electronics Fair",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2805",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "e3c30effc291c4",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "Analytica China",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2806",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "33abbfb76333c1",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -2346,10 +2346,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 6 days ago • 5",
+      "title": "Bring Your Own Schema: How We Built kniv v7 dragonscale-ai • 7 days ago • 5",
       "url": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
-      "last_seen": "2026-11-08",
-      "content_hash": "039cb943b48347",
+      "last_seen": "2026-11-09",
+      "content_hash": "47f67d931453f3",
       "source": "Hugging Face Blog"
     },
     {
@@ -2383,7 +2383,7 @@
     {
       "title": "Maintainers",
       "url": "https://github.blog/open-source/maintainers",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-09",
       "content_hash": "8ebc54a7675a62",
       "source": "GitHub Blog"
     },
@@ -2404,7 +2404,7 @@
     {
       "title": "Shanghai International Automotive Air Conditioning and Refrigeration Technology Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2807",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "257c3bf664b3f4",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -2439,14 +2439,14 @@
     {
       "title": "OpenAI to acquire Pierre Computer Company, Inc. Company Nov 4, 2026",
       "url": "https://openai.com/index/openai-to-acquire-pierre",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "affbbc31b0b245",
       "source": "OpenAI News"
     },
     {
       "title": "Introducing Images 2.6 Product Nov 4, 2026",
       "url": "https://openai.com/index/introducing-images-2-6",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "dc7a4586f3f178",
       "source": "OpenAI News"
     },
@@ -2488,7 +2488,7 @@
     {
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents Product Nov 5, 2026",
       "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "91f1f0d59f1ed8",
       "source": "OpenAI News"
     },
@@ -2509,7 +2509,7 @@
     {
       "title": "Google Research Explore our research",
       "url": "https://research.google/",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "f382ff51f1441e",
       "source": "Google DeepMind Blog"
     },
@@ -2565,7 +2565,7 @@
     {
       "title": "GitHub Copilot weekly releases — November 2",
       "url": "https://github.blog/changelog/2026-11-06-github-copilot-weekly-releases-november-2",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-09",
       "content_hash": "bf003a2463c527",
       "source": "GitHub Blog"
     },
@@ -2596,6 +2596,55 @@
       "last_seen": "2026-11-08",
       "content_hash": "f2e6eee27fa72c",
       "source": "Google AI"
+    },
+    {
+      "title": "Sand3D: 106,094 3D objects in one code substrate for language models Sandflow • 4 days ago • 5",
+      "url": "https://huggingface.co/blog/Sandflow/sand3d-106094-3d-objects-in-one-code-substrate-for",
+      "last_seen": "2026-11-09",
+      "content_hash": "7fd121eda634e2",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Why We Built Design Creativity Bench: Measuring What AI Coding Benchmarks Miss Kombai • 7 days ago • 5",
+      "url": "https://huggingface.co/blog/Kombai/why-we-built-design-creativity-bench",
+      "last_seen": "2026-11-09",
+      "content_hash": "02af9a68935334",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Beyond code generation: A developer’s guide to agentic engineering",
+      "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
+      "last_seen": "2026-11-09",
+      "content_hash": "9f5e5adf95971e",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Copilot impact dashboard adds chat and VS Code agent usage",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-impact-dashboard-adds-chat-and-vs-code-agent-usage",
+      "last_seen": "2026-11-09",
+      "content_hash": "6c416ec1b9cf28",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Google Cloud AI",
+      "url": "https://research.google/teams/cloud-ai",
+      "last_seen": "2026-11-09",
+      "content_hash": "4233d161d538c6",
+      "source": "Jim Fan · 官方文章与研究"
+    },
+    {
+      "title": "OpenAI, GPT-5, Sora, Board Saga, Elon Musk, Ilya, Power & AGI",
+      "url": "https://www.youtube.com/watch?v=jvqFAi7vkBc",
+      "last_seen": "2026-11-09",
+      "content_hash": "acb1ee1b3f8623",
+      "source": "Lex Fridman · 官方文章与研究"
+    },
+    {
+      "title": "上海交大关工委举行纪念中国工农红军长征胜利90周年专题讲座暨集体备课会 2026年11月09日",
+      "url": "https://news.sjtu.edu.cn/zhxw/20261109/227351.html",
+      "last_seen": "2026-11-09",
+      "content_hash": "c04ec359b64049",
+      "source": "上海交通大学 · 新闻与论坛"
     }
   ]
 }
