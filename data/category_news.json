@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-10",
-  "start_date": "2026-08-10",
+  "date": "2026-11-11",
+  "start_date": "2026-08-11",
   "items": [
     {
       "id": "a59b63a30499fa",
@@ -509,6 +509,10 @@
     {
       "source": "Midjourney · 官方 X",
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Midjourney · 官方更新",
+      "error": "HTTPError: 404 Client Error: Not Found for url: https://updates.midjourney.com/"
     },
     {
       "source": "Runway · 官方 X",
