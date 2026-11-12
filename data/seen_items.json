@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "eb0cf1e8fbf201",
       "source": "ElevenLabs Blog"
     },
@@ -94,21 +94,21 @@
     {
       "title": "Skip to main content",
       "url": "https://openai.com/news",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "b6259ee376348e",
       "source": "OpenAI News"
     },
     {
       "title": "Research",
       "url": "https://openai.com/news/research",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "ae83a4f9768df3",
       "source": "OpenAI News"
     },
     {
       "title": "Global Affairs",
       "url": "https://openai.com/news/global-affairs",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "3ee2aa69188b10",
       "source": "OpenAI News"
     },
@@ -253,10 +253,10 @@
       "source": "字节 Seed · 即梦与豆包模型动态"
     },
     {
-      "title": "Meshy · API 更新日志 · 2026-11-03 更新",
-      "url": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d",
-      "last_seen": "2026-11-11",
-      "content_hash": "3c28ae59fab971",
+      "title": "Meshy · API 更新日志 · 2026-11-10 更新",
+      "url": "https://docs.meshy.ai/en/api/changelog#update-04e59e5d88",
+      "last_seen": "2026-11-12",
+      "content_hash": "f52126bb16ee12",
       "source": "Meshy · API 更新日志"
     },
     {
@@ -437,7 +437,7 @@
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -612,7 +612,7 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -2054,7 +2054,7 @@
     {
       "title": "Octoverse: Commits, pushes, reach new highs in 2026 as developers build with agents",
       "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-12",
       "content_hash": "60b1c8dcf8f52b",
       "source": "GitHub Blog"
     },
@@ -2117,7 +2117,7 @@
     {
       "title": "American Craft Connects Conference Report 2026",
       "url": "https://craftcouncil.org/articles/american-craft-connects-conference-report-2026",
-      "last_seen": "2026-10-30",
+      "last_seen": "2026-11-12",
       "content_hash": "5852676ec69cc9",
       "source": "American Craft Council · 手工艺报道"
     },
@@ -2131,7 +2131,7 @@
     {
       "title": "Granite Switch 4.1.1 — Update models like you update software 36 October 29, 2026",
       "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "0e0fa669eab756",
       "source": "Hugging Face Blog"
     },
@@ -2236,7 +2236,7 @@
     {
       "title": "Open Source",
       "url": "https://github.blog/open-source",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-12",
       "content_hash": "ff278b00ae5210",
       "source": "GitHub Blog"
     },
@@ -2313,7 +2313,7 @@
     {
       "title": "Analytica China",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2806",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "33abbfb76333c1",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -2383,7 +2383,7 @@
     {
       "title": "Maintainers",
       "url": "https://github.blog/open-source/maintainers",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "8ebc54a7675a62",
       "source": "GitHub Blog"
     },
@@ -2404,7 +2404,7 @@
     {
       "title": "Shanghai International Automotive Air Conditioning and Refrigeration Technology Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2807",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "257c3bf664b3f4",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -2509,7 +2509,7 @@
     {
       "title": "Google Research Explore our research",
       "url": "https://research.google/",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-12",
       "content_hash": "f382ff51f1441e",
       "source": "Google DeepMind Blog"
     },
@@ -2614,7 +2614,7 @@
     {
       "title": "Beyond code generation: A developer’s guide to agentic engineering",
       "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "9f5e5adf95971e",
       "source": "GitHub Blog"
     },
@@ -2663,7 +2663,7 @@
     {
       "title": "Son Lux’s Music Video for ‘Out Into Us’ Is an Atmospheric Foray Between Past and Present",
       "url": "https://www.thisiscolossal.com/2026/11/son-lux-alex-cook-out-into-us-music-video",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "147b2852b4c6ac",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2675,17 +2675,17 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Qai x Hugging Face Hackathon qai-hackathon • 1 day ago • 6",
+      "title": "Qai x Hugging Face Hackathon qai-hackathon • 3 days ago • 6",
       "url": "https://huggingface.co/blog/qai-hackathon/qai-hf",
-      "last_seen": "2026-11-11",
-      "content_hash": "c9d8896e91d51e",
+      "last_seen": "2026-11-12",
+      "content_hash": "7ffd210c2fcd32",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "SafetyPulse: Catching Safety Drift During Fine-Tuning by Reading the Model's Refusal Circuit purvansh01 • 3 days ago • 7",
+      "title": "SafetyPulse: Catching Safety Drift During Fine-Tuning by Reading the Model's Refusal Circuit purvansh01 • 4 days ago • 7",
       "url": "https://huggingface.co/blog/purvansh01/safetypulse-safety-drift-monitor",
-      "last_seen": "2026-11-11",
-      "content_hash": "6550614e8c269f",
+      "last_seen": "2026-11-12",
+      "content_hash": "dc3f0b3848f41b",
       "source": "Hugging Face Blog"
     },
     {
@@ -2698,7 +2698,7 @@
     {
       "title": "Introducing MiniMax Code Mini App",
       "url": "https://www.minimax.io/blog/minimax-code-mini-app-1792650729",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "2fd4a34403f5e7",
       "source": "MiniMax · 海螺模型动态"
     },
@@ -2712,14 +2712,14 @@
     {
       "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
       "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "389d684156e59d",
       "source": "Anthropic News"
     },
     {
       "title": "Interpack China 2026",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2808",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "f174a222ca332f",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -2740,7 +2740,7 @@
     {
       "title": "Limited-Edition Screenprints for the Budding Collector",
       "url": "https://www.thisiscolossal.com/2026/11/prints-colossal-gift-guide-2026",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "1a9f12840b2492",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2754,7 +2754,7 @@
     {
       "title": "Amy Genser’s Elaborate Mulberry Paper Assemblages Undulate Like the Sea",
       "url": "https://www.thisiscolossal.com/2026/11/amy-genser-paper-wall-sculptures",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "73f326419c5514",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2768,7 +2768,7 @@
     {
       "title": "AI Adoption",
       "url": "https://openai.com/news/ai-adoption",
-      "last_seen": "2026-11-11",
+      "last_seen": "2026-11-12",
       "content_hash": "02349101dbb7f4",
       "source": "OpenAI News"
     },
@@ -2787,11 +2787,81 @@
       "source": "OpenAI News"
     },
     {
-      "title": "guide partnerships gcp Pay for Hugging Face Hub with your Google Cloud Account 8 November 10, 2026",
+      "title": "guide partnerships gcp Pay for Hugging Face Hub with your Google Cloud Account 12 November 10, 2026",
       "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "last_seen": "2026-11-11",
-      "content_hash": "9de317aefcfcac",
+      "last_seen": "2026-11-12",
+      "content_hash": "5f53619c36674e",
       "source": "Hugging Face Blog"
+    },
+    {
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model 20 November 11, 2026",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "last_seen": "2026-11-12",
+      "content_hash": "5e67a5f8653815",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Philip Baldwin and Monica Guggisberg’s Collaborations in Glass Might Be Out of This World",
+      "url": "https://craftcouncil.org/articles/philip-baldwin-and-monica-guggisbergs-collaborations-in-glass-might-be-out-of-this-world",
+      "last_seen": "2026-11-12",
+      "content_hash": "88a3558ff230fa",
+      "source": "American Craft Council · 手工艺报道"
+    },
+    {
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 1 day ago • 9",
+      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "last_seen": "2026-11-12",
+      "content_hash": "01e001657606d5",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "*Evaluating Privacy Protection and Practical AI Applications with 100,000 Synthetic Business Documents Across Eight Domains* nvidia • 3 days ago • 5",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-pii-japan",
+      "last_seen": "2026-11-12",
+      "content_hash": "cf78ed8c51f00d",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
+      "url": "https://elevenlabs.io/blog/nyc-summit",
+      "last_seen": "2026-11-12",
+      "content_hash": "035a576cabe820",
+      "source": "ElevenLabs Blog"
+    },
+    {
+      "title": "Partnering with Hacktron to strengthen OpenAI’s security Security Nov 6, 2026",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "last_seen": "2026-11-12",
+      "content_hash": "b05ba24b535540",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "2026年11月04日 上海交大DNA存储团队Nature发文，构建自主生物分子操作的AI原生科学实验室",
+      "url": "https://news.sjtu.edu.cn/jdzh/20261111/227468.html",
+      "last_seen": "2026-11-12",
+      "content_hash": "63377f8dbfb4d0",
+      "source": "上海交通大学 · 新闻与论坛"
+    },
+    {
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "last_seen": "2026-11-12",
+      "content_hash": "ffef2d226d91cc",
+      "source": "Anthropic News"
+    },
+    {
+      "title": "【讲座】杭图有约 | 在历史中照见你我——《今日...",
+      "url": "https://www.zjhzlib.cn/hdygjz/8273.htm",
+      "last_seen": "2026-11-12",
+      "content_hash": "d6f665d6abd408",
+      "source": "杭州图书馆 · 公开讲座与培训"
+    },
+    {
+      "title": "【讲座】杭图有约 | “从伟大长征精神到中国共产...",
+      "url": "https://www.zjhzlib.cn/hdygjz/8271.htm",
+      "last_seen": "2026-11-12",
+      "content_hash": "a3e126b43009b1",
+      "source": "杭州图书馆 · 公开讲座与培训"
     }
   ]
 }
