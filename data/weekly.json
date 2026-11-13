@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T11:46:53+08:00",
+  "generated_at": "2026-11-13T11:23:06+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -31,7 +31,7 @@
       "alternatives": [
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-a2eca69f6d"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-04e59e5d88"
         },
         {
           "source": "Meshy · API 更新日志",
@@ -194,6 +194,64 @@
       ],
       "resurfaced": true,
       "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
+    },
+    {
+      "id": "782b5352fe5fa4",
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 2 days ago • 11",
+      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
+      "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "summary": "A Blog post by TNG Technology Consulting GmbH on Hugging Face。",
+      "why": "关注内容：TNG Technology Consulting GmbH关于拥抱脸的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-10",
+      "date_confidence": "high",
+      "date_label": "2026-11-10",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "a5c3d321385253",
+      "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
+      "url": "https://elevenlabs.io/blog/nyc-summit",
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/jd8xet1p04m-Horizontal.webp",
+      "image_source": "https://elevenlabs.io/blog/nyc-summit",
+      "summary": "Everything ElevenLabs announced at its NYC Summit: fine-tuning, Interaction Engine, Memory, Routines, ElevenAI, Partner Program, and Marketplace。",
+      "why": "关注内容：ElevenLabs 在纽约峰会上宣布的所有内容：微调、交互引擎、记忆、例程、ElevenAI、合作伙伴计划和市场。（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
+      "source_priority": 5,
+      "source_reliability": 6,
+      "published_at": "2026-11-11",
+      "date_confidence": "high",
+      "date_label": "2026-11-11",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "关注内容：Everything ElevenLabs announced at its NYC Summit: fine-tuning, Interaction Engine, Memory, Routines, ElevenAI, Partner Program, and Marketplace.（原文未明确列出版本变化。）"
     }
   ]
 }

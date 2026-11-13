@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T11:46:53+08:00",
+  "updated_at": "2026-11-13T11:23:06+08:00",
   "source_count": 118,
-  "candidate_count": 276,
+  "candidate_count": 286,
   "error_count": 25,
   "errors": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "source": "Midjourney · 官方更新",
-      "error": "HTTPError: 404 Client Error: Not Found for url: https://updates.midjourney.com/"
+      "error": "SSLError: HTTPSConnectionPool(host='updates.midjourney.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'updates.midjourney.com'. (_ssl.c:1011)\")))"
     },
     {
       "source": "Runway · 官方 X",
