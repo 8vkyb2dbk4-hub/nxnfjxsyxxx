@@ -1,8 +1,8 @@
 {
-  "date": "2026-11-14",
-  "edition": "AUTO-20261114-5min",
+  "date": "2026-11-15",
+  "edition": "AUTO-20261115-5min",
   "reading_minutes": 5,
-  "headline": "今天筛出 50 条高优先级 AI 信息",
+  "headline": "今天筛出 52 条高优先级 AI 信息",
   "note": "5min 模式：优先一手来源；发布日期不确定的内容会降权；最近重复出现的旧条目默认不再推送。",
   "top3": [
     {
@@ -45,14 +45,14 @@
         },
         {
           "source": "Meshy · API 更新日志",
-          "url": "https://docs.meshy.ai/en/api/changelog#update-bd31cd2746"
+          "url": "https://docs.meshy.ai/en/api/changelog#update-fcb199b743"
         }
       ],
       "resurfaced": true
     },
     {
       "id": "782b5352fe5fa4",
-      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 3 days ago • 11",
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 4 days ago • 11",
       "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
       "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
@@ -121,7 +121,7 @@
       "items": [
         {
           "id": "11d2f50416f2e4",
-          "title": "Which Weather Model Is Most Accurate? We Score Them Every Day, in the Open FINAL-Bench • about 17 hours ago • 8",
+          "title": "Which Weather Model Is Most Accurate? We Score Them Every Day, in the Open FINAL-Bench • 1 day ago • 11",
           "url": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/6U-sbVHglbgoUQ1U03yKJ.png",
           "image_source": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
@@ -145,11 +145,12 @@
           "score": 133,
           "material_update": true,
           "alternatives": [],
+          "resurfaced": true,
           "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
         },
         {
           "id": "50bd21be8bc2d4",
-          "title": "SafetyPulse: Catching Safety Drift During Fine-Tuning by Reading the Model's Refusal Circuit purvansh01 • 6 days ago • 7",
+          "title": "SafetyPulse: Catching Safety Drift During Fine-Tuning by Reading the Model's Refusal Circuit purvansh01 • 7 days ago • 7",
           "url": "https://huggingface.co/blog/purvansh01/safetypulse-safety-drift-monitor",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/6941082888115164a51374f1/UWRXLpbajXZuuG107drCP.png",
           "image_source": "https://huggingface.co/blog/purvansh01/safetypulse-safety-drift-monitor",
@@ -247,16 +248,16 @@
       "icon": "◆",
       "items": [
         {
-          "id": "821699a7f366f0",
-          "title": "Continue Reading",
-          "url": "https://www.tripo3d.ai/blog/te",
-          "image": "https://cdn-blog.holymolly.ai/media/production/Tripo3D_og.webp",
-          "image_source": "https://www.tripo3d.ai/blog/te",
-          "summary": "MiraLab AI tests Tripo AI’s image-to-3D workflow, Smart Mesh, HD Model, segmentation, textures, and tools for creating usable 3D assets。",
-          "why": "关注内容：MiraLab AI 测试了 Tripo AI 的图像转 3D 工作流程、智能网格、高清模型、分割、纹理以及用于创建可用 3D 资产的工具。（原文未明确列出版本变化。）",
+          "id": "8fd76d51a6fb82",
+          "title": "Codex CLI 0.169.0",
+          "url": "https://developers.openai.com/codex/changelog/#update-60978253f7",
+          "image": "https://learn.chatgpt.com/og/docs/changelog.png",
+          "image_source": "https://developers.openai.com/codex/changelog/#update-60978253f7",
+          "summary": "官方来源出现与“Codex CLI 0.169.0”相关的新条目，完整内容需进入原始来源确认。",
+          "why": "关注内容：2026-11-13 Codex CLI 0.169.0（原文未明确列出版本变化。）",
           "action": "今天看",
           "tier": "必看",
-          "source": "Tripo · 官方动态",
+          "source": "Codex · 官方更新日志",
           "source_type": "公司 / 官方",
           "source_priority": 5,
           "source_reliability": 10,
@@ -269,37 +270,55 @@
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 157,
+          "score": 153,
           "material_update": false,
-          "alternatives": [],
-          "why_original": "关注内容：MiraLab AI tests Tripo AI’s image-to-3D workflow, Smart Mesh, HD Model, segmentation, textures, and tools for creating usable 3D assets.（原文未明确列出版本变化。）"
+          "alternatives": [
+            {
+              "source": "Codex · 官方更新日志",
+              "url": "https://developers.openai.com/codex/changelog/#update-d513f0ed1e"
+            },
+            {
+              "source": "Codex · 官方更新日志",
+              "url": "https://developers.openai.com/codex/changelog/#update-235dd304f1"
+            },
+            {
+              "source": "Codex · 官方更新日志",
+              "url": "https://developers.openai.com/codex/changelog/#update-d38d589b7e"
+            },
+            {
+              "source": "Codex · 官方更新日志",
+              "url": "https://developers.openai.com/codex/changelog/#update-a58ba14950"
+            }
+          ]
         },
         {
-          "id": "7b2a4c395313e3",
-          "title": "Vibe your way to $50k: the 2026 Epic AI MegaJam is coming",
-          "url": "https://www.unrealengine.com/news/2026-epic-ai-megajam",
-          "image": "https://cms-assets.unrealengine.com/AiKUh5PQCTaOFnmJDZJBfz/resize=width:1200/cmvgzdmqd5yp406ohyvjs01ly",
-          "image_source": "https://www.unrealengine.com/news/2026-epic-ai-megajam",
-          "summary": "Join the 2026 Epic AI MegaJam, November 12–15. Build a playable game in Unreal Engine or UEFN with AI tools and agents, and compete for cash prizes。",
-          "why": "关注内容：Join the 2026 Epic AI MegaJam, November 12–15.（原文未明确列出版本变化。）",
+          "id": "2b404537fe9246",
+          "title": "Release Notes",
+          "url": "https://openai.com/products/release-notes",
+          "image": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
+          "image_source": "https://openai.com/products/release-notes",
+          "summary": "OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products。",
+          "why": "更新重点：适用于ChatGPT、API平台和Codex的OpenAI发行说明。探索OpenAI产品的最新功能、更新和改进。",
           "action": "今天看",
           "tier": "必看",
-          "source": "Unreal Engine · 官方新闻",
+          "source": "OpenAI News",
           "source_type": "公司 / 官方",
           "source_priority": 5,
           "source_reliability": 10,
-          "published_at": "2026-10-22",
-          "date_confidence": "high",
-          "date_label": "2026-10-22",
+          "published_at": "",
+          "date_confidence": "unknown",
+          "date_label": "日期待确认",
           "category": "游戏与 3D",
           "status": "必看",
           "deadline": null,
           "event_date": null,
           "event_end_date": null,
           "location": "",
-          "score": 157,
-          "material_update": false,
-          "alternatives": []
+          "score": 137,
+          "material_update": true,
+          "alternatives": [],
+          "resurfaced": true,
+          "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
         }
       ]
     },
@@ -332,7 +351,8 @@
           "location": "",
           "score": 92,
           "material_update": true,
-          "alternatives": []
+          "alternatives": [],
+          "resurfaced": true
         }
       ]
     },
@@ -342,7 +362,7 @@
       "items": [
         {
           "id": "b81c33f8b973d4",
-          "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery litert-community • 1 day ago • 9",
+          "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery litert-community • 2 days ago • 9",
           "url": "https://huggingface.co/blog/litert-community/on-device-speech-recognition-and-text-to-speech-in",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/65b9e3f311162bf34fb092bc/15260etXPmn0DsR6DVAQ9.png",
           "image_source": "https://huggingface.co/blog/litert-community/on-device-speech-recognition-and-text-to-speech-in",
@@ -371,7 +391,7 @@
         },
         {
           "id": "d34d067043aa14",
-          "title": "Yang-Mills, OpenAI proof, and the mass gap problem dlouapre • about 16 hours ago • 14",
+          "title": "Yang-Mills, OpenAI proof, and the mass gap problem dlouapre • 1 day ago • 15",
           "url": "https://huggingface.co/blog/dlouapre/yang-mills-openai",
           "image": "https://cdn-uploads.huggingface.co/production/uploads/687b3be66012eb65451278fd/Q0eaTT-WkvvG2G-0_u7nm.png",
           "image_source": "https://huggingface.co/blog/dlouapre/yang-mills-openai",
@@ -395,6 +415,7 @@
           "score": 124,
           "material_update": true,
           "alternatives": [],
+          "resurfaced": true,
           "why_original": "关注内容：A Blog post by David Louapre on Hugging Face（原文未明确列出版本变化。）"
         }
       ]
