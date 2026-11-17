@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T10:42:22+08:00",
+  "generated_at": "2026-11-17T13:03:23+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -100,12 +100,7 @@
       "location": "",
       "score": 138,
       "material_update": true,
-      "alternatives": [
-        {
-          "source": "OpenAI News",
-          "url": "https://openai.com/index/introducing-gpt-6-cyber"
-        }
-      ],
+      "alternatives": [],
       "resurfaced": true,
       "why_original": "更新重点：Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
     },
@@ -138,10 +133,6 @@
         {
           "source": "OpenAI News",
           "url": "https://openai.com/products/release-notes"
-        },
-        {
-          "source": "OpenAI News",
-          "url": "https://openai.com/products/release-notes"
         }
       ],
       "resurfaced": true,
@@ -149,7 +140,7 @@
     },
     {
       "id": "782b5352fe5fa4",
-      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 5 days ago • 11",
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 7 days ago • 12",
       "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
       "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
@@ -184,10 +175,42 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
         }
       ],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "1d95286f19fb3f",
+      "title": "AI Model Hacking Hackathon: Safe AI Is Built by Everyone Who Tries to Break It FINAL-Bench • about 2 hours ago • 7",
+      "url": "https://huggingface.co/blog/FINAL-Bench/ai-model-hacking-hackathon-safe-ai-is-built-by-eve",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/q1OMReP2SRwXcRVEiv8PH.jpeg",
+      "image_source": "https://huggingface.co/blog/FINAL-Bench/ai-model-hacking-hackathon-safe-ai-is-built-by-eve",
+      "summary": "A Blog post by FINAL_Bench on Hugging Face。",
+      "why": "关注内容：FINAL_Bench在拥抱脸上的博客帖子（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-17",
+      "date_confidence": "high",
+      "date_label": "2026-11-17",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "a5c3d321385253",

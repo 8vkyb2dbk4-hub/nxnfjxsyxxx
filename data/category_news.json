@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "start_date": "2026-08-16",
+  "date": "2026-11-17",
+  "start_date": "2026-08-17",
   "items": [
     {
       "id": "23b69ecb3c4d42",
@@ -399,6 +399,10 @@
     {
       "source": "龙美术馆 · 当前展览",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.thelongmuseum.org', port=443): Max retries exceeded with url: /en/exhibition-current.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.thelongmuseum.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
+    },
+    {
+      "source": "Meshy · 产品更新",
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.meshy.ai/blog/category/product"
     },
     {
       "source": "浙江省游戏行业协会 · 会展活动",
