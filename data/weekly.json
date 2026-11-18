@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T13:03:23+08:00",
+  "generated_at": "2026-11-18T12:14:06+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -49,6 +49,34 @@
       "resurfaced": true
     },
     {
+      "id": "8b70d99b098dc6",
+      "title": "Kotoba is joining ElevenLabs",
+      "url": "https://elevenlabs.io/blog/kotoba",
+      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/7bmftwo9yq5-Kotoba-and-ElevenLabs-2.webp",
+      "image_source": "https://elevenlabs.io/blog/kotoba",
+      "summary": "ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan。",
+      "why": "关注内容：ElevenLabs正在收购日本领先的语音AI实验室Kotoba，以期为日本带来自然、文化上流利的AI代理和语音界面。（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
+      "source_priority": 5,
+      "source_reliability": 6,
+      "published_at": "2026-11-16",
+      "date_confidence": "high",
+      "date_label": "2026-11-16",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 143,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan.（原文未明确列出版本变化。）"
+    },
+    {
       "id": "b22522d14a17f9",
       "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model 20 November 11, 2026",
       "url": "https://huggingface.co/blog/qvac/botpsy",
@@ -76,35 +104,6 @@
       "alternatives": []
     },
     {
-      "id": "53c56afbaf05f8",
-      "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents Product Nov 5, 2026",
-      "url": "https://openai.com/index/introducing-gpt-6-cyber",
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/73cvZmLsj7WIXQAgMDX8kz/4996c7a084b81e21a8f1357fe395c30b/gpt-6-cyber-social.png?w=1600&h=900&fit=fill",
-      "image_source": "https://openai.com/index/introducing-gpt-6-cyber",
-      "summary": "Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope。",
-      "why": "更新重点：推出GPT-6 Cyber ，这是OpenAI的网络安全模型，用于发现可利用的漏洞并开发修复程序，经过培训，可保持在授权范围内。",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "OpenAI News",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-11-10",
-      "date_confidence": "medium",
-      "date_label": "2026-11-10",
-      "category": "新模型 / 开源",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 138,
-      "material_update": true,
-      "alternatives": [],
-      "resurfaced": true,
-      "why_original": "更新重点：Introducing GPT‑6 Cyber, OpenAI’s cybersecurity model for finding exploitable vulnerabilities and developing fixes, trained to stay within authorized scope."
-    },
-    {
       "id": "2b404537fe9246",
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
@@ -129,18 +128,13 @@
       "location": "",
       "score": 137,
       "material_update": true,
-      "alternatives": [
-        {
-          "source": "OpenAI News",
-          "url": "https://openai.com/products/release-notes"
-        }
-      ],
+      "alternatives": [],
       "resurfaced": true,
       "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
     },
     {
       "id": "782b5352fe5fa4",
-      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 7 days ago • 12",
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 8 days ago • 12",
       "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
       "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
       "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
