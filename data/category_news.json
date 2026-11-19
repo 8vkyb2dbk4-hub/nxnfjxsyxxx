@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-18",
-  "start_date": "2026-08-18",
+  "date": "2026-11-19",
+  "start_date": "2026-08-19",
   "items": [
     {
       "id": "8b70d99b098dc6",
@@ -449,14 +449,6 @@
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://openai.com/news/"
     },
     {
-      "source": "Crafts Council · Crafts 手工艺刊物",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.craftscouncil.org.uk/stories"
-    },
-    {
-      "source": "American Craft Council · 手工艺报道",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://craftcouncil.org/stories/"
-    },
-    {
       "source": "中国航海博物馆 · 展览与讲座",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
@@ -467,10 +459,6 @@
     {
       "source": "Meshy · 产品更新",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.meshy.ai/blog/category/product"
-    },
-    {
-      "source": "Tripo · 官方动态",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.tripo3d.ai/blog"
     },
     {
       "source": "Unreal Engine · 官方新闻",

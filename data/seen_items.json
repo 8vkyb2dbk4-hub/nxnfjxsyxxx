@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "eb0cf1e8fbf201",
       "source": "ElevenLabs Blog"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-11-10 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-04e59e5d88",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "f52126bb16ee12",
       "source": "Meshy · API 更新日志"
     },
@@ -437,7 +437,7 @@
     {
       "title": "LiveKit Agents",
       "url": "https://docs.dev.runwayml.com/characters/livekit",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "7b646d86c55ded",
       "source": "Runway Dev Changelog"
     },
@@ -612,7 +612,7 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
@@ -633,7 +633,7 @@
     {
       "title": "Benchmark",
       "url": "https://github.com/vimalabs/vimabench",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-19",
       "content_hash": "cd8f4eb57a9615",
       "source": "Jim Fan · 官方文章与研究"
     },
@@ -738,14 +738,14 @@
     {
       "title": "David E. Rumelhart prize",
       "url": "https://www.cnbc.cmu.edu/derprize/announce2001.html",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-19",
       "content_hash": "4d783edb8cd142",
       "source": "Geoffrey Hinton · 官方文章与研究"
     },
     {
       "title": "FMDM Workshop",
       "url": "https://sites.google.com/view/fmdm-neurips/papers?authuser=0",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-19",
       "content_hash": "cffefbb82456a4",
       "source": "Jim Fan · 官方文章与研究"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -1473,7 +1473,7 @@
     {
       "title": "Models ↗",
       "url": "https://dev.runwayml.com/models",
-      "last_seen": "2026-11-08",
+      "last_seen": "2026-11-19",
       "content_hash": "870f2e4705afb0",
       "source": "Runway News"
     },
@@ -2726,21 +2726,21 @@
     {
       "title": "Bauma China",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2809",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "1b8c9d871fe886",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "CDCE International Data Center and Cloud Computing Industry Expo / Green Smart Computing Center and Computing Power Industry Expo",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2910",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "38eadf8d93585b",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "Limited-Edition Screenprints for the Budding Collector",
       "url": "https://www.thisiscolossal.com/2026/11/prints-colossal-gift-guide-2026",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "1a9f12840b2492",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2754,7 +2754,7 @@
     {
       "title": "Amy Genser’s Elaborate Mulberry Paper Assemblages Undulate Like the Sea",
       "url": "https://www.thisiscolossal.com/2026/11/amy-genser-paper-wall-sculptures",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "73f326419c5514",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2787,10 +2787,10 @@
       "source": "OpenAI News"
     },
     {
-      "title": "guide partnerships gcp Pay for Hugging Face Hub with your Google Cloud Account 14 November 10, 2026",
+      "title": "guide partnerships gcp Pay for Hugging Face Hub with your Google Cloud Account 13 November 10, 2026",
       "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "last_seen": "2026-11-18",
-      "content_hash": "d5a5de6d47b0ec",
+      "last_seen": "2026-11-19",
+      "content_hash": "eb40a01e9f6b74",
       "source": "Hugging Face Blog"
     },
     {
@@ -2808,10 +2808,10 @@
       "source": "American Craft Council · 手工艺报道"
     },
     {
-      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 8 days ago • 12",
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 9 days ago • 12",
       "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
-      "last_seen": "2026-11-18",
-      "content_hash": "4c81432e5c87f7",
+      "last_seen": "2026-11-19",
+      "content_hash": "e9806a4674e33f",
       "source": "Hugging Face Blog"
     },
     {
@@ -2824,7 +2824,7 @@
     {
       "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
       "url": "https://elevenlabs.io/blog/nyc-summit",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "035a576cabe820",
       "source": "ElevenLabs Blog"
     },
@@ -2892,10 +2892,10 @@
       "source": "Hugging Face Blog"
     },
     {
-      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B 34 November 12, 2026",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B 35 November 12, 2026",
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "last_seen": "2026-11-18",
-      "content_hash": "90f7b32ca95a30",
+      "last_seen": "2026-11-19",
+      "content_hash": "abc73317758a8e",
       "source": "Hugging Face Blog"
     },
     {
@@ -2913,10 +2913,10 @@
       "source": "GitHub Blog"
     },
     {
-      "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery litert-community • 5 days ago • 9",
+      "title": "On-Device Speech Recognition and Text-to-Speech in Google AI Edge Gallery litert-community • 6 days ago • 9",
       "url": "https://huggingface.co/blog/litert-community/on-device-speech-recognition-and-text-to-speech-in",
-      "last_seen": "2026-11-18",
-      "content_hash": "a4edee2f0d4aa3",
+      "last_seen": "2026-11-19",
+      "content_hash": "a9b6ca34c79870",
       "source": "Hugging Face Blog"
     },
     {
@@ -2934,10 +2934,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "Which Weather Model Is Most Accurate? We Score Them Every Day, in the Open FINAL-Bench • 5 days ago • 11",
+      "title": "Which Weather Model Is Most Accurate? We Score Them Every Day, in the Open FINAL-Bench • 6 days ago • 11",
       "url": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
-      "last_seen": "2026-11-18",
-      "content_hash": "58062dad7bc393",
+      "last_seen": "2026-11-19",
+      "content_hash": "e0f75370a1b958",
       "source": "Hugging Face Blog"
     },
     {
@@ -2957,22 +2957,22 @@
     {
       "title": "AI 百景 “AI百景”｜AI走进教务：AI修业导师，为每位本科生精准解答修业问题 2026年11月13日",
       "url": "https://news.sjtu.edu.cn/aibaijing/20261113/227594.html",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "4c1f610be97290",
       "source": "上海交通大学 · 新闻与论坛"
     },
     {
-      "title": "Yang-Mills, OpenAI proof, and the mass gap problem dlouapre • 5 days ago • 21",
+      "title": "Yang-Mills, OpenAI proof, and the mass gap problem dlouapre • 6 days ago • 21",
       "url": "https://huggingface.co/blog/dlouapre/yang-mills-openai",
-      "last_seen": "2026-11-18",
-      "content_hash": "1de273f905380d",
+      "last_seen": "2026-11-19",
+      "content_hash": "4cc89c2bda0ce3",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Hot llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem 215 November 13, 2026",
+      "title": "Hot llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem 217 November 13, 2026",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "last_seen": "2026-11-18",
-      "content_hash": "2da2a463bbadfe",
+      "last_seen": "2026-11-19",
+      "content_hash": "50dd61dc9655e9",
       "source": "Hugging Face Blog"
     },
     {
@@ -2992,21 +2992,21 @@
     {
       "title": "Private Label Fair Asia",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2913",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "869009abbf301f",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "MTM Expo Shanghai / 27th Shanghai International Metallurgical Industry Exhibition / 13th Shanghai International Refractory Exhibition / China International Thermal Technology and Industrial Furnace Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2914",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "30b54cb51ceae5",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "The 33rd China International Electric Power Equipment and Technology Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2911",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-19",
       "content_hash": "a6499a641cf0c3",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -3039,10 +3039,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "ZONOS3-Mini: Open-Source Real-Time Voice Cloning & Steerable TTS in 100M Active Parameters Zyphra • 6 days ago • 11",
+      "title": "ZONOS3-Mini: Open-Source Real-Time Voice Cloning & Steerable TTS in 100M Active Parameters Zyphra • 7 days ago • 12",
       "url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
-      "last_seen": "2026-11-18",
-      "content_hash": "8d39c1a5103016",
+      "last_seen": "2026-11-19",
+      "content_hash": "34452435f64e45",
       "source": "Hugging Face Blog"
     },
     {
@@ -3053,10 +3053,10 @@
       "source": "Hugging Face Blog"
     },
     {
-      "title": "集成电路学院“Xin智汇”产业讲坛“人工智能基础设施：从Token工厂到具身智能” 专题报告顺利举行 2026年11月16日",
+      "title": "集成电路学院“Xin智汇”产业讲坛“人工智能基础设施：从Token工厂到具身智能” 专题报告顺利举行",
       "url": "https://news.sjtu.edu.cn/zhxw/20261117/227662.html",
-      "last_seen": "2026-11-18",
-      "content_hash": "ade328795e9590",
+      "last_seen": "2026-11-19",
+      "content_hash": "60a9fbad4d52ec",
       "source": "上海交通大学 · 新闻与论坛"
     },
     {
@@ -3088,16 +3088,16 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "announcement partnerships hub Hugging Face and OpenRouter join forces to make open-weight models easy to run +3 85 November 16, 2026",
+      "title": "announcement partnerships hub Hugging Face and OpenRouter join forces to make open-weight models easy to run +3 98 November 16, 2026",
       "url": "https://huggingface.co/blog/openrouter",
-      "last_seen": "2026-11-18",
-      "content_hash": "243b0f6c4db2e8",
+      "last_seen": "2026-11-19",
+      "content_hash": "a4205b13c6848b",
       "source": "Hugging Face Blog"
     },
     {
       "title": "Donating Agent Skills to the Agentic AI Foundation",
       "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-19",
       "content_hash": "269a34a3f98638",
       "source": "Anthropic News"
     },
@@ -3121,6 +3121,69 @@
       "last_seen": "2026-11-18",
       "content_hash": "111d257e606005",
       "source": "上海博物馆 · 展览与公共活动"
+    },
+    {
+      "title": "Hand-Marbled Papers Ground Sylvain Lefebvre’s Surreal Landscapes",
+      "url": "https://www.thisiscolossal.com/2026/11/sylvain-lefebvre-oil-paintings-marbled-paper",
+      "last_seen": "2026-11-19",
+      "content_hash": "9e8b0fe97875ff",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Meticulously Detailed Animal Portraits by Thomas Cian Pop from the Page",
+      "url": "https://www.thisiscolossal.com/2026/11/thomas-cian-detailed-gouache-pencil-animal-drawings",
+      "last_seen": "2026-11-19",
+      "content_hash": "3fb7d93ceccdbc",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Vhils and Marcelo Cidade Cloak a São Paulo Colonial Building in Silver Thermal Blankets",
+      "url": "https://www.thisiscolossal.com/2026/11/vhils-marcelo-cidade-sao-paolo-2878",
+      "last_seen": "2026-11-19",
+      "content_hash": "90e0c64887931d",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Recapture: Create realistic scans and photos from digital documents to diversify AI training sets nutrientdocs • about 11 hours ago • 6",
+      "url": "https://huggingface.co/blog/nutrientdocs/recapture",
+      "last_seen": "2026-11-19",
+      "content_hash": "ff22305c5a3bd9",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases 18 November 18, 2026",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "last_seen": "2026-11-19",
+      "content_hash": "6d8c34eca2d40f",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Creative Partners Program",
+      "url": "https://runwayml.com/creative-partners-program",
+      "last_seen": "2026-11-19",
+      "content_hash": "4c36e6f4b96c2d",
+      "source": "Runway News"
+    },
+    {
+      "title": "WeatherNext Fast and accurate AI weather forecasting",
+      "url": "https://deepmind.google/science/weathernext",
+      "last_seen": "2026-11-19",
+      "content_hash": "12ed24a39330b6",
+      "source": "Google DeepMind Blog"
+    },
+    {
+      "title": "Google DeepMind Explore the frontier of AI",
+      "url": "https://deepmind.google/",
+      "last_seen": "2026-11-19",
+      "content_hash": "79248bb3b63e3f",
+      "source": "Google DeepMind Blog"
+    },
+    {
+      "title": "Gemini Omni Create anything from anything",
+      "url": "https://deepmind.google/models/gemini-omni",
+      "last_seen": "2026-11-19",
+      "content_hash": "a4b99e386f6855",
+      "source": "Google DeepMind Blog"
     }
   ]
 }
