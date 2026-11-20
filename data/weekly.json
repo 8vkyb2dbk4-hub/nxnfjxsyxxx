@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T12:07:59+08:00",
+  "generated_at": "2026-11-20T11:57:15+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -77,52 +77,6 @@
       "why_original": "关注内容：ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan.（原文未明确列出版本变化。）"
     },
     {
-      "id": "782b5352fe5fa4",
-      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 9 days ago • 12",
-      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
-      "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
-      "summary": "A Blog post by TNG Technology Consulting GmbH on Hugging Face。",
-      "why": "关注内容：TNG Technology Consulting GmbH关于拥抱脸的博客文章（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-10",
-      "date_confidence": "high",
-      "date_label": "2026-11-10",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 135,
-      "material_update": true,
-      "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        }
-      ],
-      "resurfaced": true,
-      "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
-    },
-    {
       "id": "a5c3d321385253",
       "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
       "url": "https://elevenlabs.io/blog/nyc-summit",
@@ -169,6 +123,52 @@
       "why_original": "关注内容：Everything ElevenLabs announced at its NYC Summit: fine-tuning, Interaction Engine, Memory, Routines, ElevenAI, Partner Program, and Marketplace.（原文未明确列出版本变化。）"
     },
     {
+      "id": "782b5352fe5fa4",
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 9 days ago • 12",
+      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
+      "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "summary": "A Blog post by TNG Technology Consulting GmbH on Hugging Face。",
+      "why": "关注内容：TNG Technology Consulting GmbH关于拥抱脸的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-10",
+      "date_confidence": "high",
+      "date_label": "2026-11-10",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": true,
+      "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
+        }
+      ],
+      "resurfaced": true,
+      "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
       "id": "1d95286f19fb3f",
       "title": "AI Model Hacking Hackathon: Safe AI Is Built by Everyone Who Tries to Break It FINAL-Bench • about 2 hours ago • 7",
       "url": "https://huggingface.co/blog/FINAL-Bench/ai-model-hacking-hackathon-safe-ai-is-built-by-eve",
@@ -194,6 +194,35 @@
       "score": 135,
       "material_update": false,
       "alternatives": [],
+      "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "11d2f50416f2e4",
+      "title": "Which Weather Model Is Most Accurate? We Score Them Every Day, in the Open FINAL-Bench • 7 days ago • 11",
+      "url": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/6U-sbVHglbgoUQ1U03yKJ.png",
+      "image_source": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
+      "summary": "A Blog post by FINAL_Bench on Hugging Face。",
+      "why": "关注内容：FINAL_Bench在拥抱脸上的博客帖子（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-13",
+      "date_confidence": "high",
+      "date_label": "2026-11-13",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 133,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
       "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
     }
   ]

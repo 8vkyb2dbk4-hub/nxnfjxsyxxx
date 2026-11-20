@@ -1,635 +1,635 @@
 {
-  "generated_at": "2026-11-19T12:07:59+08:00",
+  "generated_at": "2026-11-20T11:57:15+08:00",
   "sources": [
     {
       "source": "OpenAI News",
       "url": "https://openai.com/news/",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 44,
+      "elapsed_ms": 60,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://openai.com/news/",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Anthropic News",
       "url": "https://www.anthropic.com/news",
       "status": "ok",
       "candidate_count": 39,
-      "elapsed_ms": 7123,
+      "elapsed_ms": 5472,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Google DeepMind Blog",
       "url": "https://deepmind.google/discover/blog/",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 12033,
+      "elapsed_ms": 9954,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Google AI",
       "url": "https://blog.google/innovation-and-ai/",
       "status": "ok",
       "candidate_count": 24,
-      "elapsed_ms": 7086,
+      "elapsed_ms": 5087,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Hugging Face Blog",
       "url": "https://huggingface.co/blog",
       "status": "ok",
-      "candidate_count": 32,
-      "elapsed_ms": 6118,
+      "candidate_count": 34,
+      "elapsed_ms": 4094,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Runway News",
       "url": "https://runwayml.com/news",
       "status": "ok",
       "candidate_count": 13,
-      "elapsed_ms": 4451,
+      "elapsed_ms": 3939,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Runway Dev Changelog",
       "url": "https://docs.dev.runwayml.com/api-details/api_changelog/",
       "status": "ok",
-      "candidate_count": 40,
-      "elapsed_ms": 6993,
+      "candidate_count": 0,
+      "elapsed_ms": 80,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ElevenLabs Blog",
       "url": "https://elevenlabs.io/blog",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 7761,
+      "elapsed_ms": 8019,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Stability AI",
       "url": "https://stability.ai/news-updates",
       "status": "ok",
       "candidate_count": 27,
-      "elapsed_ms": 4928,
+      "elapsed_ms": 3704,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "GitHub Blog",
       "url": "https://github.blog/",
       "status": "ok",
-      "candidate_count": 35,
-      "elapsed_ms": 8412,
+      "candidate_count": 38,
+      "elapsed_ms": 9252,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "arXiv cs.AI",
       "url": "https://arxiv.org/list/cs.AI/recent",
       "status": "ok",
-      "candidate_count": 23,
-      "elapsed_ms": 4800,
+      "candidate_count": 19,
+      "elapsed_ms": 6206,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "arXiv cs.CV",
       "url": "https://arxiv.org/list/cs.CV/recent",
       "status": "ok",
-      "candidate_count": 10,
-      "elapsed_ms": 4178,
+      "candidate_count": 21,
+      "elapsed_ms": 5686,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "复旦大学国家发展与智能治理综合实验室 · 学术活动",
       "url": "https://labndig.fudan.edu.cn/events/",
       "status": "ok",
       "candidate_count": 30,
-      "elapsed_ms": 13733,
+      "elapsed_ms": 27482,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "复旦大学 · 通知与学术活动",
       "url": "https://www.fudan.edu.cn/",
       "status": "ok",
       "candidate_count": 19,
-      "elapsed_ms": 12183,
+      "elapsed_ms": 18582,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海交通大学 · 新闻与论坛",
       "url": "https://news.sjtu.edu.cn/",
       "status": "ok",
-      "candidate_count": 22,
-      "elapsed_ms": 8711,
+      "candidate_count": 20,
+      "elapsed_ms": 9492,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海人工智能实验室 · 科研活动",
       "url": "https://www.shlab.org.cn/event",
       "status": "ok",
       "candidate_count": 5,
-      "elapsed_ms": 3150,
+      "elapsed_ms": 4617,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "清华大学人工智能研究院 AIR",
       "url": "https://air.tsinghua.edu.cn/",
       "status": "ok",
       "candidate_count": 16,
-      "elapsed_ms": 8592,
+      "elapsed_ms": 8356,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "北京大学人工智能研究院",
       "url": "https://www.ai.pku.edu.cn/",
       "status": "ok",
       "candidate_count": 28,
-      "elapsed_ms": 6320,
+      "elapsed_ms": 8818,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "浙江大学人工智能研究所",
       "url": "http://www.cs.zju.edu.cn/csen/27047/list.htm",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1485,
+      "elapsed_ms": 2173,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "北京智源人工智能研究院",
       "url": "https://www.baai.ac.cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1158,
+      "elapsed_ms": 1601,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "中国科学院自动化研究所",
       "url": "http://www.ia.cas.cn/",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 9133,
+      "elapsed_ms": 15876,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "WAIC 世界人工智能大会",
       "url": "https://www.worldaic.com.cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1418,
+      "elapsed_ms": 3386,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "SIGGRAPH",
       "url": "https://www.siggraph.org/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 136,
+      "elapsed_ms": 149,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "CVPR",
       "url": "https://cvpr.thecvf.com/",
       "status": "ok",
       "candidate_count": 7,
-      "elapsed_ms": 687,
+      "elapsed_ms": 1311,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ECCV",
       "url": "https://eccv.ecva.net/",
       "status": "ok",
       "candidate_count": 13,
-      "elapsed_ms": 2181,
+      "elapsed_ms": 2606,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "NeurIPS",
       "url": "https://neurips.cc/",
       "status": "ok",
       "candidate_count": 21,
-      "elapsed_ms": 3012,
+      "elapsed_ms": 4070,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ICLR",
       "url": "https://iclr.cc/",
       "status": "ok",
       "candidate_count": 11,
-      "elapsed_ms": 1385,
+      "elapsed_ms": 1898,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ICML",
       "url": "https://icml.cc/",
       "status": "ok",
       "candidate_count": 18,
-      "elapsed_ms": 1744,
+      "elapsed_ms": 2669,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "浙江大学大数据研究中心 · 学术报告",
       "url": "https://bcds.zju.edu.cn/xsjz/list.htm",
       "status": "ok",
       "candidate_count": 14,
-      "elapsed_ms": 13437,
+      "elapsed_ms": 14035,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Colossal · 新兴手工与当代艺术",
       "url": "https://www.thisiscolossal.com/",
       "status": "ok",
-      "candidate_count": 22,
-      "elapsed_ms": 2416,
+      "candidate_count": 23,
+      "elapsed_ms": 1835,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Crafts Council · Crafts 手工艺刊物",
       "url": "https://www.craftscouncil.org.uk/stories",
       "status": "ok",
       "candidate_count": 13,
-      "elapsed_ms": 9478,
+      "elapsed_ms": 8963,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "American Craft Council · 手工艺报道",
       "url": "https://craftcouncil.org/stories/",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 13070,
+      "elapsed_ms": 12857,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海新国际博览中心 · 展会日程",
       "url": "https://sniec.net/",
       "status": "ok",
       "candidate_count": 5,
-      "elapsed_ms": 3006,
+      "elapsed_ms": 3670,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ART021 · 上海艺术博览会",
       "url": "https://www.art021.org/",
       "status": "ok",
       "candidate_count": 4,
-      "elapsed_ms": 1686,
+      "elapsed_ms": 1019,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海博物馆 · 展览与公共活动",
       "url": "https://www.shanghaimuseum.cn/",
       "status": "ok",
       "candidate_count": 2,
-      "elapsed_ms": 7399,
+      "elapsed_ms": 5127,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海自然博物馆 · 临展与教育活动",
       "url": "https://www.snhm.org.cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1293,
+      "elapsed_ms": 1520,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "中国航海博物馆 · 展览与讲座",
       "url": "https://www.shmmc.com.cn/",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 16271,
+      "elapsed_ms": 16549,
       "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "浙江省博物馆 · 展览与公共教育",
       "url": "https://www.zjmuseum.com.cn/cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1419,
+      "elapsed_ms": 3427,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海宝龙美术馆 · 当前展览",
       "url": "https://art.powerlongmuseum.com/search.html",
       "status": "ok",
       "candidate_count": 4,
-      "elapsed_ms": 4229,
+      "elapsed_ms": 5639,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海外滩美术馆 · 展览档案与预告",
       "url": "https://www.rockbundartmuseum.org/archive",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 723,
+      "elapsed_ms": 1266,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "西岸美术馆 · 西岸官方展览资讯",
       "url": "https://www.westbund.com/cn/index/EVENTS/show_list.html",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 3425,
+      "elapsed_ms": 986,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "龙美术馆 · 当前展览",
       "url": "https://www.thelongmuseum.org/en/exhibition-current.html",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 858,
+      "elapsed_ms": 1023,
       "error": "ConnectionError: HTTPSConnectionPool(host='www.thelongmuseum.org', port=443): Max retries exceeded with url: /en/exhibition-current.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.thelongmuseum.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海当代艺术博物馆 · 官方展览与活动",
       "url": "https://www.powerstationofart.com/whats-on",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1804,
+      "elapsed_ms": 936,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "国家会展中心（上海）· 官方展览排期",
       "url": "https://www.neccsh.com/cecsh/exhibitioninfo/exhibitionlist.jspx?v=1",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 4053,
+      "elapsed_ms": 3905,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "腾讯混元 3D · 官方开源动态",
       "url": "https://github.com/Tencent/Hunyuan3D-2",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 8201,
+      "elapsed_ms": 9473,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Meshy · 产品更新",
       "url": "https://www.meshy.ai/blog/category/product",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 46,
+      "elapsed_ms": 77,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.meshy.ai/blog/category/product",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Meshy · API 更新日志",
       "url": "https://docs.meshy.ai/en/api/changelog",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 3997,
+      "elapsed_ms": 5544,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Tripo · 官方动态",
       "url": "https://www.tripo3d.ai/blog",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1246,
+      "elapsed_ms": 1823,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Lovart · 版本更新",
       "url": "https://www.lovart.ai/changelog",
       "status": "ok",
       "candidate_count": 33,
-      "elapsed_ms": 10905,
+      "elapsed_ms": 14046,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Codex · 官方更新日志",
       "url": "https://developers.openai.com/codex/changelog/",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 45031,
+      "elapsed_ms": 52304,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Unreal Engine · 官方新闻",
       "url": "https://www.unrealengine.com/news",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 139,
+      "elapsed_ms": 496,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unrealengine.com/news",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Unity · 官方动态",
       "url": "https://unity.com/blog",
       "status": "ok",
       "candidate_count": 6,
-      "elapsed_ms": 2495,
+      "elapsed_ms": 2490,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Godot · 引擎发布",
       "url": "https://godotengine.org/blog/release/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 3128,
+      "elapsed_ms": 4715,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "World Labs · Marble 动态",
       "url": "https://www.worldlabs.ai/blog",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 3331,
+      "elapsed_ms": 6586,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "字节 Seed · 即梦与豆包模型动态",
       "url": "https://seed.bytedance.com/zh/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 8103,
+      "elapsed_ms": 6651,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "DeepSeek · 模型更新日志",
       "url": "https://api-docs.deepseek.com/updates/",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 4370,
+      "elapsed_ms": 5329,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "MiniMax · 海螺模型动态",
       "url": "https://www.minimax.io/research",
       "status": "ok",
       "candidate_count": 20,
-      "elapsed_ms": 6897,
+      "elapsed_ms": 7291,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "LibTV · 官方视频创作平台",
       "url": "https://www.liblib.tv/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 2659,
+      "elapsed_ms": 2694,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "杭州图书馆 · 公开讲座与培训",
       "url": "https://www.zjhzlib.cn/hdyg/index.htm",
       "status": "ok",
       "candidate_count": 15,
-      "elapsed_ms": 16503,
+      "elapsed_ms": 33641,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海图书馆 · 公益讲座",
       "url": "https://www.library.sh.cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 5373,
+      "elapsed_ms": 7861,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海教育 · 特级教师公益课堂",
       "url": "https://edu.sh.gov.cn/xwzx_bsxw/",
       "status": "ok",
       "candidate_count": 22,
-      "elapsed_ms": 17104,
+      "elapsed_ms": 18252,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Unity 中国 · 开发者线下活动",
       "url": "https://developer.unity.cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1952,
+      "elapsed_ms": 2925,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Epic Games · Unreal Fest 官方排期",
       "url": "https://www.unrealengine.com/unreal-fest?lang=zh-CN",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 122,
+      "elapsed_ms": 323,
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unrealengine.com/unreal-fest?lang=zh-CN",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "CGS · 中国游戏研究双城年会",
       "url": "https://cgs.caacosmos.com/",
       "status": "ok",
       "candidate_count": 15,
-      "elapsed_ms": 9002,
+      "elapsed_ms": 11342,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "浙江省游戏行业协会 · 会展活动",
       "url": "https://www.zjgia.org.cn/pic.aspx?classid=183",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 1965,
+      "elapsed_ms": 1797,
       "error": "HTTPError: 404 Client Error: Not Found for url: https://www.zjgia.org.cn/pic.aspx?classid=183",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ChinaJoy · 游戏行业展会与论坛",
       "url": "https://chinajoy.net/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1811,
+      "elapsed_ms": 1274,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "国家会展中心（上海）· 官方活动排期",
       "url": "https://www.neccsh.com/cecsh/exhibitioninfo/exhibitionlist.jspx?v=1&channelIdStr=204",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 1997,
+      "elapsed_ms": 5078,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海博物馆 · 官方活动预约",
       "url": "https://events.shanghaimuseum.net/sheduplatform/activityOut/out/activityPage",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1715,
+      "elapsed_ms": 2722,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "上海博物馆 · 当前特别展览",
       "url": "https://www.shanghaimuseum.cn/mu/frontend/pg/display/offline-exhibit",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1411,
+      "elapsed_ms": 1846,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "OpenAI · 官方 X",
       "url": "https://x.com/OpenAI",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 36,
+      "elapsed_ms": 24,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Google · 官方 X",
@@ -638,7 +638,7 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Google DeepMind · 官方 X",
@@ -647,7 +647,7 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Claude · 官方 X",
@@ -656,7 +656,7 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Anthropic · 官方 X",
@@ -665,7 +665,7 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Meta AI · 官方 X",
@@ -674,16 +674,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Meta AI · 官方更新",
       "url": "https://ai.meta.com/blog/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 8754,
+      "elapsed_ms": 11025,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Midjourney · 官方 X",
@@ -692,16 +692,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Midjourney · 官方更新",
       "url": "https://updates.midjourney.com/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 487,
+      "elapsed_ms": 541,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Runway · 官方 X",
@@ -710,16 +710,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Runway · 官方更新",
       "url": "https://runway.com/news",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 3563,
+      "elapsed_ms": 4272,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "DeepSeek · 官方 X",
@@ -728,16 +728,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "DeepSeek · 官方更新",
       "url": "https://api-docs.deepseek.com/updates",
       "status": "ok",
       "candidate_count": 2,
-      "elapsed_ms": 6768,
+      "elapsed_ms": 8990,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Qwen · 官方 X",
@@ -746,52 +746,52 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Qwen · 官方更新",
       "url": "https://qwenlm.github.io/blog/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1243,
+      "elapsed_ms": 2035,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "浦东图书馆 · 官方讲座",
       "url": "https://libdiscover.pudong.gov.cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1605,
+      "elapsed_ms": 1617,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "普陀区图书馆 · 官方讲座",
       "url": "https://www.shanghai.gov.cn/nw17239/20260929/63b0648ee7764da7a4f9be4f74a409e0.html",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 1096,
+      "elapsed_ms": 2716,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "杭州图书馆 · 少儿分馆 · 官方讲座",
       "url": "https://www.zjhzlib.cn/hdyghz/8176.htm",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 6150,
+      "elapsed_ms": 17797,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "浙江图书馆 · 官方讲座",
       "url": "https://www.zjlib.cn/activity",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 17571,
+      "elapsed_ms": 18978,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Demis Hassabis · 专家分享",
@@ -800,7 +800,7 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Geoffrey Hinton · 专家分享",
@@ -809,16 +809,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Geoffrey Hinton · 官方文章与研究",
       "url": "https://www.cs.toronto.edu/~hinton/",
       "status": "ok",
       "candidate_count": 9,
-      "elapsed_ms": 2299,
+      "elapsed_ms": 3166,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Yann LeCun · 专家分享",
@@ -827,16 +827,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Yann LeCun · 官方文章与研究",
       "url": "https://yann.lecun.org/",
       "status": "error",
       "candidate_count": 0,
-      "elapsed_ms": 346,
+      "elapsed_ms": 169,
       "error": "ConnectionError: HTTPSConnectionPool(host='yann.lecun.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='yann.lecun.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Yoshua Bengio · 专家分享",
@@ -845,16 +845,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Yoshua Bengio · 官方文章与研究",
       "url": "https://yoshuabengio.org/",
       "status": "ok",
       "candidate_count": 18,
-      "elapsed_ms": 4435,
+      "elapsed_ms": 6729,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Andrej Karpathy · 专家分享",
@@ -863,16 +863,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Andrej Karpathy · 官方文章与研究",
       "url": "https://karpathy.bearblog.dev/",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 601,
+      "elapsed_ms": 2643,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "吴恩达 Andrew Ng · 专家分享",
@@ -881,16 +881,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "吴恩达 Andrew Ng · 官方文章与研究",
       "url": "https://www.andrewng.org/writing/",
       "status": "ok",
       "candidate_count": 2,
-      "elapsed_ms": 822,
+      "elapsed_ms": 1506,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Jim Fan · 专家分享",
@@ -899,16 +899,16 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Jim Fan · 官方文章与研究",
       "url": "https://jimfan.me/",
       "status": "ok",
       "candidate_count": 36,
-      "elapsed_ms": 6247,
+      "elapsed_ms": 9412,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Lex Fridman · 专家分享",
@@ -917,151 +917,151 @@
       "candidate_count": 0,
       "elapsed_ms": 0,
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Lex Fridman · 官方文章与研究",
       "url": "https://lexfridman.com/podcast/",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 21137,
+      "elapsed_ms": 16859,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ComfyUI · 绘画动态",
       "url": "https://blog.comfy.org/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 316,
+      "elapsed_ms": 1306,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ModelScope · 绘画动态",
       "url": "https://www.modelscope.cn/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 2675,
+      "elapsed_ms": 1806,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Black Forest Labs · 绘画动态",
       "url": "https://bfl.ai/blog",
       "status": "ok",
-      "candidate_count": 21,
-      "elapsed_ms": 5006,
+      "candidate_count": 20,
+      "elapsed_ms": 3555,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Adobe · 绘画动态",
       "url": "https://blog.adobe.com/en/topics/creative-cloud",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 521,
+      "elapsed_ms": 1028,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Civitai · 绘画动态",
       "url": "https://civitai.com/articles",
       "status": "ok",
       "candidate_count": 4,
-      "elapsed_ms": 1016,
+      "elapsed_ms": 1010,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "LiblibAI · 绘画动态",
       "url": "https://www.liblib.art/",
       "status": "ok",
       "candidate_count": 0,
-      "elapsed_ms": 2183,
+      "elapsed_ms": 1040,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Runway 教程 · 视频生成",
       "url": "https://help.runwayml.com/hc/en-us/articles/46974685288467-Creating-with-Gen-4-5",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 318,
+      "elapsed_ms": 85,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ByteDance Seed · 视频生成",
       "url": "https://seed.bytedance.com/en/blog_list/visual",
       "status": "ok",
       "candidate_count": 6,
-      "elapsed_ms": 3937,
+      "elapsed_ms": 2674,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 3607,
+      "elapsed_ms": 1021,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Kling 可灵 AI · 视频生成",
       "url": "https://klingai.com/",
       "status": "ok",
       "candidate_count": 36,
-      "elapsed_ms": 12276,
+      "elapsed_ms": 14715,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "快手官方动态 · 视频生成",
       "url": "https://ir.kuaishou.com/news-events/company-news/",
-      "status": "ok",
-      "candidate_count": 40,
-      "elapsed_ms": 20002,
-      "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "status": "error",
+      "candidate_count": 0,
+      "elapsed_ms": 164,
+      "error": "HTTPError: 403 Client Error: Forbidden for url: https://ir.kuaishou.com/news-events/company-news/",
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Pika · 视频生成",
       "url": "https://pika.art/blog",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 8557,
+      "elapsed_ms": 5024,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "Adobe Firefly 教程 · 视频生成",
       "url": "https://helpx.adobe.com/firefly/web/work-with-audio-and-video/work-with-video/generate-videos-using-images.html",
       "status": "ok",
       "candidate_count": 1,
-      "elapsed_ms": 354,
+      "elapsed_ms": 161,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "HeyGen · 视频生成",
       "url": "https://www.heygen.com/blog",
       "status": "ok",
       "candidate_count": 40,
-      "elapsed_ms": 4452,
+      "elapsed_ms": 3431,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     },
     {
       "source": "ComfyUI Docs · 视频生成",
       "url": "https://docs.comfy.org/",
       "status": "ok",
       "candidate_count": 30,
-      "elapsed_ms": 2188,
+      "elapsed_ms": 2298,
       "error": "",
-      "checked_at": "2026-11-19T12:07:59+08:00"
+      "checked_at": "2026-11-20T11:57:15+08:00"
     }
   ]
 }
