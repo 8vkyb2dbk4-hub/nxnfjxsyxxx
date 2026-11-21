@@ -3,7 +3,7 @@
     {
       "title": "Research Overview",
       "url": "https://openai.com/research",
-      "last_seen": "2026-10-29",
+      "last_seen": "2026-11-21",
       "content_hash": "b02a18483e0c33",
       "source": "OpenAI News"
     },
@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "eb0cf1e8fbf201",
       "source": "ElevenLabs Blog"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-11-10 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-04e59e5d88",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "f52126bb16ee12",
       "source": "Meshy · API 更新日志"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -612,14 +612,14 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
@@ -717,7 +717,7 @@
     {
       "title": "Responsible AI Development Policy",
       "url": "https://bfl.ai/legal/responsible-ai-development-policy",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "52cd0412af3806",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -948,8 +948,8 @@
     {
       "title": "Google Developers blog",
       "url": "https://developers.googleblog.com/",
-      "last_seen": "2026-11-10",
-      "content_hash": "d5aefcece474a9",
+      "last_seen": "2026-11-21",
+      "content_hash": "9d7990042f21b4",
       "source": "Google AI"
     },
     {
@@ -2383,7 +2383,7 @@
     {
       "title": "Maintainers",
       "url": "https://github.blog/open-source/maintainers",
-      "last_seen": "2026-11-15",
+      "last_seen": "2026-11-21",
       "content_hash": "8ebc54a7675a62",
       "source": "GitHub Blog"
     },
@@ -2558,7 +2558,7 @@
     {
       "title": "María Berrío Paints with Paper",
       "url": "https://craftcouncil.org/articles/maria-berrio-paints-with-paper",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-21",
       "content_hash": "f7ba62879c2244",
       "source": "American Craft Council · 手工艺报道"
     },
@@ -2614,7 +2614,7 @@
     {
       "title": "Beyond code generation: A developer’s guide to agentic engineering",
       "url": "https://github.blog/ai-and-ml/github-copilot/beyond-code-generation-a-developers-guide-to-agentic-engineering",
-      "last_seen": "2026-11-15",
+      "last_seen": "2026-11-21",
       "content_hash": "9f5e5adf95971e",
       "source": "GitHub Blog"
     },
@@ -2726,14 +2726,14 @@
     {
       "title": "Bauma China",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-11&exhibition_id=2809",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "1b8c9d871fe886",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "CDCE International Data Center and Cloud Computing Industry Expo / Green Smart Computing Center and Computing Power Industry Expo",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2910",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "38eadf8d93585b",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -2824,7 +2824,7 @@
     {
       "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
       "url": "https://elevenlabs.io/blog/nyc-summit",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "035a576cabe820",
       "source": "ElevenLabs Blog"
     },
@@ -2894,7 +2894,7 @@
     {
       "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B 35 November 12, 2026",
       "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "abc73317758a8e",
       "source": "Hugging Face Blog"
     },
@@ -2908,7 +2908,7 @@
     {
       "title": "Build once, run on any agent: A practical guide to agent skills",
       "url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills",
-      "last_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
       "content_hash": "dab62d94af8600",
       "source": "GitHub Blog"
     },
@@ -2957,22 +2957,22 @@
     {
       "title": "AI 百景 “AI百景”｜AI走进教务：AI修业导师，为每位本科生精准解答修业问题 2026年11月13日",
       "url": "https://news.sjtu.edu.cn/aibaijing/20261113/227594.html",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "4c1f610be97290",
       "source": "上海交通大学 · 新闻与论坛"
     },
     {
-      "title": "Yang-Mills, OpenAI proof, and the mass gap problem dlouapre • 7 days ago • 21",
+      "title": "Yang-Mills, OpenAI proof, and the mass gap problem dlouapre • 8 days ago • 21",
       "url": "https://huggingface.co/blog/dlouapre/yang-mills-openai",
-      "last_seen": "2026-11-20",
-      "content_hash": "3ee5e7491090a7",
+      "last_seen": "2026-11-21",
+      "content_hash": "30dc8781828c39",
       "source": "Hugging Face Blog"
     },
     {
-      "title": "Hot llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem 222 November 13, 2026",
+      "title": "Hot llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem 225 November 13, 2026",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
-      "last_seen": "2026-11-20",
-      "content_hash": "2130e7c73e0274",
+      "last_seen": "2026-11-21",
+      "content_hash": "fb80b455f48097",
       "source": "Hugging Face Blog"
     },
     {
@@ -2992,21 +2992,21 @@
     {
       "title": "Private Label Fair Asia",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2913",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "869009abbf301f",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "MTM Expo Shanghai / 27th Shanghai International Metallurgical Industry Exhibition / 13th Shanghai International Refractory Exhibition / China International Thermal Technology and Industrial Furnace Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2914",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "content_hash": "30b54cb51ceae5",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "The 33rd China International Electric Power Equipment and Technology Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2911",
-      "last_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
       "content_hash": "a6499a641cf0c3",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -3039,10 +3039,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "ZONOS3-Mini: Open-Source Real-Time Voice Cloning & Steerable TTS in 100M Active Parameters Zyphra • 8 days ago • 13",
+      "title": "ZONOS3-Mini: Open-Source Real-Time Voice Cloning & Steerable TTS in 100M Active Parameters Zyphra • 9 days ago • 14",
       "url": "https://huggingface.co/blog/Zyphra/zonos3-mini",
-      "last_seen": "2026-11-20",
-      "content_hash": "05217a5a594e55",
+      "last_seen": "2026-11-21",
+      "content_hash": "1bd93f65f53727",
       "source": "Hugging Face Blog"
     },
     {
@@ -3268,6 +3268,104 @@
       "last_seen": "2026-11-20",
       "content_hash": "86df8474823e7a",
       "source": "杭州图书馆 · 公开讲座与培训"
+    },
+    {
+      "title": "Research acceleration: The jagged frontier Research Nov 18, 2026",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "last_seen": "2026-11-21",
+      "content_hash": "e7f16a0af5e013",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • about 19 hours ago • 5",
+      "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
+      "last_seen": "2026-11-21",
+      "content_hash": "660437aa1d32ce",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Elegance Flows Through Sheena Liam’s Embroideries in Green",
+      "url": "https://www.thisiscolossal.com/2026/11/sheena-liam-the-unbearable-lightness-embroideries",
+      "last_seen": "2026-11-21",
+      "content_hash": "9df1716011d070",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Dramatic Waves Crash on Iceland’s Coast in Photos by Vilhelm Gunnarsson",
+      "url": "https://www.thisiscolossal.com/2026/11/vilhelm-gunnarsson-iceland-ocean-photography",
+      "last_seen": "2026-11-21",
+      "content_hash": "13c7d806a95944",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Bo Gilbert’s Clay Bodies are Endlessly Mutable",
+      "url": "https://craftcouncil.org/articles/bo-gilberts-clay-bodies-are-endlessly-mutable",
+      "last_seen": "2026-11-21",
+      "content_hash": "c53c3dd64a0d36",
+      "source": "American Craft Council · 手工艺报道"
+    },
+    {
+      "title": "In Memoriam: Paul J. Stankard",
+      "url": "https://craftcouncil.org/articles/in-memoriam-paul-j-stankard",
+      "last_seen": "2026-11-21",
+      "content_hash": "1619ddfc01268d",
+      "source": "American Craft Council · 手工艺报道"
+    },
+    {
+      "title": "Introducing OhanTTS: Armenian Text-to-Speech Metric-AI • about 17 hours ago • 6",
+      "url": "https://huggingface.co/blog/Metric-AI/ohan-tts",
+      "last_seen": "2026-11-21",
+      "content_hash": "88b50f723a0be7",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Atto: Rethinking Compact Embedding Models NeuML • 1 day ago • 5",
+      "url": "https://huggingface.co/blog/NeuML/introducing-atto",
+      "last_seen": "2026-11-21",
+      "content_hash": "e8e258fd6cb3a3",
+      "source": "Hugging Face Blog"
+    },
+    {
+      "title": "Practical cryptanalysis with MiniMax's latest Internal Model",
+      "url": "https://www.minimax.io/blog/practical-cryptanalysis-with-minimaxs-latest-internal-model",
+      "last_seen": "2026-11-21",
+      "content_hash": "40fa869d2e1cea",
+      "source": "MiniMax · 海螺模型动态"
+    },
+    {
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast Engineering Nov 19, 2026",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "last_seen": "2026-11-21",
+      "content_hash": "6e902747aa93cd",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Inside the Codex sandbox Engineering Nov 18, 2026",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "last_seen": "2026-11-21",
+      "content_hash": "bb7fb70971a396",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Managing frontier AI risk: From training to deployment Safety Nov 18, 2026",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "last_seen": "2026-11-21",
+      "content_hash": "5dd3c1f5ad9e01",
+      "source": "OpenAI News"
+    },
+    {
+      "title": "Building the Agent Host Protocol for sessions that continue across devices",
+      "url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices",
+      "last_seen": "2026-11-21",
+      "content_hash": "8b3eb13ed41c9f",
+      "source": "GitHub Blog"
+    },
+    {
+      "title": "Advancing chip design with OpenAI models Research Nov 18, 2026",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "last_seen": "2026-11-21",
+      "content_hash": "4131dcdc440637",
+      "source": "OpenAI News"
     }
   ]
 }

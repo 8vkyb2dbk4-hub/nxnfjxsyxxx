@@ -1,13 +1,9 @@
 {
-  "updated_at": "2026-11-20T11:57:15+08:00",
+  "updated_at": "2026-11-21T11:56:19+08:00",
   "source_count": 118,
-  "candidate_count": 270,
-  "error_count": 27,
+  "candidate_count": 278,
+  "error_count": 26,
   "errors": [
-    {
-      "source": "OpenAI News",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://openai.com/news/"
-    },
     {
       "source": "中国航海博物馆 · 展览与讲座",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
@@ -83,6 +79,10 @@
     {
       "source": "Yann LeCun · 专家分享",
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
+    },
+    {
+      "source": "Yann LeCun · 官方文章与研究",
+      "error": "ConnectionError: HTTPSConnectionPool(host='yann.lecun.org', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='yann.lecun.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     }
   ],
   "status": "ok",

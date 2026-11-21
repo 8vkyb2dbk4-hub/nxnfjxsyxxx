@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-20",
-  "start_date": "2026-08-20",
+  "date": "2026-11-21",
+  "start_date": "2026-08-21",
   "items": [
     {
       "id": "8b70d99b098dc6",
@@ -415,65 +415,9 @@
       "location": "",
       "score": 107,
       "material_update": false
-    },
-    {
-      "id": "7e2fa019017707",
-      "title": "Products Models FLUX Video Upscale: 2K and 4K August 20, 2026",
-      "url": "https://bfl.ai/blog/flux-video-upscale",
-      "image": "https://cdn.sanity.io/images/2gpum2i6/production/1e1470ba8e99a04964574a307371d25869d377cf-3840x2160.jpg",
-      "image_source": "https://bfl.ai/blog/flux-video-upscale",
-      "summary": "FLUX Upscale takes any video and regenerates it at a higher resolution, up to native 4K, now available as its own FLUX Tool and endpoint。",
-      "why": "更新重点：FLUX Upscale takes any video and regenerates it at a higher resolution, up to native 4K, now available as its own FLUX Tool and endpoint.",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Black Forest Labs · 绘画动态",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-08-20",
-      "date_confidence": "high",
-      "date_label": "2026-08-20",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 139,
-      "material_update": false
-    },
-    {
-      "id": "e78248afcb5867",
-      "title": "Kling-Powered L'Ultimo Uomo Reale",
-      "url": "https://klingai.com/blog/How-Kling-Powered-LUltimoUomoReale",
-      "image": "https://static-32.klingai-cdn-aws.com/kling-blog/file/abe4c7bf6ed50da4a9eec28eab190a1e283c98777b41aba656baa3326ec3ada1.png",
-      "image_source": "https://klingai.com/blog/How-Kling-Powered-LUltimoUomoReale",
-      "summary": "Discover how Kling AI powered the Cannes Lions-winning film L'Ultimo Uomo Reale with nuanced performances, consistent characters, and cinematic storytelling。",
-      "why": "关注内容：Discover how Kling AI powered the Cannes Lions-winning film L'Ultimo Uomo Reale with nuanced performances, consistent characters, and cinematic storytelling.（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Kling 可灵 AI · 视频生成",
-      "source_type": "官方 / 视频生成",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-08-20",
-      "date_confidence": "high",
-      "date_label": "2026-08-20",
-      "category": "AI 影视",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 127,
-      "material_update": false
     }
   ],
   "errors": [
-    {
-      "source": "OpenAI News",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://openai.com/news/"
-    },
     {
       "source": "中国航海博物馆 · 展览与讲座",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"

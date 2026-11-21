@@ -1,33 +1,4 @@
 {
-  "date": "2026-11-20",
-  "items": [
-    {
-      "id": "dd8ad5b9294d3f",
-      "title": "Distributed Inference for Local AI via Superfluid basecompute • about 3 hours ago • 4",
-      "url": "https://huggingface.co/blog/basecompute/superfluid-fleet",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/6a3a2cd15d3888c33e6478bd/_K6BozjK5pe6rj5Br5XxR.png",
-      "image_source": "https://huggingface.co/blog/basecompute/superfluid-fleet",
-      "summary": "A Blog post by Base Compute on Hugging Face。",
-      "why": "关注内容：Base Compute 在 Hugging Face 上发布的博客文章（原文未明确列出版本变化。）",
-      "action": "建议收藏",
-      "tier": "建议看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-20",
-      "date_confidence": "high",
-      "date_label": "2026-11-20",
-      "category": "新模型 / 开源",
-      "status": "建议看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 100,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：A Blog post by Base Compute on Hugging Face（原文未明确列出版本变化。）"
-    }
-  ]
+  "date": "2026-11-21",
+  "items": []
 }
