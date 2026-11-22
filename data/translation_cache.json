@@ -330,5 +330,6 @@
   "862ad018356fa8ddbac9399276f05b0e6f12244afad78a6c869e6f3000fa54a1": "我们的研究团队使用了一种仅供内部使用的研究模型（我们称之为 MiniMax 内部模型，简称 MIM）来对现代加密方案进行自动化密码分析。",
   "4a712299f42c3f2daec11a1b03bc28760666e53967a93d9ae18ea1befaccf913": "OpenAI解释了如何通过模型对齐、沙盒机制、屏蔽保障措施和监控，从训练到部署来管理前沿人工智能的风险。",
   "0c71f993453a38e3e756ab1790c139b3dfae8dc764a7cd44201e3451cd31c14d": "了解我们如何构建开放的 Agent Host 协议，让您的代理会话在编辑器、应用程序、手机和云端之间保持畅通无阻。",
-  "2e79b8008fc2b2be81622a36d47e5cfeb40e0fd565243100acb062c1111da0e3": "在 Gemini Enterprise 的 :streamAssist API 之上构建自定义企业 UI 时，开发者必须手动实现三个核心身份验证层。"
+  "2e79b8008fc2b2be81622a36d47e5cfeb40e0fd565243100acb062c1111da0e3": "在 Gemini Enterprise 的 :streamAssist API 之上构建自定义企业 UI 时，开发者必须手动实现三个核心身份验证层。",
+  "904258c94d9a41f91e1b081f846c7437d2d3c6b6f7dddd9e20db01e0066ba679": "探索 Pika 应用，用于创建和编辑视频、图像和音频。"
 }

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T11:56:19+08:00",
+  "generated_at": "2026-11-22T11:03:40+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -106,7 +106,7 @@
     },
     {
       "id": "b5c6cecb3e8afd",
-      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • about 19 hours ago • 5",
+      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • 2 days ago • 5",
       "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/65cf49796c48188b990b7b00/cqF5dsOmsGoPzCiq-zVaV.png",
       "image_source": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
@@ -129,7 +129,13 @@
       "location": "",
       "score": 135,
       "material_update": true,
-      "alternatives": []
+      "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
+        }
+      ],
+      "resurfaced": true
     },
     {
       "id": "a5c3d321385253",
@@ -199,10 +205,6 @@
       "score": 135,
       "material_update": true,
       "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
