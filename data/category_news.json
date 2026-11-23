@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-22",
-  "start_date": "2026-08-22",
+  "date": "2026-11-23",
+  "start_date": "2026-08-23",
   "items": [
     {
       "id": "8b70d99b098dc6",
@@ -517,10 +517,6 @@
     {
       "source": "Lex Fridman · 专家分享",
       "error": "RuntimeError: 未配置 X API 授权；使用该机构官网备用来源"
-    },
-    {
-      "source": "快手官方动态 · 视频生成",
-      "error": "HTTPError: 403 Client Error: Forbidden for url: https://ir.kuaishou.com/news-events/company-news/"
     }
   ]
 }

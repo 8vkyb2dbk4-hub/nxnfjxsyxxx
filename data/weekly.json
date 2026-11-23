@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:03:40+08:00",
+  "generated_at": "2026-11-23T11:41:37+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -75,6 +75,62 @@
       "material_update": false,
       "alternatives": [],
       "why_original": "关注内容：ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan.（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "b22522d14a17f9",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model 31 November 11, 2026",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6468b319b2321e47d3267049/Emr86qw6NAueYLdIEiTTD.png",
+      "image_source": "https://huggingface.co/blog/qvac/botpsy",
+      "summary": "A Blog post by QVAC on Hugging Face。",
+      "why": "关注内容：A Blog post by QVAC on Hugging Face（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-11",
+      "date_confidence": "high",
+      "date_label": "2026-11-11",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 141,
+      "material_update": false,
+      "alternatives": []
+    },
+    {
+      "id": "2b404537fe9246",
+      "title": "Release Notes",
+      "url": "https://openai.com/products/release-notes",
+      "image": "https://images.ctfassets.net/kftzwdyauwt9/4Xk9nKq9EDQO4ZHXhjbCaG/24a705ecf515e30a096faf1437e0bcbc/release-notes.png?w=1600&h=900&fit=fill",
+      "image_source": "https://openai.com/products/release-notes",
+      "summary": "OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products。",
+      "why": "更新重点：适用于ChatGPT、API平台和Codex的OpenAI发行说明。探索OpenAI产品的最新功能、更新和改进。",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "OpenAI News",
+      "source_type": "公司 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "",
+      "date_confidence": "unknown",
+      "date_label": "日期待确认",
+      "category": "游戏与 3D",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 137,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
     },
     {
       "id": "9fa731b0ef6c1d",
@@ -170,10 +226,6 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/nyc-summit"
-        },
-        {
-          "source": "ElevenLabs Blog",
-          "url": "https://elevenlabs.io/blog/nyc-summit"
         }
       ],
       "resurfaced": true,
@@ -212,71 +264,10 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
         }
       ],
       "resurfaced": true,
       "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
-    },
-    {
-      "id": "1d95286f19fb3f",
-      "title": "AI Model Hacking Hackathon: Safe AI Is Built by Everyone Who Tries to Break It FINAL-Bench • about 2 hours ago • 7",
-      "url": "https://huggingface.co/blog/FINAL-Bench/ai-model-hacking-hackathon-safe-ai-is-built-by-eve",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/q1OMReP2SRwXcRVEiv8PH.jpeg",
-      "image_source": "https://huggingface.co/blog/FINAL-Bench/ai-model-hacking-hackathon-safe-ai-is-built-by-eve",
-      "summary": "A Blog post by FINAL_Bench on Hugging Face。",
-      "why": "关注内容：FINAL_Bench在拥抱脸上的博客帖子（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-17",
-      "date_confidence": "high",
-      "date_label": "2026-11-17",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 135,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
-    },
-    {
-      "id": "11d2f50416f2e4",
-      "title": "Which Weather Model Is Most Accurate? We Score Them Every Day, in the Open FINAL-Bench • 7 days ago • 11",
-      "url": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/6905bc786cb49b1f11d32728/6U-sbVHglbgoUQ1U03yKJ.png",
-      "image_source": "https://huggingface.co/blog/FINAL-Bench/which-weather-model-is-most-accurate-we-score-them",
-      "summary": "A Blog post by FINAL_Bench on Hugging Face。",
-      "why": "关注内容：FINAL_Bench在拥抱脸上的博客帖子（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-13",
-      "date_confidence": "high",
-      "date_label": "2026-11-13",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 133,
-      "material_update": true,
-      "alternatives": [],
-      "resurfaced": true,
-      "why_original": "关注内容：A Blog post by FINAL_Bench on Hugging Face（原文未明确列出版本变化。）"
     }
   ]
 }

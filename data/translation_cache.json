@@ -331,5 +331,8 @@
   "4a712299f42c3f2daec11a1b03bc28760666e53967a93d9ae18ea1befaccf913": "OpenAI解释了如何通过模型对齐、沙盒机制、屏蔽保障措施和监控，从训练到部署来管理前沿人工智能的风险。",
   "0c71f993453a38e3e756ab1790c139b3dfae8dc764a7cd44201e3451cd31c14d": "了解我们如何构建开放的 Agent Host 协议，让您的代理会话在编辑器、应用程序、手机和云端之间保持畅通无阻。",
   "2e79b8008fc2b2be81622a36d47e5cfeb40e0fd565243100acb062c1111da0e3": "在 Gemini Enterprise 的 :streamAssist API 之上构建自定义企业 UI 时，开发者必须手动实现三个核心身份验证层。",
-  "904258c94d9a41f91e1b081f846c7437d2d3c6b6f7dddd9e20db01e0066ba679": "探索 Pika 应用，用于创建和编辑视频、图像和音频。"
+  "904258c94d9a41f91e1b081f846c7437d2d3c6b6f7dddd9e20db01e0066ba679": "探索 Pika 应用，用于创建和编辑视频、图像和音频。",
+  "f80eaa7504bd1875f80246e8c7c4af3b139b5126fcfcce71b57febe339802a84": "纺织艺术家Alice Burnhope分享了她踏入手工艺领域的历程，从对地质学的热爱到社区主导的实践，再到创造力的韧性以及让艺术惠及所有人。",
+  "9fdd43e13b63a0ba1ae6cd355942b4f54fc11532cacabb22a2d770c0dc910b73": "Runway Builders计划为种子轮至C轮的初创公司提供免费的API积分，并提供使用Runway Characters进行开发的早期访问权限。",
+  "c3faa25c750c0655d389752a08c376c39bf9b306e5a6f29d36a2db1ab882eac4": "Le Groupe Figaro与OpenAI合作，通过摘要和节选将《费加罗报》的新闻报道引入ChatGPT，并提供指向原报道的链接。"
 }
