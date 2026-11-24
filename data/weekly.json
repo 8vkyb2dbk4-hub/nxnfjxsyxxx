@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T11:41:37+08:00",
+  "generated_at": "2026-11-24T14:55:46+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -104,6 +104,34 @@
       "alternatives": []
     },
     {
+      "id": "17c0d6531aaf35",
+      "title": "SwarmMind: Robots with Redundant Inference! litert-community • about 12 hours ago • 8",
+      "url": "https://huggingface.co/blog/litert-community/robots-with-redundant-inference",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/6b03f3a5164521510dda74c9/Yy_-9JzFw_NEc_N_Cljce.png",
+      "image_source": "https://huggingface.co/blog/litert-community/robots-with-redundant-inference",
+      "summary": "A Blog post by LiteRT Community (FKA TFLite) on Hugging Face。",
+      "why": "关注内容：LiteRT 社区（前身为 TFLite）在 Hugging Face 上发布的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-23",
+      "date_confidence": "high",
+      "date_label": "2026-11-23",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 137,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by LiteRT Community (FKA TFLite) on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
       "id": "2b404537fe9246",
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
@@ -162,7 +190,7 @@
     },
     {
       "id": "b5c6cecb3e8afd",
-      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • 2 days ago • 5",
+      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • 4 days ago • 6",
       "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/65cf49796c48188b990b7b00/cqF5dsOmsGoPzCiq-zVaV.png",
       "image_source": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
@@ -186,6 +214,10 @@
       "score": 135,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
+        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
@@ -230,44 +262,6 @@
       ],
       "resurfaced": true,
       "why_original": "关注内容：Everything ElevenLabs announced at its NYC Summit: fine-tuning, Interaction Engine, Memory, Routines, ElevenAI, Partner Program, and Marketplace.（原文未明确列出版本变化。）"
-    },
-    {
-      "id": "782b5352fe5fa4",
-      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 9 days ago • 12",
-      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
-      "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
-      "summary": "A Blog post by TNG Technology Consulting GmbH on Hugging Face。",
-      "why": "关注内容：TNG Technology Consulting GmbH关于拥抱脸的博客文章（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-10",
-      "date_confidence": "high",
-      "date_label": "2026-11-10",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 135,
-      "material_update": true,
-      "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne"
-        }
-      ],
-      "resurfaced": true,
-      "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
     }
   ]
 }
