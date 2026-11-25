@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T14:55:46+08:00",
+  "generated_at": "2026-11-25T13:23:58+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -47,34 +47,6 @@
         }
       ],
       "resurfaced": true
-    },
-    {
-      "id": "8b70d99b098dc6",
-      "title": "Kotoba is joining ElevenLabs",
-      "url": "https://elevenlabs.io/blog/kotoba",
-      "image": "https://eleven-public-cdn.elevenlabs.io/payloadcms/7bmftwo9yq5-Kotoba-and-ElevenLabs-2.webp",
-      "image_source": "https://elevenlabs.io/blog/kotoba",
-      "summary": "ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan。",
-      "why": "关注内容：ElevenLabs正在收购日本领先的语音AI实验室Kotoba，以期为日本带来自然、文化上流利的AI代理和语音界面。（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "ElevenLabs Blog",
-      "source_type": "声音 / 创作工具",
-      "source_priority": 5,
-      "source_reliability": 6,
-      "published_at": "2026-11-16",
-      "date_confidence": "high",
-      "date_label": "2026-11-16",
-      "category": "AI 影视",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 143,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：ElevenLabs is acquiring Kotoba, the leading Japanese voice AI lab, to bring natural, culturally fluent AI agents and voice interfaces to Japan.（原文未明确列出版本变化。）"
     },
     {
       "id": "b22522d14a17f9",
@@ -190,7 +162,7 @@
     },
     {
       "id": "b5c6cecb3e8afd",
-      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • 4 days ago • 6",
+      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • 5 days ago • 6",
       "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
       "image": "https://cdn-uploads.huggingface.co/production/uploads/65cf49796c48188b990b7b00/cqF5dsOmsGoPzCiq-zVaV.png",
       "image_source": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
@@ -214,6 +186,10 @@
       "score": 135,
       "material_update": true,
       "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
+        },
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
@@ -258,10 +234,43 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/nyc-summit"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/nyc-summit"
         }
       ],
       "resurfaced": true,
       "why_original": "关注内容：Everything ElevenLabs announced at its NYC Summit: fine-tuning, Interaction Engine, Memory, Routines, ElevenAI, Partner Program, and Marketplace.（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "782b5352fe5fa4",
+      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 9 days ago • 12",
+      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
+      "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
+      "summary": "A Blog post by TNG Technology Consulting GmbH on Hugging Face。",
+      "why": "关注内容：TNG Technology Consulting GmbH关于拥抱脸的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-10",
+      "date_confidence": "high",
+      "date_label": "2026-11-10",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
     }
   ]
 }

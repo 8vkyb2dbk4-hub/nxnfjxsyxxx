@@ -1,16 +1,12 @@
 {
-  "updated_at": "2026-11-24T14:55:46+08:00",
+  "updated_at": "2026-11-25T13:23:58+08:00",
   "source_count": 118,
-  "candidate_count": 268,
+  "candidate_count": 267,
   "error_count": 27,
   "errors": [
     {
       "source": "中国航海博物馆 · 展览与讲座",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    },
-    {
-      "source": "上海宝龙美术馆 · 当前展览",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='art.powerlongmuseum.com', port=443): Read timed out. (read timeout=16)"
     },
     {
       "source": "龙美术馆 · 当前展览",
@@ -27,6 +23,10 @@
     {
       "source": "Epic Games · Unreal Fest 官方排期",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unrealengine.com/unreal-fest?lang=zh-CN"
+    },
+    {
+      "source": "CGS · 中国游戏研究双城年会",
+      "error": "SSLError: HTTPSConnectionPool(host='cgs.caacosmos.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)')))"
     },
     {
       "source": "浙江省游戏行业协会 · 会展活动",

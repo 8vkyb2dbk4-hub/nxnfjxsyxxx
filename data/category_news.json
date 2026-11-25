@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "start_date": "2026-08-24",
+  "date": "2026-11-25",
+  "start_date": "2026-08-25",
   "items": [
     {
       "id": "8b70d99b098dc6",
@@ -397,10 +397,6 @@
       "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
     },
     {
-      "source": "上海宝龙美术馆 · 当前展览",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='art.powerlongmuseum.com', port=443): Read timed out. (read timeout=16)"
-    },
-    {
       "source": "龙美术馆 · 当前展览",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.thelongmuseum.org', port=443): Max retries exceeded with url: /en/exhibition-current.html (Caused by NewConnectionError(\"HTTPSConnection(host='www.thelongmuseum.org', port=443): Failed to establish a new connection: [Errno 111] Connection refused\"))"
     },
@@ -415,6 +411,10 @@
     {
       "source": "Epic Games · Unreal Fest 官方排期",
       "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.unrealengine.com/unreal-fest?lang=zh-CN"
+    },
+    {
+      "source": "CGS · 中国游戏研究双城年会",
+      "error": "SSLError: HTTPSConnectionPool(host='cgs.caacosmos.com', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1011)')))"
     },
     {
       "source": "浙江省游戏行业协会 · 会展活动",
