@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T13:23:58+08:00",
+  "generated_at": "2026-11-26T12:58:24+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -161,47 +161,6 @@
       "why_original": "更新重点：OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
     },
     {
-      "id": "b5c6cecb3e8afd",
-      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • 5 days ago • 6",
-      "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
-      "image": "https://cdn-uploads.huggingface.co/production/uploads/65cf49796c48188b990b7b00/cqF5dsOmsGoPzCiq-zVaV.png",
-      "image_source": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
-      "summary": "A Blog post by Metric on Hugging Face。",
-      "why": "关注内容：A Blog post by Metric on Hugging Face（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-20",
-      "date_confidence": "high",
-      "date_label": "2026-11-20",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 135,
-      "material_update": true,
-      "alternatives": [
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
-        }
-      ],
-      "resurfaced": true
-    },
-    {
       "id": "a5c3d321385253",
       "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
       "url": "https://elevenlabs.io/blog/nyc-summit",
@@ -244,22 +203,22 @@
       "why_original": "关注内容：Everything ElevenLabs announced at its NYC Summit: fine-tuning, Interaction Engine, Memory, Routines, ElevenAI, Partner Program, and Marketplace.（原文未明确列出版本变化。）"
     },
     {
-      "id": "782b5352fe5fa4",
-      "title": "Bring Your Own Expert! Extending MoE Models with New Domain Expertise tngtech • 9 days ago • 12",
-      "url": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne.png",
-      "image_source": "https://huggingface.co/blog/tngtech/bring-your-own-expert-extending-moe-models-with-ne",
-      "summary": "A Blog post by TNG Technology Consulting GmbH on Hugging Face。",
-      "why": "关注内容：TNG Technology Consulting GmbH关于拥抱脸的博客文章（原文未明确列出版本变化。）",
+      "id": "b5c6cecb3e8afd",
+      "title": "Introducing OhanASR: Open Armenian Speech Recognition Models Metric-AI • 5 days ago • 6",
+      "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
+      "image": "https://cdn-uploads.huggingface.co/production/uploads/65cf49796c48188b990b7b00/cqF5dsOmsGoPzCiq-zVaV.png",
+      "image_source": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01",
+      "summary": "A Blog post by Metric on Hugging Face。",
+      "why": "关注内容：A Blog post by Metric on Hugging Face（原文未明确列出版本变化。）",
       "action": "今天看",
       "tier": "必看",
       "source": "Hugging Face Blog",
       "source_type": "开源社区",
       "source_priority": 5,
       "source_reliability": 8,
-      "published_at": "2026-11-10",
+      "published_at": "2026-11-20",
       "date_confidence": "high",
-      "date_label": "2026-11-10",
+      "date_label": "2026-11-20",
       "category": "AI 绘画",
       "status": "必看",
       "deadline": null,
@@ -268,9 +227,49 @@
       "location": "",
       "score": 135,
       "material_update": true,
+      "alternatives": [
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
+        },
+        {
+          "source": "Hugging Face Blog",
+          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
+        }
+      ],
+      "resurfaced": true
+    },
+    {
+      "id": "2514ba96bbcef8",
+      "title": "Explore models",
+      "url": "https://deepmind.google/models",
+      "image": "https://lh3.googleusercontent.com/TyGVXDYVcI4Q9IYflbsVfkmNXcxVXeYo02vL7lvMHmPkz03eQrlWUZiVTnP2m689-zHl0r3kxu8H1WewGMuZhn4H7wbrIgY8nginTqY8B6Nf_oRe=w1200-h630-n-nu-rw",
+      "image_source": "https://deepmind.google/models",
+      "summary": "Explore our next generation AI systems including Gemini, Nano Banana, Veo and Lyria。",
+      "why": "关注内容：探索我们的下一代人工智能系统，包括Gemini、Nano Banana、Veo和Lyria。（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Google DeepMind Blog",
+      "source_type": "实验室 / 官方",
+      "source_priority": 5,
+      "source_reliability": 10,
+      "published_at": "",
+      "date_confidence": "unknown",
+      "date_label": "日期待确认",
+      "category": "游戏与 3D",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 133,
+      "material_update": false,
       "alternatives": [],
-      "resurfaced": true,
-      "why_original": "关注内容：A Blog post by TNG Technology Consulting GmbH on Hugging Face（原文未明确列出版本变化。）"
+      "why_original": "关注内容：Explore our next generation AI systems including Gemini, Nano Banana, Veo and Lyria.（原文未明确列出版本变化。）"
     }
   ]
 }
