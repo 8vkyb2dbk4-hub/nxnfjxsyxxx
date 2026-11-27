@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T12:58:24+08:00",
+  "generated_at": "2026-11-27T12:58:03+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -161,6 +161,34 @@
       "why_original": "更新重点：OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
     },
     {
+      "id": "36212006492508",
+      "title": "The Illustrated ModernELECTRA: a new pre-training recipe for BERT-like models that classify and embed knowledgator • about 13 hours ago • 10",
+      "url": "https://huggingface.co/blog/knowledgator/modernelectra",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/knowledgator/modernelectra.png",
+      "image_source": "https://huggingface.co/blog/knowledgator/modernelectra",
+      "summary": "A Blog post by Knowledgator Engineering on Hugging Face。",
+      "why": "关注内容：Knowledgator 工程团队在 Hugging Face 上发布的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-26",
+      "date_confidence": "high",
+      "date_label": "2026-11-26",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by Knowledgator Engineering on Hugging Face（原文未明确列出版本变化。）"
+    },
+    {
       "id": "a5c3d321385253",
       "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
       "url": "https://elevenlabs.io/blog/nyc-summit",
@@ -242,34 +270,6 @@
         }
       ],
       "resurfaced": true
-    },
-    {
-      "id": "2514ba96bbcef8",
-      "title": "Explore models",
-      "url": "https://deepmind.google/models",
-      "image": "https://lh3.googleusercontent.com/TyGVXDYVcI4Q9IYflbsVfkmNXcxVXeYo02vL7lvMHmPkz03eQrlWUZiVTnP2m689-zHl0r3kxu8H1WewGMuZhn4H7wbrIgY8nginTqY8B6Nf_oRe=w1200-h630-n-nu-rw",
-      "image_source": "https://deepmind.google/models",
-      "summary": "Explore our next generation AI systems including Gemini, Nano Banana, Veo and Lyria。",
-      "why": "关注内容：探索我们的下一代人工智能系统，包括Gemini、Nano Banana、Veo和Lyria。（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Google DeepMind Blog",
-      "source_type": "实验室 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "",
-      "date_confidence": "unknown",
-      "date_label": "日期待确认",
-      "category": "游戏与 3D",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 133,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：Explore our next generation AI systems including Gemini, Nano Banana, Veo and Lyria.（原文未明确列出版本变化。）"
     }
   ]
 }
