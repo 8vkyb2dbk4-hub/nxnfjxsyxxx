@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-27",
-  "start_date": "2026-08-27",
+  "date": "2026-11-28",
+  "start_date": "2026-08-28",
   "items": [
     {
       "id": "8b70d99b098dc6",
@@ -395,10 +395,6 @@
     {
       "source": "中国航海博物馆 · 展览与讲座",
       "error": "ConnectionError: HTTPSConnectionPool(host='www.shmmc.com.cn', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.shmmc.com.cn', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
-    },
-    {
-      "source": "上海宝龙美术馆 · 当前展览",
-      "error": "ReadTimeout: HTTPSConnectionPool(host='art.powerlongmuseum.com', port=443): Read timed out. (read timeout=16)"
     },
     {
       "source": "龙美术馆 · 当前展览",

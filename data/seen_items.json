@@ -3,7 +3,7 @@
     {
       "title": "Research Overview",
       "url": "https://openai.com/research",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "b02a18483e0c33",
       "source": "OpenAI News"
     },
@@ -59,7 +59,7 @@
     {
       "title": "Text to Speech",
       "url": "https://elevenlabs.io/text-to-speech",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "eb0cf1e8fbf201",
       "source": "ElevenLabs Blog"
     },
@@ -94,14 +94,14 @@
     {
       "title": "Skip to main content",
       "url": "https://openai.com/news",
-      "last_seen": "2026-11-25",
+      "last_seen": "2026-11-28",
       "content_hash": "b6259ee376348e",
       "source": "OpenAI News"
     },
     {
       "title": "Research",
       "url": "https://openai.com/news/research",
-      "last_seen": "2026-11-25",
+      "last_seen": "2026-11-28",
       "content_hash": "ae83a4f9768df3",
       "source": "OpenAI News"
     },
@@ -255,7 +255,7 @@
     {
       "title": "Meshy · API 更新日志 · 2026-11-10 更新",
       "url": "https://docs.meshy.ai/en/api/changelog#update-04e59e5d88",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "f52126bb16ee12",
       "source": "Meshy · API 更新日志"
     },
@@ -451,7 +451,7 @@
     {
       "title": "Release Notes",
       "url": "https://openai.com/products/release-notes",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "182fc23f0d1914",
       "source": "OpenAI News"
     },
@@ -612,21 +612,21 @@
     {
       "title": "Seedance · 视频生成",
       "url": "https://seed.bytedance.com/zh/blog/official-launch-of-seedance-2-0",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "d5016d28e5e11d",
       "source": "Seedance · 视频生成"
     },
     {
       "title": "Research Hub",
       "url": "https://runwayml.com/research",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "6cfbb1bb027b18",
       "source": "Runway News"
     },
     {
       "title": "IJCAI award for research excellence",
       "url": "http://ijcai.org/awards",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-28",
       "content_hash": "3383893bc47693",
       "source": "Geoffrey Hinton · 官方文章与研究"
     },
@@ -640,14 +640,14 @@
     {
       "title": "Computers & Chemical Engineering Journal, 2017 AIChE Annual Meeting, 2014",
       "url": "https://www.sciencedirect.com/science/article/abs/pii/S0098135417301382",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-28",
       "content_hash": "98a874f58b1409",
       "source": "Jim Fan · 官方文章与研究"
     },
     {
       "title": "AIChE 2014",
       "url": "https://www.aiche.org/conferences/aiche-annual-meeting/2014/proceeding/paper/164h-ontology-assisted-knowledge-acquisition-and-management-pharmaceutical-engineering-1",
-      "last_seen": "2026-11-17",
+      "last_seen": "2026-11-28",
       "content_hash": "c994bd3be1020d",
       "source": "Jim Fan · 官方文章与研究"
     },
@@ -717,7 +717,7 @@
     {
       "title": "Responsible AI Development Policy",
       "url": "https://bfl.ai/legal/responsible-ai-development-policy",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "52cd0412af3806",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -766,7 +766,7 @@
     {
       "title": "Google Antigravity Our agentic development platform",
       "url": "https://antigravity.google/",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "a9742c3bda38c9",
       "source": "Google DeepMind Blog"
     },
@@ -885,7 +885,7 @@
     {
       "title": "Developer Terms of Service",
       "url": "https://bfl.ai/legal/developer-terms-of-service",
-      "last_seen": "2026-11-03",
+      "last_seen": "2026-11-28",
       "content_hash": "243ea66c907502",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -948,7 +948,7 @@
     {
       "title": "Google Developers blog",
       "url": "https://developers.googleblog.com/",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "9d7990042f21b4",
       "source": "Google AI"
     },
@@ -1053,7 +1053,7 @@
     {
       "title": "FLUX API Service Terms",
       "url": "https://bfl.ai/legal/flux-api-service-terms",
-      "last_seen": "2026-11-07",
+      "last_seen": "2026-11-28",
       "content_hash": "8bd8e14b056b05",
       "source": "Black Forest Labs · 绘画动态"
     },
@@ -2383,7 +2383,7 @@
     {
       "title": "Maintainers",
       "url": "https://github.blog/open-source/maintainers",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "8ebc54a7675a62",
       "source": "GitHub Blog"
     },
@@ -2509,14 +2509,14 @@
     {
       "title": "Google Research Explore our research",
       "url": "https://research.google/",
-      "last_seen": "2026-11-13",
+      "last_seen": "2026-11-28",
       "content_hash": "f382ff51f1441e",
       "source": "Google DeepMind Blog"
     },
     {
       "title": "Google DeepMind",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind",
-      "last_seen": "2026-11-06",
+      "last_seen": "2026-11-28",
       "content_hash": "918ca2d482a790",
       "source": "Google AI"
     },
@@ -2733,14 +2733,14 @@
     {
       "title": "CDCE International Data Center and Cloud Computing Industry Expo / Green Smart Computing Center and Computing Power Industry Expo",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2910",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "38eadf8d93585b",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "For the Budding Collector",
       "url": "https://www.thisiscolossal.com/2026/11/prints-colossal-gift-guide-2026",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "f332b2c9c2f918",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -2824,7 +2824,7 @@
     {
       "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
       "url": "https://elevenlabs.io/blog/nyc-summit",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "035a576cabe820",
       "source": "ElevenLabs Blog"
     },
@@ -2957,7 +2957,7 @@
     {
       "title": "AI 百景 “AI百景”｜AI走进教务：AI修业导师，为每位本科生精准解答修业问题 2026年11月13日",
       "url": "https://news.sjtu.edu.cn/aibaijing/20261113/227594.html",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "4c1f610be97290",
       "source": "上海交通大学 · 新闻与论坛"
     },
@@ -2992,21 +2992,21 @@
     {
       "title": "Private Label Fair Asia",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2913",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "869009abbf301f",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "MTM Expo Shanghai / 27th Shanghai International Metallurgical Industry Exhibition / 13th Shanghai International Refractory Exhibition / China International Thermal Technology and Industrial Furnace Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2914",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "30b54cb51ceae5",
       "source": "上海新国际博览中心 · 展会日程"
     },
     {
       "title": "The 33rd China International Electric Power Equipment and Technology Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2911",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-28",
       "content_hash": "a6499a641cf0c3",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -3293,7 +3293,7 @@
     {
       "title": "Dramatic Waves Crash on Iceland’s Coast in Photos by Vilhelm Gunnarsson",
       "url": "https://www.thisiscolossal.com/2026/11/vilhelm-gunnarsson-iceland-ocean-photography",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "13c7d806a95944",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -3368,10 +3368,10 @@
       "source": "OpenAI News"
     },
     {
-      "title": "rl trl agents Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost +6 158 November 20, 2026",
+      "title": "rl trl agents Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost +6 165 November 20, 2026",
       "url": "https://huggingface.co/blog/harness-adapters-at-scale",
-      "last_seen": "2026-11-27",
-      "content_hash": "f20cade2cf7427",
+      "last_seen": "2026-11-28",
+      "content_hash": "9e2daa05d6145c",
       "source": "Hugging Face Blog"
     },
     {
@@ -3398,7 +3398,7 @@
     {
       "title": "Runway Builders",
       "url": "https://runwayml.com/product/builders",
-      "last_seen": "2026-11-26",
+      "last_seen": "2026-11-28",
       "content_hash": "df89525e237702",
       "source": "Runway News"
     },
@@ -3431,10 +3431,10 @@
       "source": "Colossal · 新兴手工与当代艺术"
     },
     {
-      "title": "evaluation agents benchmark How to build and maintain an agentic evaluation 65 November 23, 2026",
+      "title": "evaluation agents benchmark How to build and maintain an agentic evaluation 70 November 23, 2026",
       "url": "https://huggingface.co/blog/agentic-evals",
-      "last_seen": "2026-11-27",
-      "content_hash": "2eaa99fc58b29b",
+      "last_seen": "2026-11-28",
+      "content_hash": "2d85fa09344c89",
       "source": "Hugging Face Blog"
     },
     {
@@ -3447,7 +3447,7 @@
     {
       "title": "MTM Expo Shanghai/ 17th Shanghai International Steel Pipe Exhibition / Shanghai International Alloy Materials Exhibition / Shanghai International Metal Wire Exhibition",
       "url": "https://sniec.net/visit_exhibition.php?month=2026-12&exhibition_id=2915",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "5864475daaf08e",
       "source": "上海新国际博览中心 · 展会日程"
     },
@@ -3510,7 +3510,7 @@
     {
       "title": "Run with the Semi-Wild Yilki Horses of Anatolia in Nur Tucker’s Captivating Photos",
       "url": "https://www.thisiscolossal.com/2026/11/the-untold-story-of-the-yilki-horse-nur-tucker-book",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "1f70512c6edb3d",
       "source": "Colossal · 新兴手工与当代艺术"
     },
@@ -3538,7 +3538,7 @@
     {
       "title": "Tripo H3.5 Preview: A New Standard for True Fidelity and 3D Printability",
       "url": "https://www.tripo3d.ai/blog/tripo-h3-5",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "ea767da4b18bab",
       "source": "Tripo · 官方动态"
     },
@@ -3587,7 +3587,7 @@
     {
       "title": "The H3 Family: Models, Community, and What's Next",
       "url": "https://www.minimax.io/blog/minimax-h3-family",
-      "last_seen": "2026-11-27",
+      "last_seen": "2026-11-28",
       "content_hash": "856d03255e18d9",
       "source": "MiniMax · 海螺模型动态"
     },
@@ -3604,6 +3604,34 @@
       "last_seen": "2026-11-27",
       "content_hash": "8d565cb33e5d48",
       "source": "上海交通大学 · 新闻与论坛"
+    },
+    {
+      "title": "‘The Book of the Human Body’ Surveys 2,000 Years of Remarkable Anatomical Inquiry",
+      "url": "https://www.thisiscolossal.com/2026/11/the-book-of-the-human-body-taschen-anthology",
+      "last_seen": "2026-11-28",
+      "content_hash": "b99e1cd163a853",
+      "source": "Colossal · 新兴手工与当代艺术"
+    },
+    {
+      "title": "Sixty Years On, Anderson Ranch Keeps Innovating",
+      "url": "https://craftcouncil.org/articles/sixty-years-on-anderson-ranch-keeps-innovating",
+      "last_seen": "2026-11-28",
+      "content_hash": "2558beb364dc88",
+      "source": "American Craft Council · 手工艺报道"
+    },
+    {
+      "title": "Runway Rewards",
+      "url": "https://runwayml.com/rewards",
+      "last_seen": "2026-11-28",
+      "content_hash": "0e878673dc4121",
+      "source": "Runway News"
+    },
+    {
+      "title": "Gemini for business Use Gemini grounded in your business data",
+      "url": "https://gemini.google/business",
+      "last_seen": "2026-11-28",
+      "content_hash": "7d52c7f6a5226d",
+      "source": "Google DeepMind Blog"
     }
   ]
 }

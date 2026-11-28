@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T12:58:03+08:00",
+  "generated_at": "2026-11-28T12:42:28+08:00",
   "range_days": 7,
   "headline": "过去一周真正值得记住的 AI 变化",
   "items": [
@@ -133,62 +133,6 @@
       "why_original": "更新重点：OpenAI release notes for ChatGPT, API Platform, and Codex. Explore the latest features, updates, and improvements across OpenAI products."
     },
     {
-      "id": "9fa731b0ef6c1d",
-      "title": "Research acceleration: The jagged frontier Research Nov 18, 2026",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "image": "https://images.ctfassets.net/kftzwdyauwt9/2YS8yWiGpKflhlEnAkcLU/f51ead4391706f6c3198f0d61a0f147a/research-acceleration-the-jagged-frontier-social.png",
-      "image_source": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement。",
-      "why": "更新重点：OpenAI 正在衡量编码代理如何加速人工智能研究，它们的表现仍不均衡，以及这对于递归自我改进意味着什么。",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "OpenAI News",
-      "source_type": "公司 / 官方",
-      "source_priority": 5,
-      "source_reliability": 10,
-      "published_at": "2026-11-20",
-      "date_confidence": "medium",
-      "date_label": "2026-11-20",
-      "category": "新模型 / 开源",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 136,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "更新重点：OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
-    },
-    {
-      "id": "36212006492508",
-      "title": "The Illustrated ModernELECTRA: a new pre-training recipe for BERT-like models that classify and embed knowledgator • about 13 hours ago • 10",
-      "url": "https://huggingface.co/blog/knowledgator/modernelectra",
-      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/knowledgator/modernelectra.png",
-      "image_source": "https://huggingface.co/blog/knowledgator/modernelectra",
-      "summary": "A Blog post by Knowledgator Engineering on Hugging Face。",
-      "why": "关注内容：Knowledgator 工程团队在 Hugging Face 上发布的博客文章（原文未明确列出版本变化。）",
-      "action": "今天看",
-      "tier": "必看",
-      "source": "Hugging Face Blog",
-      "source_type": "开源社区",
-      "source_priority": 5,
-      "source_reliability": 8,
-      "published_at": "2026-11-26",
-      "date_confidence": "high",
-      "date_label": "2026-11-26",
-      "category": "AI 绘画",
-      "status": "必看",
-      "deadline": null,
-      "event_date": null,
-      "event_end_date": null,
-      "location": "",
-      "score": 135,
-      "material_update": false,
-      "alternatives": [],
-      "why_original": "关注内容：A Blog post by Knowledgator Engineering on Hugging Face（原文未明确列出版本变化。）"
-    },
-    {
       "id": "a5c3d321385253",
       "title": "Building the interaction layer for AI: Everything announced at ElevenLabs Summit NYC",
       "url": "https://elevenlabs.io/blog/nyc-summit",
@@ -225,10 +169,42 @@
         {
           "source": "ElevenLabs Blog",
           "url": "https://elevenlabs.io/blog/nyc-summit"
+        },
+        {
+          "source": "ElevenLabs Blog",
+          "url": "https://elevenlabs.io/blog/nyc-summit"
         }
       ],
       "resurfaced": true,
       "why_original": "关注内容：Everything ElevenLabs announced at its NYC Summit: fine-tuning, Interaction Engine, Memory, Routines, ElevenAI, Partner Program, and Marketplace.（原文未明确列出版本变化。）"
+    },
+    {
+      "id": "36212006492508",
+      "title": "The Illustrated ModernELECTRA: a new pre-training recipe for BERT-like models that classify and embed knowledgator • about 13 hours ago • 10",
+      "url": "https://huggingface.co/blog/knowledgator/modernelectra",
+      "image": "https://cdn-thumbnails.huggingface.co/social-thumbnails/blog/knowledgator/modernelectra.png",
+      "image_source": "https://huggingface.co/blog/knowledgator/modernelectra",
+      "summary": "A Blog post by Knowledgator Engineering on Hugging Face。",
+      "why": "关注内容：Knowledgator 工程团队在 Hugging Face 上发布的博客文章（原文未明确列出版本变化。）",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "Hugging Face Blog",
+      "source_type": "开源社区",
+      "source_priority": 5,
+      "source_reliability": 8,
+      "published_at": "2026-11-26",
+      "date_confidence": "high",
+      "date_label": "2026-11-26",
+      "category": "AI 绘画",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 135,
+      "material_update": false,
+      "alternatives": [],
+      "why_original": "关注内容：A Blog post by Knowledgator Engineering on Hugging Face（原文未明确列出版本变化。）"
     },
     {
       "id": "b5c6cecb3e8afd",
@@ -263,13 +239,38 @@
         {
           "source": "Hugging Face Blog",
           "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
-        },
-        {
-          "source": "Hugging Face Blog",
-          "url": "https://huggingface.co/blog/Metric-AI/ohan-asr-v01"
         }
       ],
       "resurfaced": true
+    },
+    {
+      "id": "074df5b2162dce",
+      "title": "Text to Speech",
+      "url": "https://elevenlabs.io/text-to-speech",
+      "image": "https://elevenlabs.io/cover.png",
+      "image_source": "https://elevenlabs.io/text-to-speech",
+      "summary": "Transform text into lifelike speech with ElevenLabs' Text to Speech. Ultra-realistic text-to-speech supports 90 languages and TTS API integrations。",
+      "why": "更新重点：超逼真的文本转语音支持90种语言和TTS API集成。",
+      "action": "今天看",
+      "tier": "必看",
+      "source": "ElevenLabs Blog",
+      "source_type": "声音 / 创作工具",
+      "source_priority": 5,
+      "source_reliability": 6,
+      "published_at": "2026-11-25",
+      "date_confidence": "medium",
+      "date_label": "2026-11-25",
+      "category": "AI 影视",
+      "status": "必看",
+      "deadline": null,
+      "event_date": null,
+      "event_end_date": null,
+      "location": "",
+      "score": 133,
+      "material_update": true,
+      "alternatives": [],
+      "resurfaced": true,
+      "why_original": "更新重点：Ultra-realistic text-to-speech supports 90 languages and TTS API integrations."
     }
   ]
 }
